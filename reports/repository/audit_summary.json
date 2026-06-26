@@ -1,0 +1,21 @@
+{
+  "dev_git": {
+    "is_git": "true",
+    "root": "C:/0_Documents/Chapter_1",
+    "branch": "publication/finalize-supplement",
+    "head": "26b19e4262d891151133cbbb1d236cdabe67fefa",
+    "status": "?? reports/publication/",
+    "remotes": ""
+  },
+  "canonical_git": {
+    "is_git": "true",
+    "root": "C:/0_Documents/upemba-boundary-disturbance",
+    "branch": "main",
+    "head": "fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\nHEAD",
+    "status": "?? .Rprofile\n?? .gitattributes\n?? .gitignore\n?? .here\n?? README.md\n?? RUN_ANALYSIS.md\n?? SANITIZATION.md\n?? analysis_fire_optimizer_refinement_dev/\n?? analysis_governance_profiles_robustness_dev/\n?? analysis_spatial_falsification_revised_dev/\n?? analysis_spatial_threshold_sensitivity_dev/\n?? candidate_file_manifest.csv\n?? config/\n?? data/\n?? docs/\n?? evidence/\n?? outputs/\n?? renv.lock\n?? renv/\n?? reports/\n?? scripts/\n?? tests/",
+    "remotes": ""
+  },
+  "inventoried_files": 1615,
+  "duplicates": 1256,
+  "sensitive_rows": 35
+}

@@ -1,0 +1,27 @@
+*.R text eol=lf
+*.Rmd text eol=lf
+*.qmd text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.tif binary
+*.tiff binary
+*.vrt binary
+*.gpkg binary
+*.shp binary
+*.shx binary
+*.dbf binary
+*.prj binary
+*.geojson binary
+*.nc binary
+*.zip binary
+*.7z binary
+*.rds binary
+*.RData binary
+*.png binary
+*.pdf binary
+*.docx binary

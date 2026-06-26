@@ -1,0 +1,2 @@
+model,fit_attempted,audit_status
+observation_aware_2021_2022_fire_diagnostic,FALSE,not_run_native_to_500m_observation_aware_aggregation_exceeded_interactive_execution_budget

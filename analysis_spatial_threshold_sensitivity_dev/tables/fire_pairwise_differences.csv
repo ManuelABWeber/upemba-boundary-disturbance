@@ -1,0 +1,37 @@
+outcome,threshold_tag,spatial_design,profile_comparison,estimate,standard_error,lower_95_ci,upper_95_ci
+fire,tau010,all_cells,Park dominant minus Neither actor dominant,-0.107575768734497,0.0684102057596487,-0.241657308198383,0.0265057707293886
+fire,tau010,all_cells,Militia dominant minus Neither actor dominant,-0.154760297858328,0.0716447583442216,-0.295181443894078,-0.0143391518225783
+fire,tau010,all_cells,Park dominant minus Militia dominant,0.0471845291238309,0.0724066051169911,-0.0947298091482853,0.189098867395947
+fire,tau010,buffer_05km,Park dominant minus Neither actor dominant,-0.0871206546109005,0.0519868251091987,,
+fire,tau010,buffer_05km,Militia dominant minus Neither actor dominant,-0.0719831670053624,0.0541222973999458,,
+fire,tau010,buffer_05km,Park dominant minus Militia dominant,-0.015137487605538,0.0548512110527054,,
+fire,tau010,buffer_10km,Park dominant minus Neither actor dominant,-0.112535319115685,0.0445936544985811,,
+fire,tau010,buffer_10km,Militia dominant minus Neither actor dominant,-0.166574211428691,0.0466574809323465,,
+fire,tau010,buffer_10km,Park dominant minus Militia dominant,0.0540388923130062,0.0472024930780918,,
+fire,tau010,buffer_20km,Park dominant minus Neither actor dominant,-0.0872191333949939,0.034029611279888,,
+fire,tau010,buffer_20km,Militia dominant minus Neither actor dominant,-0.177090576942562,0.0356782074526192,,
+fire,tau010,buffer_20km,Park dominant minus Militia dominant,0.089871443547568,0.0361256807973335,,
+fire,tau025,all_cells,Park dominant minus Neither actor dominant,-0.0743823463480376,0.0752297295314766,-0.221829906796421,0.0730652141003459
+fire,tau025,all_cells,Militia dominant minus Neither actor dominant,-0.138167788548574,0.0785554940710108,-0.292133727715505,0.0157981506183571
+fire,tau025,all_cells,Park dominant minus Militia dominant,0.0637854422005362,0.0793682249633433,-0.0917734202444896,0.219344304645562
+fire,tau025,buffer_05km,Park dominant minus Neither actor dominant,-0.0845710400805865,0.051858108374968,,
+fire,tau025,buffer_05km,Militia dominant minus Neither actor dominant,-0.0701694345010025,0.0536627579880413,,
+fire,tau025,buffer_05km,Park dominant minus Militia dominant,-0.014401605579584,0.0545461498085319,,
+fire,tau025,buffer_10km,Park dominant minus Neither actor dominant,-0.0995618290393775,0.0426099881756486,-0.183075871245326,-0.0160477868334286
+fire,tau025,buffer_10km,Militia dominant minus Neither actor dominant,-0.159583438362306,0.0442989702329946,-0.246407824571187,-0.0727590521534246
+fire,tau025,buffer_10km,Park dominant minus Militia dominant,0.0600216093229284,0.0449356710281087,-0.0280506875133045,0.148093906159161
+fire,tau025,buffer_20km,Park dominant minus Neither actor dominant,-0.0503197139214688,0.0358986417023993,,
+fire,tau025,buffer_20km,Militia dominant minus Neither actor dominant,-0.162267333083983,0.0374635720789393,,
+fire,tau025,buffer_20km,Park dominant minus Militia dominant,0.111947619162514,0.0379662810644598,,
+fire,tau050,all_cells,Park dominant minus Neither actor dominant,-0.0535436698149342,0.0818139857465426,,
+fire,tau050,all_cells,Militia dominant minus Neither actor dominant,-0.129493597983648,0.0850641476527625,,
+fire,tau050,all_cells,Park dominant minus Militia dominant,0.0759499281687143,0.0859201768900481,,
+fire,tau050,buffer_05km,Park dominant minus Neither actor dominant,-0.0770160258093708,0.0512678492442637,,
+fire,tau050,buffer_05km,Militia dominant minus Neither actor dominant,-0.0704217944145899,0.0530282937784308,,
+fire,tau050,buffer_05km,Park dominant minus Militia dominant,-0.00659423139478085,0.0537118833709704,,
+fire,tau050,buffer_10km,Park dominant minus Neither actor dominant,-0.0908653041585436,0.0407193937890587,,
+fire,tau050,buffer_10km,Militia dominant minus Neither actor dominant,-0.15946537002627,0.0422161489739154,,
+fire,tau050,buffer_10km,Park dominant minus Militia dominant,0.0686000658677267,0.0427509592650768,,
+fire,tau050,buffer_20km,Park dominant minus Neither actor dominant,-0.032761932215643,0.0375467980163978,,
+fire,tau050,buffer_20km,Militia dominant minus Neither actor dominant,-0.156479250875764,0.0390268265069788,,
+fire,tau050,buffer_20km,Park dominant minus Militia dominant,0.123717318660121,0.0395012466134693,,

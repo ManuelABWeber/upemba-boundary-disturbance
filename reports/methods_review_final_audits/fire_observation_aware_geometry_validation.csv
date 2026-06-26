@@ -1,0 +1,3 @@
+year,geometry_matches_template,valid_coverage_min,valid_coverage_max,burned_fraction_min,burned_fraction_max,impossible_burned_gt_valid,edge_rule
+2021,TRUE,0,1,0,1,FALSE,native pixel centers assigned to canonical 500m cells after source-to-target CRS transform; cropped with eight-source-pixel buffer
+2022,TRUE,0,1,0,1,FALSE,native pixel centers assigned to canonical 500m cells after source-to-target CRS transform; cropped with eight-source-pixel buffer

@@ -1,0 +1,2 @@
+rule,changed_cells,changed_cell_pct,before_area_file,after_area_file
+replace cells with same_count <= 1 by eight-neighbour modal class,140,0.0563527683297442,run_2026_05_27/SESU_area_before_cleaning.csv,run_2026_05_27/SESU_area_after_cleaning.csv

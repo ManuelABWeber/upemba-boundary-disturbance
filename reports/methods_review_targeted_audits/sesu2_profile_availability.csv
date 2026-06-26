@@ -1,0 +1,4 @@
+SESU_ID,years_available,min_year,max_year,complete_2001_2022,n_profiles,source_column,provenance_note
+1,22,2001,2022,TRUE,3,SESU1_regime,frozen governance chronology present
+3,22,2001,2022,TRUE,3,SESU3_regime,frozen governance chronology present
+2,0,,,FALSE,0,,no SESU2 governance chronology in authoritative file

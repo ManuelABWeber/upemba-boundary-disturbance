@@ -1,0 +1,3 @@
+year,total_comparable_cells,auth0_obs0,auth1_obs1,auth0_obs1,auth1_obs0,auth_classified_obs_na,auth_na_obs_classified,total_changed_cell_years,changed_inside,changed_outside,changed_primary_10km
+2021,248435,97788,143269,5646,728,1004,0,7378,928,6450,1232
+2022,248435,101911,139176,5647,697,1004,0,7348,1044,6304,1256

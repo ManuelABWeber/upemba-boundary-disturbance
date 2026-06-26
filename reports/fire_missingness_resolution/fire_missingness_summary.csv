@@ -1,0 +1,15 @@
+year,stratum,total_cells,cells_zero_genuinely_unobserved_area,cells_any_genuinely_unobserved_area,mean_unobserved_fraction,max_unobserved_fraction,definitely_burned_cells,definitely_unburned_cells,missingness_ambiguous_cells,stratum_type
+2021,all,204411,204411,0,0,0,110145,94266,0,complete_study_domain
+2021,all,42554,42554,0,0,0,21144,21410,0,primary_10km
+2021,outside,166448,166448,0,0,0,87833,78615,0,side
+2021,inside,37963,37963,0,0,0,22312,15651,0,side
+2021,SESU1,123513,123513,0,0,0,62319,61194,0,landscape_group
+2021,SESU3,80898,80898,0,0,0,47826,33072,0,landscape_group
+2021,Park dominant,204411,204411,0,0,0,110145,94266,0,governance_profile
+2022,all,204411,204411,0,0,0,106503,97908,0,complete_study_domain
+2022,all,42554,42554,0,0,0,20078,22476,0,primary_10km
+2022,outside,166448,166448,0,0,0,84825,81623,0,side
+2022,inside,37963,37963,0,0,0,21678,16285,0,side
+2022,SESU1,123513,123513,0,0,0,59438,64075,0,landscape_group
+2022,SESU3,80898,80898,0,0,0,47065,33833,0,landscape_group
+2022,Park dominant,204411,204411,0,0,0,106503,97908,0,governance_profile

@@ -1,0 +1,6 @@
+issue,value,classification
+near-reproduction accepted,TRUE,resolved_by_reporting
+frozen clustering remains authoritative,TRUE,resolved_by_reporting
+no-accessibility audit completed,TRUE,resolved_by_sensitivity_audit
+FireCCI observation-aware aggregation completed,TRUE,resolved_by_sensitivity_audit
+authoritative pipeline correction required,requires_researcher_decision,requires_researcher_decision

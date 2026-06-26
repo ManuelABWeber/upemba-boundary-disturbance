@@ -1,0 +1,3 @@
+year,valid_cell_years,changed_cell_years,authoritative_events,observation_aware_events,authoritative_only,observation_aware_only,audit_status
+2021,,,,,,,not_run_native_to_500m_observation_aware_aggregation_exceeded_interactive_execution_budget
+2022,,,,,,,not_run_native_to_500m_observation_aware_aggregation_exceeded_interactive_execution_budget

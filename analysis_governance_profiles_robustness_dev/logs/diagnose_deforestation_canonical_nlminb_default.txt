@@ -1,0 +1,86 @@
+Unusually large coefficients (|x|>10):
+
+ sesu_year3.2001 disp~(Intercept)
+       -22.40861         20.74298
+
+Large negative coefficients in zi (log-odds of zero-inflation),
+dispersion, or random effects (log-standard deviations) suggest
+unnecessary components (converging to zero on the constrained scale);
+large negative and/or positive components in binomial or Poisson
+conditional parameters suggest (quasi-)complete separation. Large
+values of nbinom2 dispersion suggest that you should use a Poisson
+model instead.
+
+
+Unusually large Z-statistics (|x|>5):
+
+    sesu_year1.2001     sesu_year1.2002     sesu_year3.2002     sesu_year1.2003
+         -41.553785         -109.641413          -19.403963          -82.737370
+    sesu_year3.2003     sesu_year1.2004     sesu_year3.2004     sesu_year1.2005
+         -32.401247          -59.378681          -19.179815          -78.184674
+    sesu_year3.2005     sesu_year1.2006     sesu_year3.2006     sesu_year1.2007
+         -30.280885          -71.361242          -30.279978          -70.656035
+    sesu_year3.2007     sesu_year1.2008     sesu_year3.2008     sesu_year1.2009
+         -33.189444          -77.861605          -36.109178          -98.009278
+    sesu_year3.2009     sesu_year1.2010     sesu_year3.2010     sesu_year1.2011
+         -41.435244         -103.794631          -46.977665         -107.601813
+    sesu_year3.2011     sesu_year1.2012     sesu_year3.2012     sesu_year1.2013
+         -37.964534         -125.641245          -47.367357          -75.505737
+    sesu_year3.2013     sesu_year1.2014     sesu_year3.2014     sesu_year1.2015
+         -25.111011          -83.898430          -36.243776          -63.989753
+    sesu_year3.2015     sesu_year1.2016     sesu_year3.2016     sesu_year1.2017
+         -31.953817          -86.999937          -40.183462          -99.330842
+    sesu_year3.2017     sesu_year1.2018     sesu_year3.2018     sesu_year1.2019
+         -49.577074          -99.753458          -64.976707          -84.238715
+    sesu_year3.2019     sesu_year1.2020     sesu_year3.2020     sesu_year1.2021
+         -56.349105         -100.263444          -64.130216         -101.014832
+    sesu_year3.2021     sesu_year1.2022     sesu_year3.2022          sideinside
+         -58.661463          -94.004918          -54.035993           -9.586782
+inside_profile_park
+          -8.904816
+
+Large Z-statistics (estimate/std err) suggest a *possible* failure of
+the Wald approximation - often also associated with parameters that are
+at or near the edge of their range (e.g. random-effects standard
+deviations approaching 0).  (Alternately, they may simply represent
+very well-estimated parameters; intercepts of non-centered models may
+fall in this category.) While the Wald p-values and standard errors
+listed in summary() may be unreliable, profile confidence intervals
+(see ?confint.glmmTMB) and likelihood ratio test p-values derived by
+comparing models (e.g. ?drop1) are probably still OK.  (Note that the
+LRT is conservative when the null value is on the boundary, e.g. a
+variance or zero-inflation value of 0 (Self and Liang 1987; Stram and
+Lee 1994; Goldman and Whelan 2000); in simple cases these p-values are
+approximately twice as large as they should be.)
+
+
+Non-positive definite (NPD) Hessian
+
+The Hessian matrix represents the curvature of the log-likelihood
+surface at the maximum likelihood estimate (MLE) of the parameters (its
+inverse is the estimate of the parameter covariance matrix).  A
+non-positive-definite Hessian means that the likelihood surface is
+approximately flat (or upward-curving) at the MLE, which means the
+model is overfitted or poorly posed in some way. NPD Hessians are often
+associated with extreme parameter estimates.
+
+
+parameters with non-finite standard deviations:
+disp~(Intercept)
+
+
+
+recomputing Hessian via Richardson extrapolation. If this is too slow, consider setting check_hessian = FALSE
+
+The next set of diagnostics attempts to determine which elements of the
+Hessian are causing the non-positive-definiteness.  Components with
+very small eigenvalues represent 'flat' directions, i.e., combinations
+of parameters for which the data may contain very little information.
+So-called 'bad elements' represent the dominant components (absolute
+values >0.01) of the eigenvectors corresponding to the 'flat'
+directions
+
+
+maximum Hessian eigenvalue = 571
+Hessian eigenvalue 48 = 1.21e-05 (relative val = 2.13e-08)
+   bad elements: sesu_year3.2001

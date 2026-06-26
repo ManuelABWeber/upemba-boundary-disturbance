@@ -1,0 +1,2 @@
+model,diagnostic_model_triggered,status,convergence_code,optimizer_message,logLik,AIC,dispersion_estimate,framework_maximum_absolute_gradient,numerical_maximum_absolute_gradient,pdHess,model_matrix_rank,model_matrix_columns,model_matrix_full_rank,strict_valid,maximum_profile_contrast_difference,maximum_pairwise_difference,interpretation_change
+observation_aware_fire_tau025_10km,TRUE,fit_completed_bfgs_diagnostic_audit_only,0,"",,,1.46246118797074e+25,0,,FALSE,47,47,TRUE,FALSE,2.58693884026105,0.95050090036269,interpretation changed

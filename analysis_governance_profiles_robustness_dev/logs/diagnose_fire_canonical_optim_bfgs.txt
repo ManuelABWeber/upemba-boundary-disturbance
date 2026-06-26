@@ -1,0 +1,55 @@
+Unusually large coefficients (|x|>10):
+
+       sesu_year1.2001        sesu_year3.2001        sesu_year1.2002
+             -60.29150              -26.67180              -14.35677
+       sesu_year3.2003        sesu_year3.2004        sesu_year1.2005
+              29.67938               30.58732               13.37637
+       sesu_year3.2005        sesu_year3.2006        sesu_year3.2007
+              28.83988               21.68226               11.67487
+       sesu_year1.2008        sesu_year3.2008        sesu_year1.2009
+              10.09682               28.80128               12.73165
+       sesu_year3.2009        sesu_year3.2010        sesu_year3.2011
+              27.54693               32.93307               22.14139
+       sesu_year3.2012        sesu_year3.2013        sesu_year1.2014
+              23.92792               18.98065              -15.39426
+       sesu_year3.2014        sesu_year3.2015        sesu_year1.2016
+              16.15215               21.57880              -23.08684
+       sesu_year3.2016        sesu_year3.2017        sesu_year3.2018
+              19.40810               22.78983               27.23672
+       sesu_year3.2019        sesu_year1.2020        sesu_year3.2020
+              21.52300              -14.64512               13.57823
+       sesu_year1.2021        sesu_year1.2022 inside_profile_militia
+             -22.69436              -31.63956              -22.51607
+   inside_profile_park       disp~(Intercept)
+              13.57288               61.30730
+
+Large negative coefficients in zi (log-odds of zero-inflation),
+dispersion, or random effects (log-standard deviations) suggest
+unnecessary components (converging to zero on the constrained scale);
+large negative and/or positive components in binomial or Poisson
+conditional parameters suggest (quasi-)complete separation. Large
+values of nbinom2 dispersion suggest that you should use a Poisson
+model instead.
+
+
+Non-positive definite (NPD) Hessian
+
+The Hessian matrix represents the curvature of the log-likelihood
+surface at the maximum likelihood estimate (MLE) of the parameters (its
+inverse is the estimate of the parameter covariance matrix).  A
+non-positive-definite Hessian means that the likelihood surface is
+approximately flat (or upward-curving) at the MLE, which means the
+model is overfitted or poorly posed in some way. NPD Hessians are often
+associated with extreme parameter estimates.
+
+
+parameters with non-finite standard deviations:
+(all of them!)
+
+recomputing Hessian via Richardson extrapolation. If this is too slow, consider setting check_hessian = FALSE
+
+Hessian has complex eigenvalues
+
+We would have used the smallest eigenvalues of the Hessian to determine
+which components were bad but instead we got complex eigenvalues. (Not
+really sure what to do with this ...)

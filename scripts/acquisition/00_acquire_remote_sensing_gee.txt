@@ -1,0 +1,717 @@
+/****
+Google Earth Engine Script - Data acquisition
+500 m EPSG:32735
+
+- Deforestation year: earliest year when cumulative loss fraction equal or larger than 25% within 500 m cell
+- Fire: season-filtered earliest DOY (and binary) per year
+- PA signed distances: negative inside, positive outside
+- Permanent water: JRC GSW seasonality==12 OR occurrence>=90 (500 m any-subpixel)
+- Permanent water distance: Euclidean distance to perm water (meters) on 500 m grid
+- Land mask (non-water): derived from NOT(permanent water) on 500 m grid
+- Climate: baseline summaries (1981–2010) exported at 500 m
+- Soil: 0–30 cm means exported at 500 m (drops silt band)
+- GHSL: built_surface SUM per epoch at 500 m + earliest epoch when cumulative built fraction ≥ τ at 500 m
+- OpenBuildings: annual SUM (2016–2023) at 500 m (optimized: avoid forced 10 m UTM reprojection)
+****/
+
+/*** SETTINGS ***/
+var RUN_EXPORTS   = true;
+var EXPORT_ASSETS = false;  // false => Drive; true => Asset
+var ASSET_PREFIX  = 'projects/upemba-gee-mw/assets/exports';
+var DRIVE_FOLDER  = 'GEE_Exports';
+
+// AOI asset
+var AOI_FC_ID = 'projects/upemba-gee-mw/assets/studyarea_chapter1';
+
+// PA asset (FeatureCollection) with a string property "Name"
+var PA_ASSET = 'projects/upemba-gee-mw/assets/PA_designations';
+
+// General years
+var END_YEAR   = 2022;
+var FIRE_START = 2001;
+var FIRE_END   = 2020;
+
+// Fire season window (DOY)
+var FIRE_DOY_MIN = 100;   // April 10th
+var FIRE_DOY_MAX = 300;   // Oct 30th
+
+// Target grid
+var TARGET_CRS   = 'EPSG:32735';
+var TARGET_SCALE = 500;
+var PROJ_500     = ee.Projection(TARGET_CRS).atScale(TARGET_SCALE);
+
+var PROJ_LL = ee.Projection('EPSG:4326');
+
+/*** TOGGLES ***/
+var DO_GFC                = true;
+var DO_FIRECCI_500M       = true;
+var DO_GSW_WATERMASK_500M = true;   // perm water mask export (0/1)
+var DO_GSW_WATERDIST_500M = true;   // distance to perm water export
+var DO_GSW_LANDMASK_500M  = true;   // land mask derived from NOT perm water (0/1)
+var DO_CLIMATE_BASELINE   = true;
+var DO_SOIL_0_30_500M     = true;   // exports SOC, pH, clay, sand
+var DO_GHSL_BUILT_STACK   = true;   // built_surface SUM per epoch
+var DO_GHSL_BUILT_YEAR    = true;   // earliest epoch with built_surface>0
+var DO_OPENBUILDINGS_FRAC = true;   // OpenBuildings 2016–2023 SUM per year
+var DO_ACCESS_500M        = true;
+var ACCESS_ID             = 'Oxford/MAP/accessibility_to_cities_2015_v1_0';
+var ACCESS_BAND           = 'accessibility';
+var DO_PA_SIGNED_DIST_500M= true;
+var DO_DEM_500M = true;
+
+var ids = {
+  gfc: 'UMD/hansen/global_forest_change_2024_v1_12',
+  fire_cci51: 'ESA/CCI/FireCCI/5_1',
+  gsw: 'JRC/GSW1_4/GlobalSurfaceWater',
+  chirps_daily: 'UCSB-CHG/CHIRPS/DAILY',
+  terraclimate: 'IDAHO_EPSCOR/TERRACLIMATE',
+  ghsl_built_root: 'JRC/GHSL/P2023A/GHS_BUILT_S',
+  open_buildings_temporal: 'GOOGLE/Research/open-buildings-temporal/v1',
+  soc_mean:   'projects/soilgrids-isric/soc_mean',
+  phh2o_mean: 'projects/soilgrids-isric/phh2o_mean',
+  clay_mean:  'projects/soilgrids-isric/clay_mean',
+  sand_mean:  'projects/soilgrids-isric/sand_mean'
+};
+
+var AOI = ee.FeatureCollection(AOI_FC_ID);
+
+var REGION = AOI.geometry().dissolve(100).buffer(0, 1);
+
+var EXPORT_REGION = REGION
+  .transform(ee.Projection(TARGET_CRS), 100)
+  .bounds(100, ee.Projection(TARGET_CRS));
+
+var EXPORT_REGION_LL = REGION
+  .transform(PROJ_LL, 100)
+  .bounds(100, PROJ_LL);
+
+// === Conversion thresholding (majority-date logic) ===
+// τ = fraction of subpixels in a 500 m cell that must be converted by/before a year to “flip”.
+var TAU_DEFOREST = 0.25;
+var TAU_URBAN    = 0.25;
+var TAU_FIRE     = 0.25;
+
+// Optional: if you want to mimic the R workflow where deforestation is undefined outside baseline forest
+var MASK_DEFOREST_TO_FOREST2000 = false;  // set true if desired
+var TREECOVER_THRESHOLD = 30;             // % tree cover threshold (only used if mask==true)
+
+
+/*****************
+ * HELPERS
+ *****************/
+
+// Return earliest year in yearList when (mean of binaryCumImg within 500m) >= tau.
+// binaryCumImgFunc(y) must return a *native-resolution* binary image: 1 if converted by/before y, else 0.
+function firstYearCumFracGE(binaryCumImgFunc, yearList, tau, nativeProj) {
+  var yearImgs = ee.ImageCollection.fromImages(
+    ee.List(yearList).map(function(y){
+      y = ee.Number(y).toInt();
+
+      var cumBin = ee.Image(binaryCumImgFunc(y))
+        .toFloat()
+        .setDefaultProjection(nativeProj);
+
+      // fraction of subpixels converted by/before y
+      var frac500 = cumBin
+        .reduceResolution({ reducer: ee.Reducer.mean(), maxPixels: 4096 })
+        .reproject(PROJ_500);
+
+      // candidate year only where frac>=tau
+      return ee.Image.constant(y)
+        .updateMask(frac500.gte(tau))
+        .toInt16();
+    })
+  );
+
+  // earliest y where condition is met
+  return yearImgs.reduce(ee.Reducer.min()).toInt16();
+}
+
+function years(start, end){ return ee.List.sequence(start, end); }
+
+function exportImage(img, name, scale){
+  if (!RUN_EXPORTS) return;
+
+  if (EXPORT_ASSETS){
+    Export.image.toAsset({
+      image: img,
+      description: name,
+      assetId: ASSET_PREFIX + '/' + name,
+      region: EXPORT_REGION,
+      crs: TARGET_CRS,
+      scale: scale,
+      maxPixels: 1e13
+    });
+  } else {
+    Export.image.toDrive({
+      image: img,
+      description: name,
+      folder: DRIVE_FOLDER,
+      fileNamePrefix: name,
+      region: EXPORT_REGION,
+      crs: TARGET_CRS,
+      scale: scale,
+      maxPixels: 1e13
+    });
+  }
+}
+
+function exportStack(ic, name, scale){
+  if (!RUN_EXPORTS) return;
+  var stack = ic.toBands().clip(EXPORT_REGION);
+
+  if (EXPORT_ASSETS){
+    Export.image.toAsset({
+      image: stack,
+      description: name,
+      assetId: ASSET_PREFIX + '/' + name,
+      region: EXPORT_REGION,
+      crs: TARGET_CRS,
+      scale: scale,
+      maxPixels: 1e13
+    });
+  } else {
+    Export.image.toDrive({
+      image: stack,
+      description: name,
+      folder: DRIVE_FOLDER,
+      fileNamePrefix: name,
+      region: EXPORT_REGION,
+      crs: TARGET_CRS,
+      scale: scale,
+      maxPixels: 1e13
+    });
+  }
+}
+
+
+function getBoundsXY() {
+  var b = EXPORT_REGION.bounds(100, ee.Projection(TARGET_CRS));
+  var ring = ee.List(b.coordinates().get(0)).getInfo();
+  var xs = ring.map(function(p){ return p[0]; });
+  var ys = ring.map(function(p){ return p[1]; });
+  return {
+    xmin: Math.min.apply(null, xs),
+    xmax: Math.max.apply(null, xs),
+    ymin: Math.min.apply(null, ys),
+    ymax: Math.max.apply(null, ys)
+  };
+}
+
+function distToMask500(maskImg, maxDistMeters){
+  maxDistMeters = maxDistMeters || 200000;
+  var maxPix = ee.Number(maxDistMeters).divide(TARGET_SCALE).ceil().toInt();
+
+  var m500 = maskImg
+    .setDefaultProjection(PROJ_500)
+    .selfMask()
+    .clip(EXPORT_REGION);
+
+  var distM = m500
+    .fastDistanceTransform(maxPix)
+    .sqrt()
+    .multiply(TARGET_SCALE)
+    .setDefaultProjection(PROJ_500)
+    .clip(EXPORT_REGION);
+
+  return distM;
+}
+
+// signed distance for PA rasters (negative inside, positive outside)
+function signedDistance(binaryInside){
+  var inside = binaryInside
+    .setDefaultProjection(PROJ_500)
+    .eq(1)
+    .selfMask()
+    .clip(EXPORT_REGION);
+
+  var outside = ee.Image(1)
+    .setDefaultProjection(PROJ_500)
+    .updateMask(inside.unmask(0).not())
+    .clip(EXPORT_REGION);
+
+  var distToInside  = distToMask500(inside,  200000);
+  var distToOutside = distToMask500(outside, 200000);
+
+  return ee.Image(0)
+    .where(inside, distToOutside.multiply(-1))
+    .where(inside.unmask(0).not(), distToInside)
+    .rename('signed_dist_m')
+    .setDefaultProjection(PROJ_500);
+}
+
+function mean0_30(img, prefix) {
+  var b0 = img.select(prefix + '_0-5cm_mean').multiply(5);
+  var b1 = img.select(prefix + '_5-15cm_mean').multiply(10);
+  var b2 = img.select(prefix + '_15-30cm_mean').multiply(15);
+  return b0.add(b1).add(b2).divide(30).rename(prefix + '_0_30cm_mean');
+}
+
+/*****************
+ * A) GFC: 500 m deforestation majority-date (cumulative frac >= TAU_DEFOREST) + mean treecover2000
+ *****************/
+if (DO_GFC){
+  var gfc = ee.Image(ids.gfc);
+
+  var tree2000 = gfc.select('treecover2000').toFloat();
+  var lossyear = gfc.select('lossyear').toInt16(); // 1..N => 2001..2000+N
+
+  // GFC v1_12 runs through 2024; guard against END_YEAR>2024
+  var gfcEnd = ee.Number(2000).add(lossyear.reduceRegion({
+    reducer: ee.Reducer.max(),
+    geometry: EXPORT_REGION,
+    scale: 30,
+    maxPixels: 1e13
+  }).get('lossyear')).int();
+
+  // If lossyear is empty over AOI, gfcEnd can be null; fall back to 2024
+  gfcEnd = ee.Number(ee.Algorithms.If(gfcEnd, gfcEnd, 2024));
+  var lastYear = ee.Number(END_YEAR).min(gfcEnd);
+
+  // --- treecover2000 mean at 500 m (unchanged conceptually)
+  var tree2000_500 = tree2000
+    .reduceResolution({reducer: ee.Reducer.mean(), maxPixels: 4096})
+    .reproject(PROJ_500)
+    .rename('treecover2000_mean_pct_500m');
+  exportImage(tree2000_500, 'gfc_treecover2000_meanpct_500m_epsg32735', TARGET_SCALE);
+
+  // --- cumulative conversion binary at 30 m: 1 if lossYearActual <= y, else 0
+  var nativeProj = lossyear.projection();
+
+  var yearList = ee.List.sequence(2001, lastYear);
+
+  var defYear = firstYearCumFracGE(
+    function(y){
+      y = ee.Number(y).toInt();
+      // lossyear==0 => never lost
+      var lossYearActual = lossyear.updateMask(lossyear.gt(0)).add(2000);
+      return lossYearActual.lte(y).unmask(0).rename('cumloss');
+    },
+    yearList,
+    TAU_DEFOREST,
+    nativeProj
+  )
+  .rename('year_deforest_majority_tau')
+  .unmask(0)                  // 0 = never reaches threshold
+  .reproject(PROJ_500)
+  .clip(EXPORT_REGION);
+
+  // Optional: only define deforestation date where baseline forest cover >= threshold (matches many R workflows)
+  if (MASK_DEFOREST_TO_FOREST2000) {
+    defYear = defYear.updateMask(tree2000_500.gte(TREECOVER_THRESHOLD));
+  }
+
+  exportImage(defYear, 'gfc_year_deforest_majority_tau_500m_epsg32735', TARGET_SCALE);
+}
+
+
+/*****************
+ * B) FireCCI: earliest DOY per year (min-positive), season filter,
+ *    and 500 m τ-thresholded burned fraction
+ *****************/
+if (DO_FIRECCI_500M) {
+
+  var fcci = ee.ImageCollection(ids.fire_cci51)
+    .filterDate(ee.Date.fromYMD(FIRE_START,1,1), ee.Date.fromYMD(FIRE_END,12,31))
+    .filterBounds(EXPORT_REGION)
+    .select('BurnDate');
+
+  function annualEarliestDOY_tau(y) {
+    y = ee.Number(y).toInt();
+    var yStr = y.format();
+
+    var yearly = fcci.filter(ee.Filter.calendarRange(y, y, 'year'));
+    var first  = ee.Image(yearly.first());
+
+    // Guard: if no images, return all-zero bands at 500 m
+    var empty = yearly.size().eq(0);
+    return ee.Image(ee.Algorithms.If(empty, (function(){
+      var z = ee.Image(0).toInt16().setDefaultProjection(PROJ_500).clip(EXPORT_REGION);
+      var doy0 = z.rename(ee.String('fireDOY_season_').cat(yStr));
+      var bin0 = z.rename(ee.String('fire_season_').cat(yStr));
+      return doy0.addBands(bin0).set({'system:index': yStr});
+    })(), (function(){
+
+      var proj = first.select('BurnDate').projection();
+
+      // BurnDate: 1..366 where burned, 0 where unburned
+      // Keep only burned pixels (>0), then take earliest DOY in the year
+      var bdPos = yearly.map(function(img){ return img.updateMask(img.gt(0)); });
+      var earliest = bdPos.min().toInt16(); // masked where never burned
+
+      // Season filter: keep only burns within [FIRE_DOY_MIN, FIRE_DOY_MAX]
+      var season = earliest
+        .updateMask(earliest.gte(FIRE_DOY_MIN).and(earliest.lte(FIRE_DOY_MAX)))
+        .rename('seasonDOY')
+        .toInt16();
+
+      // Native-resolution binary: 1 if burned in season, else 0
+      var burnedNative = season.unmask(0).gt(0).toFloat()
+        .setDefaultProjection(proj);
+
+      // 500 m fraction burned (season-filtered)
+      var frac500 = burnedNative
+        .reduceResolution({ reducer: ee.Reducer.mean(), maxPixels: 4096, bestEffort: true })
+        .reproject(PROJ_500)
+        .clip(EXPORT_REGION);
+
+      // τ-thresholded burned indicator at 500 m
+      var burned500 = frac500.gte(TAU_FIRE).toInt16()
+        .rename(ee.String('fire_season_').cat(yStr));
+
+      // 500 m earliest DOY = min positive DOY among season-burned subpixels
+      // (mask DOY output to cells meeting τ; otherwise 0)
+      var doy500 = season
+        .setDefaultProjection(proj)
+        .reduceResolution({ reducer: ee.Reducer.min(), maxPixels: 4096, bestEffort: true })
+        .reproject(PROJ_500)
+        .clip(EXPORT_REGION)
+        .updateMask(burned500.eq(1))     // only keep where frac>=tau
+        .unmask(0)
+        .rename(ee.String('fireDOY_season_').cat(yStr))
+        .toInt16();
+
+      return doy500.addBands(burned500).set({'system:index': yStr});
+    })()));
+  }
+
+  var fireIC = ee.ImageCollection.fromImages(
+    years(FIRE_START, FIRE_END).map(annualEarliestDOY_tau)
+  );
+
+  exportStack(fireIC, 'FireCCI51_season_DOYmin_tau_and_binary_2001_2020_500m_epsg32735', TARGET_SCALE);
+}
+
+
+/*****************
+ * C) GSW permanent water mask @ 500 m + land mask derived from it + distance
+ *****************/
+var perm500 = null; // define once so landmask + distance can share it
+
+if (DO_GSW_WATERMASK_500M || DO_GSW_WATERDIST_500M || DO_GSW_LANDMASK_500M) {
+  var gsw = ee.Image(ids.gsw);
+
+  var perm_native = gsw.select('seasonality').eq(12)
+    .or(gsw.select('occurrence').gte(90))
+    .toByte()
+    .setDefaultProjection(gsw.projection());
+
+  var perm_bounded = perm_native
+    .clipToBoundsAndScale({ geometry: EXPORT_REGION_LL, scale: 500 })
+    .setDefaultProjection(gsw.projection());
+
+  var perm_agg = perm_bounded.reduceResolution({
+    reducer: ee.Reducer.max(),
+    maxPixels: 4096,
+    bestEffort: true
+  });
+
+  perm500 = perm_agg
+    .setDefaultProjection(PROJ_500)
+    .clip(EXPORT_REGION)
+    .unmask(0, true)
+    .rename('perm_water_500m')
+    .toByte();
+}
+
+if (DO_GSW_LANDMASK_500M) {
+  var landMask500 = perm500.not()
+    .rename('land_mask_nonwater_500m')
+    .toByte()
+    .setDefaultProjection(PROJ_500)
+    .clip(EXPORT_REGION)
+    .unmask(0, true);
+  exportImage(landMask500, 'land_mask_nonwater_500m_epsg32735', TARGET_SCALE);
+}
+
+if (DO_GSW_WATERDIST_500M) {
+  var distWater = distToMask500(perm500.eq(1), 100000)
+    .rename('dist_perm_water_m_500m')
+    .toFloat();
+  exportImage(distWater, 'dist_perm_water_m_500m_epsg32735', TARGET_SCALE);
+}
+
+/*****************
+ * D) Climate baseline summaries (1981–2010) at 500 m
+ *****************/
+if (DO_CLIMATE_BASELINE){
+  var climStart = 1981;
+  var climEnd   = 2010;
+
+  var chirpsD = ee.ImageCollection(ids.chirps_daily)
+    .filterDate('1981-01-01', ee.Date.fromYMD(END_YEAR,12,31))
+    .filterBounds(EXPORT_REGION);
+
+  var chirpsAnnual = ee.ImageCollection.fromImages(
+    years(1981, END_YEAR).map(function(y){
+      y = ee.Number(y);
+      var total = chirpsD.filter(ee.Filter.calendarRange(y,y,'year')).sum()
+        .toFloat().rename('precip_mm').set('year', y);
+      return total;
+    })
+  );
+
+  var chirpsBase = chirpsAnnual.filter(ee.Filter.rangeContains('year', climStart, climEnd));
+  var precipMean = chirpsBase.mean().rename('clim_precip_mean_mm_1981_2010');
+  var precipSd   = chirpsBase.reduce(ee.Reducer.stdDev()).rename('clim_precip_sd_mm_1981_2010');
+
+  var terra = ee.ImageCollection(ids.terraclimate)
+    .filterDate('1958-01-01', ee.Date.fromYMD(END_YEAR,12,31))
+    .filterBounds(EXPORT_REGION);
+
+  function annualSum(band, startY){
+    return ee.ImageCollection.fromImages(
+      years(startY, END_YEAR).map(function(y){
+        y = ee.Number(y);
+        var s = terra.filter(ee.Filter.calendarRange(y,y,'year')).select(band).sum()
+          .toFloat().rename(band + '_mm').set('year', y);
+        return s;
+      })
+    );
+  }
+
+  var petAnnual = annualSum('pet', 1958);
+  var aetAnnual = annualSum('aet', 1958);
+
+  var petBase = petAnnual.filter(ee.Filter.rangeContains('year', climStart, climEnd));
+  var aetBase = aetAnnual.filter(ee.Filter.rangeContains('year', climStart, climEnd));
+
+  var petMean = petBase.mean().rename('clim_pet_mean_mm_1981_2010');
+  var aetMean = aetBase.mean().rename('clim_aet_mean_mm_1981_2010');
+
+  var wb = precipMean.subtract(petMean).rename('clim_water_balance_mm_1981_2010');
+  var ai = precipMean.divide(petMean.add(1)).rename('clim_aridity_index_p_over_pet_1981_2010');
+
+  var climOut = ee.Image.cat([precipMean, precipSd, aetMean, petMean, wb, ai])
+    .clip(EXPORT_REGION)
+    .toFloat();
+
+  exportImage(climOut, 'climate_summaries_1981_2010_500m_epsg32735', TARGET_SCALE);
+}
+
+/*****************
+ * E) SoilGrids 0–30 cm mean (drops silt) at 500 m
+ *****************/
+if (DO_SOIL_0_30_500M){
+  var soc   = ee.Image(ids.soc_mean);
+  var phh2o = ee.Image(ids.phh2o_mean);
+  var clay  = ee.Image(ids.clay_mean);
+  var sand  = ee.Image(ids.sand_mean);
+
+  var soc_0_30  = mean0_30(soc,   'soc').divide(10).rename('soc_gkg_0_30cm');
+  var ph_0_30   = mean0_30(phh2o, 'phh2o').divide(10).rename('ph_0_30cm');
+  var clay_0_30 = mean0_30(clay,  'clay').divide(10).rename('clay_pct_0_30cm');
+  var sand_0_30 = mean0_30(sand,  'sand').divide(10).rename('sand_pct_0_30cm');
+
+  var soil = ee.Image.cat([soc_0_30, ph_0_30, clay_0_30, sand_0_30])
+    .toFloat()
+    .reduceResolution({reducer: ee.Reducer.mean(), maxPixels: 4096})
+    .reproject({crs: TARGET_CRS, scale: TARGET_SCALE});
+
+  exportImage(soil, 'soilgrids_0_30cm_mean_500m_epsg32735', TARGET_SCALE);
+}
+
+/*****************
+ * F) GHSL built_surface epochs:
+ *    (1) built_surface SUM (m²) per epoch at 500 m  [for Script 4 proxy calibration]
+ *    (2) earliest epoch when cumulative built fraction ≥ TAU_URBAN at 500 m  [timing]
+ *****************/
+
+// IMPORTANT: use a plain JS array here (NOT ee.List) to avoid ee.String leakage into asset IDs
+var ghslYears = [1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025,2030];
+
+// ---- (1) built_surface SUM per epoch @ 500 m (m² within cell) ----
+if (DO_GHSL_BUILT_STACK) {
+
+  var ghslImgs = ghslYears.map(function(y){
+    // Each epoch is an image asset at JRC/GHSL/P2023A/GHS_BUILT_S/<year>
+    var bs = ee.Image(ids.ghsl_built_root + '/' + y).select('built_surface').toFloat();
+
+    var bs500 = bs
+      .reduceResolution({ reducer: ee.Reducer.sum(), maxPixels: 4096, bestEffort: true })
+      .reproject(PROJ_500)
+      .clip(EXPORT_REGION)
+      .rename('built_surface_sum_' + y);
+
+    // give stable system:index for stack order
+    return bs500.set('system:index', String(y));
+  });
+
+  var ghslIC500 = ee.ImageCollection.fromImages(ghslImgs);
+  exportStack(ghslIC500, 'ghsl_built_surface_SUM_500m_1975_2030_step5_epsg32735', TARGET_SCALE);
+}
+
+// ---- (2) earliest epoch where cumulative built fraction ≥ TAU_URBAN ----
+if (DO_GHSL_BUILT_YEAR) {
+
+  // Use one epoch image to define "native" projection for the built/nonbuilt binary
+  var nativeProj = ee.Image(ids.ghsl_built_root + '/' + 1975).projection();
+
+  // Fraction built per epoch @ 500 m: mean(built>0) within each 500 m cell
+  var fracEpochImgs = ghslYears.map(function(y){
+    var bs = ee.Image(ids.ghsl_built_root + '/' + y).select('built_surface').toFloat();
+
+    var builtBin = bs.gt(0).unmask(0).toFloat().setDefaultProjection(nativeProj);
+
+    var frac500 = builtBin
+      .reduceResolution({ reducer: ee.Reducer.mean(), maxPixels: 4096, bestEffort: true })
+      .reproject(PROJ_500)
+      .clip(EXPORT_REGION)
+      .rename('fracBuilt');
+
+    return frac500.set({ year: y, 'system:index': String(y) });
+  });
+
+  var fracEpochIC = ee.ImageCollection.fromImages(fracEpochImgs).sort('year');
+  var yearsSorted = ee.List(fracEpochIC.aggregate_array('year')).sort();
+
+  // Enforce monotonic cumulative fraction: cumFrac(y) = max_{t<=y} frac(t)
+  var cumFracIC = ee.ImageCollection.fromImages(
+    yearsSorted.iterate(function(y, acc){
+      y = ee.Number(y);
+      acc = ee.List(acc);
+
+      var cur  = ee.Image(fracEpochIC.filter(ee.Filter.eq('year', y)).first());
+      var prev = ee.Image(ee.Algorithms.If(
+        acc.length().gt(0),
+        acc.get(acc.length().subtract(1)),
+        ee.Image(0)
+      ));
+
+      var cum = prev.max(cur).rename('cumFrac').set('year', y);
+      return acc.add(cum);
+    }, ee.List([]))
+  );
+
+  // Earliest epoch where cumFrac >= TAU_URBAN
+  var yearCandidates = cumFracIC.map(function(img){
+    var y = ee.Number(img.get('year')).toInt16();
+    return ee.Image.constant(y).updateMask(img.gte(TAU_URBAN)).toInt16();
+  });
+
+  var yearUrbanMajority = ee.ImageCollection(yearCandidates)
+    .reduce(ee.Reducer.min())
+    .rename('year_urban_majority_tau')
+    .unmask(0)          // 0 = never reaches threshold
+    .toInt16()
+    .reproject(PROJ_500)
+    .clip(EXPORT_REGION);
+
+  exportImage(yearUrbanMajority, 'ghsl_year_urban_majority_tau_500m_epsg32735', TARGET_SCALE);
+}
+
+
+/*****************
+ * G) OpenBuildings fractional count (2016–2023) -> 500 m SUM (optimized)
+ *****************/
+if (DO_OPENBUILDINGS_FRAC) {
+  var obYears = ee.List([2016,2017,2018,2019,2020,2021,2022,2023]);
+  var obt = ee.ImageCollection(ids.open_buildings_temporal)
+    .filterBounds(EXPORT_REGION_LL);
+
+  function yearTo500mSum(y) {
+    y = ee.Number(y).toInt();
+    var yStr = y.format();
+
+    var yearly = obt.filter(ee.Filter.calendarRange(y, y, 'year'));
+    var hasData = yearly.size().gt(0);
+
+    var frac_native = ee.Image(ee.Algorithms.If(
+        hasData,
+        yearly.mosaic().select('building_fractional_count').toFloat(),
+        ee.Image(0).toFloat()
+      ));
+
+    frac_native = frac_native
+      .setDefaultProjection(frac_native.projection())
+      .clipToBoundsAndScale({ geometry: EXPORT_REGION_LL, scale: 500 });
+
+    var frac_agg = frac_native.reduceResolution({
+      reducer: ee.Reducer.sum(),
+      maxPixels: 4096,
+      bestEffort: true
+    });
+
+    var frac500 = frac_agg
+      .setDefaultProjection(PROJ_500)
+      .clip(EXPORT_REGION)
+      .unmask(0, true)
+      .rename(ee.String('openbuildings_fraccount_sum_').cat(yStr))
+      .toFloat()
+      .set({'system:index': yStr});
+
+    return frac500;
+  }
+
+  var obIC500 = ee.ImageCollection.fromImages(obYears.map(yearTo500mSum));
+  exportStack(obIC500, 'openbuildings_fractional_count_SUM_500m_2016_2023_epsg32735', TARGET_SCALE);
+}
+
+/*****************
+ * H) Accessibility to cities at 500 m
+ *****************/
+if (DO_ACCESS_500M){
+  var acc = ee.Image(ACCESS_ID).select(ACCESS_BAND).toFloat();
+  var acc500 = acc
+    .reduceResolution({reducer: ee.Reducer.mean(), maxPixels: 4096})
+    .reproject({crs: TARGET_CRS, scale: TARGET_SCALE})
+    .rename('accessibility_cities');
+
+  exportImage(acc500, 'accessibility_cities_2015_500m_epsg32735', TARGET_SCALE);
+}
+
+/*****************
+ * I) PA signed distances at 500 m
+ *****************/
+if (DO_PA_SIGNED_DIST_500M){
+  var pa = ee.FeatureCollection(PA_ASSET).filterBounds(EXPORT_REGION);
+
+  var parc = pa.filter(ee.Filter.stringContains('Name', 'Parc National'));
+  var zone = pa.filter(ee.Filter.stringContains('Name', 'Zone Annexe'));
+  var dom  = pa.filter(ee.Filter.stringContains('Name', 'Domaine de Chasse'));
+
+  function rasterize(fc){
+    return ee.Image(0).toByte()
+      .paint(fc, 1)
+      .setDefaultProjection(PROJ_500)
+      .clip(EXPORT_REGION)
+      .rename('inside');
+  }
+
+  function exportSigned(fc, name){
+    var inside = rasterize(fc);
+    var sd = signedDistance(inside)
+      .rename(name)
+      .reproject({crs: TARGET_CRS, scale: TARGET_SCALE});
+    exportImage(sd, name + '_500m_epsg32735', TARGET_SCALE);
+  }
+
+  exportSigned(parc, 'dist_parc_national_signed_m');
+  exportSigned(zone, 'dist_zone_annexe_signed_m');
+  exportSigned(dom,  'dist_domaine_chasse_signed_m');
+}
+
+/*****************
+ * J) Copernicus DEM (GLO-30) aggregated to 500 m (mean) in EPSG:32735
+ *****************/
+if (DO_DEM_500M) {
+  var demIC = ee.ImageCollection('COPERNICUS/DEM/GLO30').select('DEM');
+  var dem30 = demIC.mosaic().setDefaultProjection(demIC.first().projection());
+  var demBound = dem30.clipToBoundsAndScale({
+    geometry: EXPORT_REGION_LL,
+    scale: 500
+  });
+  var demAgg = demBound.reduceResolution({
+    reducer: ee.Reducer.mean(),
+    maxPixels: 4096,
+    bestEffort: true
+  });
+
+  var dem500 = demAgg
+    .setDefaultProjection(PROJ_500)
+    .clip(EXPORT_REGION)
+    .rename('elevation_m')
+    .toFloat();
+
+  exportImage(dem500, 'dem_copernicus_glo30_mean_500m_epsg32735', TARGET_SCALE);
+}

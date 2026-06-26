@@ -1,0 +1,9 @@
+year,landscape_group,side,governance_profile,n_authoritative,y_authoritative,n_observation_aware,y_observation_aware,n_changed,y_changed
+2021,1,outside,Park dominant,10019,3710,9987,3929,-32,219
+2021,3,outside,Park dominant,11987,6865,11987,7148,0,283
+2021,1,inside,Park dominant,7612,3071,7585,3256,-27,185
+2021,3,inside,Park dominant,12936,7498,12936,7709,0,211
+2022,1,outside,Park dominant,10019,2841,9987,3032,-32,191
+2022,3,outside,Park dominant,11987,6821,11987,7074,0,253
+2022,1,inside,Park dominant,7612,2626,7585,2841,-27,215
+2022,3,inside,Park dominant,12936,7790,12936,8000,0,210
