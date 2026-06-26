@@ -1,0 +1,10 @@
+Outcome,Profile,Estimate,SE,Lower 95%,Upper 95%,Model,Events,Spatial domain,Threshold,Fit validity
+Fire,Militia-centred control,0.0107091233715076,0.0330098626703633,-0.0539890185970177,0.0754072653400329,Strict-valid beta-binomial,508320,Symmetric 10 km boundary corridor,tau025,strict-valid
+Fire,Fragmented control,0.170288429758373,0.0297450591051261,0.111989185194311,0.228587674322435,Strict-valid beta-binomial,508320,Symmetric 10 km boundary corridor,tau025,strict-valid
+Fire,Park-centred control,0.0678282180423288,0.0305524668753538,0.00794648332778246,0.127709952756875,Strict-valid beta-binomial,508320,Symmetric 10 km boundary corridor,tau025,strict-valid
+Tree-cover loss,Fragmented control,-0.846081473790374,0.227997755104005,-1.29294886235021,-0.399214085230542,Inverse-variance-weighted two-stage HC3,519,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit
+Tree-cover loss,Militia-centred control,-0.897845233263081,0.311625133975982,-1.50861927253348,-0.287071193992687,Inverse-variance-weighted two-stage HC3,519,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit
+Tree-cover loss,Park-centred control,-1.43025410197535,0.260646937876377,-1.9411127128937,-0.919395491057002,Inverse-variance-weighted two-stage HC3,519,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit
+Agricultural expansion,Fragmented control,0.286485847450869,0.229996977828128,-0.16429994564532,0.737271640547059,Inverse-variance-weighted two-stage HC3,518,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit
+Agricultural expansion,Militia-centred control,0.221756230967078,0.137786166542745,-0.048299693024539,0.491812154958695,Inverse-variance-weighted two-stage HC3,518,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit
+Agricultural expansion,Park-centred control,-0.346961114977916,0.158116616597485,-0.656863988866315,-0.0370582410895171,Inverse-variance-weighted two-stage HC3,518,Symmetric 10 km boundary corridor,tau025,accepted primary sparse-outcome fit

@@ -1,0 +1,10 @@
+Component,Software or file,Version,Role,Authoritative path,Checksum if available
+R,R,R version 4.5.3 (2026-03-11 ucrt),execution environment,system R,
+glmmTMB,glmmTMB,not installed,beta-binomial fitting,installed package,
+terra,terra,not installed,raster processing,installed package,
+sf,sf,not installed,vector spatial processing,installed package,
+sandwich or covariance implementation,sandwich,not installed,HC3 covariance support,installed package,
+analysis configuration,config/analysis_config.R,frozen repository version,configuration,config/analysis_config.R,
+primary model scripts,scripts/05_models_governance_profiles.R; scripts/06_governance_profile_robustness.R; scripts/07_spatial_threshold_sensitivity.R; scripts/09_fire_2021_2022_harmonization.R; scripts/10_fire_10km_optimizer_refinement.R; scripts/12_spatial_boundary_falsification_revised.R,frozen repository version,analysis execution,scripts/05_models_governance_profiles.R; scripts/06_governance_profile_robustness.R; scripts/07_spatial_threshold_sensitivity.R; scripts/09_fire_2021_2022_harmonization.R; scripts/10_fire_10km_optimizer_refinement.R; scripts/12_spatial_boundary_falsification_revised.R,
+publication scripts,scripts/publication/06_generate_main_figures_tables.R; scripts/publication/07_generate_supplementary_material.R,current supplement branch,publication output generation,scripts/publication/06_generate_main_figures_tables.R; scripts/publication/07_generate_supplementary_material.R,
+final result tables,outputs/publication/figure_source_data/Figure_3_profile_contrasts.csv; outputs/publication/figure_source_data/Figure_3_pairwise_differences.csv; outputs/publication/figure_source_data/Figure_4_profile_boundary_estimates.csv; analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv,frozen authoritative outputs,authoritative inputs,outputs/publication/figure_source_data/Figure_3_profile_contrasts.csv; outputs/publication/figure_source_data/Figure_3_pairwise_differences.csv; outputs/publication/figure_source_data/Figure_4_profile_boundary_estimates.csv; analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv,

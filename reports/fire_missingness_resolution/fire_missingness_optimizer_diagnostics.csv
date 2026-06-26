@@ -1,0 +1,2 @@
+sensitivity_model_triggered,reason,primary_corridor_missingness_ambiguous_cells,primary_strata_changed,strict_valid_sensitivity_obtained,maximum_profile_contrast_difference,maximum_pairwise_difference,substantive_interpretation_changed
+FALSE,zero missingness-ambiguous cells in the primary 10 km corridor,0,FALSE,FALSE,,,FALSE

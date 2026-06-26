@@ -1,0 +1,4 @@
+Landscape group,inside_cells,outside_cells,inside_to_outside_cell_ratio,Agricultural expansion outside,Agricultural expansion inside,Fire outside,Fire inside,Tree-cover loss outside,Tree-cover loss inside,Included in primary inference,Exclusion rationale
+Depression,7612,10019,0.75975646272083,261,254,89396,75745,262,142,TRUE,""
+SESU2 / Lufira Plain (outside inferential scope),786,1557,0.504816955684008,9,2,25735,12396,12,0,FALSE,Small and spatially restricted park-interior support; no frozen pre-outcome territorial-control chronology for primary inference.
+Plateau,12936,11987,1.07916909985818,3,0,165724,177455,111,4,TRUE,""

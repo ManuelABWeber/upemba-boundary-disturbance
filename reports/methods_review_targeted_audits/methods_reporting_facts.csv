@@ -1,0 +1,75 @@
+fact,value,source_script,source_line_or_function,confidence,notes
+canonical grid CRS,"PROJCRS[""WGS 84 / UTM zone 35S"",
+    BASEGEOGCRS[""WGS 84"",
+        DATUM[""World Geodetic System 1984"",
+            ELLIPSOID[""WGS 84"",6378137,298.257223563,
+                LENGTHUNIT[""metre"",1]]],
+        PRIMEM[""Greenwich"",0,
+            ANGLEUNIT[""degree"",0.0174532925199433]],
+        ID[""EPSG"",4326]],
+    CONVERSION[""UTM zone 35S"",
+        METHOD[""Transverse Mercator"",
+            ID[""EPSG"",9807]],
+        PARAMETER[""Latitude of natural origin"",0,
+            ANGLEUNIT[""degree"",0.0174532925199433],
+            ID[""EPSG"",8801]],
+        PARAMETER[""Longitude of natural origin"",27,
+            ANGLEUNIT[""degree"",0.0174532925199433],
+            ID[""EPSG"",8802]],
+        PARAMETER[""Scale factor at natural origin"",0.9996,
+            SCALEUNIT[""unity"",1],
+            ID[""EPSG"",8805]],
+        PARAMETER[""False easting"",500000,
+            LENGTHUNIT[""metre"",1],
+            ID[""EPSG"",8806]],
+        PARAMETER[""False northing"",10000000,
+            LENGTHUNIT[""metre"",1],
+            ID[""EPSG"",8807]]],
+    CS[Cartesian,2],
+        AXIS[""(E)"",east,
+            ORDER[1],
+            LENGTHUNIT[""metre"",1]],
+        AXIS[""(N)"",north,
+            ORDER[2],
+            LENGTHUNIT[""metre"",1]],
+    USAGE[
+        SCOPE[""Navigation and medium accuracy spatial referencing.""],
+        AREA[""Between 24°E and 30°E, southern hemisphere between 80°S and equator, onshore and offshore. Botswana. Burundi. Democratic Republic of the Congo (Zaire). Rwanda. South Africa. Tanzania. Uganda. Zambia. Zimbabwe.""],
+        BBOX[-80,24,0,30]],
+    ID[""EPSG"",32735]]",run_2026_05_27/SESU_covariates_500m.tif,terra::crs,high,""
+grid resolution,500 x 500,run_2026_05_27/SESU_covariates_500m.tif,terra::res,high,""
+park-side assignment rule,signed distance < 0 inside; signed distance > 0 outside,scripts/Script 2_SESU clustering.R,dist_parc_national_signed_m,high,""
+treatment of distance = 0,authoritative side field used where available; otherwise zero-distance cells are excluded in buffer summaries,Phase 3/normalization reports,spatial-threshold sensitivity design,moderate,""
+permanent-water exclusion,cells masked through permanent-water and analysis mask before clustering,scripts/Script 2_SESU clustering.R,mask_keep and dist_perm_water_m,moderate,""
+partial or edge-cell handling,fixed 500 m raster grid; edge support retained as raster cells after analysis mask,scripts/Script 2_SESU clustering.R,mask_keep,moderate,""
+k range evaluated,2 through 15,scripts/Script 2_SESU clustering.R,k_seq <- 2:k_max_elbow,high,""
+silhouette sample size,20000,scripts/Script 2_SESU clustering.R,sample_size <- 20000,high,""
+silhouette sample seed,42,scripts/Script 2_SESU clustering.R,set.seed(42) before sample_idx,high,""
+final clustering seed,123,scripts/Script 2_SESU clustering.R,set.seed(123) before final_kmeans,high,""
+number of k-means starts,25,scripts/Script 2_SESU clustering.R,"kmeans(..., nstart = 25)",high,""
+seed-stability seeds,"11,22,33,44,55",scripts/Script 2_SESU clustering.R,"seeds <- c(11,22,33,44,55)",high,""
+de-speckling rule,replace isolated cells with <=1 same-class cells in 3x3 window by eight-neighbour modal class,scripts/Script 2_SESU clustering.R,same_count <= 1 and neigh_mode,high,""
+number of clustering features,16,run_2026_05_27/SESU_features_used.txt,line count,high,""
+whether tree cover enters as continuous or binary,binary forest2000_ge_30pct,run_2026_05_27/SESU_features_used.txt,forest2000_ge_30pct,high,""
+FireCCI band/file used,monthly JD for 2021-2022 local files; FireCCI seasonal DOY/binary products for 2001-2020,scripts/09_fire_2021_2022_harmonization.R,JD file processing,high,""
+DOY bounds and whether inclusive,100 through 300 inclusive,scripts/09_fire_2021_2022_harmonization.R,JD >= 100 & JD <= 300,high,""
+tree-cover-loss numerator,GFC loss subpixels crossing cumulative threshold,scripts/07_spatial_threshold_sensitivity.R,event-year reconstruction,moderate,""
+tree-cover-loss denominator,fixed canonical 30% baseline-forest eligible 500 m cell definition,scripts/08_measurement_harmonization.R,baseline forest mask,moderate,""
+baseline forest-mask scale and definition,500 m cell retained when tree cover in 2000 >= 30%,scripts/Script 2_SESU clustering.R,treecover_threshold <- 30,high,""
+agriculture threshold-crossing rule,first year within-cell agricultural conversion reaches threshold,scripts/07_spatial_threshold_sensitivity.R,year_agri,high,""
+glmmTMB version,1.1.14,installed R library,packageVersion('glmmTMB'),high,""
+beta-binomial family,"glmmTMB beta_family/binomial-count specification via cbind(y, n-y)",scripts/05_models_governance_profiles.R,model formula/family,moderate,""
+BFGS implementation,optim/BFGS refinement after nlminb,scripts/10_fire_10km_optimizer_refinement.R,BFGS_refined,high,""
+BFGS max iterations,20000,scripts/10_fire_10km_optimizer_refinement.R,control maxit = 20000,high,""
+BFGS relative tolerance,1e-12,scripts/10_fire_10km_optimizer_refinement.R,control reltol = 1e-12,high,""
+strict-valid gradient threshold,0.001,scripts/10_fire_10km_optimizer_refinement.R,strict-valid criterion,high,""
+sparse-outcome continuity correction,Haldane-Anscombe 0.5 correction,scripts/06_governance_profile_robustness.R,two-stage contrast workflow,moderate,""
+complete sparse-outcome variance formula,1/(inside_y+0.5)+1/(inside_n-inside_y+0.5)+1/(outside_y+0.5)+1/(outside_n-outside_y+0.5),scripts/06_governance_profile_robustness.R,approximate variance,moderate,""
+weight definition,inverse approximate variance,scripts/06_governance_profile_robustness.R,inverse-variance weight,moderate,""
+whether weights are normalized,not normalized before lm/wls unless script-specific diagnostics state otherwise,scripts/06_governance_profile_robustness.R,weighted model,moderate,""
+HC3 implementation,sandwich/lmtest HC3 fallback for sparse two-stage models,scripts/06_governance_profile_robustness.R,HC3 covariance,moderate,""
+marginal-means implementation,profile-specific model contrasts computed from design matrix/estimated coefficients,scripts/06_governance_profile_robustness.R,contrast helpers,moderate,""
+zero-risk-row handling,rows with zero cells at risk are reported and excluded from finite log-odds contrast fits,scripts/06_governance_profile_robustness.R,zero-cell flags,moderate,""
+profile support in landscape-group years,see event-support and SESU2 support audit tables,reports/methods_review_targeted_audits,generated audit tables,moderate,""
+profile support in calendar years,see event-support and SESU2 support audit tables,reports/methods_review_targeted_audits,generated audit tables,moderate,""
+number of distinct episodes per profile,reported in frozen robustness/support tables; not recalculated in this targeted audit,analysis_spatial_threshold_sensitivity_dev/tables/event_support_summary.csv,represented episodes,moderate,""

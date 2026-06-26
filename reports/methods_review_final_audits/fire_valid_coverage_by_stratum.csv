@@ -1,0 +1,93 @@
+year,stratum_type,stratum,coverage_class,cells,mean_valid_coverage,median_valid_coverage,min_positive_valid_coverage
+2021,complete_study_domain,all,100%,245480,1,1,1
+2021,complete_study_domain,all,50% to <75%,912,0.504239766081871,0.5,0.5
+2021,complete_study_domain,all,75% to <100%,681,0.752924620655898,0.75,0.75
+2021,complete_study_domain,all,25% to <50%,348,0.253879310344828,0.25,0.25
+2021,complete_study_domain,all,0%,1004,0,0,Inf
+2021,complete_study_domain,all,>0% and <25%,10,0.173333333333333,0.166666666666667,0.166666666666667
+2021,primary_10km,all,100%,44709,1,1,1
+2021,primary_10km,all,25% to <50%,19,0.258771929824561,0.25,0.25
+2021,primary_10km,all,0%,60,0,0,Inf
+2021,primary_10km,all,50% to <75%,61,0.5,0.5,0.5
+2021,primary_10km,all,75% to <100%,47,0.75,0.75,0.75
+2021,primary_10km,all,>0% and <25%,1,0.166666666666667,0.166666666666667,0.166666666666667
+2021,side,outside,100%,205948,1,1,1
+2021,side,outside,50% to <75%,891,0.504339693228582,0.5,0.5
+2021,side,outside,75% to <100%,660,0.753017676767677,0.75,0.75
+2021,side,outside,25% to <50%,338,0.253994082840237,0.25,0.25
+2021,side,outside,0%,977,0,0,Inf
+2021,side,outside,>0% and <25%,10,0.173333333333333,0.166666666666667,0.166666666666667
+2021,side,inside,100%,39532,1,1,1
+2021,side,inside,50% to <75%,21,0.5,0.5,0.5
+2021,side,inside,0%,27,0,0,Inf
+2021,side,inside,75% to <100%,21,0.75,0.75,0.75
+2021,side,inside,25% to <50%,10,0.25,0.25,0.25
+2021,landscape_group,1,100%,121320,1,1,1
+2021,landscape_group,1,50% to <75%,684,0.503557504873294,0.5,0.5
+2021,landscape_group,1,75% to <100%,515,0.752556634304207,0.75,0.75
+2021,landscape_group,1,25% to <50%,239,0.254672245467225,0.25,0.25
+2021,landscape_group,1,0%,748,0,0,Inf
+2021,landscape_group,3,100%,80877,1,1,1
+2021,landscape_group,1,>0% and <25%,7,0.171428571428571,0.166666666666667,0.166666666666667
+2021,landscape_group,3,25% to <50%,2,0.291666666666667,0.291666666666667,0.25
+2021,landscape_group,3,50% to <75%,7,0.514285714285714,0.5,0.5
+2021,landscape_group,3,75% to <100%,10,0.75,0.75,0.75
+2021,landscape_group,2,100%,43283,1,1,1
+2021,landscape_group,2,50% to <75%,221,0.506033182503771,0.5,0.5
+2021,landscape_group,2,25% to <50%,107,0.251401869158879,0.25,0.25
+2021,landscape_group,2,0%,254,0,0,Inf
+2021,landscape_group,2,75% to <100%,156,0.754326923076923,0.75,0.75
+2021,landscape_group,2,>0% and <25%,3,0.177777777777778,0.166666666666667,0.166666666666667
+2021,landscape_group,3,0%,2,0,0,Inf
+2021,governance_profile,Park dominant,100%,202197,1,1,1
+2021,governance_profile,Park dominant,50% to <75%,691,0.503666184273999,0.5,0.5
+2021,governance_profile,Park dominant,75% to <100%,525,0.752507936507937,0.75,0.75
+2021,governance_profile,Park dominant,25% to <50%,241,0.254979253112033,0.25,0.25
+2021,governance_profile,Park dominant,0%,750,0,0,Inf
+2021,governance_profile,Park dominant,>0% and <25%,7,0.171428571428571,0.166666666666667,0.166666666666667
+2022,complete_study_domain,all,100%,245480,1,1,1
+2022,complete_study_domain,all,50% to <75%,912,0.504239766081871,0.5,0.5
+2022,complete_study_domain,all,75% to <100%,681,0.752924620655898,0.75,0.75
+2022,complete_study_domain,all,25% to <50%,348,0.253879310344828,0.25,0.25
+2022,complete_study_domain,all,0%,1004,0,0,Inf
+2022,complete_study_domain,all,>0% and <25%,10,0.173333333333333,0.166666666666667,0.166666666666667
+2022,primary_10km,all,100%,44709,1,1,1
+2022,primary_10km,all,25% to <50%,19,0.258771929824561,0.25,0.25
+2022,primary_10km,all,0%,60,0,0,Inf
+2022,primary_10km,all,50% to <75%,61,0.5,0.5,0.5
+2022,primary_10km,all,75% to <100%,47,0.75,0.75,0.75
+2022,primary_10km,all,>0% and <25%,1,0.166666666666667,0.166666666666667,0.166666666666667
+2022,side,outside,100%,205948,1,1,1
+2022,side,outside,50% to <75%,891,0.504339693228582,0.5,0.5
+2022,side,outside,75% to <100%,660,0.753017676767677,0.75,0.75
+2022,side,outside,25% to <50%,338,0.253994082840237,0.25,0.25
+2022,side,outside,0%,977,0,0,Inf
+2022,side,outside,>0% and <25%,10,0.173333333333333,0.166666666666667,0.166666666666667
+2022,side,inside,100%,39532,1,1,1
+2022,side,inside,50% to <75%,21,0.5,0.5,0.5
+2022,side,inside,0%,27,0,0,Inf
+2022,side,inside,75% to <100%,21,0.75,0.75,0.75
+2022,side,inside,25% to <50%,10,0.25,0.25,0.25
+2022,landscape_group,1,100%,121320,1,1,1
+2022,landscape_group,1,50% to <75%,684,0.503557504873294,0.5,0.5
+2022,landscape_group,1,75% to <100%,515,0.752556634304207,0.75,0.75
+2022,landscape_group,1,25% to <50%,239,0.254672245467225,0.25,0.25
+2022,landscape_group,1,0%,748,0,0,Inf
+2022,landscape_group,3,100%,80877,1,1,1
+2022,landscape_group,1,>0% and <25%,7,0.171428571428571,0.166666666666667,0.166666666666667
+2022,landscape_group,3,25% to <50%,2,0.291666666666667,0.291666666666667,0.25
+2022,landscape_group,3,50% to <75%,7,0.514285714285714,0.5,0.5
+2022,landscape_group,3,75% to <100%,10,0.75,0.75,0.75
+2022,landscape_group,2,100%,43283,1,1,1
+2022,landscape_group,2,50% to <75%,221,0.506033182503771,0.5,0.5
+2022,landscape_group,2,25% to <50%,107,0.251401869158879,0.25,0.25
+2022,landscape_group,2,0%,254,0,0,Inf
+2022,landscape_group,2,75% to <100%,156,0.754326923076923,0.75,0.75
+2022,landscape_group,2,>0% and <25%,3,0.177777777777778,0.166666666666667,0.166666666666667
+2022,landscape_group,3,0%,2,0,0,Inf
+2022,governance_profile,Park dominant,100%,202197,1,1,1
+2022,governance_profile,Park dominant,50% to <75%,691,0.503666184273999,0.5,0.5
+2022,governance_profile,Park dominant,75% to <100%,525,0.752507936507937,0.75,0.75
+2022,governance_profile,Park dominant,25% to <50%,241,0.254979253112033,0.25,0.25
+2022,governance_profile,Park dominant,0%,750,0,0,Inf
+2022,governance_profile,Park dominant,>0% and <25%,7,0.171428571428571,0.166666666666667,0.166666666666667

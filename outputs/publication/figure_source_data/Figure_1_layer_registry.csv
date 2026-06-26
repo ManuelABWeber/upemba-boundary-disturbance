@@ -1,0 +1,6 @@
+layer,source_path,CRS,role,sensitivity_classification,displayed
+Landscape groups,run_2026_05_27/SESU_ID_500m.tif,EPSG:32735 transformed to EPSG:4326 for display,landscape fill,authoritative,TRUE
+Primary 10 km corridor,run_2026_05_27/SESU_covariates_500m.tif,EPSG:32735 transformed to EPSG:4326 for display,primary spatial estimand overlay,authoritative,TRUE
+Permanent-water features,run_2026_05_27/SESU_covariates_500m.tif,EPSG:32735 transformed to EPSG:4326 for display,major water display,supporting,TRUE
+Legal park boundary,data/PA_designations.shp,EPSG:4326 display,legal boundary,supporting,TRUE
+Study-area outline,data/studyarea_chapter1.geojson,EPSG:4326 display,analysis extent,supporting,TRUE

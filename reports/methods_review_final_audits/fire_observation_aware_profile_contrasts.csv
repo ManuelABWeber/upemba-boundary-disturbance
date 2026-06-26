@@ -1,0 +1,4 @@
+governance_profile,estimate,standard_error,lower_95_ci,upper_95_ci,model,diagnostic_model_triggered,status,frozen_estimate,frozen_standard_error,difference_from_frozen,absolute_difference_from_frozen,interpretation_change
+Militia dominant,2.59764796363256,,,,observation_aware_fire_tau025_10km,TRUE,fit_completed_bfgs_diagnostic_audit_only,0.0107091233715076,0.0330098626703633,2.58693884026105,2.58693884026105,interpretation changed
+Neither actor dominant,1.80672636965673,,,,observation_aware_fire_tau025_10km,TRUE,fit_completed_bfgs_diagnostic_audit_only,0.170288429758373,0.0297450591051261,1.63643793989836,1.63643793989836,interpretation changed
+Park dominant,2.30726639462143,,,,observation_aware_fire_tau025_10km,TRUE,fit_completed_bfgs_diagnostic_audit_only,0.0678282180423288,0.0305524668753538,2.2394381765791,2.2394381765791,interpretation changed

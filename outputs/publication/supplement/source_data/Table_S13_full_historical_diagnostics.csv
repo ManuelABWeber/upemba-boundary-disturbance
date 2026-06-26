@@ -1,0 +1,361 @@
+Outcome,Diagnostic type,Scenario,Profile or comparison,Estimate,Lower 95%,Upper 95%,Domain,Model implementation,Interpretation
+Agricultural expansion,landscape-specific estimates,Depression,Militia-centred control,0.121886108403553,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Agricultural expansion,landscape-specific estimates,Depression,Fragmented control,0.50123627669277,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Agricultural expansion,landscape-specific estimates,Depression,Park-centred control,-0.521259435317188,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Depression,Militia-centred control,-1.77110834177277,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Depression,Fragmented control,-0.742989646378223,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Depression,Park-centred control,-2.590601861582,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Depression,Militia-centred control,-0.167613478684898,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Depression,Fragmented control,-0.0313746932894314,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Depression,Park-centred control,-0.216156094535368,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Agricultural expansion,landscape-specific estimates,Plateau,Militia-centred control,-6.65613129234087,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Agricultural expansion,landscape-specific estimates,Plateau,Fragmented control,-7.90722524881635,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Agricultural expansion,landscape-specific estimates,Plateau,Park-centred control,-8.26842459404328,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Plateau,Militia-centred control,-14.3063339330161,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Plateau,Fragmented control,-3.35481429485978,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Tree-cover loss,landscape-specific estimates,Plateau,Park-centred control,-4.50015930756088,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Plateau,Militia-centred control,0.335452867763578,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Plateau,Fragmented control,0.493562490790199,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,landscape-specific estimates,Plateau,Park-centred control,0.348773057912947,,,landscape-specific complete-landscape diagnostic,beta-binomial unresolved,landscape-specific diagnostic; not primary
+Fire,transition-year shift,T1_earlier,Fragmented control,0.195328133463174,0.0886598532805834,0.301996413645765,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_earlier,Militia-centred control,0.062434345990589,-0.0477917226878059,0.172660414668984,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_earlier,Park-centred control,0.118596668732216,0.0130398172472079,0.224153520217224,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_earlier,Fragmented control,-0.865426974633052,-1.05465853194315,-0.676195417322954,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_earlier,Militia-centred control,-2.14069110268341,-2.62137030918244,-1.66001189618439,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_earlier,Park-centred control,-3.31628967733046,-3.80925813013574,-2.82332122452518,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_earlier,Fragmented control,0.478472014689385,0.216904554147077,0.740039475231693,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_earlier,Militia-centred control,0.112290817590017,-0.082574497554193,0.307156132734227,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_earlier,Park-centred control,-0.553580970529677,-0.789226468029075,-0.317935473030278,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_later,Fragmented control,0.182592291204842,0.0823302191561608,0.282854363253523,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_later,Militia-centred control,0.0577720653103265,-0.0618255913729522,0.177369721993605,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_later,Park-centred control,0.118596303649391,0.0127893696332042,0.224403237665578,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_later,Fragmented control,-0.898381011019388,-1.08249011965196,-0.71427190238682,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_later,Militia-centred control,-2.39929074901258,-2.99580177351011,-1.80277972451505,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_later,Park-centred control,-3.31707250066248,-3.81021020859065,-2.82393479273432,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_later,Fragmented control,0.417858013092714,0.19481595022105,0.640900075964378,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_later,Militia-centred control,0.0743278230439114,-0.144627478254324,0.293283124342147,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_later,Park-centred control,-0.553814518996843,-0.789483015375269,-0.318146022618418,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_omit_first_new_year,Fragmented control,0.192955028712201,0.0887204425975405,0.297189614826861,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_omit_first_new_year,Militia-centred control,0.0577623808236798,-0.0627611877808251,0.178285949428185,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T1_omit_first_new_year,Park-centred control,0.118575296937177,0.011948465995843,0.22520212787851,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_omit_first_new_year,Fragmented control,-0.91949990349589,-1.10747238824981,-0.731527418741972,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_omit_first_new_year,Militia-centred control,-2.39934236387486,-2.99584566246258,-1.80283906528714,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T1_omit_first_new_year,Park-centred control,-3.31630001300939,-3.80924029244264,-2.82335973357614,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_omit_first_new_year,Fragmented control,0.458001095462704,0.204441925472806,0.711560265452601,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_omit_first_new_year,Militia-centred control,0.0742819112188679,-0.144675054766268,0.293238877204004,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T1_omit_first_new_year,Park-centred control,-0.553799830048768,-0.78946981393481,-0.318129846162725,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_earlier,Fragmented control,0.171382963992263,0.0705878473376448,0.272178080646882,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_earlier,Militia-centred control,0.0737367978981097,-0.0464865835247744,0.193960179320994,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_earlier,Park-centred control,0.118579268512643,0.0122052581728277,0.224953278852458,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_earlier,Fragmented control,-0.959201735518615,-1.14687613616584,-0.771527334871391,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_earlier,Militia-centred control,-1.97581517842731,-2.47260907828552,-1.47902127856909,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_earlier,Park-centred control,-3.31604893022262,-3.80896190437434,-2.82313595607089,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_earlier,Fragmented control,0.226408448469623,-0.0228981638857864,0.475715060825033,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_earlier,Militia-centred control,0.235697148867062,0.0357968184767544,0.43559747925737,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_earlier,Park-centred control,-0.553856377469458,-0.789529772342857,-0.31818298259606,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_later,Fragmented control,0.19471268958239,0.08791950727406,0.301505871890719,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_later,Militia-centred control,0.0633220444962163,-0.0468518603054569,0.17349594929789,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_later,Park-centred control,0.118597794287316,0.0130015695879725,0.22419401898666,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_later,Fragmented control,-0.888699313115132,-1.07776048072799,-0.699638145502278,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_later,Militia-centred control,-2.09601609033917,-2.57703528205041,-1.61499689862793,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_later,Park-centred control,-3.31574046647915,-3.80856463900947,-2.82291629394883,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_later,Fragmented control,0.570183504313922,0.310501386776097,0.829865621851746,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_later,Militia-centred control,0.0708870024575242,-0.125271138253378,0.267045143168426,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_later,Park-centred control,-0.553423766012456,-0.789046547185222,-0.31780098483969,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_omit_first_new_year,Fragmented control,0.19467737730716,0.0868349656771907,0.302519788937129,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_omit_first_new_year,Militia-centred control,0.0548067911770265,-0.0608657822961908,0.170479364650244,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T2_omit_first_new_year,Park-centred control,0.118576819305389,0.0119420847276649,0.225211553883113,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_omit_first_new_year,Fragmented control,-0.888690316360373,-1.07774151136059,-0.699639121360153,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_omit_first_new_year,Militia-centred control,-2.0726772661954,-2.56873903455708,-1.57661549783373,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T2_omit_first_new_year,Park-centred control,-3.31579435651617,-3.80863973855178,-2.82294897448055,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_omit_first_new_year,Fragmented control,0.569782394739394,0.310076185711783,0.829488603767005,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_omit_first_new_year,Militia-centred control,0.110675905479086,-0.0876944691159168,0.309046280074089,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T2_omit_first_new_year,Park-centred control,-0.55366870126148,-0.78931662819687,-0.31802077432609,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_earlier,Fragmented control,0.217566559095409,0.11218572823809,0.322947389952727,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_earlier,Militia-centred control,0.0390041829862146,-0.0696789140206887,0.147687279993118,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_earlier,Park-centred control,0.118628639909674,0.0144658786718935,0.222791401147454,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_earlier,Fragmented control,-1.23609266096686,-1.48008347019961,-0.99210185173411,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_earlier,Militia-centred control,-1.05314432047023,-1.30517265324907,-0.80111598769139,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_earlier,Park-centred control,-3.31595211349228,-3.80883590308279,-2.82306832390177,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_earlier,Fragmented control,0.351514752647027,0.0799139208116711,0.623115584482382,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_earlier,Militia-centred control,0.176368987187755,-0.0143272031729844,0.367065177548494,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_earlier,Park-centred control,-0.55379101792331,-0.789475697268777,-0.318106338577844,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_later,Fragmented control,0.155338693997216,0.0541003100510759,0.256577077943356,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_later,Militia-centred control,0.0964371218089206,-0.024560602208725,0.217434845826566,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_later,Park-centred control,0.118575367431675,0.0116326644021544,0.225518070461195,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_later,Fragmented control,-0.939545303654692,-1.12493842425297,-0.754152183056418,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_later,Militia-centred control,-2.17017331299045,-2.72050687047472,-1.61983975550619,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_later,Park-centred control,-3.31646531209461,-3.80926583331552,-2.8236647908737,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_later,Fragmented control,0.502599380573873,0.284072415872617,0.721126345275129,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_later,Militia-centred control,-0.00408439208967026,-0.22845280527226,0.220284021092919,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_later,Park-centred control,-0.553855500907082,-0.789523926434263,-0.3181870753799,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_omit_first_new_year,Fragmented control,0.193049598428596,0.0922655157566918,0.2938336811005,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_omit_first_new_year,Militia-centred control,0.0965139687113964,-0.020132953036834,0.213160890459627,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T3_omit_first_new_year,Park-centred control,0.11864861604114,0.0155549744358212,0.221742257646459,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_omit_first_new_year,Fragmented control,-0.919654750039671,-1.10763566860422,-0.731673831475121,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_omit_first_new_year,Militia-centred control,-2.16821477738282,-2.71793346272718,-1.61849609203847,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T3_omit_first_new_year,Park-centred control,-3.31586472281533,-3.80865820536085,-2.82307124026981,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_omit_first_new_year,Fragmented control,0.457676060249403,0.204121341323797,0.71123077917501,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_omit_first_new_year,Militia-centred control,-0.00386227210382517,-0.228210787511215,0.220486243303565,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T3_omit_first_new_year,Park-centred control,-0.553742059411897,-0.7893962397195,-0.318087879104294,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_earlier,Fragmented control,0.192978653165159,0.0896823278726346,0.296274978457684,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_earlier,Militia-centred control,0.065620321935423,-0.0538938575694037,0.18513450144025,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_earlier,Park-centred control,0.106626896508576,0.00439333230137254,0.208860460715779,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_earlier,Fragmented control,-0.919178183986363,-1.10716030680471,-0.731196061168017,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_earlier,Militia-centred control,-2.02852636378185,-2.56052449045632,-1.49652823710737,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_earlier,Park-centred control,-3.24424387516612,-3.71003429631287,-2.77845345401937,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_earlier,Fragmented control,0.457505891486238,0.203949069225349,0.711062713747128,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_earlier,Militia-centred control,0.0713258954974781,-0.150053874032139,0.292705665027095,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_earlier,Park-centred control,-0.413845538944505,-0.621659464937786,-0.206031612951224,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_later,Fragmented control,0.193029409550853,0.0913619554640733,0.294696863637632,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_later,Militia-centred control,0.0197911674801564,-0.0887414085819982,0.128323743542311,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_later,Park-centred control,0.157847254507236,0.0500547528926272,0.265639756121844,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_later,Fragmented control,-0.919508278706306,-1.10750881283269,-0.73150774457992,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_later,Militia-centred control,-2.2316165999928,-2.71184933392581,-1.75138386605979,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_later,Park-centred control,-3.30733305509081,-3.81656749740326,-2.79809861277835,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_later,Fragmented control,0.457284284126465,0.20369345259704,0.71087511565589,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_later,Militia-centred control,0.00253445263765667,-0.177517990183674,0.182586895458987,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_later,Park-centred control,-0.609115307341091,-0.889978157003117,-0.328252457679064,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_omit_first_new_year,Fragmented control,0.193075497689353,0.0931646073808367,0.292986387997869,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_omit_first_new_year,Militia-centred control,0.0548551888098017,-0.0560108252865639,0.165721202906167,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T4_omit_first_new_year,Park-centred control,0.157885632078375,0.0519576584153792,0.263813605741371,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_omit_first_new_year,Fragmented control,-0.919068472536394,-1.1070130318359,-0.731123913236887,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_omit_first_new_year,Militia-centred control,-2.0722481539033,-2.56819061776076,-1.57630569004585,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T4_omit_first_new_year,Park-centred control,-3.30837424263035,-3.81783258630902,-2.79891589895168,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_omit_first_new_year,Fragmented control,0.456586839879256,0.202909711309883,0.71026396844863,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_omit_first_new_year,Militia-centred control,0.110807312847901,-0.0875540816585255,0.309168707354328,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T4_omit_first_new_year,Park-centred control,-0.608660269226061,-0.889476223423166,-0.327844315028957,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_earlier,Fragmented control,0.169695626230923,0.0622488122998184,0.277142440162027,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_earlier,Militia-centred control,0.0893400300409622,-0.0223581660990865,0.201038226181011,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_earlier,Park-centred control,0.118573581841423,0.0119280654857682,0.225219098197077,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_earlier,Fragmented control,-0.897475915094545,-1.08537533148541,-0.709576498703678,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_earlier,Militia-centred control,-2.12480008715367,-2.62098754196041,-1.62861263234693,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_earlier,Park-centred control,-3.31621859659457,-3.80917742935822,-2.82325976383091,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_earlier,Fragmented control,0.457597411292083,0.204061877950935,0.71113294463323,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_earlier,Militia-centred control,0.110359111898437,-0.0880454846911665,0.30876370848804,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_earlier,Park-centred control,-0.553974957753998,-0.789660526732987,-0.318289388775009,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_later,Fragmented control,0.212139778616544,0.113550039977347,0.31072951725574,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_later,Militia-centred control,0.0175476681063297,-0.099088695078475,0.134184031291134,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_later,Park-centred control,0.118637552400835,0.0149657583349616,0.222309346466708,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_later,Fragmented control,-0.925215084803178,-1.11320128618328,-0.737228883423077,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_later,Militia-centred control,-2.05919861620392,-2.55540456570964,-1.56299266669819,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_later,Park-centred control,-3.31644260818378,-3.80947637559626,-2.8234088407713,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_later,Fragmented control,0.457233011012647,0.203647022189728,0.710818999835565,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_later,Militia-centred control,0.110647187968812,-0.0877297978176743,0.309024173755298,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_later,Park-centred control,-0.553579923614753,-0.789221840082974,-0.317938007146532,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_omit_first_new_year,Fragmented control,0.193044580224059,0.0919947115181168,0.294094448930001,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_omit_first_new_year,Militia-centred control,0.0175501947062839,-0.098742255509108,0.133842644921676,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T5_omit_first_new_year,Park-centred control,0.118641189767395,0.0152753823107219,0.222006997224068,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_omit_first_new_year,Fragmented control,-0.91942710460687,-1.10740493674502,-0.731449272468716,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_omit_first_new_year,Militia-centred control,-2.05843928407606,-2.55450621628415,-1.56237235186796,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T5_omit_first_new_year,Park-centred control,-3.31610292142267,-3.80901882543645,-2.8231870174089,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_omit_first_new_year,Fragmented control,0.457194843547786,0.203589222701644,0.710800464393927,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_omit_first_new_year,Militia-centred control,0.110288273281659,-0.0881314313773819,0.308707977940701,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T5_omit_first_new_year,Park-centred control,-0.553716139820036,-0.789374489790864,-0.318057789849208,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_earlier,Fragmented control,0.199099875242077,0.0996698099704464,0.298529940513707,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_earlier,Militia-centred control,0.0350727929749668,-0.0830199761044834,0.153165562054417,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_earlier,Park-centred control,0.118612307899558,0.0138838709367103,0.223340744862407,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_earlier,Fragmented control,-0.937716888700049,-1.12572492219741,-0.749708855202688,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_earlier,Militia-centred control,-2.02646474483033,-2.52272864738039,-1.53020084228028,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_earlier,Park-centred control,-3.31722231813595,-3.81041101754859,-2.82403361872331,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_earlier,Fragmented control,0.457312668861605,0.203735387259869,0.710889950463341,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_earlier,Militia-centred control,0.110631779057721,-0.0877497411876081,0.309013299303049,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_earlier,Park-centred control,-0.553620588279547,-0.78927070472457,-0.317970471834525,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_later,Fragmented control,0.182633484674804,0.0753718772098428,0.289895092139765,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_later,Militia-centred control,0.0759715972626117,-0.034904080049921,0.186847274575144,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_later,Park-centred control,0.118587433763468,0.012418693116801,0.224756174410135,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_later,Fragmented control,-0.905311152592472,-1.09396833281573,-0.716653972369215,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_later,Militia-centred control,-2.06612766804651,-2.54794384759817,-1.58431148849486,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_later,Park-centred control,-3.31635311095044,-3.80941561888559,-2.82329060301529,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_later,Fragmented control,0.471335314691132,0.217946155012305,0.72472447436996,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_later,Militia-centred control,0.103661247531533,-0.0947974108855613,0.302119905948627,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_later,Park-centred control,-0.553779215885915,-0.789442472759409,-0.318115959012421,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_omit_first_new_year,Fragmented control,0.182632269707032,0.0752284391556801,0.290036100258383,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_omit_first_new_year,Militia-centred control,0.0548105069300644,-0.0605098408874894,0.170130854747618,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T6_omit_first_new_year,Park-centred control,0.118581925416049,0.0122722466960951,0.224891604136003,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_omit_first_new_year,Fragmented control,-0.918510942857618,,,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_omit_first_new_year,Militia-centred control,-2.06447649642217,,,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T6_omit_first_new_year,Park-centred control,-3.2956794384494,,,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_omit_first_new_year,Fragmented control,0.471007193696967,0.217588126319746,0.724426261074189,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_omit_first_new_year,Militia-centred control,0.110540742239944,-0.0878469167450719,0.30892840122496,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T6_omit_first_new_year,Park-centred control,-0.553641766785099,-0.789289257873723,-0.317994275696476,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_earlier,Fragmented control,0.174330127881409,0.0676928880014679,0.28096736776135,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_earlier,Militia-centred control,0.0548138646140214,-0.0600588158915884,0.169686545119631,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_earlier,Park-centred control,0.140207861684932,0.037369524606851,0.243046198763013,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_earlier,Fragmented control,-0.867843746504083,-1.056989453578,-0.678698039430162,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_earlier,Militia-centred control,-2.07373546471079,-2.57416643546648,-1.57330449395509,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_earlier,Park-centred control,-3.29735743681568,-3.77673123553691,-2.81798363809446,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_earlier,Fragmented control,0.457363019819669,0.204119863580045,0.710606176059294,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_earlier,Militia-centred control,0.110808275908685,-0.0874999953377865,0.309116547155157,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_earlier,Park-centred control,-0.553511508742729,-0.789156880771549,-0.31786613671391,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_later,Fragmented control,0.199266795556255,0.0995553650540446,0.298978226058464,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_later,Militia-centred control,0.0548212465956067,-0.0591985347795152,0.168841027970729,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_later,Park-centred control,0.105959373146965,-0.00273764739136527,0.214656393685295,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_later,Fragmented control,-0.953527420645376,-1.14160838088516,-0.765446460405594,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_later,Militia-centred control,-2.0732336841548,-2.56958280728415,-1.57688456102545,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_later,Park-centred control,-3.29051279178749,-3.78351686502836,-2.79750871854662,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_later,Fragmented control,0.450492339937159,0.196903061167662,0.704081618706655,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_later,Militia-centred control,0.11046917506677,-0.0879135092497395,0.30885185938328,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_later,Park-centred control,-0.550612076857398,-0.786217768278221,-0.315006385436575,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_omit_first_new_year,Fragmented control,0.192963953762486,0.0891750695999605,0.296752837925011,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_omit_first_new_year,Militia-centred control,0.0548075897796324,-0.0603619161198036,0.169977095679068,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T7_omit_first_new_year,Park-centred control,0.105935482016888,-0.00385859457347684,0.215729558607253,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_omit_first_new_year,Fragmented control,-0.919447259190761,-1.10743316897837,-0.731461349403152,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_omit_first_new_year,Militia-centred control,-2.07055003684574,-2.56637683172587,-1.57472324196561,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T7_omit_first_new_year,Park-centred control,-3.28956195026112,-3.78232918895725,-2.796794711565,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_omit_first_new_year,Fragmented control,0.456996234899323,0.203384575358791,0.710607894439854,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_omit_first_new_year,Militia-centred control,0.110351483212789,-0.0880453990869141,0.308748365512492,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T7_omit_first_new_year,Park-centred control,-0.550870960230327,-0.786542205759656,-0.315199714700998,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_earlier,Fragmented control,0.192979106361127,0.089678855126544,0.29627935759571,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_earlier,Militia-centred control,0.0691234869814121,-0.0413803166279759,0.1796272905908,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_earlier,Park-centred control,0.109015143785899,-0.000234255127115807,0.218264542698913,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_earlier,Fragmented control,-0.919485089818808,-1.10747270908619,-0.731497470551428,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_earlier,Militia-centred control,-2.04227707184055,-2.49864427111131,-1.58590987256978,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_earlier,Park-centred control,-3.47865899934825,-4.02440008805613,-2.93291791064038,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_earlier,Fragmented control,0.457228695101041,0.203655748892173,0.71080164130991,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_earlier,Militia-centred control,0.110257289383843,-0.0881495218274977,0.308664100595183,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_earlier,Park-centred control,-0.553893376994878,-0.789571271771207,-0.318215482218548,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_later,Fragmented control,0.192990227045571,0.0899563226744643,0.296024131416679,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_later,Militia-centred control,0.05038946594302,-0.0685248467649666,0.169303778651007,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_later,Park-centred control,0.118018689232946,0.0158486333274394,0.220188745138453,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_later,Fragmented control,-0.91984689598119,-1.10786310383428,-0.731830688128098,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_later,Militia-centred control,-2.04471526375436,-2.54159254062973,-1.54783798687899,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_later,Park-centred control,-3.32501230759687,-3.81847645143064,-2.83154816376311,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_later,Fragmented control,0.457669298729018,0.204123163682005,0.711215433776032,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_later,Militia-centred control,0.110472836700155,-0.0879179851156048,0.308863658515914,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_later,Park-centred control,-0.553903544676472,-0.789583476220692,-0.318223613132252,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_omit_first_new_year,Fragmented control,0.19295337296489,0.0887380596378457,0.297168686291934,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_omit_first_new_year,Militia-centred control,0.0503842883911324,-0.0698933385444887,0.170661915326753,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T8_omit_first_new_year,Park-centred control,0.118577381462224,0.0119702749347601,0.225184487989687,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_omit_first_new_year,Fragmented control,-0.919444647405789,-1.10742038076261,-0.73146891404897,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_omit_first_new_year,Militia-centred control,-2.0439658069692,-2.54001643438521,-1.54791517955319,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T8_omit_first_new_year,Park-centred control,-3.31610635127583,-3.80900023892017,-2.82321246363149,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_omit_first_new_year,Fragmented control,0.457363742152852,0.203785466886545,0.710942017419159,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_omit_first_new_year,Militia-centred control,0.110428990676486,-0.0879675720272899,0.308825553380263,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T8_omit_first_new_year,Park-centred control,-0.553799123215681,-0.789462502600745,-0.318135743830616,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_earlier,Fragmented control,0.193006418898347,0.0905076617543899,0.295505176042304,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_earlier,Militia-centred control,0.0305963284707315,-0.0876325262782288,0.148825183219692,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_earlier,Park-centred control,0.132718280005066,0.0310263830476381,0.234410176962495,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_earlier,Fragmented control,-0.919386757208105,-1.10736955445181,-0.731403959964401,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_earlier,Militia-centred control,-2.01818456629541,-2.51426906180802,-1.52210007078279,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_earlier,Park-centred control,-3.33198812088596,-3.82497768124736,-2.83899856052455,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_earlier,Fragmented control,0.457250727235734,0.203665353184578,0.710836101286889,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_earlier,Militia-centred control,0.117526448657965,-0.0807840362073036,0.315836933523234,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_earlier,Park-centred control,-0.559904284916182,-0.795628352184875,-0.324180217647489,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_later,Fragmented control,0.192974994967677,0.0895974878701707,0.296352502065183,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_later,Militia-centred control,0.0753330179017305,-0.0351802209659339,0.185846256769395,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_later,Park-centred control,0.102980886856939,-0.0064176153400797,0.212379389053958,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_later,Fragmented control,-0.919072906032578,-1.10700382942744,-0.73114198263772,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_later,Militia-centred control,-2.16735915508576,-2.66342096007783,-1.67129735009368,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_later,Park-centred control,-3.28674751259079,-3.77985471846333,-2.79364030671825,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_later,Fragmented control,0.457865815922169,0.204412967713234,0.711318664131104,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_later,Militia-centred control,0.107511628754625,-0.0908652420995256,0.305888499608776,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_later,Park-centred control,-0.550649351742928,-0.786307006514108,-0.314991696971748,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_omit_first_new_year,Fragmented control,0.192969150267252,0.0894172608483334,0.296521039686171,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_omit_first_new_year,Militia-centred control,0.0548119417532789,-0.0600945241519118,0.16971840765847,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,transition-year shift,T9_omit_first_new_year,Park-centred control,0.102976825705779,-0.00660638597835248,0.212560037389911,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_omit_first_new_year,Fragmented control,-0.919382496292677,-1.10736274464383,-0.731402247941524,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_omit_first_new_year,Militia-centred control,-2.07282989867064,-2.56890738065748,-1.5767524166838,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,transition-year shift,T9_omit_first_new_year,Park-centred control,-3.28638447752936,-3.77939695450867,-2.79337200055004,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_omit_first_new_year,Fragmented control,0.459096792533174,0.205638504510813,0.712555080555535,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_omit_first_new_year,Militia-centred control,0.110310262880565,-0.0881013956811606,0.30872192144229,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,transition-year shift,T9_omit_first_new_year,Park-centred control,-0.551134491914257,-0.786827528001276,-0.315441455827238,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Fragmented control,0.238937674451914,0.123927989272986,0.353947359630841,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Militia-centred control,0.0548098290367287,-0.0605567083141308,0.170176366387588,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Park-centred control,0.118580019784982,0.012227656839039,0.224932382730926,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Fragmented control,-0.930039986919302,-1.1415984126703,-0.718481561168303,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Militia-centred control,-2.07291974753572,-2.56905695117024,-1.5767825439012,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Park-centred control,-3.31610969607121,-3.80899929974527,-2.82322009239716,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Fragmented control,0.587906047861677,0.301213612896538,0.874598482826815,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Militia-centred control,0.11021743746419,-0.0881924173360955,0.308627292264476,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2001_2003,Park-centred control,-0.55393928661135,-0.789629807319809,-0.318248765902891,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Fragmented control,0.19290585593606,0.0871875329659296,0.29862417890619,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Militia-centred control,0.0911498472981968,-0.0429665886941619,0.225266283290556,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Park-centred control,0.118544885178744,0.010398744286959,0.226691026070529,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Fragmented control,-0.919447432859155,-1.10742792504511,-0.731466940673203,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Militia-centred control,-2.47374687775203,-3.17356330745134,-1.77393044805273,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Park-centred control,-3.31596476207456,-3.8087538774932,-2.82317564665592,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Fragmented control,0.457428010668261,0.203851231396718,0.711004789939803,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Militia-centred control,0.353183059874765,0.126549317205465,0.579816802544065,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2004_2006,Park-centred control,-0.554517255666188,-0.790262732144874,-0.318771779187501,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Fragmented control,0.341067627848715,0.210777742759504,0.471357512937926,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Militia-centred control,0.0548338502935568,-0.0578487371522026,0.167516437739316,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Park-centred control,0.118633258981771,0.0147574557459689,0.222509062217573,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Fragmented control,-1.45640747888402,-1.85276240354681,-1.06005255422123,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Militia-centred control,-2.07260311899363,-2.56872226773617,-1.57648397025108,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Park-centred control,-3.31631867471477,-3.80922229781164,-2.82341505161789,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Fragmented control,-0.0927003302797806,-0.650329538558503,0.464928877998942,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Militia-centred control,0.110447507695964,-0.0879476148138566,0.308842630205784,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Fragmented control_2007_2012,Park-centred control,-0.553737110090664,-0.789398737791374,-0.318075482389954,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Fragmented control,0.193123546942281,0.0948288604727152,0.291418233411846,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Militia-centred control,0.196260477897935,0.0636515728641918,0.328869382931677,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Park-centred control,0.118705077837301,0.0181605266716823,0.219249629002919,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Fragmented control,-0.91915692721939,-1.10710390229904,-0.73120995213974,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Militia-centred control,-2.10844905170094,-2.81310462634481,-1.40379347705707,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Park-centred control,-3.31590430399366,-3.8087004762308,-2.82310813175651,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Fragmented control,0.458253634367429,0.204755392868578,0.71175187586628,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Militia-centred control,-0.515635641304756,-0.93889405040314,-0.0923772322063709,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Militia-centred control_2013_2016,Park-centred control,-0.553743625594816,-0.789384936025726,-0.318102315163906,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Fragmented control,0.193447747216181,0.105908980609002,0.280986513823361,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Militia-centred control,0.055031029583815,-0.0421055687158736,0.152167627883504,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Park-centred control,0.347743349175818,0.231139188514513,0.464347509837123,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Fragmented control,-0.919274829618094,-1.10722811457196,-0.731321544664226,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Militia-centred control,-2.07275557062942,-2.56880935842228,-1.57670178283655,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Park-centred control,-4.50034497625592,-5.63521839302549,-3.36547155948636,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Fragmented control,0.457242036196634,0.203663431608007,0.710820640785261,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Militia-centred control,0.110300046718934,-0.0880979706294924,0.308698064067361,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU1_Park-centred control_2017_2022,Park-centred control,-16.2754905875838,-2155.27657189816,2122.72559072299,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Fragmented control,0.104061398591442,-0.00574878460572006,0.213871581788604,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Militia-centred control,0.0548699284217586,-0.0550260099726953,0.164765866816213,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Park-centred control,0.118686555989064,0.0173821569427784,0.21999095503535,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Fragmented control,-0.891621907183426,-1.07950135500925,-0.703742459357597,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Militia-centred control,-2.0730510278826,-2.56922586878652,-1.57687618697867,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Park-centred control,-3.31609317577757,-3.8090463191969,-2.82314003235824,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Fragmented control,0.464586284194766,0.211123022947955,0.718049545441577,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Militia-centred control,0.110722500631896,-0.0876500290018891,0.30909503026568,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2001_2003,Park-centred control,-0.553727700721203,-0.789384182475971,-0.318071218966434,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Fragmented control,0.193058482558381,0.0925159963951816,0.293600968721581,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Militia-centred control,-0.0386335511946995,-0.164665002913395,0.0873979005239963,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Park-centred control,0.118656794818292,0.0158105774544214,0.221503012182163,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Fragmented control,-0.9193372280941,-1.10730857796811,-0.731365878220089,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Militia-centred control,-1.96087046685594,-2.4567670072618,-1.46497392645009,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Park-centred control,-3.31603404981722,-3.80890476996421,-2.82316332967023,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Fragmented control,0.456844966363822,0.20321726397561,0.710472668752035,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Militia-centred control,0.109827409458833,-0.0886304519564844,0.308285270874151,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2004_2006,Park-centred control,-0.554277264859954,-0.789989420680227,-0.318565109039682,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Fragmented control,0.119428000749775,0.000382780558106269,0.238473220941443,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Militia-centred control,0.0548099702702475,-0.0603483147885291,0.169968255329024,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Park-centred control,0.118586101804813,0.0124259200665848,0.224746283543041,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Fragmented control,-0.774579691463316,-0.973161540158137,-0.575997842768496,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Militia-centred control,-2.07372882651033,-2.60779142968291,-1.53966622333776,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Park-centred control,-3.31639548846098,-3.89348762607568,-2.73930335084628,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Fragmented control,0.492475526732875,0.239363063226008,0.745587990239743,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Militia-centred control,0.110125503008252,-0.0883083592011879,0.308559365217691,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Fragmented control_2007_2010,Park-centred control,-0.553717399577589,-0.78935723630412,-0.318077562851058,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Fragmented control,0.192938670119077,0.0882584101514894,0.297618930086666,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Militia-centred control,0.0547970755957035,-0.0613615090644735,0.170955660255881,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Park-centred control,0.0946892768719157,-0.0200753223036624,0.209453876047494,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Fragmented control,-0.919292415871397,-1.1714108892877,-0.667173942455098,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Militia-centred control,-2.07279154206415,-2.5809737800097,-1.56460930411859,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Park-centred control,-3.45117570631095,-4.02467565833142,-2.87767575429048,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Fragmented control,0.456863485512104,0.203237040790543,0.710489930233664,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Militia-centred control,0.110577578851885,-0.0878051277897656,0.308960285493536,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2011_2012,Park-centred control,-0.550476934002063,-0.786085420726184,-0.314868447277941,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Fragmented control,0.192969462563338,0.0893984697320019,0.296540455394674,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Militia-centred control,-0.0103406992021227,-0.141040386897168,0.120358988492923,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Park-centred control,0.118590431291065,0.0126431018785135,0.224537760703617,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Fragmented control,-0.919435539172306,-1.10742098556629,-0.731450092778322,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Militia-centred control,-1.90339517201994,-2.3989423673269,-1.40784797671298,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Park-centred control,-3.31612404677677,-3.80901120755213,-2.8232368860014,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Fragmented control,0.457546628124888,0.203543811154315,0.71154944509546,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Militia-centred control,0.121300168438164,-0.0770323483715071,0.319632685247835,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Militia-centred control_2013_2015,Park-centred control,-0.553684095554431,-0.789383813182019,-0.317984377926843,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Fragmented control,0.193090284575296,0.093586037364636,0.292594531785956,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Militia-centred control,0.0548596719717513,-0.0555549899894144,0.165274333932917,complete landscape diagnostic,nlminb_default,sensitivity only
+Fire,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Park-centred control,-0.0958630009348002,-0.234901169416889,0.043175167547289,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Fragmented control,-0.919403622241843,-1.1073896612407,-0.731417583242982,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Militia-centred control,-2.07300238780513,-2.56925598796453,-1.57674878764573,complete landscape diagnostic,nlminb_default,sensitivity only
+Tree-cover loss,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Park-centred control,-2.54481505864252,-3.03812286770348,-2.05150724958156,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Fragmented control,0.457041955107013,0.203442602349349,0.710641307864677,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Militia-centred control,0.110520088761633,-0.087881271552936,0.308921449076203,complete landscape diagnostic,nlminb_default,sensitivity only
+Agricultural expansion,leave-one-episode-out,omit_SESU3_Park-centred control_2016_2022,Park-centred control,-0.52320650765297,-0.758577899673027,-0.287835115632914,complete landscape diagnostic,nlminb_default,sensitivity only

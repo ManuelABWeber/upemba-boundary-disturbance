@@ -1,0 +1,3 @@
+year,geometry_agreement,fraction_reference_available,fraction_value_maximum_absolute_difference,rebuilt_lower_fraction_range,tau025_classification_differences,classification_reproduces_exactly
+2021,TRUE,FALSE,,0 to 1,0,TRUE
+2022,TRUE,FALSE,,0 to 1,0,TRUE

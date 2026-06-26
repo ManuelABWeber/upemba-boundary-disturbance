@@ -1,0 +1,3 @@
+year,elapsed_seconds,cropped_native_pixels,target_cells_with_native_pixels,target_cells_with_valid_observations,total_valid_native_pixels,total_burned_native_pixels,max_valid_coverage,min_positive_valid_coverage,max_burned_fraction_among_valid,impossible_burned_gt_valid
+2021,4.07856011390686,1096384,248435,247431,1005911,515976,1,0.166666666666667,1,FALSE
+2022,3.0507709980011,1096384,248435,247431,1005911,501164,1,0.166666666666667,1,FALSE

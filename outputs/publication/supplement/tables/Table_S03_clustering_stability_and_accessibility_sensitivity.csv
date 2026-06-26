@@ -1,0 +1,13 @@
+Metric,Value
+Authoritative near-reproduction ARI,0.99723575428417
+Full label-matched agreement,99.9074%
+10 km agreement,99.8820%
+Differing cells,230
+Differing cells (%),0.0927%
+No-accessibility selected k,3
+No-accessibility k = 3 ARI,0.916026767359794
+No-accessibility full agreement,0.973904643065591
+No-accessibility 10 km agreement,0.967904314319442
+Retained group identity,Depression and Plateau retained
+Outcome-model rerun triggered,No
+Seed-stability rows,25

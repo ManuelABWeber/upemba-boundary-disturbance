@@ -1,0 +1,55 @@
+Outcome,Boundary centre,Boundary role,Profile,Estimate,Lower 95%,Upper 95%,Fit validity,Event support
+Agricultural expansion,0,legal boundary,Fragmented control,0.286485847450869,-0.16429994564532,0.737271640547059,accepted two-stage estimate,518
+Agricultural expansion,0,legal boundary,Militia-centred control,0.221756230967078,-0.048299693024539,0.491812154958695,accepted two-stage estimate,518
+Agricultural expansion,0,legal boundary,Park-centred control,-0.346961114977916,-0.656863988866315,-0.0370582410895171,accepted two-stage estimate,518
+Agricultural expansion,-15,inner descriptive check,Fragmented control,0.33974614689754,-0.0495950738226223,0.729087367617703,accepted two-stage estimate,31
+Agricultural expansion,-15,inner descriptive check,Militia-centred control,0.0699467878795665,-0.262769815284968,0.402663391044101,accepted two-stage estimate,31
+Agricultural expansion,-15,inner descriptive check,Park-centred control,-0.00583579932254547,-0.471028274498896,0.459356675853805,accepted two-stage estimate,31
+Agricultural expansion,-20,inner descriptive check,Fragmented control,1.011304597747,0.818593549436771,1.20401564605723,accepted two-stage estimate,1
+Agricultural expansion,-20,inner descriptive check,Militia-centred control,1.10875388787306,1.08863161504592,1.1288761607002,accepted two-stage estimate,1
+Agricultural expansion,-20,inner descriptive check,Park-centred control,1.0997904891953,1.07740288111309,1.12217809727751,accepted two-stage estimate,1
+Agricultural expansion,20,primary spaced outer boundary,Fragmented control,-0.00217248540697795,-0.446258303608223,0.441913332794267,accepted two-stage estimate,156
+Agricultural expansion,20,primary spaced outer boundary,Militia-centred control,-0.268130430971688,-0.655026020432392,0.118765158489016,accepted two-stage estimate,156
+Agricultural expansion,20,primary spaced outer boundary,Park-centred control,-0.200567225262884,-0.552826670246888,0.15169221972112,accepted two-stage estimate,156
+Agricultural expansion,40,primary spaced outer boundary,Fragmented control,0.269866009129522,-0.0184251641653207,0.558157182424365,accepted two-stage estimate,1214
+Agricultural expansion,40,primary spaced outer boundary,Militia-centred control,0.134127836611575,-0.138601640250463,0.406857313473614,accepted two-stage estimate,1214
+Agricultural expansion,40,primary spaced outer boundary,Park-centred control,-0.103947013761258,-0.483587275964376,0.275693248441859,accepted two-stage estimate,1214
+Agricultural expansion,60,primary spaced outer boundary,Fragmented control,-0.304415461880429,-0.572707387220294,-0.0361235365405632,accepted two-stage estimate,625
+Agricultural expansion,60,primary spaced outer boundary,Militia-centred control,-0.0169684118415356,-0.303810252644162,0.26987342896109,accepted two-stage estimate,625
+Agricultural expansion,60,primary spaced outer boundary,Park-centred control,-0.0488115429276132,-0.266657266666468,0.169034180811242,accepted two-stage estimate,625
+Fire,0,legal boundary,Fragmented control,0.170288429758373,0.111989185194311,0.228587674322435,strict-valid,508320
+Fire,0,legal boundary,Militia-centred control,0.0107091233715076,-0.0539890185970177,0.0754072653400329,strict-valid,508320
+Fire,0,legal boundary,Park-centred control,0.0678282180423288,0.00794648332778246,0.127709952756875,strict-valid,508320
+Fire,-15,inner descriptive check,Fragmented control,0.315731946846911,0.204649370327341,0.426814523366482,strict-valid,363196
+Fire,-15,inner descriptive check,Militia-centred control,0.232153265165478,0.10954424452046,0.354762285810496,strict-valid,363196
+Fire,-15,inner descriptive check,Park-centred control,0.270816656882749,0.157962583125475,0.383670730640023,strict-valid,363196
+Fire,-20,inner descriptive check,Fragmented control,0.248512602181479,0.106593028663109,0.390432175699849,strict-valid,255024
+Fire,-20,inner descriptive check,Militia-centred control,0.0832923175383137,-0.0717579102670896,0.238342545343717,strict-valid,255024
+Fire,-20,inner descriptive check,Park-centred control,0.0601942456792275,-0.0829349246348753,0.20332341599333,strict-valid,255024
+Fire,20,primary spaced outer boundary,Fragmented control,0.422192783824508,,,finite/numerically stable but not strict-valid,426962
+Fire,20,primary spaced outer boundary,Militia-centred control,0.513085650744062,,,finite/numerically stable but not strict-valid,426962
+Fire,20,primary spaced outer boundary,Park-centred control,0.478167602136646,,,finite/numerically stable but not strict-valid,426962
+Fire,40,primary spaced outer boundary,Fragmented control,-0.314434625486242,,,finite/numerically stable but not strict-valid,404121
+Fire,40,primary spaced outer boundary,Militia-centred control,-0.349774515029481,,,finite/numerically stable but not strict-valid,404121
+Fire,40,primary spaced outer boundary,Park-centred control,-0.484491747957798,,,finite/numerically stable but not strict-valid,404121
+Fire,60,primary spaced outer boundary,Fragmented control,-0.147988085708985,-0.220821264593506,-0.0751549068244649,strict-valid,446426
+Fire,60,primary spaced outer boundary,Militia-centred control,-0.207741115149407,-0.288625908833947,-0.126856321464867,strict-valid,446426
+Fire,60,primary spaced outer boundary,Park-centred control,-0.130092966382015,-0.205281533426843,-0.054904399337187,strict-valid,446426
+Tree-cover loss,0,legal boundary,Fragmented control,-0.846081473790374,-1.29294886235021,-0.399214085230542,accepted two-stage estimate,519
+Tree-cover loss,0,legal boundary,Militia-centred control,-0.897845233263081,-1.50861927253348,-0.287071193992687,accepted two-stage estimate,519
+Tree-cover loss,0,legal boundary,Park-centred control,-1.43025410197535,-1.9411127128937,-0.919395491057002,accepted two-stage estimate,519
+Tree-cover loss,-15,inner descriptive check,Fragmented control,0.270553613703501,-0.0420397403850911,0.583146967792093,accepted two-stage estimate,10
+Tree-cover loss,-15,inner descriptive check,Militia-centred control,0.592841245944301,0.350716548596293,0.83496594329231,accepted two-stage estimate,10
+Tree-cover loss,-15,inner descriptive check,Park-centred control,0.54446498369417,0.0615745524827684,1.02735541490557,accepted two-stage estimate,10
+Tree-cover loss,-20,inner descriptive check,Fragmented control,1.09701286442814,1.05423043764327,1.13979529121302,accepted two-stage estimate,2
+Tree-cover loss,-20,inner descriptive check,Militia-centred control,1.10058490251396,1.0545131198111,1.14665668521682,accepted two-stage estimate,2
+Tree-cover loss,-20,inner descriptive check,Park-centred control,1.12052626240255,0.808212767398635,1.43283975740646,accepted two-stage estimate,2
+Tree-cover loss,20,primary spaced outer boundary,Fragmented control,-0.393020074090525,-0.703365125104655,-0.0826750230763947,accepted two-stage estimate,813
+Tree-cover loss,20,primary spaced outer boundary,Militia-centred control,0.131993576123983,-0.333879150998233,0.597866303246198,accepted two-stage estimate,813
+Tree-cover loss,20,primary spaced outer boundary,Park-centred control,-0.417479666537035,-0.664960973713428,-0.169998359360642,accepted two-stage estimate,813
+Tree-cover loss,40,primary spaced outer boundary,Fragmented control,0.377689927454386,0.111408429069681,0.643971425839092,accepted two-stage estimate,1666
+Tree-cover loss,40,primary spaced outer boundary,Militia-centred control,0.177437410388858,-0.29130450393429,0.646179324712006,accepted two-stage estimate,1666
+Tree-cover loss,40,primary spaced outer boundary,Park-centred control,0.50368963867288,0.223077178381729,0.78430209896403,accepted two-stage estimate,1666
+Tree-cover loss,60,primary spaced outer boundary,Fragmented control,-0.0981053814300815,-0.414713598216211,0.218502835356048,accepted two-stage estimate,1525
+Tree-cover loss,60,primary spaced outer boundary,Militia-centred control,0.309460100839968,-0.142883379486212,0.761803581166148,accepted two-stage estimate,1525
+Tree-cover loss,60,primary spaced outer boundary,Park-centred control,-0.0698254843569529,-0.393565929183564,0.253914960469658,accepted two-stage estimate,1525

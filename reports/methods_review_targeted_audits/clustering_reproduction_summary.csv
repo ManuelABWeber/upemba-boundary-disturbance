@@ -1,0 +1,2 @@
+audit,authoritative_script,frozen_reference,k_final,sample_size,sample_seed,final_seed,nstart,ari,raw_agreement,label_matched_agreement,differing_cells,differing_cell_pct,agreement_10km,agreement_inside,agreement_outside,n_cells_compared
+authoritative_clustering_reproduction,scripts/Script 2_SESU clustering.R,run_2026_05_27/SESU_ID_500m.tif,3,20000,42,123,25,0.99723575428417,0.999074204520297,0.999074204520297,230,0.092579547970294,0.998819520235205,0.998813460907324,0.999123663946673,248435

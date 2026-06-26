@@ -1,0 +1,75 @@
+# Local configuration
+.env
+.env.*
+config/paths.local.R
+
+# R local state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local package libraries
+renv/library/
+renv/cache/
+renv/staging/
+renv/local/
+packrat/lib*/
+packrat/src/
+node_modules/
+
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
+*.temp
+*.bak
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Raw and derived data
+data/raw/**
+data/external/**
+data/derived/**
+data/fire/**
+
+# Local caches and render scratch
+.cache/
+temp/
+tmp/
+render_*/
+review_*/
+reports/publication/render_*/
+
+# Generated outputs
+outputs/diagnostics/**
+outputs/_validation/**
+outputs/**/*.log
+
+# Local development material
+backup/
+outdated/
+run_*/
+repository_audit/
+
+# Credentials and environment files
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Local private or restricted material
+private/
+restricted/
+confidential/

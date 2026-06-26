@@ -1,0 +1,109 @@
+outcome,profile_comparison,threshold_tag,spatial_design,estimate,lower_95_ci,upper_95_ci,method,reference_estimate,absolute_deviation_from_reference
+agriculture,Militia dominant minus Neither actor dominant,tau010,all_cells,-0.605630867146762,-1.53212900600512,0.320867271711595,sparse_two_stage_weighted,-0.398847085827351,0.206783781319411
+agriculture,Militia dominant minus Neither actor dominant,tau010,buffer_05km,-0.236371018605322,-0.787978902839063,0.315236865628419,sparse_two_stage_weighted,-0.398847085827351,0.162476067222029
+agriculture,Militia dominant minus Neither actor dominant,tau010,buffer_10km,-0.431176565513295,-0.986745329384665,0.124392198358075,sparse_two_stage_weighted,-0.398847085827351,0.0323294796859437
+agriculture,Militia dominant minus Neither actor dominant,tau010,buffer_20km,-0.3714635856834,-1.01637957538883,0.273452404022028,sparse_two_stage_weighted,-0.398847085827351,0.0273835001439514
+agriculture,Militia dominant minus Neither actor dominant,tau025,all_cells,-0.398847085827351,-0.998456221331338,0.200762049676636,sparse_two_stage_weighted,-0.398847085827351,0
+agriculture,Militia dominant minus Neither actor dominant,tau025,buffer_05km,0.132467259041905,-0.505072006093741,0.770006524177551,sparse_two_stage_weighted,-0.398847085827351,0.531314344869256
+agriculture,Militia dominant minus Neither actor dominant,tau025,buffer_10km,-0.0647296164837915,-0.634439696893608,0.504980463926025,sparse_two_stage_weighted,-0.398847085827351,0.33411746934356
+agriculture,Militia dominant minus Neither actor dominant,tau025,buffer_20km,-0.0240271016441642,-0.564986631702188,0.51693242841386,sparse_two_stage_weighted,-0.398847085827351,0.374819984183187
+agriculture,Militia dominant minus Neither actor dominant,tau050,all_cells,-0.0431145547533576,-0.58194810914122,0.495718999634505,sparse_two_stage_weighted,-0.398847085827351,0.355732531073993
+agriculture,Militia dominant minus Neither actor dominant,tau050,buffer_05km,0.375199287248125,-0.382091060183924,1.13248963468017,sparse_two_stage_weighted,-0.398847085827351,0.774046373075476
+agriculture,Militia dominant minus Neither actor dominant,tau050,buffer_10km,0.330754533523119,-0.129396839696332,0.79090590674257,sparse_two_stage_weighted,-0.398847085827351,0.72960161935047
+agriculture,Militia dominant minus Neither actor dominant,tau050,buffer_20km,0.366723321144146,-0.077529401421235,0.810976043709527,sparse_two_stage_weighted,-0.398847085827351,0.765570406971497
+agriculture,Park dominant minus Militia dominant,tau010,all_cells,-1.15714232368677,-1.72443607704606,-0.589848570327484,sparse_two_stage_weighted,-0.737053934982266,0.420088388704505
+agriculture,Park dominant minus Militia dominant,tau010,buffer_05km,-0.867400319146803,-1.20134773674759,-0.533452901546016,sparse_two_stage_weighted,-0.737053934982266,0.130346384164537
+agriculture,Park dominant minus Militia dominant,tau010,buffer_10km,-0.80639336940205,-1.10967322926358,-0.503113509540518,sparse_two_stage_weighted,-0.737053934982266,0.0693394344197842
+agriculture,Park dominant minus Militia dominant,tau010,buffer_20km,-0.998231626645254,-1.37708541606095,-0.619377837229561,sparse_two_stage_weighted,-0.737053934982266,0.261177691662989
+agriculture,Park dominant minus Militia dominant,tau025,all_cells,-0.737053934982266,-1.15819466277385,-0.31591320719068,sparse_two_stage_weighted,-0.737053934982266,0
+agriculture,Park dominant minus Militia dominant,tau025,buffer_05km,-0.577166485371215,-1.11929278542048,-0.0350401853219516,sparse_two_stage_weighted,-0.737053934982266,0.159887449611051
+agriculture,Park dominant minus Militia dominant,tau025,buffer_10km,-0.568717345944994,-1.00092366706052,-0.136511024829467,sparse_two_stage_weighted,-0.737053934982266,0.168336589037272
+agriculture,Park dominant minus Militia dominant,tau025,buffer_20km,-0.730484727442141,-1.18067329165728,-0.280296163227002,sparse_two_stage_weighted,-0.737053934982266,0.00656920754012513
+agriculture,Park dominant minus Militia dominant,tau050,all_cells,-0.312505290420758,-0.961308377644793,0.336297796803278,sparse_two_stage_weighted,-0.737053934982266,0.424548644561508
+agriculture,Park dominant minus Militia dominant,tau050,buffer_05km,0.579519663662016,-0.203547394290762,1.36258672161479,sparse_two_stage_weighted,-0.737053934982266,1.31657359864428
+agriculture,Park dominant minus Militia dominant,tau050,buffer_10km,0.063959378882952,-0.482861126700113,0.610779884466017,sparse_two_stage_weighted,-0.737053934982266,0.801013313865218
+agriculture,Park dominant minus Militia dominant,tau050,buffer_20km,-0.0625882104183761,-0.607181038670512,0.48200461783376,sparse_two_stage_weighted,-0.737053934982266,0.67446572456389
+agriculture,Park dominant minus Neither actor dominant,tau010,all_cells,-1.76277319083353,-2.52247246318867,-1.0030739184784,sparse_two_stage_weighted,-1.13590102080962,0.626872170023917
+agriculture,Park dominant minus Neither actor dominant,tau010,buffer_05km,-1.10377133775212,-1.58645696238664,-0.621085713117611,sparse_two_stage_weighted,-1.13590102080962,0.0321296830574922
+agriculture,Park dominant minus Neither actor dominant,tau010,buffer_10km,-1.23756993491534,-1.75491558586048,-0.72022428397021,sparse_two_stage_weighted,-1.13590102080962,0.101668914105728
+agriculture,Park dominant minus Neither actor dominant,tau010,buffer_20km,-1.36969521232865,-1.92637802651605,-0.813012398141258,sparse_two_stage_weighted,-1.13590102080962,0.233794191519037
+agriculture,Park dominant minus Neither actor dominant,tau025,all_cells,-1.13590102080962,-1.76510796128768,-0.506694080331551,sparse_two_stage_weighted,-1.13590102080962,0
+agriculture,Park dominant minus Neither actor dominant,tau025,buffer_05km,-0.44469922632931,-1.06351086514251,0.174112412483894,sparse_two_stage_weighted,-1.13590102080962,0.691201794480307
+agriculture,Park dominant minus Neither actor dominant,tau025,buffer_10km,-0.633446962428786,-1.24385778329436,-0.0230361415632143,sparse_two_stage_weighted,-1.13590102080962,0.502454058380831
+agriculture,Park dominant minus Neither actor dominant,tau025,buffer_20km,-0.754511829086305,-1.35836403742776,-0.150659620744849,sparse_two_stage_weighted,-1.13590102080962,0.381389191723312
+agriculture,Park dominant minus Neither actor dominant,tau050,all_cells,-0.355619845174115,-1.01605624391478,0.304816553566555,sparse_two_stage_weighted,-1.13590102080962,0.780281175635502
+agriculture,Park dominant minus Neither actor dominant,tau050,buffer_05km,0.954718950910142,0.253069640924773,1.65636826089551,sparse_two_stage_weighted,-1.13590102080962,2.09061997171976
+agriculture,Park dominant minus Neither actor dominant,tau050,buffer_10km,0.394713912406071,-0.155755317013328,0.94518314182547,sparse_two_stage_weighted,-1.13590102080962,1.53061493321569
+agriculture,Park dominant minus Neither actor dominant,tau050,buffer_20km,0.30413511072577,-0.229702154608957,0.837972376060498,sparse_two_stage_weighted,-1.13590102080962,1.44003613153539
+fire,Militia dominant minus Neither actor dominant,tau010,all_cells,-0.154760297858328,-0.295181443894078,-0.0143391518225783,fire_beta_binomial,-0.138167788548574,0.0165925093097544
+fire,Militia dominant minus Neither actor dominant,tau010,buffer_05km,-0.0719831670053624,,,fire_beta_binomial,-0.138167788548574,0.0661846215432113
+fire,Militia dominant minus Neither actor dominant,tau010,buffer_10km,-0.166574211428691,,,fire_beta_binomial,-0.138167788548574,0.0284064228801171
+fire,Militia dominant minus Neither actor dominant,tau010,buffer_20km,-0.177090576942562,,,fire_beta_binomial,-0.138167788548574,0.0389227883939881
+fire,Militia dominant minus Neither actor dominant,tau025,all_cells,-0.138167788548574,-0.292133727715505,0.0157981506183571,fire_beta_binomial,-0.138167788548574,0
+fire,Militia dominant minus Neither actor dominant,tau025,buffer_05km,-0.0701694345010025,,,fire_beta_binomial,-0.138167788548574,0.0679983540475713
+fire,Militia dominant minus Neither actor dominant,tau025,buffer_10km,-0.159583438362306,-0.246407824571187,-0.0727590521534246,fire_beta_binomial,-0.138167788548574,0.0214156498137322
+fire,Militia dominant minus Neither actor dominant,tau025,buffer_20km,-0.162267333083983,,,fire_beta_binomial,-0.138167788548574,0.0240995445354092
+fire,Militia dominant minus Neither actor dominant,tau050,all_cells,-0.129493597983648,,,fire_beta_binomial,-0.138167788548574,0.00867419056492527
+fire,Militia dominant minus Neither actor dominant,tau050,buffer_05km,-0.0704217944145899,,,fire_beta_binomial,-0.138167788548574,0.0677459941339838
+fire,Militia dominant minus Neither actor dominant,tau050,buffer_10km,-0.15946537002627,,,fire_beta_binomial,-0.138167788548574,0.0212975814776966
+fire,Militia dominant minus Neither actor dominant,tau050,buffer_20km,-0.156479250875764,,,fire_beta_binomial,-0.138167788548574,0.0183114623271901
+fire,Park dominant minus Militia dominant,tau010,all_cells,0.0471845291238309,-0.0947298091482853,0.189098867395947,fire_beta_binomial,0.0637854422005362,0.0166009130767053
+fire,Park dominant minus Militia dominant,tau010,buffer_05km,-0.015137487605538,,,fire_beta_binomial,0.0637854422005362,0.0789229298060742
+fire,Park dominant minus Militia dominant,tau010,buffer_10km,0.0540388923130062,,,fire_beta_binomial,0.0637854422005362,0.00974654988752997
+fire,Park dominant minus Militia dominant,tau010,buffer_20km,0.089871443547568,,,fire_beta_binomial,0.0637854422005362,0.0260860013470318
+fire,Park dominant minus Militia dominant,tau025,all_cells,0.0637854422005362,-0.0917734202444896,0.219344304645562,fire_beta_binomial,0.0637854422005362,0
+fire,Park dominant minus Militia dominant,tau025,buffer_05km,-0.014401605579584,,,fire_beta_binomial,0.0637854422005362,0.0781870477801202
+fire,Park dominant minus Militia dominant,tau025,buffer_10km,0.0600216093229284,-0.0280506875133045,0.148093906159161,fire_beta_binomial,0.0637854422005362,0.00376383287760773
+fire,Park dominant minus Militia dominant,tau025,buffer_20km,0.111947619162514,,,fire_beta_binomial,0.0637854422005362,0.048162176961978
+fire,Park dominant minus Militia dominant,tau050,all_cells,0.0759499281687143,,,fire_beta_binomial,0.0637854422005362,0.0121644859681781
+fire,Park dominant minus Militia dominant,tau050,buffer_05km,-0.00659423139478085,,,fire_beta_binomial,0.0637854422005362,0.070379673595317
+fire,Park dominant minus Militia dominant,tau050,buffer_10km,0.0686000658677267,,,fire_beta_binomial,0.0637854422005362,0.00481462366719056
+fire,Park dominant minus Militia dominant,tau050,buffer_20km,0.123717318660121,,,fire_beta_binomial,0.0637854422005362,0.0599318764595846
+fire,Park dominant minus Neither actor dominant,tau010,all_cells,-0.107575768734497,-0.241657308198383,0.0265057707293886,fire_beta_binomial,-0.0743823463480376,0.0331934223864597
+fire,Park dominant minus Neither actor dominant,tau010,buffer_05km,-0.0871206546109005,,,fire_beta_binomial,-0.0743823463480376,0.0127383082628629
+fire,Park dominant minus Neither actor dominant,tau010,buffer_10km,-0.112535319115685,,,fire_beta_binomial,-0.0743823463480376,0.0381529727676471
+fire,Park dominant minus Neither actor dominant,tau010,buffer_20km,-0.0872191333949939,,,fire_beta_binomial,-0.0743823463480376,0.0128367870469563
+fire,Park dominant minus Neither actor dominant,tau025,all_cells,-0.0743823463480376,-0.221829906796421,0.0730652141003459,fire_beta_binomial,-0.0743823463480376,0
+fire,Park dominant minus Neither actor dominant,tau025,buffer_05km,-0.0845710400805865,,,fire_beta_binomial,-0.0743823463480376,0.0101886937325489
+fire,Park dominant minus Neither actor dominant,tau025,buffer_10km,-0.0995618290393775,-0.183075871245326,-0.0160477868334286,fire_beta_binomial,-0.0743823463480376,0.0251794826913399
+fire,Park dominant minus Neither actor dominant,tau025,buffer_20km,-0.0503197139214688,,,fire_beta_binomial,-0.0743823463480376,0.0240626324265687
+fire,Park dominant minus Neither actor dominant,tau050,all_cells,-0.0535436698149342,,,fire_beta_binomial,-0.0743823463480376,0.0208386765331034
+fire,Park dominant minus Neither actor dominant,tau050,buffer_05km,-0.0770160258093708,,,fire_beta_binomial,-0.0743823463480376,0.00263367946133322
+fire,Park dominant minus Neither actor dominant,tau050,buffer_10km,-0.0908653041585436,,,fire_beta_binomial,-0.0743823463480376,0.016482957810506
+fire,Park dominant minus Neither actor dominant,tau050,buffer_20km,-0.032761932215643,,,fire_beta_binomial,-0.0743823463480376,0.0416204141323945
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau010,all_cells,-0.581692540092571,-1.28587275881048,0.122487678625342,sparse_two_stage_weighted,-0.615625381298696,0.0339328412061253
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau010,buffer_05km,-0.112555281993002,-0.816852700532287,0.591742136546283,sparse_two_stage_weighted,-0.615625381298696,0.503070099305694
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau010,buffer_10km,-0.287160867257317,-0.919694107309931,0.345372372795298,sparse_two_stage_weighted,-0.615625381298696,0.328464514041379
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau010,buffer_20km,-0.464959067317927,-1.06892763367864,0.139009499042786,sparse_two_stage_weighted,-0.615625381298696,0.15066631398077
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau025,all_cells,-0.615625381298696,-1.46250026994445,0.23124950734706,sparse_two_stage_weighted,-0.615625381298696,0
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau025,buffer_05km,-0.112545997352065,-0.819865525395645,0.594773530691514,sparse_two_stage_weighted,-0.615625381298696,0.503079383946631
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau025,buffer_10km,-0.0517637594727072,-0.814222349695374,0.710694830749959,sparse_two_stage_weighted,-0.615625381298696,0.563861621825989
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau025,buffer_20km,-0.414045357271192,-1.22835982657181,0.400269112029423,sparse_two_stage_weighted,-0.615625381298696,0.201580024027504
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau050,all_cells,-0.86267931214733,-1.90012783815066,0.174769213855997,sparse_two_stage_weighted,-0.615625381298696,0.247053930848634
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau050,buffer_05km,-0.69669851009986,-1.22243177372092,-0.170965246478805,sparse_two_stage_weighted,-0.615625381298696,0.0810731288011644
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau050,buffer_10km,-0.388562103608594,-1.02293305677591,0.245808849558722,sparse_two_stage_weighted,-0.615625381298696,0.227063277690102
+tree_cover_loss,Militia dominant minus Neither actor dominant,tau050,buffer_20km,-0.853355333304414,-1.57050231379866,-0.136208352810167,sparse_two_stage_weighted,-0.615625381298696,0.237729952005718
+tree_cover_loss,Park dominant minus Militia dominant,tau010,all_cells,-0.128576295752201,-0.900285918367542,0.64313332686314,sparse_two_stage_weighted,-0.816516292830847,0.687939997078646
+tree_cover_loss,Park dominant minus Militia dominant,tau010,buffer_05km,-0.622395988767135,-1.29781107856099,0.0530191010267167,sparse_two_stage_weighted,-0.816516292830847,0.194120304063712
+tree_cover_loss,Park dominant minus Militia dominant,tau010,buffer_10km,-0.27299233389149,-0.953992236315078,0.408007568532099,sparse_two_stage_weighted,-0.816516292830847,0.543523958939358
+tree_cover_loss,Park dominant minus Militia dominant,tau010,buffer_20km,-0.212003652233858,-0.933674764749012,0.509667460281297,sparse_two_stage_weighted,-0.816516292830847,0.604512640596989
+tree_cover_loss,Park dominant minus Militia dominant,tau025,all_cells,-0.816516292830847,-1.71994533794573,0.0869127522840374,sparse_two_stage_weighted,-0.816516292830847,0
+tree_cover_loss,Park dominant minus Militia dominant,tau025,buffer_05km,-0.492574057692721,-1.25909218729625,0.273944071910811,sparse_two_stage_weighted,-0.816516292830847,0.323942235138127
+tree_cover_loss,Park dominant minus Militia dominant,tau025,buffer_10km,-0.532408868712269,-1.32116053973269,0.256342802308155,sparse_two_stage_weighted,-0.816516292830847,0.284107424118578
+tree_cover_loss,Park dominant minus Militia dominant,tau025,buffer_20km,-0.532304262587183,-1.44766729227208,0.383058767097717,sparse_two_stage_weighted,-0.816516292830847,0.284212030243664
+tree_cover_loss,Park dominant minus Militia dominant,tau050,all_cells,-0.554885959903756,-1.24900874102917,0.139236821221658,sparse_two_stage_weighted,-0.816516292830847,0.261630332927091
+tree_cover_loss,Park dominant minus Militia dominant,tau050,buffer_05km,0.371551030366031,-0.217649420790278,0.96075148152234,sparse_two_stage_weighted,-0.816516292830847,1.18806732319688
+tree_cover_loss,Park dominant minus Militia dominant,tau050,buffer_10km,0.316240761324557,-0.380060081269877,1.01254160391899,sparse_two_stage_weighted,-0.816516292830847,1.1327570541554
+tree_cover_loss,Park dominant minus Militia dominant,tau050,buffer_20km,0.112270384994493,-0.714486064855417,0.939026834844403,sparse_two_stage_weighted,-0.816516292830847,0.92878667782534
+tree_cover_loss,Park dominant minus Neither actor dominant,tau010,all_cells,-0.710268835844772,-1.18287794297811,-0.237659728711434,sparse_two_stage_weighted,-1.43214167412954,0.721872838284772
+tree_cover_loss,Park dominant minus Neither actor dominant,tau010,buffer_05km,-0.734951270760137,-1.26404646254905,-0.205856078971223,sparse_two_stage_weighted,-1.43214167412954,0.697190403369406
+tree_cover_loss,Park dominant minus Neither actor dominant,tau010,buffer_10km,-0.560153201148806,-1.08409314634452,-0.036213255953089,sparse_two_stage_weighted,-1.43214167412954,0.871988472980737
+tree_cover_loss,Park dominant minus Neither actor dominant,tau010,buffer_20km,-0.676962719551784,-1.26427075669188,-0.0896546824116922,sparse_two_stage_weighted,-1.43214167412954,0.755178954577759
+tree_cover_loss,Park dominant minus Neither actor dominant,tau025,all_cells,-1.43214167412954,-2.15670636292173,-0.707576985337362,sparse_two_stage_weighted,-1.43214167412954,0
+tree_cover_loss,Park dominant minus Neither actor dominant,tau025,buffer_05km,-0.605120055044786,-1.26267178475983,0.0524316746702584,sparse_two_stage_weighted,-1.43214167412954,0.827021619084757
+tree_cover_loss,Park dominant minus Neither actor dominant,tau025,buffer_10km,-0.584172628184976,-1.25535322942294,0.0870079730529867,sparse_two_stage_weighted,-1.43214167412954,0.847969045944567
+tree_cover_loss,Park dominant minus Neither actor dominant,tau025,buffer_20km,-0.946349619858375,-1.65408112682661,-0.238618112890139,sparse_two_stage_weighted,-1.43214167412954,0.485792054271168
+tree_cover_loss,Park dominant minus Neither actor dominant,tau050,all_cells,-1.41756527205109,-2.47590085266225,-0.359229691439923,sparse_two_stage_weighted,-1.43214167412954,0.0145764020784569
+tree_cover_loss,Park dominant minus Neither actor dominant,tau050,buffer_05km,-0.325147479733829,-0.832721917977991,0.182426958510332,sparse_two_stage_weighted,-1.43214167412954,1.10699419439571
+tree_cover_loss,Park dominant minus Neither actor dominant,tau050,buffer_10km,-0.0723213422840374,-0.716281675816322,0.571638991248247,sparse_two_stage_weighted,-1.43214167412954,1.35982033184551
+tree_cover_loss,Park dominant minus Neither actor dominant,tau050,buffer_20km,-0.741084948309921,-1.5097226588984,0.0275527622785579,sparse_two_stage_weighted,-1.43214167412954,0.691056725819622

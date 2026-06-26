@@ -1,0 +1,14 @@
+boundary_id,boundary_center_km,boundary_family,analysis_set,corridor_min_km,corridor_max_km,n_cells,n_interior_facing,n_exterior_facing,side_ratio,n_sesu,both_sesu_present,largest_component_share,n_connected_components,touches_aoi_edge,valid_under_original_rules,selected_for_outcome_analysis,selection_reason
+inner_c-020,-20,inner_pseudo,limited_inner_checks,-30,-10,17365,4671,12694,2.7176193534575,2,TRUE,0.997581341779441,3,FALSE,TRUE,TRUE,only valid inner pseudo-boundary retained as limited descriptive check
+inner_c-015,-15,inner_pseudo,limited_inner_checks,-25,-5,25675,8660,17015,1.96478060046189,2,TRUE,0.999610516066212,3,FALSE,TRUE,TRUE,only valid inner pseudo-boundary retained as limited descriptive check
+actual_c000,0,actual,actual_boundary,-10,10,42554,20548,22006,1.0709558107845,2,TRUE,0.999741504911407,5,FALSE,TRUE,TRUE,actual 10 km boundary estimand
+outer_c+015,15,outer_pseudo,all_valid_outer,5,25,40277,21059,19218,1.0957956082839,2,TRUE,0.998311691536112,7,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+020,20,outer_pseudo,primary_spaced_outer;all_valid_outer,10,30,38751,20090,18661,1.0765768179626,2,TRUE,0.573249722587804,7,FALSE,TRUE,TRUE,fixed evenly spaced outer pseudo-boundary selected before outcome fitting
+outer_c+025,25,outer_pseudo,all_valid_outer,15,35,37823,19149,18674,1.02543643568598,2,TRUE,0.577558628347831,9,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+030,30,outer_pseudo,all_valid_outer,20,40,37416,18616,18800,1.00988397077783,2,TRUE,0.996071199486851,7,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+035,35,outer_pseudo,all_valid_outer,25,45,37660,18634,19026,1.02103681442524,2,TRUE,0.948088157195964,7,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+040,40,outer_pseudo,primary_spaced_outer;all_valid_outer,30,50,38718,18764,19954,1.06341931357919,2,TRUE,0.958701379203471,5,FALSE,TRUE,TRUE,fixed evenly spaced outer pseudo-boundary selected before outcome fitting
+outer_c+045,45,outer_pseudo,all_valid_outer,35,55,39083,18993,20090,1.05775812141315,2,TRUE,0.954225622393368,5,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+050,50,outer_pseudo,all_valid_outer,40,60,39411,19913,19498,1.02128423428044,2,TRUE,0.947781076349243,5,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+055,55,outer_pseudo,all_valid_outer,45,65,38797,20062,18735,1.0708299973312,2,TRUE,0.941902724437456,3,FALSE,TRUE,TRUE,valid outer pseudo-boundary retained for dense outer-gradient sensitivity
+outer_c+060,60,outer_pseudo,primary_spaced_outer;all_valid_outer,50,70,36830,19471,17359,1.12166599458494,2,TRUE,0.698153679065979,5,FALSE,TRUE,TRUE,fixed evenly spaced outer pseudo-boundary selected before outcome fitting

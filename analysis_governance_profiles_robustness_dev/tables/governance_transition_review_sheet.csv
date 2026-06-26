@@ -1,0 +1,10 @@
+transition_id,SESU_ID,last_year_previous_profile,first_year_new_profile,previous_profile,new_profile,previous_episode_length,new_episode_length,evidence_reviewed,transition_confidence,plausible_earlier_transition,plausible_later_transition,researcher_decision,notes
+T1,1,2003,2004,Neither actor dominant,Militia dominant,3,3,"","","","","",""
+T2,1,2006,2007,Militia dominant,Neither actor dominant,3,6,"","","","","",""
+T3,1,2012,2013,Neither actor dominant,Militia dominant,6,4,"","","","","",""
+T4,1,2016,2017,Militia dominant,Park dominant,4,6,"","","","","",""
+T5,3,2003,2004,Neither actor dominant,Militia dominant,3,3,"","","","","",""
+T6,3,2006,2007,Militia dominant,Neither actor dominant,3,4,"","","","","",""
+T7,3,2010,2011,Neither actor dominant,Park dominant,4,2,"","","","","",""
+T8,3,2012,2013,Park dominant,Militia dominant,2,3,"","","","","",""
+T9,3,2015,2016,Militia dominant,Park dominant,3,7,"","","","","",""

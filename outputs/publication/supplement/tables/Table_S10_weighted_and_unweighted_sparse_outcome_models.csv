@@ -1,0 +1,25 @@
+Outcome,Weighting,Estimand,Profile or comparison,Estimate,SE,Lower 95%,Upper 95%,Interpretive change from primary
+Tree-cover loss,Weighted,Profile contrast,Fragmented control,-0.846081473790374,0.227997755104005,-1.29294886235021,-0.399214085230542,primary specification
+Tree-cover loss,Weighted,Profile contrast,Militia-centred control,-0.897845233263081,0.311625133975982,-1.50861927253348,-0.287071193992687,primary specification
+Tree-cover loss,Weighted,Profile contrast,Park-centred control,-1.43025410197535,0.260646937876377,-1.9411127128937,-0.919395491057002,primary specification
+Tree-cover loss,Unweighted,Profile contrast,Fragmented control,-0.881260072325685,0.242971938348965,-1.35747632074354,-0.405043823907828,sensitivity only
+Tree-cover loss,Unweighted,Profile contrast,Militia-centred control,-0.880725173015031,0.36244813449897,-1.59111046289674,-0.17033988313332,sensitivity only
+Tree-cover loss,Unweighted,Profile contrast,Park-centred control,-1.76166446100849,0.310487879333781,-2.37020952213892,-1.15311939987806,sensitivity only
+Agricultural expansion,Weighted,Profile contrast,Fragmented control,0.286485847450869,0.229996977828128,-0.16429994564532,0.737271640547059,primary specification
+Agricultural expansion,Weighted,Profile contrast,Militia-centred control,0.221756230967078,0.137786166542745,-0.048299693024539,0.491812154958695,primary specification
+Agricultural expansion,Weighted,Profile contrast,Park-centred control,-0.346961114977916,0.158116616597485,-0.656863988866315,-0.0370582410895171,primary specification
+Agricultural expansion,Unweighted,Profile contrast,Fragmented control,0.240968936247477,0.153715251470161,-0.0603074205085568,0.542245293003511,sensitivity only
+Agricultural expansion,Unweighted,Profile contrast,Militia-centred control,-0.0533925245988146,0.278229023717135,-0.59871139053814,0.49192634134051,sensitivity only
+Agricultural expansion,Unweighted,Profile contrast,Park-centred control,-0.28496339313118,0.138616310195153,-0.556646368783512,-0.0132804174788474,sensitivity only
+Tree-cover loss,Weighted,Pairwise difference,Park-centred - Fragmented,-0.584172628184976,0.342445374778389,-1.25535322942294,0.0870079730529867,primary specification
+Tree-cover loss,Weighted,Pairwise difference,Militia-centred - Fragmented,-0.0517637594727072,0.389016633079405,-0.814222349695374,0.710694830749959,primary specification
+Tree-cover loss,Weighted,Pairwise difference,Park-centred - Militia-centred,-0.532408868712269,0.402431716726428,-1.32116053973269,0.256342802308155,primary specification
+Tree-cover loss,Unweighted,Pairwise difference,Park-centred - Fragmented,-0.880404388682804,0.400006306463833,-1.66440234294081,-0.0964064344248007,sensitivity only
+Tree-cover loss,Unweighted,Pairwise difference,Militia-centred - Fragmented,0.000534899310654348,0.435019016756456,-0.852086706122026,0.853156504743334,sensitivity only
+Tree-cover loss,Unweighted,Pairwise difference,Park-centred - Militia-centred,-0.880939287993459,0.476049392339625,-1.8139789518413,0.052100375854384,sensitivity only
+Agricultural expansion,Weighted,Pairwise difference,Park-centred - Fragmented,-0.633446962428786,0.311439815058039,-1.24385778329436,-0.0230361415632143,primary specification
+Agricultural expansion,Weighted,Pairwise difference,Militia-centred - Fragmented,-0.0647296164837915,0.290673749570715,-0.634439696893608,0.504980463926025,primary specification
+Agricultural expansion,Weighted,Pairwise difference,Park-centred - Militia-centred,-0.568717345944994,0.22051748120104,-1.00092366706052,-0.136511024829467,primary specification
+Agricultural expansion,Unweighted,Pairwise difference,Park-centred - Fragmented,-0.525932329378657,0.199265691628775,-0.91648590832552,-0.135378750431793,sensitivity only
+Agricultural expansion,Unweighted,Pairwise difference,Militia-centred - Fragmented,-0.294361460846291,0.327883755204318,-0.937001812162501,0.348278890469919,sensitivity only
+Agricultural expansion,Unweighted,Pairwise difference,Park-centred - Militia-centred,-0.231570868532365,0.296148132090194,-0.812010541517957,0.348868804453226,sensitivity only

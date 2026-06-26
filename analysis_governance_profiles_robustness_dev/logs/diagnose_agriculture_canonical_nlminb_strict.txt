@@ -1,0 +1,108 @@
+Unusually large coefficients (|x|>10):
+
+ sesu_year3.2001  sesu_year3.2002  sesu_year3.2003  sesu_year3.2004
+       -19.85016        -11.46952        -19.85015        -19.65049
+ sesu_year3.2005  sesu_year3.2006  sesu_year3.2007  sesu_year3.2008
+       -19.65049        -19.65049        -10.77663        -11.46949
+ sesu_year3.2009  sesu_year3.2010  sesu_year3.2011  sesu_year3.2012
+       -10.77660        -19.85011        -11.15516        -19.29485
+ sesu_year3.2013  sesu_year3.2014  sesu_year3.2015  sesu_year3.2016
+       -19.65044        -11.33657        -10.64459        -11.15510
+ sesu_year3.2017  sesu_year3.2018  sesu_year3.2019  sesu_year3.2020
+       -10.46284        -19.29480        -10.46281        -10.05728
+ sesu_year3.2021  sesu_year3.2022 disp~(Intercept)
+       -11.15499        -11.15498         21.29253
+
+Large negative coefficients in zi (log-odds of zero-inflation),
+dispersion, or random effects (log-standard deviations) suggest
+unnecessary components (converging to zero on the constrained scale);
+large negative and/or positive components in binomial or Poisson
+conditional parameters suggest (quasi-)complete separation. Large
+values of nbinom2 dispersion suggest that you should use a Poisson
+model instead.
+
+
+Unusually large Z-statistics (|x|>5):
+
+    sesu_year1.2001     sesu_year1.2002     sesu_year3.2002     sesu_year1.2003
+         -59.216459          -49.834696          -11.464481          -48.336320
+    sesu_year1.2004     sesu_year1.2005     sesu_year1.2006     sesu_year1.2007
+         -82.637453          -71.061299          -72.029041          -57.022205
+    sesu_year3.2007     sesu_year1.2008     sesu_year3.2008     sesu_year1.2009
+         -15.197853          -65.711566          -11.455885          -61.831580
+    sesu_year3.2009     sesu_year1.2010     sesu_year1.2011     sesu_year3.2011
+         -15.198539          -61.185029          -43.208176          -11.159712
+    sesu_year1.2012     sesu_year1.2013     sesu_year1.2014     sesu_year3.2014
+         -45.021352          -80.535240          -95.136450          -11.333733
+    sesu_year1.2015     sesu_year3.2015     sesu_year1.2016     sesu_year3.2016
+         -64.743189          -15.031399          -85.462847          -11.158020
+    sesu_year1.2017     sesu_year3.2017     sesu_year1.2018     sesu_year1.2019
+        -104.932704          -14.782938          -94.326756          -83.115274
+    sesu_year3.2019     sesu_year1.2020     sesu_year3.2020     sesu_year1.2021
+         -14.783309          -77.786475          -17.401053          -90.185170
+    sesu_year3.2021     sesu_year1.2022     sesu_year3.2022 inside_profile_park
+         -11.154186          -80.875034          -11.168707           -5.726809
+
+Large Z-statistics (estimate/std err) suggest a *possible* failure of
+the Wald approximation - often also associated with parameters that are
+at or near the edge of their range (e.g. random-effects standard
+deviations approaching 0).  (Alternately, they may simply represent
+very well-estimated parameters; intercepts of non-centered models may
+fall in this category.) While the Wald p-values and standard errors
+listed in summary() may be unreliable, profile confidence intervals
+(see ?confint.glmmTMB) and likelihood ratio test p-values derived by
+comparing models (e.g. ?drop1) are probably still OK.  (Note that the
+LRT is conservative when the null value is on the boundary, e.g. a
+variance or zero-inflation value of 0 (Self and Liang 1987; Stram and
+Lee 1994; Goldman and Whelan 2000); in simple cases these p-values are
+approximately twice as large as they should be.)
+
+
+Non-positive definite (NPD) Hessian
+
+The Hessian matrix represents the curvature of the log-likelihood
+surface at the maximum likelihood estimate (MLE) of the parameters (its
+inverse is the estimate of the parameter covariance matrix).  A
+non-positive-definite Hessian means that the likelihood surface is
+approximately flat (or upward-curving) at the MLE, which means the
+model is overfitted or poorly posed in some way. NPD Hessians are often
+associated with extreme parameter estimates.
+
+
+parameters with non-finite standard deviations:
+disp~(Intercept)
+
+
+
+recomputing Hessian via Richardson extrapolation. If this is too slow, consider setting check_hessian = FALSE
+
+The next set of diagnostics attempts to determine which elements of the
+Hessian are causing the non-positive-definiteness.  Components with
+very small eigenvalues represent 'flat' directions, i.e., combinations
+of parameters for which the data may contain very little information.
+So-called 'bad elements' represent the dominant components (absolute
+values >0.01) of the eigenvectors corresponding to the 'flat'
+directions
+
+
+maximum Hessian eigenvalue = 366
+Hessian eigenvalue 39 = -0.411 (relative val = -0.00112)
+   bad elements: disp~(Intercept)
+Hessian eigenvalue 40 = 0.000292 (relative val = 7.98e-07)
+   bad elements: sesu_year3.2012 sesu_year3.2018 disp~(Intercept)
+Hessian eigenvalue 41 = 0.000292 (relative val = 7.98e-07)
+   bad elements: sesu_year3.2012 sesu_year3.2018 disp~(Intercept)
+Hessian eigenvalue 42 = 0.000245 (relative val = 6.71e-07)
+   bad elements: sesu_year3.2004 sesu_year3.2005 sesu_year3.2006
+Hessian eigenvalue 43 = 0.000245 (relative val = 6.71e-07)
+   bad elements: sesu_year3.2004 sesu_year3.2005 sesu_year3.2006
+Hessian eigenvalue 44 = 0.000245 (relative val = 6.71e-07)
+   bad elements: sesu_year3.2004 sesu_year3.2005 sesu_year3.2006 sesu_year3.2013 disp~(Intercept)
+Hessian eigenvalue 45 = 0.000245 (relative val = 6.71e-07)
+   bad elements: sesu_year3.2004 sesu_year3.2005 sesu_year3.2006 sesu_year3.2013 disp~(Intercept)
+Hessian eigenvalue 46 = 0.000229 (relative val = 6.27e-07)
+   bad elements: sesu_year3.2001 sesu_year3.2003 sesu_year3.2010 disp~(Intercept)
+Hessian eigenvalue 47 = 0.000229 (relative val = 6.27e-07)
+   bad elements: sesu_year3.2001 sesu_year3.2003 sesu_year3.2010 disp~(Intercept)
+Hessian eigenvalue 48 = 0.000229 (relative val = 6.27e-07)
+   bad elements: sesu_year3.2001 sesu_year3.2003 sesu_year3.2010 disp~(Intercept)

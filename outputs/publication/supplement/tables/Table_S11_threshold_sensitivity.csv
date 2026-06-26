@@ -1,0 +1,55 @@
+Outcome,Threshold,Estimand type,Profile or comparison,Estimate,SE,Lower 95%,Upper 95%,Event support,Model,Fit validity,Interpretation
+Agricultural expansion,10%,Profile contrast,Militia-centred control,-0.318243792657785,,-0.59527839573431,-0.0412091895812605,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,10%,Profile contrast,Fragmented control,0.112932772855509,,-0.335711989796915,0.561577535507934,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,10%,Profile contrast,Park-centred control,-1.12463716205984,,-1.32132338297537,-0.927950941144297,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,10%,Pairwise difference,Militia-centred control minus Fragmented control,-0.431176565513295,,-0.986745329384665,0.124392198358075,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,10%,Pairwise difference,Park-centred control minus Militia-centred control,-0.80639336940205,,-1.10967322926358,-0.503113509540518,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,10%,Pairwise difference,Park-centred control minus Fragmented control,-1.23756993491534,,-1.75491558586048,-0.72022428397021,882,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,25%,Profile contrast,Militia-centred control,0.221756230967078,,-0.048299693024539,0.491812154958695,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,25%,Profile contrast,Fragmented control,0.286485847450869,,-0.16429994564532,0.737271640547059,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,25%,Profile contrast,Park-centred control,-0.346961114977916,,-0.656863988866315,-0.0370582410895171,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,25%,Pairwise difference,Militia-centred control minus Fragmented control,-0.0647296164837915,,-0.634439696893608,0.504980463926025,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,25%,Pairwise difference,Park-centred control minus Militia-centred control,-0.568717345944994,,-1.00092366706052,-0.136511024829467,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,25%,Pairwise difference,Park-centred control minus Fragmented control,-0.633446962428786,,-1.24385778329436,-0.0230361415632143,518,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Agricultural expansion,50%,Profile contrast,Militia-centred control,0.117149976429353,,-0.191810043767659,0.426109996626365,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,50%,Profile contrast,Fragmented control,-0.213604557093766,,-0.524510985532519,0.0973018713449862,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,50%,Profile contrast,Park-centred control,0.181109355312305,,-0.19360790327354,0.55582661389815,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,50%,Pairwise difference,Militia-centred control minus Fragmented control,0.330754533523119,,-0.129396839696332,0.79090590674257,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.063959378882952,,-0.482861126700113,0.610779884466017,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Agricultural expansion,50%,Pairwise difference,Park-centred control minus Fragmented control,0.394713912406071,,-0.155755317013328,0.94518314182547,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Fire,10%,Profile contrast,Militia-centred control,-0.0108922905953573,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Profile contrast,Fragmented control,0.155681920833334,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Profile contrast,Park-centred control,0.0431466017176489,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Militia-centred control minus Fragmented control,-0.166574211428691,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Park-centred control minus Militia-centred control,0.0540388923130062,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Park-centred control minus Fragmented control,-0.112535319115685,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,25%,Profile contrast,Militia-centred control,0.0107091233715076,0.0330098626703633,-0.0539890185970177,0.0754072653400329,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,25%,Profile contrast,Fragmented control,0.170288429758373,0.0297450591051261,0.111989185194311,0.228587674322435,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,25%,Profile contrast,Park-centred control,0.0678282180423288,0.0305524668753538,0.00794648332778246,0.127709952756875,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,25%,Pairwise difference,Militia-centred control minus Fragmented control,-0.159579306386865,0.0444340886528708,-0.246668519832352,-0.0724900929413787,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,25%,Pairwise difference,Park-centred control minus Militia-centred control,0.0571190946708212,0.0449781665061582,-0.0310364917718946,0.145274681113537,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,25%,Pairwise difference,Park-centred control minus Fragmented control,-0.102460211716044,0.0426402589370402,-0.186033583524105,-0.0188868399079833,508320,fire_beta_binomial,strict-valid,primary threshold
+Fire,50%,Profile contrast,Militia-centred control,0.0199554761068823,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Profile contrast,Fragmented control,0.179420846133153,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Profile contrast,Park-centred control,0.0885555419746091,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Militia-centred control minus Fragmented control,-0.15946537002627,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.0686000658677267,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Park-centred control minus Fragmented control,-0.0908653041585436,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Tree-cover loss,10%,Profile contrast,Militia-centred control,-1.16978085292463,,-1.71368645867306,-0.625875247176199,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,10%,Profile contrast,Fragmented control,-0.882619985667311,,-1.20377774689139,-0.561462224443235,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,10%,Profile contrast,Park-centred control,-1.44277318681612,,-1.88896864993014,-0.996577723702091,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,10%,Pairwise difference,Militia-centred control minus Fragmented control,-0.287160867257317,,-0.919694107309931,0.345372372795298,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,10%,Pairwise difference,Park-centred control minus Militia-centred control,-0.27299233389149,,-0.953992236315078,0.408007568532099,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,10%,Pairwise difference,Park-centred control minus Fragmented control,-0.560153201148806,,-1.08409314634452,-0.036213255953089,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,25%,Profile contrast,Militia-centred control,-0.897845233263081,,-1.50861927253348,-0.287071193992687,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,25%,Profile contrast,Fragmented control,-0.846081473790374,,-1.29294886235021,-0.399214085230542,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,25%,Profile contrast,Park-centred control,-1.43025410197535,,-1.9411127128937,-0.919395491057002,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,25%,Pairwise difference,Militia-centred control minus Fragmented control,-0.0517637594727072,,-0.814222349695374,0.710694830749959,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,25%,Pairwise difference,Park-centred control minus Militia-centred control,-0.532408868712269,,-1.32116053973269,0.256342802308155,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,25%,Pairwise difference,Park-centred control minus Fragmented control,-0.584172628184976,,-1.25535322942294,0.0870079730529867,519,sparse_two_stage_weighted,accepted two-stage estimate,primary threshold
+Tree-cover loss,50%,Profile contrast,Militia-centred control,-0.334486397764769,,-0.815934643901859,0.146961848372321,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,50%,Profile contrast,Fragmented control,0.0540757058438248,,-0.332273708043562,0.440425119731212,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,50%,Profile contrast,Park-centred control,-0.0182456364402126,,-0.520662272407717,0.484170999527292,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,50%,Pairwise difference,Militia-centred control minus Fragmented control,-0.388562103608594,,-1.02293305677591,0.245808849558722,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.316240761324557,,-0.380060081269877,1.01254160391899,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
+Tree-cover loss,50%,Pairwise difference,Park-centred control minus Fragmented control,-0.0723213422840374,,-0.716281675816322,0.571638991248247,79,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity

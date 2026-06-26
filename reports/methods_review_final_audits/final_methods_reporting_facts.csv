@@ -1,0 +1,22 @@
+fact,value,source,confidence,manuscript_destination,notes
+clustering k range,2 through 15,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+silhouette sample size and seed,20000 cells; seed 42,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+final clustering seed,123,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+number of random starts,25,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+de-speckling rule,eight-neighbour modal reassignment for isolated labels,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+frozen-versus-reproduced clustering agreement,accepted near-reproduction; 230 differing cells,scripts/audits/14a_complete_no_accessibility_clustering.R,high,Methods landscape grouping,audit-only; primary pipeline not changed
+no-accessibility selected k,3,scripts/audits/14a_complete_no_accessibility_clustering.R,moderate,Methods landscape grouping,audit-only; primary pipeline not changed
+no-accessibility ARI,0.916026767359794,scripts/audits/14a_complete_no_accessibility_clustering.R,moderate,Methods landscape grouping,audit-only; primary pipeline not changed
+no-accessibility 10 km agreement,0.967904314319442,scripts/audits/14a_complete_no_accessibility_clustering.R,moderate,Methods landscape grouping,audit-only; primary pipeline not changed
+whether retained geographic groups changed,FALSE,scripts/audits/14a_complete_no_accessibility_clustering.R,moderate,Methods landscape grouping,audit-only; primary pipeline not changed
+whether no-accessibility outcome models were triggered,FALSE,scripts/audits/14a_complete_no_accessibility_clustering.R,moderate,Methods landscape grouping,audit-only; primary pipeline not changed
+FireCCI official source and version,ESA FireCCI v5.1 monthly pixel product,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+monthly JD codes,1-366 burned DOY; 0 observed unburned; -1 not observed; -2 non-burnable,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+seasonal DOY bounds and inclusivity,DOY 100-300 inclusive,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+valid-observation definition,valid if any April-October JD is 0 or 1-366; -1/-2/NA are invalid unless another month is valid,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+500 m aggregation definition,cropped native pixels assigned by projected native-pixel centers to canonical 500 m cells; burned fraction among valid native pixels,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+number of changed tau025 fire cell-years,14726,scripts/audits/14b_complete_fire_observation_audit.R,high,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+whether fire stratum counts changed,TRUE,scripts/audits/14b_complete_fire_observation_audit.R,moderate,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+whether diagnostic fire model was triggered,TRUE,scripts/audits/14b_complete_fire_observation_audit.R,moderate,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+maximum fire contrast change,2.58693884026105,scripts/audits/14b_complete_fire_observation_audit.R,moderate,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed
+whether primary fire interpretation changed,"diagnostic model indicates changed interpretation, but fit is non-strict",scripts/audits/14b_complete_fire_observation_audit.R,moderate,Methods fire measurement / sensitivity appendix,audit-only; primary pipeline not changed

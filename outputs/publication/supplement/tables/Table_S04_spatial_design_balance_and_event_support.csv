@@ -1,0 +1,5 @@
+design,inside cells,outside cells,median absolute SMD,maximum absolute SMD,tau025 fire events,tau025 tree-cover-loss events,tau025 agricultural-expansion events,fire fit status,sparse-outcome support status,design role
+All cells,37963,166448,0.428917448302653,1.70387723416661,2468094,5460,2685,strict-valid fit available,two-stage sparse-outcome support assessed,sensitivity or support diagnostic
+5 km,11187,11418,0.119146107323148,0.371419991069169,252143,313,392,no strict-valid fit in spatial-design screen,two-stage sparse-outcome support assessed,sensitivity or support diagnostic
+10 km,20548,22006,0.187147421201959,0.733442261257781,508320,519,518,strict-valid fit available,two-stage sparse-outcome support assessed,primary spatial estimand
+20 km,33130,42022,0.298858945947441,1.25392263648586,928993,876,587,no strict-valid fit in spatial-design screen,two-stage sparse-outcome support assessed,sensitivity or support diagnostic

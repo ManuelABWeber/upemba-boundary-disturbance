@@ -1,0 +1,7 @@
+"check","expected","candidate_status","tolerance","notes"
+"fire diagnostics","reproduced","not_executed","1e-10","Pending downstream validation."
+"fire profile contrasts","reproduced","not_executed","1e-10","Pending downstream validation."
+"fire pairwise differences","reproduced","not_executed","1e-10","Pending downstream validation."
+"tree-cover-loss profile estimates","reproduced","not_executed","1e-10","Pending downstream validation."
+"agriculture profile estimates","reproduced","not_executed","1e-10","Pending downstream validation."
+"falsification classifications","match frozen classifications","not_executed","exact label","Pending downstream validation."

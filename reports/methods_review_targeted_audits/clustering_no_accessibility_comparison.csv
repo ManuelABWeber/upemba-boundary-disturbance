@@ -1,0 +1,2 @@
+comparison,adjusted_rand_index,variation_of_information,label_matched_agreement,agreement_10km,agreement_inside,agreement_outside,changed_cells,changed_cell_pct,k,no_accessibility_best_k,same_depression_plateau_groups_retained,outcome_model_sensitivity_triggered,stop_reason
+not_run_reproduction_failed,,,,,,,,,,,,,authoritative clustering reproduction failed; no-accessibility comparison not conducted

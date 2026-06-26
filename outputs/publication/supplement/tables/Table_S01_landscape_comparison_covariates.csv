@@ -1,0 +1,16 @@
+Covariate,Source product,Reference period,Native resolution,500 m processing,Transformation,Analytical role
+Elevation,Copernicus DEM GLO-30,static,30 m,mean elevation on canonical grid,standardized,landscape comparison-group clustering covariate
+Slope,Derived from Copernicus DEM GLO-30 in R,static,derived 30 m,terrain slope derived then aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Baseline forest indicator,Hansen Global Forest Change v1.12 tree cover in 2000,2000,30 m,binary >=30% baseline-forest indicator on canonical grid,binary indicator,landscape comparison-group clustering covariate
+Distance to permanent water,JRC Global Surface Water v1.4,permanent water from seasonality = 12 or occurrence >=90%,30 m,distance to permanent-water mask on canonical grid,"distance transformed where skewed, then standardized",landscape comparison-group clustering covariate
+Mean annual precipitation,CHIRPS daily precipitation,1981-2010 annual mean,approximately 5 km,annual means aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Potential evapotranspiration,TerraClimate,1981-2010 annual mean,approximately 4 km,annual means aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Actual evapotranspiration,TerraClimate,1981-2010 annual mean,approximately 4 km,annual means aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Water balance,CHIRPS precipitation minus TerraClimate PET,1981-2010 annual mean,derived,derived after climate processing on canonical grid,standardized,landscape comparison-group clustering covariate
+Aridity,"P / (PET + 1), using CHIRPS precipitation and TerraClimate PET",1981-2010 annual mean,derived,derived after climate processing on canonical grid,standardized,landscape comparison-group clustering covariate
+Soil organic carbon,SoilGrids 0-30 cm depth-weighted SOC,static,250 m,depth-weighted mean aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Soil pH,SoilGrids 0-30 cm depth-weighted pH,static,250 m,depth-weighted mean aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Clay,SoilGrids 0-30 cm depth-weighted clay,static,250 m,depth-weighted mean aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Sand,SoilGrids 0-30 cm depth-weighted sand,static,250 m,depth-weighted mean aggregated to canonical grid,standardized,landscape comparison-group clustering covariate
+Distance to baseline built-up areas,GHSL P2023A built-up surface,baseline 2000-or-earlier,100 m,distance to baseline built-up surface on canonical grid,"distance transformed where skewed, then standardized",landscape comparison-group clustering covariate
+Travel time to cities,Oxford/MAP accessibility_to_cities_2015_v1_0,2015,approximately 1 km,travel-time surface aggregated to canonical grid,"transformed where skewed, then standardized",landscape comparison-group clustering covariate

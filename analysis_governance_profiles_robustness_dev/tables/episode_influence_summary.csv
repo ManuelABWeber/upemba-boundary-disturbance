@@ -1,0 +1,10 @@
+disturbance,governance_profile,minimum_leave_one_episode_out_estimate,maximum_leave_one_episode_out_estimate,maximum_absolute_change_from_canonical,sign_stability,most_influential_omitted_episode,one_episode_determines_qualitative_interpretation
+agriculture,Militia dominant,-0.515635641304756,0.353183059874765,0.6258022335078,FALSE,SESU1_Militia dominant_2013_2016,TRUE
+agriculture,Neither actor dominant,-0.0927003302797806,0.587906047861677,0.550153450715594,FALSE,SESU1_Neither actor dominant_2007_2012,TRUE
+agriculture,Park dominant,-16.2754905875838,-0.52320650765297,15.7213704728905,TRUE,SESU1_Park dominant_2017_2022,FALSE
+deforestation,Militia dominant,-2.47374687775203,-1.90339517201994,0.400912820743783,TRUE,SESU1_Militia dominant_2004_2006,FALSE
+deforestation,Neither actor dominant,-1.45640747888402,-0.774579691463316,0.536985870043401,TRUE,SESU1_Neither actor dominant_2007_2012,FALSE
+deforestation,Park dominant,-4.50034497625592,-2.54481505864252,1.184554987425,TRUE,SESU1_Park dominant_2017_2022,FALSE
+fire,Militia dominant,-0.0386335511946995,0.196260477897935,0.141447768835327,FALSE,SESU1_Militia dominant_2013_2016,TRUE
+fire,Neither actor dominant,0.104061398591442,0.341067627848715,0.148086334543542,TRUE,SESU1_Neither actor dominant_2007_2012,FALSE
+fire,Park dominant,-0.0958630009348002,0.347743349175818,0.229143796455317,FALSE,SESU1_Park dominant_2017_2022,TRUE

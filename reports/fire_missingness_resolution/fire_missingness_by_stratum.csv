@@ -1,0 +1,9 @@
+year,SESU_ID,side,governance_profile,n_authoritative,y_authoritative,cells_any_unobserved,cells_missingness_ambiguous,n_remove_ambiguous,y_remove_ambiguous,n_changed_after_ambiguous_exclusion,y_changed_after_ambiguous_exclusion
+2021,1,outside,Park dominant,10019,3710,0,0,10019,3710,0,0
+2021,3,outside,Park dominant,11987,6865,0,0,11987,6865,0,0
+2021,1,inside,Park dominant,7612,3071,0,0,7612,3071,0,0
+2021,3,inside,Park dominant,12936,7498,0,0,12936,7498,0,0
+2022,1,outside,Park dominant,10019,2841,0,0,10019,2841,0,0
+2022,3,outside,Park dominant,11987,6821,0,0,11987,6821,0,0
+2022,1,inside,Park dominant,7612,2626,0,0,7612,2626,0,0
+2022,3,inside,Park dominant,12936,7790,0,0,12936,7790,0,0

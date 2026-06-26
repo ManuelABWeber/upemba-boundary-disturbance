@@ -1,0 +1,4 @@
+Outcome,Source product,Years,Native resolution,Event definition,Risk-set rule,Primary threshold,Sensitivity thresholds
+Fire,ESA FireCCI v5.1,2001–2022,250 m,≥25% of a 500 m cell burned during DOY 100–300,All eligible cells remain at risk annually,25%,"10%, 50%"
+Tree-cover loss,Hansen Global Forest Change v1.12,2001–2022,30 m,First year cumulative loss reaches ≥25% of a 500 m cell,Cells with ≥30% tree cover in 2000; removed after first event,25%,"10%, 50%"
+Agricultural expansion,Annual Cropland Extent Dataset for Africa,2001–2022,30 m,First annual transition from <25% to ≥25% cropland,Eligible cells removed after first event,25%,"10%, 50%"
