@@ -20,11 +20,13 @@ The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire
 2. Restore the R environment from `renv.lock`.
 3. Run the staged analysis scripts in `scripts/preprocessing/`, `scripts/analysis/`, and `scripts/sensitivity/` as data access permits.
 4. Regenerate the publication package, from the repository root, in this order:
-   1. `scripts/publication/06_generate_main_figures_tables.R`
-   2. `scripts/publication/08_generate_figure2_chronology_time_series.R`
-   3. `scripts/publication/07_generate_supplementary_material.R`
+   1. `Rscript --vanilla scripts/publication/06_generate_main_figures_tables.R`
+   2. `Rscript --vanilla scripts/publication/08_generate_figure2_chronology_time_series.R`
+   3. `Rscript --vanilla scripts/publication/07_generate_supplementary_material.R`
 
 Script 06 regenerates the authoritative Figure 2 source-data CSVs but deliberately does not export Figure 2. Script 08 is the single final Figure 2 renderer. Script 07 regenerates supplementary tables, figures, HTML, and data delivery files while retaining the verified final supplementary DOCX.
+
+`--vanilla` keeps publication-only clean-clone validation independent of an unrestored project library. The full upstream analytical workflow should use the package versions in `renv.lock` after `renv::restore()`.
 
 Restricted raw rasters, private operational evidence, patrol/security material, and large intermediate geospatial products are not included. Authorized researchers should obtain those inputs through the project owner and place them at the configured local data root.
 

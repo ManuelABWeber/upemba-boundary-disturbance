@@ -16,7 +16,7 @@ run_stage <- function(order, script) {
   start <- Sys.time()
   status <- system2(
     file.path(R.home("bin"), "Rscript"),
-    file.path(ROOT, script),
+    c("--vanilla", file.path(ROOT, script)),
     stdout = log_path,
     stderr = log_path
   )

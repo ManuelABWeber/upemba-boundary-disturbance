@@ -14,9 +14,9 @@ The source-preparation script preserves historical logic but is not authoritativ
 
 Run these scripts from the repository root in this order:
 
-1. `Rscript scripts/publication/06_generate_main_figures_tables.R`
-2. `Rscript scripts/publication/08_generate_figure2_chronology_time_series.R`
-3. `Rscript scripts/publication/07_generate_supplementary_material.R`
+1. `Rscript --vanilla scripts/publication/06_generate_main_figures_tables.R`
+2. `Rscript --vanilla scripts/publication/08_generate_figure2_chronology_time_series.R`
+3. `Rscript --vanilla scripts/publication/07_generate_supplementary_material.R`
 
 Script 06 regenerates the main tables, Figures 3-4, and the canonical Figure 2 source-data files:
 
@@ -27,5 +27,7 @@ The approved Figure 1 is retained as a publication asset because its restricted 
 
 Then run:
 
-1. `Rscript tests/scripts/compare_frozen_results.R`
-2. `Rscript tests/scripts/run_downstream_validation.R`
+1. `Rscript --vanilla tests/scripts/compare_frozen_results.R`
+2. `Rscript --vanilla tests/scripts/run_downstream_validation.R`
+
+The `--vanilla` flag is intentional for publication-only clean-clone validation: it uses the installed package versions recorded in Table S18 without bootstrapping an empty project library. Use `renv::restore()` before the full upstream analytical workflow.
