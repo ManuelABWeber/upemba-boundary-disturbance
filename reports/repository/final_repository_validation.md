@@ -1,7 +1,8 @@
 # Final Repository Validation
 
-Validation date: 2026-06-27  
-Starting review commit: `35f9aa2186f2ef777a773b96b7dd6248ef67e96e`  
+Validation date: 2026-06-27
+
+Starting review commit: `35f9aa2186f2ef777a773b96b7dd6248ef67e96e`
 Clean-clone validation commit: `00c85d46c24451b45577b55d842a12da88a5a6d7`
 
 ## Recovery and repository state
