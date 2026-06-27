@@ -321,6 +321,7 @@ reports/repository/final_retention_manifest.csv,validation or provenance report,
 reports/repository/final_validation.md,validation or provenance report,No,No,No,Yes,No,Yes,retain,retains unique scientific or environment provenance
 reports/repository/frozen_classification_validation.csv,validation or provenance report,Yes,No,No,Yes,Yes,Yes,retain,referenced by active code; required for regeneration or validation; retains unique scientific or environment provenance
 reports/repository/frozen_event_total_validation.csv,validation or provenance report,Yes,No,No,Yes,Yes,Yes,retain,referenced by active code; required for regeneration or validation; retains unique scientific or environment provenance
+reports/repository/final_repository_validation.md,validation or provenance report,No,No,No,Yes,No,Yes,retain,records the complete final validation matrix and remaining metadata blockers
 reports/repository/frozen_result_validation.csv,validation or provenance report,Yes,No,No,Yes,Yes,Yes,retain,referenced by active code; required for regeneration or validation; retains unique scientific or environment provenance
 reports/repository/large_file_audit.csv,validation or provenance report,No,No,No,Yes,No,Yes,retain,retains unique scientific or environment provenance
 reports/repository/reconciliation_plan.md,validation or provenance report,No,No,No,Yes,No,Yes,retain,retains unique scientific or environment provenance
