@@ -1,0 +1,12 @@
+Unusually large coefficients (|x|>10):
+
+ sesu_year3.2001 disp~(Intercept)
+       -62.38714         21.24765
+
+Large negative coefficients in zi (log-odds of zero-inflation),
+dispersion, or random effects (log-standard deviations) suggest
+unnecessary components (converging to zero on the constrained scale);
+large negative and/or positive components in binomial or Poisson
+conditional parameters suggest (quasi-)complete separation. Large
+values of nbinom2 dispersion suggest that you should use a Poisson
+model instead.

@@ -1,0 +1,24 @@
+outcome,estimand,key,expected_estimate,expected_lower_95,expected_upper_95,tolerance
+tree_cover_loss,profile,Neither actor dominant,-0.846,-1.293,-0.399,0.001
+tree_cover_loss,profile,Militia dominant,-0.898,-1.509,-0.287,0.001
+tree_cover_loss,profile,Park dominant,-1.430,-1.941,-0.919,0.001
+fire,profile,Neither actor dominant,0.170,0.112,0.229,0.001
+fire,profile,Militia dominant,0.011,-0.054,0.075,0.001
+fire,profile,Park dominant,0.068,0.008,0.128,0.001
+agriculture,profile,Neither actor dominant,0.286,-0.164,0.737,0.001
+agriculture,profile,Militia dominant,0.222,-0.048,0.492,0.001
+agriculture,profile,Park dominant,-0.347,-0.657,-0.037,0.001
+tree_cover_loss,pairwise,Militia dominant minus Neither actor dominant,-0.052,-0.814,0.711,0.001
+tree_cover_loss,pairwise,Park dominant minus Neither actor dominant,-0.584,-1.255,0.087,0.001
+tree_cover_loss,pairwise,Park dominant minus Militia dominant,-0.532,-1.321,0.256,0.001
+fire,pairwise,Militia dominant minus Neither actor dominant,-0.160,-0.247,-0.072,0.001
+fire,pairwise,Park dominant minus Neither actor dominant,-0.102,-0.186,-0.019,0.001
+fire,pairwise,Park dominant minus Militia dominant,0.057,-0.031,0.145,0.001
+agriculture,pairwise,Militia dominant minus Neither actor dominant,-0.065,-0.634,0.505,0.001
+agriculture,pairwise,Park dominant minus Neither actor dominant,-0.633,-1.244,-0.023,0.001
+agriculture,pairwise,Park dominant minus Militia dominant,-0.569,-1.001,-0.137,0.001
+fire,diagnostic,logLik,-593.243310291049,,,0.0000000001
+fire,diagnostic,dispersion_estimate,642.842286325068,,,0.0000000001
+fire,diagnostic,framework_maximum_absolute_gradient,0.000954072389845351,,,0.0000000001
+fire,diagnostic,numerical_maximum_absolute_gradient,0.000946827110259952,,,0.0000000001
+fire,diagnostic,model_matrix_rank,47,,,0.0000000001

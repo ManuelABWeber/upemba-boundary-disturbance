@@ -1,0 +1,15 @@
+"path","contains_absolute_workstation_path","references_obsolete_figure2","pass"
+"scripts/analysis/01_fit_governance_profile_models.R",FALSE,FALSE,TRUE
+"scripts/analysis/02_fit_sparse_outcomes_and_profile_robustness.R",FALSE,FALSE,TRUE
+"scripts/analysis/03_refine_fire_10km_optimizer.R",FALSE,FALSE,TRUE
+"scripts/lib/project_paths.R",FALSE,FALSE,TRUE
+"scripts/preprocessing/01_preprocess_fire_agriculture_sources.R",FALSE,FALSE,TRUE
+"scripts/preprocessing/02_construct_landscape_groups.R",FALSE,FALSE,TRUE
+"scripts/preprocessing/03_prepare_cell_year_data.R",FALSE,FALSE,TRUE
+"scripts/preprocessing/04_harmonize_fire_2021_2022.R",FALSE,FALSE,TRUE
+"scripts/publication/06_generate_main_figures_tables.R",FALSE,FALSE,TRUE
+"scripts/publication/07_generate_supplementary_material.R",FALSE,FALSE,TRUE
+"scripts/publication/08_generate_figure2_chronology_time_series.R",FALSE,FALSE,TRUE
+"scripts/sensitivity/01_run_spatial_threshold_sensitivity.R",FALSE,FALSE,TRUE
+"scripts/sensitivity/02_audit_measurement_harmonization.R",FALSE,FALSE,TRUE
+"scripts/sensitivity/03_run_revised_boundary_falsification.R",FALSE,FALSE,TRUE

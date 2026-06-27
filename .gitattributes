@@ -1,4 +1,6 @@
 *.R text eol=lf
+*.py text eol=lf
+*.js text eol=lf
 *.Rmd text eol=lf
 *.qmd text eol=lf
 *.md text eol=lf
@@ -25,3 +27,6 @@
 *.png binary
 *.pdf binary
 *.docx binary
+*.pptx binary
+*.jpg binary
+*.jpeg binary

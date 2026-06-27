@@ -1,0 +1,19 @@
+disturbance,model_type,profile_comparison,estimate,standard_error,lower_95_ci,upper_95_ci,covariance
+fire,inverse_variance_weighted_lm_hc3,Park dominant minus Neither actor dominant,-0.157282715945602,0.0510303428025732,-0.257300349957378,-0.0572650819338254,HC3; not calendar-year clustered
+fire,inverse_variance_weighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.149023251847645,0.0550720855529896,-0.256962556085013,-0.0410839476102764,HC3; not calendar-year clustered
+fire,inverse_variance_weighted_lm_hc3,Park dominant minus Militia dominant,-0.00825946409795705,0.0601781084434886,-0.126206389304941,0.109687461109026,HC3; not calendar-year clustered
+fire,unweighted_lm_hc3,Park dominant minus Neither actor dominant,-0.162085355359977,0.056931583709618,-0.273669209013655,-0.0505015017062981,HC3; not calendar-year clustered
+fire,unweighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.143401605578449,0.0560027737824397,-0.253165025226375,-0.033638185930523,HC3; not calendar-year clustered
+fire,unweighted_lm_hc3,Park dominant minus Militia dominant,-0.0186837497815278,0.0660067994674223,-0.148054699472433,0.110687199909378,HC3; not calendar-year clustered
+deforestation,inverse_variance_weighted_lm_hc3,Park dominant minus Neither actor dominant,-1.43214167412954,0.369682654634195,-2.15670636292173,-0.707576985337362,HC3; not calendar-year clustered
+deforestation,inverse_variance_weighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.615625381298696,0.432086964518633,-1.46250026994445,0.23124950734706,HC3; not calendar-year clustered
+deforestation,inverse_variance_weighted_lm_hc3,Park dominant minus Militia dominant,-0.816516292830847,0.460941656194205,-1.71994533794573,0.0869127522840374,HC3; not calendar-year clustered
+deforestation,unweighted_lm_hc3,Park dominant minus Neither actor dominant,-1.62650682528005,0.403416174301944,-2.4171879976928,-0.835825652867309,HC3; not calendar-year clustered
+deforestation,unweighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.508530820045564,0.40562060097644,-1.30353258934688,0.28647094925575,HC3; not calendar-year clustered
+deforestation,unweighted_lm_hc3,Park dominant minus Militia dominant,-1.11797600523449,0.375357992335771,-1.85366415152186,-0.382287858947116,HC3; not calendar-year clustered
+agriculture,inverse_variance_weighted_lm_hc3,Park dominant minus Neither actor dominant,-1.13590102080962,0.321029848222299,-1.76510796128768,-0.506694080331551,HC3; not calendar-year clustered
+agriculture,inverse_variance_weighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.398847085827351,0.305928649829092,-0.998456221331338,0.200762049676636,HC3; not calendar-year clustered
+agriculture,inverse_variance_weighted_lm_hc3,Park dominant minus Militia dominant,-0.737053934982266,0.21487166657831,-1.15819466277385,-0.31591320719068,HC3; not calendar-year clustered
+agriculture,unweighted_lm_hc3,Park dominant minus Neither actor dominant,-0.702819860067163,0.272748642491265,-1.23739737618223,-0.168242343952092,HC3; not calendar-year clustered
+agriculture,unweighted_lm_hc3,Militia dominant minus Neither actor dominant,-0.29912387253643,0.40379893062461,-1.09055523355645,0.492307488483595,HC3; not calendar-year clustered
+agriculture,unweighted_lm_hc3,Park dominant minus Militia dominant,-0.403695987530733,0.352766468580493,-1.09510556090188,0.287713585840412,HC3; not calendar-year clustered

@@ -39,7 +39,7 @@ dir.create(OUT_FIG, recursive = TRUE, showWarnings = FALSE)
 dir.create(OUT_FSD, recursive = TRUE, showWarnings = FALSE)
 dir.create(OUT_REP, recursive = TRUE, showWarnings = FALSE)
 
-FIGURE_STEM <- "Figure_2_chronology_time_series_old_style_candidate_pubqual"
+FIGURE_STEM <- "Figure_2_chronology_time_series"
 
 SOURCE_TRAJ <- file.path(
   ROOT,
@@ -310,29 +310,7 @@ chronology[, profile_label := factor(profile_label, levels = PROFILE_LEVELS)]
 setorder(traj, landscape_label, outcome_label, side_label, year)
 setorder(chronology, landscape_label, year)
 
-candidate_source <- traj[, .(
-  SESU_ID,
-  landscape_label,
-  year,
-  outcome,
-  outcome_label,
-  side,
-  side_label,
-  n,
-  y,
-  proportion,
-  display_value,
-  governance_profile,
-  profile_label,
-  authoritative_input = normalizePath(
-    dat$input_path,
-    winslash = "/",
-    mustWork = FALSE
-  )
-)]
-
-fwrite(candidate_source, file.path(OUT_FSD, paste0(FIGURE_STEM, "_source_data.csv")))
-fwrite(event_check, file.path(OUT_REP, paste0(FIGURE_STEM, "_event_total_validation.csv")))
+fwrite(event_check, file.path(OUT_REP, "Figure_2_event_total_validation.csv"))
 
 wide <- dcast(
   traj,
@@ -551,7 +529,7 @@ p_strip <- ggplot(
   ) +
   guides(fill = guide_legend(order = 3, nrow = 1, title.position = "left"))
 
-figure_2_candidate <- p_traj / p_strip +
+figure_2 <- p_traj / p_strip +
   plot_layout(heights = c(5.3, 0.78), guides = "collect") &
   theme(legend.position = "bottom", legend.box = "vertical")
 
@@ -560,7 +538,7 @@ pdf_path <- file.path(OUT_FIG, paste0(FIGURE_STEM, ".pdf"))
 
 ggsave(
   filename = png_path,
-  plot = figure_2_candidate,
+  plot = figure_2,
   width = 195 / 25.4,
   height = 202 / 25.4,
   dpi = 600,
@@ -573,7 +551,7 @@ pdf_device <- if (capabilities("cairo")) grDevices::cairo_pdf else grDevices::pd
 
 ggsave(
   filename = pdf_path,
-  plot = figure_2_candidate,
+  plot = figure_2,
   width = 195 / 25.4,
   height = 202 / 25.4,
   device = pdf_device,
@@ -581,7 +559,7 @@ ggsave(
 )
 
 validation_report <- c(
-  paste0("Figure candidate: ", FIGURE_STEM),
+  paste0("Final figure: ", FIGURE_STEM),
   paste0("Repository root: ", ROOT),
   paste0("Trajectory input: ", normalizePath(dat$input_path, winslash = "/", mustWork = FALSE)),
   paste0("Chronology input: ", normalizePath(dat$chronology_path, winslash = "/", mustWork = FALSE)),
@@ -593,10 +571,11 @@ validation_report <- c(
   "",
   paste0("PNG: ", png_path),
   paste0("PDF: ", pdf_path),
-  paste0("Source data: ", file.path(OUT_FSD, paste0(FIGURE_STEM, "_source_data.csv"))),
+  paste0("Trajectory source data: ", SOURCE_TRAJ),
+  paste0("Chronology source data: ", SOURCE_CHRONOLOGY),
   "",
-  "Status: candidate only; the current publication Figure 2 was not overwritten."
+  "Status: final publication Figure 2 generated and locked totals validated."
 )
 
-writeLines(validation_report, file.path(OUT_REP, paste0(FIGURE_STEM, "_validation.txt")))
+writeLines(validation_report, file.path(OUT_REP, "Figure_2_validation.txt"))
 message(paste(validation_report, collapse = "\n"))

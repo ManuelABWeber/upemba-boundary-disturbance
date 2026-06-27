@@ -1,0 +1,19 @@
+"finding_type","outcome","key","expected_classification","observed_classification","pass"
+"profile-specific contrasts","agriculture","Militia dominant","inconclusive","inconclusive",TRUE
+"profile-specific contrasts","agriculture","Neither actor dominant","inconclusive","inconclusive",TRUE
+"profile-specific contrasts","agriculture","Park dominant","inconclusive","inconclusive",TRUE
+"profile-specific contrasts","fire","Militia dominant","not boundary-specific","not boundary-specific",TRUE
+"profile-specific contrasts","fire","Neither actor dominant","not boundary-specific","not boundary-specific",TRUE
+"profile-specific contrasts","fire","Park dominant","not boundary-specific","not boundary-specific",TRUE
+"profile-specific contrasts","tree_cover_loss","Militia dominant","boundary-specific support","boundary-specific support",TRUE
+"profile-specific contrasts","tree_cover_loss","Neither actor dominant","boundary-specific support","boundary-specific support",TRUE
+"profile-specific contrasts","tree_cover_loss","Park dominant","boundary-specific support","boundary-specific support",TRUE
+"pairwise profile differences","agriculture","Militia dominant minus Neither actor dominant","inconclusive","inconclusive",TRUE
+"pairwise profile differences","agriculture","Park dominant minus Militia dominant","inconclusive","inconclusive",TRUE
+"pairwise profile differences","agriculture","Park dominant minus Neither actor dominant","inconclusive","inconclusive",TRUE
+"pairwise profile differences","fire","Militia dominant minus Neither actor dominant","partial boundary-specific support","partial boundary-specific support",TRUE
+"pairwise profile differences","fire","Park dominant minus Militia dominant","not boundary-specific","not boundary-specific",TRUE
+"pairwise profile differences","fire","Park dominant minus Neither actor dominant","not boundary-specific","not boundary-specific",TRUE
+"pairwise profile differences","tree_cover_loss","Militia dominant minus Neither actor dominant","not boundary-specific","not boundary-specific",TRUE
+"pairwise profile differences","tree_cover_loss","Park dominant minus Militia dominant","not boundary-specific","not boundary-specific",TRUE
+"pairwise profile differences","tree_cover_loss","Park dominant minus Neither actor dominant","partial boundary-specific support","partial boundary-specific support",TRUE

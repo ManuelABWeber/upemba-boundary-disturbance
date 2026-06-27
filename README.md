@@ -1,4 +1,4 @@
-# A protected-area boundary separates tree-cover loss but not fire under fragmented territorial control
+# A protected-area boundary separates tree-cover loss but not fire across changing territorial control
 
 This private repository contains the publication-facing analysis and output package for the Chapter 1 Upemba boundary disturbance study. The study asks whether protected-area boundary contrasts in remotely sensed fire, tree-cover loss, and agricultural expansion recover interpretable signals of fragmented territorial control in and around Upemba National Park, Democratic Republic of the Congo.
 
@@ -19,7 +19,12 @@ The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire
 1. Review `data/manifests/required_external_inputs.csv` and configure local restricted inputs through `UPEMBA_DATA_ROOT` or `config/paths.local.R`.
 2. Restore the R environment from `renv.lock`.
 3. Run the staged analysis scripts in `scripts/preprocessing/`, `scripts/analysis/`, and `scripts/sensitivity/` as data access permits.
-4. Regenerate publication outputs with `scripts/publication/06_generate_main_figures_tables.R` and `scripts/publication/07_generate_supplementary_material.R`.
+4. Regenerate the publication package, from the repository root, in this order:
+   1. `scripts/publication/06_generate_main_figures_tables.R`
+   2. `scripts/publication/08_generate_figure2_chronology_time_series.R`
+   3. `scripts/publication/07_generate_supplementary_material.R`
+
+Script 06 regenerates the authoritative Figure 2 source-data CSVs but deliberately does not export Figure 2. Script 08 is the single final Figure 2 renderer. Script 07 regenerates supplementary tables, figures, HTML, and data delivery files while retaining the verified final supplementary DOCX.
 
 Restricted raw rasters, private operational evidence, patrol/security material, and large intermediate geospatial products are not included. Authorized researchers should obtain those inputs through the project owner and place them at the configured local data root.
 

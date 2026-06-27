@@ -1,0 +1,7 @@
+disturbance,governance_profile,requested_replicates,attempted_replicates,interval_replicates,percentile_lower_95_ci,percentile_upper_95_ci,finite_output_replicates,strict_valid_replicates,rejected_replicates,strict_valid_fraction,bootstrap_inference_unstable
+deforestation,Neither actor dominant,499,499,5,-1.20127975957551,-0.751134920174403,491,5,494,0.0100200400801603,TRUE
+deforestation,Militia dominant,499,499,5,-2.25587149153085,-1.10677516772689,491,5,494,0.0100200400801603,TRUE
+deforestation,Park dominant,499,499,5,-3.43499328362026,-3.09249497486546,491,5,494,0.0100200400801603,TRUE
+fire,Neither actor dominant,499,499,103,0.0745263815207278,0.272397673924475,499,103,396,0.206412825651303,TRUE
+fire,Militia dominant,499,499,103,-0.0481758862784348,0.145607575638949,499,103,396,0.206412825651303,TRUE
+fire,Park dominant,499,499,103,0.0503424432924745,0.179343670369273,499,103,396,0.206412825651303,TRUE
