@@ -1,7 +1,0 @@
-disturbance,model_type,n_obs,residual_df,r_squared,covariance
-fire,inverse_variance_weighted_lm_hc3,44,40,0.798729932906881,HC3; CR2 calendar-year clustering not implemented in this environment
-fire,unweighted_lm_hc3,44,40,0.790593398384437,HC3; CR2 calendar-year clustering not implemented in this environment
-deforestation,inverse_variance_weighted_lm_hc3,44,40,0.563436985238115,HC3; CR2 calendar-year clustering not implemented in this environment
-deforestation,unweighted_lm_hc3,44,40,0.439666353109018,HC3; CR2 calendar-year clustering not implemented in this environment
-agriculture,inverse_variance_weighted_lm_hc3,44,40,0.429894937432301,HC3; CR2 calendar-year clustering not implemented in this environment
-agriculture,unweighted_lm_hc3,44,40,0.109109921380192,HC3; CR2 calendar-year clustering not implemented in this environment

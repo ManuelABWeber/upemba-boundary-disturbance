@@ -1,0 +1,4 @@
+outcome,expected_events,events,ok
+agriculture,518,518,TRUE
+fire,508320,508320,TRUE
+tree_cover_loss,519,519,TRUE
