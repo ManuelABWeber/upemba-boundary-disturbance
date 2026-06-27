@@ -1,8 +1,0 @@
-disturbance,failure_reason,N
-agriculture,failed_output,45
-agriculture,finite_output,454
-deforestation,failed_output,8
-deforestation,finite_output,486
-deforestation,,5
-fire,finite_output,396
-fire,,103

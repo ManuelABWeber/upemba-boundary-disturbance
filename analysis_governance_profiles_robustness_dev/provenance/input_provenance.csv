@@ -1,5 +1,0 @@
-item,path,md5
-config,C:/0_Documents/Chapter_1/config/analysis_config.R,c4650fe74b80d092614f7269fedf471b
-rs_surfaces,C:/0_Documents/Chapter_1/run_2026_05_27/rs_surfaces_long.csv,87d5c6c222cec0d1ffe925ace31376a5
-governance_profile_input,C:/0_Documents/Chapter_1/data/upemba_sesu_year_regimes.csv,57fef5e2f107d90b18f522976ad3cb17
-script,C:/0_Documents/Chapter_1/scripts/06_governance_profile_robustness.R,e5d8eb46ddf992a4a6c14c8f569f2996
