@@ -1,0 +1,10 @@
+measurement_version,threshold_tag,spatial_design,optimizer_config,governance_profile,estimate,standard_error,lower_95_ci,upper_95_ci
+harmonized_tau010,tau010,buffer_10km,A_baseline,Neither actor dominant,0.155683387220314,0.0311384281535949,,
+harmonized_tau010,tau010,buffer_10km,A_baseline,Militia dominant,-0.0108897193210288,0.0347756605125337,,
+harmonized_tau010,tau010,buffer_10km,A_baseline,Park dominant,0.0435307617570196,0.0319512723496576,,
+harmonized_tau025,tau025,buffer_10km,A_baseline,Neither actor dominant,0.170288192839782,0.0297450631121401,,
+harmonized_tau025,tau025,buffer_10km,A_baseline,Militia dominant,0.010708701392143,0.0330098662818258,,
+harmonized_tau025,tau025,buffer_10km,A_baseline,Park dominant,0.0678279724903156,0.0305524710374224,,
+harmonized_tau050,tau050,buffer_10km,A_baseline,Neither actor dominant,0.179420612281757,0.0283976790369352,,
+harmonized_tau050,tau050,buffer_10km,A_baseline,Militia dominant,0.0199555877665323,0.0312419392888506,,
+harmonized_tau050,tau050,buffer_10km,A_baseline,Park dominant,0.088707796677639,0.0291877811377813,,

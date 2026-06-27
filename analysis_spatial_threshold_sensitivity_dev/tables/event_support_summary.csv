@@ -1,0 +1,433 @@
+governance_profile,SESU_ID,outcome,threshold,threshold_tag,spatial_design,side,total_events,total_cell_years_at_risk,years_with_at_least_one_event,zero_event_years,both_sides_represented,both_sesus_represented,number_represented_episodes,largest_episode_share
+Militia dominant,1,fire,0.1,tau010,all_cells,outside,469857,778876,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,all_cells,inside,48635,85715,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,all_cells,outside,3687,728685,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,all_cells,inside,65,83994,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,all_cells,outside,1788,770327,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,all_cells,inside,159,84815,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_05km,outside,16532,36344,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_05km,inside,14969,30590,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,outside,62,35071,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,inside,60,29026,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_05km,outside,96,35871,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_05km,inside,138,29779,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_10km,outside,35411,70133,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_10km,inside,28155,53284,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,outside,176,67123,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,inside,63,51619,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_10km,outside,171,69412,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_10km,inside,159,52384,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_20km,outside,80828,147273,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.1,tau010,buffer_20km,inside,43753,78827,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,outside,409,141567,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,inside,65,77106,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_20km,outside,227,146288,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.1,tau010,buffer_20km,inside,159,77927,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,all_cells,outside,434324,778876,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,all_cells,inside,44270,85715,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,all_cells,outside,845,766457,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,all_cells,inside,16,85130,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,all_cells,outside,887,774376,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,all_cells,inside,110,85113,6,1,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_05km,outside,14438,36344,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_05km,inside,13446,30590,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,outside,18,35870,6,1,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,inside,15,30018,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_05km,outside,57,35941,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_05km,inside,101,30036,6,1,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_10km,outside,31438,70133,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_10km,inside,25436,53284,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,outside,39,69257,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,inside,16,52699,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_10km,outside,98,69549,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_10km,inside,110,52686,6,1,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_20km,outside,73365,147273,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.25,tau025,buffer_20km,inside,39788,78827,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,outside,98,145758,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,inside,16,78242,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_20km,outside,110,146609,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.25,tau025,buffer_20km,inside,110,78225,6,1,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,all_cells,outside,385568,778876,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,all_cells,inside,38254,85715,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,all_cells,outside,101,777152,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,all_cells,inside,0,85553,0,7,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,all_cells,outside,496,776128,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,all_cells,inside,51,85440,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_05km,outside,11981,36344,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_05km,inside,11390,30590,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,outside,3,36254,2,5,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,inside,0,30428,0,7,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_05km,outside,39,36026,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_05km,inside,48,30338,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_10km,outside,26530,70133,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_10km,inside,21689,53284,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,outside,3,70015,2,5,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,inside,0,53122,0,7,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_10km,outside,52,69749,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_10km,inside,51,53009,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_20km,outside,63280,147273,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,fire,0.5,tau050,buffer_20km,inside,34344,78827,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,outside,14,147067,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,inside,0,78665,0,7,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_20km,outside,53,146877,7,0,FALSE,FALSE,2,0.571428571428571
+Militia dominant,1,agriculture,0.5,tau050,buffer_20km,inside,51,78552,5,2,FALSE,FALSE,2,0.571428571428571
+Militia dominant,3,fire,0.1,tau010,all_cells,outside,219756,331080,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,all_cells,inside,112355,154308,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,all_cells,outside,422,325935,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,all_cells,inside,11,153919,5,1,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,all_cells,outside,29,330895,5,1,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,all_cells,inside,0,154308,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_05km,outside,26246,37356,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_05km,inside,27415,40902,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,outside,16,37068,5,1,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,inside,4,40795,2,4,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_05km,outside,0,37353,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_05km,inside,0,40902,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_10km,outside,52306,71922,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_10km,inside,53954,77616,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,outside,57,71006,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,inside,6,77380,4,2,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_10km,outside,4,71895,2,4,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_10km,inside,0,77616,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_20km,outside,91710,125898,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.1,tau010,buffer_20km,inside,95481,131214,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,outside,127,123947,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,inside,11,130840,5,1,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_20km,outside,14,125790,4,2,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.1,tau010,buffer_20km,inside,0,131214,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,all_cells,outside,202511,331080,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,all_cells,inside,106110,154308,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,all_cells,outside,74,330311,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,all_cells,inside,0,154293,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,all_cells,outside,3,331055,2,4,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,all_cells,inside,0,154308,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_05km,outside,24713,37356,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_05km,inside,25533,40902,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,outside,1,37334,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,inside,0,40896,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_05km,outside,0,37356,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_05km,inside,0,40902,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_10km,outside,48949,71922,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_10km,inside,50661,77616,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,outside,11,71782,3,3,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,inside,0,77604,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_10km,outside,0,71919,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_10km,inside,0,77616,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_20km,outside,85560,125898,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.25,tau025,buffer_20km,inside,90250,131214,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,outside,19,125672,5,1,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,inside,0,131199,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_20km,outside,2,125882,2,4,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.25,tau025,buffer_20km,inside,0,131214,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,all_cells,outside,178392,331080,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,all_cells,inside,96619,154308,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,all_cells,outside,9,330996,4,2,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,all_cells,inside,0,154308,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,all_cells,outside,1,331075,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,all_cells,inside,0,154308,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_05km,outside,22375,37356,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_05km,inside,22908,40902,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,outside,0,37356,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,inside,0,40902,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_05km,outside,0,37356,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_05km,inside,0,40902,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_10km,outside,44154,71922,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_10km,inside,45888,77616,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,outside,1,71898,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,inside,0,77616,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_10km,outside,1,71917,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_10km,inside,0,77616,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_20km,outside,76780,125898,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,fire,0.5,tau050,buffer_20km,inside,82316,131214,6,0,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,outside,1,125871,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,inside,0,131214,0,6,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_20km,outside,1,125893,1,5,FALSE,FALSE,2,0.5
+Militia dominant,3,agriculture,0.5,tau050,buffer_20km,inside,0,131214,0,6,FALSE,FALSE,2,0.5
+Neither actor dominant,1,fire,0.1,tau010,all_cells,outside,556976,1001412,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,all_cells,inside,61291,110205,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,all_cells,outside,7906,963957,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,all_cells,inside,291,109034,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,all_cells,outside,822,994734,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,all_cells,inside,104,109697,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_05km,outside,19634,46728,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_05km,inside,18547,39330,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,outside,235,46017,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,inside,264,38258,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_05km,outside,48,46468,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_05km,inside,95,38850,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_10km,outside,41640,90171,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_10km,inside,35362,68508,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,outside,519,88309,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,inside,283,67383,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_10km,outside,71,89764,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_10km,inside,104,68000,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_20km,outside,95598,189351,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.1,tau010,buffer_20km,inside,54963,101349,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,outside,934,185652,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,inside,291,100178,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_20km,outside,103,188774,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.1,tau010,buffer_20km,inside,104,100841,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,all_cells,outside,512348,1001412,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,all_cells,inside,55547,110205,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,all_cells,outside,2160,993410,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,all_cells,inside,114,109891,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,all_cells,outside,391,997656,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,all_cells,inside,71,109855,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_05km,outside,17174,46728,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_05km,inside,16509,39330,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,outside,99,46544,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,inside,111,39021,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_05km,outside,39,46417,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_05km,inside,64,39002,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_10km,outside,36782,90171,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_10km,inside,31839,68508,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,outside,179,89769,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,inside,114,68194,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_10km,outside,52,89708,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_10km,inside,70,68162,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_20km,outside,86413,189351,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.25,tau025,buffer_20km,inside,49741,101349,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,outside,290,188620,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,inside,114,101035,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_20km,outside,62,188823,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.25,tau025,buffer_20km,inside,71,100999,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,all_cells,outside,452020,1001412,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,all_cells,inside,47925,110205,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,all_cells,outside,323,1000502,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,all_cells,inside,36,110158,6,3,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,all_cells,outside,218,999030,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,all_cells,inside,23,110012,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_05km,outside,14188,46728,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_05km,inside,13823,39330,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,outside,20,46714,4,5,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,inside,36,39283,6,3,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_05km,outside,27,46458,7,2,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_05km,inside,20,39159,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_10km,outside,30747,90171,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_10km,inside,27116,68508,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,outside,27,90156,5,4,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,inside,36,68461,6,3,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_10km,outside,34,89849,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_10km,inside,23,68315,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_20km,outside,74063,189351,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,fire,0.5,tau050,buffer_20km,inside,42802,101349,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,outside,40,189285,6,3,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,inside,36,101302,6,3,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_20km,outside,36,189018,8,1,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,1,agriculture,0.5,tau050,buffer_20km,inside,23,101156,9,0,FALSE,FALSE,2,0.666666666666667
+Neither actor dominant,3,fire,0.1,tau010,all_cells,outside,229575,386260,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,all_cells,inside,125977,180026,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,all_cells,outside,881,383826,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,all_cells,inside,69,179838,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,all_cells,outside,27,386151,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,all_cells,inside,0,180026,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_05km,outside,28472,43582,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_05km,inside,30238,47719,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,outside,65,43420,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,inside,18,47663,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_05km,outside,1,43581,1,6,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_05km,inside,0,47719,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_10km,outside,54530,83909,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_10km,inside,59955,90552,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,outside,183,83408,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,inside,44,90424,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_10km,outside,3,83906,3,4,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_10km,inside,0,90552,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_20km,outside,94552,146881,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.1,tau010,buffer_20km,inside,106333,153083,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,outside,373,145938,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,inside,67,152899,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_20km,outside,16,146829,4,3,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.1,tau010,buffer_20km,inside,0,153083,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,all_cells,outside,209430,386260,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,all_cells,inside,118194,180026,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,all_cells,outside,123,385946,6,1,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,all_cells,inside,2,180023,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,all_cells,outside,6,386245,4,3,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,all_cells,inside,0,180026,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_05km,outside,26358,43582,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_05km,inside,28031,47719,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,outside,7,43573,4,3,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,inside,0,47719,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_05km,outside,0,43582,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_05km,inside,0,47719,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_10km,outside,50333,83909,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_10km,inside,55985,90552,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,outside,26,83835,5,2,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,inside,2,90549,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_10km,outside,0,83909,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_10km,inside,0,90552,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_20km,outside,86991,146881,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.25,tau025,buffer_20km,inside,99782,153083,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,outside,40,146773,5,2,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,inside,2,153080,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_20km,outside,3,146870,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.25,tau025,buffer_20km,inside,0,153083,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,all_cells,outside,181218,386260,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,all_cells,inside,106813,180026,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,all_cells,outside,13,386235,4,3,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,all_cells,inside,0,180026,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,all_cells,outside,0,386256,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,all_cells,inside,0,180026,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_05km,outside,23436,43582,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_05km,inside,24994,47719,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,outside,0,43582,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,inside,0,47719,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_05km,outside,0,43582,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_05km,inside,0,47719,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_10km,outside,44467,83909,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_10km,inside,50267,90552,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,outside,4,83902,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,inside,0,90552,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_10km,outside,0,83905,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_10km,inside,0,90552,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_20km,outside,76387,146881,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,fire,0.5,tau050,buffer_20km,inside,90324,153083,7,0,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,outside,5,146873,2,5,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,inside,0,153083,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_20km,outside,0,146877,0,7,FALSE,FALSE,2,0.571428571428571
+Neither actor dominant,3,agriculture,0.5,tau050,buffer_20km,inside,0,153083,0,7,FALSE,FALSE,2,0.571428571428571
+Park dominant,1,fire,0.1,tau010,all_cells,outside,374156,667608,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,all_cells,inside,37863,73470,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,all_cells,outside,4703,585442,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,all_cells,inside,93,71090,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,all_cells,outside,3240,643034,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,all_cells,inside,102,71609,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_05km,outside,11317,31152,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_05km,inside,10798,26220,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,outside,138,29051,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_05km,inside,65,24098,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_05km,outside,138,29938,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_05km,inside,78,24609,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_10km,outside,24234,60114,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_10km,inside,20873,45672,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,outside,246,55338,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_10km,inside,83,43372,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_10km,outside,252,57959,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_10km,inside,102,43811,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_20km,outside,58686,126234,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.1,tau010,buffer_20km,inside,33662,67566,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,outside,496,116880,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.1,tau010,buffer_20km,inside,83,65206,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_20km,outside,413,123163,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.1,tau010,buffer_20km,inside,102,65705,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,all_cells,outside,329095,667608,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,all_cells,inside,32315,73470,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,all_cells,outside,1536,645706,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,all_cells,inside,13,72663,5,1,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,all_cells,outside,1132,656665,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,all_cells,inside,74,72149,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_05km,outside,9290,31152,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_05km,inside,8894,26220,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,outside,22,30406,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_05km,inside,10,25445,5,1,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_05km,outside,68,30392,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_05km,inside,63,25039,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_10km,outside,20017,60114,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_10km,inside,17413,45672,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,outside,44,58691,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_10km,inside,12,44867,5,1,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_10km,outside,111,58910,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_10km,inside,74,44357,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_20km,outside,49727,126234,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.25,tau025,buffer_20km,inside,28644,67566,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,outside,114,123603,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.25,tau025,buffer_20km,inside,12,66761,5,1,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_20km,outside,150,124799,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.25,tau025,buffer_20km,inside,74,66245,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,all_cells,outside,301141,667608,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,all_cells,inside,28788,73470,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,all_cells,outside,199,664612,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,all_cells,inside,3,73247,2,4,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,all_cells,outside,398,662068,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,all_cells,inside,35,72911,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_05km,outside,7971,31152,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_05km,inside,7705,26220,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,outside,2,31005,2,4,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_05km,inside,3,25997,2,4,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_05km,outside,12,30720,5,1,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_05km,inside,34,25701,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_10km,outside,17309,60114,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_10km,inside,15238,45672,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,outside,2,59925,2,4,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_10km,inside,3,45449,2,4,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_10km,outside,31,59490,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_10km,inside,35,45113,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_20km,outside,43908,126234,6,0,FALSE,FALSE,1,1
+Park dominant,1,fire,0.5,tau050,buffer_20km,inside,25422,67566,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,outside,12,125868,6,0,FALSE,FALSE,1,1
+Park dominant,1,tree_cover_loss,0.5,tau050,buffer_20km,inside,3,67343,2,4,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_20km,outside,35,125581,6,0,FALSE,FALSE,1,1
+Park dominant,1,agriculture,0.5,tau050,buffer_20km,inside,35,67007,6,0,FALSE,FALSE,1,1
+Park dominant,3,fire,0.1,tau010,all_cells,outside,311861,496620,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,all_cells,inside,160710,231462,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,all_cells,outside,2298,476991,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,all_cells,inside,64,230462,8,1,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,all_cells,outside,133,495803,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,all_cells,inside,1,231462,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_05km,outside,36755,56034,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_05km,inside,38276,61353,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,outside,140,54848,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_05km,inside,24,61074,7,2,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_05km,outside,3,56014,3,6,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_05km,inside,0,61353,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_10km,outside,72161,107883,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_10km,inside,75692,116424,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,outside,379,104429,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_10km,inside,34,115833,8,1,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_10km,outside,16,107768,8,1,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_10km,inside,0,116424,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_20km,outside,127179,188847,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.1,tau010,buffer_20km,inside,135948,196821,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,outside,879,181212,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.1,tau010,buffer_20km,inside,51,195875,8,1,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_20km,outside,43,188460,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.1,tau010,buffer_20km,inside,1,196821,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,all_cells,outside,276043,496620,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,all_cells,inside,147907,231462,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,all_cells,outside,574,493095,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,all_cells,inside,3,231423,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,all_cells,outside,11,496508,7,2,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,all_cells,inside,0,231462,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_05km,outside,33045,56034,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_05km,inside,34712,61353,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,outside,28,55886,5,4,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_05km,inside,2,61339,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_05km,outside,0,56034,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_05km,inside,0,61353,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_10km,outside,64547,107883,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_10km,inside,69160,116424,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,outside,74,107330,8,1,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_10km,inside,2,116392,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_10km,outside,3,107865,2,7,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_10km,inside,0,116424,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_20km,outside,113406,188847,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.25,tau025,buffer_20km,inside,125326,196821,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,outside,168,187801,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.25,tau025,buffer_20km,inside,3,196782,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_20km,outside,5,188779,4,5,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.25,tau025,buffer_20km,inside,0,196821,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,all_cells,outside,247254,496620,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,all_cells,inside,137060,231462,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,all_cells,outside,69,496255,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,all_cells,inside,0,231462,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,all_cells,outside,2,496603,2,7,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,all_cells,inside,0,231462,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_05km,outside,30107,56034,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_05km,inside,31746,61353,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,outside,0,56034,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_05km,inside,0,61353,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_05km,outside,0,56034,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_05km,inside,0,61353,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_10km,outside,58487,107883,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_10km,inside,63626,116424,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,outside,3,107817,1,8,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_10km,inside,0,116424,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_10km,outside,0,107874,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_10km,inside,0,116424,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_20km,outside,102376,188847,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,fire,0.5,tau050,buffer_20km,inside,116355,196821,9,0,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,outside,9,188757,5,4,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,tree_cover_loss,0.5,tau050,buffer_20km,inside,0,196821,0,9,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_20km,outside,2,188830,2,7,FALSE,FALSE,2,0.777777777777778
+Park dominant,3,agriculture,0.5,tau050,buffer_20km,inside,0,196821,0,9,FALSE,FALSE,2,0.777777777777778

@@ -550,13 +550,35 @@ make_tables <- function() {
 
   sess <- sub("[[:space:]]+$", "", capture.output(sessionInfo()))
   pkg_version <- function(pkg) if (requireNamespace(pkg, quietly = TRUE)) as.character(utils::packageVersion(pkg)) else "not installed"
+  analysis_scripts <- paste(c(
+    "scripts/preprocessing/04_harmonize_fire_2021_2022.R",
+    "scripts/analysis/01_fit_governance_profile_models.R",
+    "scripts/analysis/02_fit_sparse_outcomes_and_profile_robustness.R",
+    "scripts/analysis/03_refine_fire_10km_optimizer.R",
+    "scripts/sensitivity/01_run_spatial_threshold_sensitivity.R",
+    "scripts/sensitivity/02_audit_measurement_harmonization.R",
+    "scripts/sensitivity/03_run_revised_boundary_falsification.R"
+  ), collapse = "; ")
+  publication_scripts <- paste(c(
+    "scripts/publication/06_generate_main_figures_tables.R",
+    "scripts/publication/08_generate_figure2_chronology_time_series.R",
+    "scripts/publication/07_generate_supplementary_material.R"
+  ), collapse = "; ")
+  result_tables <- paste(c(
+    "outputs/publication/figure_source_data/Figure_2_annual_trajectories.csv",
+    "outputs/publication/figure_source_data/Figure_2_profile_chronology.csv",
+    "outputs/publication/figure_source_data/Figure_3_profile_contrasts.csv",
+    "outputs/publication/figure_source_data/Figure_3_pairwise_differences.csv",
+    "outputs/publication/figure_source_data/Figure_4_profile_boundary_estimates.csv",
+    "analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv"
+  ), collapse = "; ")
   t18 <- data.table(
-    Component = c("R", "glmmTMB", "terra", "sf", "sandwich or covariance implementation", "analysis configuration", "primary model scripts", "publication scripts", "final result tables"),
-    `Software or file` = c("R", "glmmTMB", "terra", "sf", "sandwich", "config/analysis_config.R", "scripts/05_models_governance_profiles.R; scripts/06_governance_profile_robustness.R; scripts/07_spatial_threshold_sensitivity.R; scripts/09_fire_2021_2022_harmonization.R; scripts/10_fire_10km_optimizer_refinement.R; scripts/12_spatial_boundary_falsification_revised.R", "scripts/publication/06_generate_main_figures_tables.R; scripts/publication/07_generate_supplementary_material.R", "outputs/publication/figure_source_data/Figure_3_profile_contrasts.csv; outputs/publication/figure_source_data/Figure_3_pairwise_differences.csv; outputs/publication/figure_source_data/Figure_4_profile_boundary_estimates.csv; analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv"),
-    Version = c(R.version.string, pkg_version("glmmTMB"), pkg_version("terra"), pkg_version("sf"), pkg_version("sandwich"), "frozen repository version", "frozen repository version", "current supplement branch", "frozen authoritative outputs"),
-    Role = c("execution environment", "beta-binomial fitting", "raster processing", "vector spatial processing", "HC3 covariance support", "configuration", "analysis execution", "publication output generation", "authoritative inputs"),
-    `Authoritative path` = c("system R", "installed package", "installed package", "installed package", "installed package", "config/analysis_config.R", "scripts/05_models_governance_profiles.R; scripts/06_governance_profile_robustness.R; scripts/07_spatial_threshold_sensitivity.R; scripts/09_fire_2021_2022_harmonization.R; scripts/10_fire_10km_optimizer_refinement.R; scripts/12_spatial_boundary_falsification_revised.R", "scripts/publication/06_generate_main_figures_tables.R; scripts/publication/07_generate_supplementary_material.R", "outputs/publication/figure_source_data/Figure_3_profile_contrasts.csv; outputs/publication/figure_source_data/Figure_3_pairwise_differences.csv; outputs/publication/figure_source_data/Figure_4_profile_boundary_estimates.csv; analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv"),
-    `Checksum if available` = c(NA_character_, NA_character_, NA_character_, NA_character_, NA_character_, NA_character_, NA_character_, NA_character_, NA_character_)
+    Component = c("R", "data.table", "ggplot2", "patchwork", "ragg", "analysis configuration", "active analysis scripts", "publication scripts", "final result tables"),
+    `Software or file` = c("R", "data.table", "ggplot2", "patchwork", "ragg", "config/analysis_config.R", analysis_scripts, publication_scripts, result_tables),
+    Version = c(R.version.string, pkg_version("data.table"), pkg_version("ggplot2"), pkg_version("patchwork"), pkg_version("ragg"), "frozen repository version", "frozen repository version", "final publication workflow", "frozen authoritative outputs"),
+    Role = c("execution environment", "tabular processing", "statistical graphics", "figure composition", "600 dpi PNG rendering", "configuration", "upstream analysis execution", "publication output generation", "authoritative inputs"),
+    `Authoritative path` = c("system R", "installed package", "installed package", "installed package", "installed package", "config/analysis_config.R", analysis_scripts, publication_scripts, result_tables),
+    `Checksum if available` = rep(NA_character_, 9)
   )
   writeLines(sess, file.path(OUT_REPORT, "sessionInfo.txt"))
   out[[18]] <- write_table(t18, 18, "Reproducibility environment and authoritative inputs", "Software environment and core authoritative inputs.", "sessionInfo and repository files", "captured installed package versions")
@@ -738,16 +760,11 @@ write_supplement_documents <- function(tables, fig_manifest) {
   )
   writeLines(html, file.path(OUT_ROOT, "Chapter1_Supplementary_Material.html"), useBytes = TRUE)
 
-  missing_pkg <- character()
-  if (!requireNamespace("officer", quietly = TRUE)) missing_pkg <- c(missing_pkg, "officer")
-  if (!requireNamespace("flextable", quietly = TRUE)) missing_pkg <- c(missing_pkg, "flextable")
-  if (length(missing_pkg) == 0) {
-    doc <- officer::read_docx()
-    doc <- officer::body_add_par(doc, "Supplementary Material", style = "heading 1")
-    doc <- officer::body_add_par(doc, "Supplementary methods and tables are provided in the HTML supplement and source CSV files.", style = "Normal")
-    print(doc, target = file.path(OUT_ROOT, "Chapter1_Supplementary_Material.docx"))
+  final_docx <- file.path(OUT_ROOT, "Chapter1_Supplementary_Material_final.docx")
+  if (!file.exists(final_docx)) {
+    stop("Missing authoritative final supplement: ", final_docx, call. = FALSE)
   }
-  missing_pkg
+  character()
 }
 
 cross_reference_map <- function() {
@@ -908,7 +925,7 @@ validate_supplement <- function(table_meta, fig_manifest, missing_pkg) {
   hits <- forbidden[vapply(forbidden, function(pattern) any(grepl(pattern, text, fixed = TRUE)), logical(1))]
   if (length(hits)) problems <- c(problems, paste("Deprecated string(s) found:", paste(hits, collapse = ", ")))
   if (!file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material.html"))) problems <- c(problems, "HTML supplement missing.")
-  if (length(missing_pkg) == 0 && !file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material.docx"))) problems <- c(problems, "DOCX supplement missing despite packages available.")
+  if (!file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material_final.docx"))) problems <- c(problems, "Authoritative final DOCX supplement is missing.")
   validation <- c(
     "# Supplement Validation",
     "",
@@ -945,6 +962,16 @@ run <- function() {
   )), fill = TRUE)
   fig_manifest[, `Output file` := rel_path(file.path(ROOT, `Output file`))]
   manifest <- rbindlist(list(table_manifest, fig_manifest), fill = TRUE)
+  manifest[, `Authoritative source file or files` := vapply(
+    `Authoritative source file or files`,
+    function(value) {
+      parts <- trimws(strsplit(value, ";", fixed = TRUE)[[1]])
+      paste(vapply(parts, function(path) {
+        if (file.exists(path)) rel_path(path) else path
+      }, character(1)), collapse = "; ")
+    },
+    character(1)
+  )]
   fwrite(manifest, file.path(OUT_REPORT, "supplement_manifest.csv"))
   validate_supplement(tables, fig_manifest, missing_pkg)
   writeLines(c(
@@ -954,7 +981,7 @@ run <- function() {
     sprintf("Tables generated: %d", length(tables)),
     "Figures generated: 3",
     sprintf("HTML supplement generated: %s", file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material.html"))),
-    sprintf("Word supplement generated: %s", file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material.docx"))),
+    sprintf("Authoritative final Word supplement retained: %s", file.exists(file.path(OUT_ROOT, "Chapter1_Supplementary_Material_final.docx"))),
     sprintf("Missing Word-output packages: %s", ifelse(length(missing_pkg), paste(missing_pkg, collapse = ", "), "none")),
     sprintf("Large-table delivery method: %s", data_delivery),
     "No models were refit and no events were reconstructed."

@@ -1,0 +1,17 @@
+"path","exists","nonempty","pass"
+"outputs/publication/manuscript/Chapter1_manuscript_final.docx",TRUE,TRUE,TRUE
+"outputs/publication/supplement/Chapter1_Supplementary_Material_final.docx",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_1_study_design.png",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_1_study_design.pdf",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_2_chronology_time_series.png",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_2_chronology_time_series.pdf",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_3_primary_contrasts.png",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_3_primary_contrasts.pdf",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_4_boundary_location_diagnostic.png",TRUE,TRUE,TRUE
+"outputs/publication/main_figures/Figure_4_boundary_location_diagnostic.pdf",TRUE,TRUE,TRUE
+"outputs/publication/figure_source_data/Figure_2_annual_trajectories.csv",TRUE,TRUE,TRUE
+"outputs/publication/figure_source_data/Figure_2_profile_chronology.csv",TRUE,TRUE,TRUE
+"reports/publication_outputs/Figure_2_event_total_validation.csv",TRUE,TRUE,TRUE
+"outputs/publication/supplement/figures/Figure_S1_clustering_diagnostics.png",TRUE,TRUE,TRUE
+"outputs/publication/supplement/figures/Figure_S2_threshold_spatial_sensitivities.png",TRUE,TRUE,TRUE
+"outputs/publication/supplement/figures/Figure_S3_pairwise_pseudo_boundary_diagnostic.png",TRUE,TRUE,TRUE

@@ -1,0 +1,19 @@
+finding_type,outcome,key,expected_classification
+profile-specific contrasts,agriculture,Militia dominant,inconclusive
+profile-specific contrasts,agriculture,Neither actor dominant,inconclusive
+profile-specific contrasts,agriculture,Park dominant,inconclusive
+profile-specific contrasts,fire,Militia dominant,not boundary-specific
+profile-specific contrasts,fire,Neither actor dominant,not boundary-specific
+profile-specific contrasts,fire,Park dominant,not boundary-specific
+profile-specific contrasts,tree_cover_loss,Militia dominant,boundary-specific support
+profile-specific contrasts,tree_cover_loss,Neither actor dominant,boundary-specific support
+profile-specific contrasts,tree_cover_loss,Park dominant,boundary-specific support
+pairwise profile differences,agriculture,Militia dominant minus Neither actor dominant,inconclusive
+pairwise profile differences,agriculture,Park dominant minus Militia dominant,inconclusive
+pairwise profile differences,agriculture,Park dominant minus Neither actor dominant,inconclusive
+pairwise profile differences,fire,Militia dominant minus Neither actor dominant,partial boundary-specific support
+pairwise profile differences,fire,Park dominant minus Militia dominant,not boundary-specific
+pairwise profile differences,fire,Park dominant minus Neither actor dominant,not boundary-specific
+pairwise profile differences,tree_cover_loss,Militia dominant minus Neither actor dominant,not boundary-specific
+pairwise profile differences,tree_cover_loss,Park dominant minus Militia dominant,not boundary-specific
+pairwise profile differences,tree_cover_loss,Park dominant minus Neither actor dominant,partial boundary-specific support

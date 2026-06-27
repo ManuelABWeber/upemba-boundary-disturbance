@@ -2,12 +2,9 @@
 
 suppressPackageStartupMessages({
   library(data.table)
-  library(terra)
-  library(sf)
   library(ggplot2)
   library(patchwork)
   library(grid)
-  library(png)
 })
 
 ROOT <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
@@ -116,15 +113,10 @@ inputs <- list(
   sparse_prof = file.path(ROOT, "analysis_spatial_threshold_sensitivity_dev/tables/sparse_outcome_profile_estimates.csv"),
   sparse_pair = file.path(ROOT, "analysis_spatial_threshold_sensitivity_dev/tables/sparse_outcome_pairwise_differences.csv"),
   boundary_surface = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/boundary_surface_summary.csv"),
-  fire_surface = file.path(ROOT, "analysis_fire_harmonization_dev/tables/fire_harmonized_surface_summary.csv"),
   boundary_fire_prof = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/fire_boundary_profile_contrasts.csv"),
   boundary_fire_pair = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/fire_boundary_pairwise_differences.csv"),
   boundary_sparse_prof = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/sparse_boundary_profile_estimates.csv"),
-  boundary_sparse_pair = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/sparse_boundary_pairwise_differences.csv"),
-  covariates = file.path(ROOT, "run_2026_05_27/SESU_covariates_500m.tif"),
-  sesu = file.path(ROOT, "run_2026_05_27/SESU_ID_500m.tif"),
-  protected_area = file.path(ROOT, "data/PA_designations.shp"),
-  study_area = file.path(ROOT, "data/studyarea_chapter1.geojson")
+  boundary_sparse_pair = file.path(ROOT, "analysis_spatial_falsification_revised_dev/tables/sparse_boundary_pairwise_differences.csv")
 )
 
 if (!all(file.exists(unlist(inputs)))) {
@@ -325,11 +317,6 @@ validate_primary_estimates <- function(fig3) {
     stop("Locked primary estimate validation failed.", call. = FALSE)
   }
 
-  fire_surface <- fread(inputs$fire_surface)[
-    measurement_version == "harmonized_tau025" &
-      spatial_design == "buffer_10km",
-    .(events = sum(y), risk = sum(n))
-  ]
   boundary_fire <- fread(inputs$boundary_surface)[
     boundary_id == "actual_c000" &
       outcome == "fire" &
@@ -345,7 +332,6 @@ validate_primary_estimates <- function(fig3) {
   ]
   event_check <- rbindlist(
     list(
-      data.table(outcome = "fire", source = "fire_harmonized_surface_summary", expected = 508320L, observed = fire_surface$events, source_file = rel_path(inputs$fire_surface)),
       data.table(outcome = "fire", source = "boundary_surface_summary", expected = 508320L, observed = boundary_fire$events, source_file = rel_path(inputs$boundary_surface)),
       sparse_events[, .(
         outcome,
@@ -358,112 +344,11 @@ validate_primary_estimates <- function(fig3) {
     fill = TRUE
   )
   event_check[, ok := expected == observed]
-  if (fire_surface$events != boundary_fire$events || !all(event_check$ok)) {
+  if (!all(event_check$ok)) {
     stop("Event-total validation failed.", call. = FALSE)
   }
-  fwrite(event_check, file.path(OUT_REP, "event_total_validation.csv"))
+  fwrite(event_check, file.path(OUT_REP, "Figure_2_event_total_validation.csv"))
   invisible(list(profile = profile_check, pairwise = pair_check, events = event_check))
-}
-
-utm_to_lonlat <- function(dt, x_col = "x", y_col = "y") {
-  pts <- st_as_sf(dt, coords = c(x_col, y_col), crs = 32735, remove = FALSE)
-  ll <- st_coordinates(st_transform(pts, 4326))
-  dt[, `:=`(lon = ll[, 1], lat = ll[, 2])]
-  dt
-}
-
-degree_label <- function(x, axis = c("lon", "lat")) {
-  axis <- match.arg(axis)
-  suffix <- if (axis == "lon") ifelse(x >= 0, "E", "W") else ifelse(x >= 0, "N", "S")
-  paste0(format(round(abs(x), 2), nsmall = 2), "\u00b0", suffix)
-}
-
-prepare_figure1_data <- function() {
-  sesu <- rast(inputs$sesu)
-  cov <- rast(inputs$covariates)
-  layers <- c(sesu, cov[["dist_parc_national_signed_m"]], cov[["dist_perm_water_m"]])
-  names(layers) <- c("SESU_ID", "dist_m", "dist_water_m")
-  df <- as.data.table(as.data.frame(layers, xy = TRUE, na.rm = FALSE))[!is.na(SESU_ID)]
-  df[, landscape := fifelse(SESU_ID == 1, "Depression",
-    fifelse(SESU_ID == 3, "Plateau", "Outside inferential scope")
-  )]
-  df[, corridor := fifelse(abs(dist_m) <= 10000 & dist_m < 0, "Inside 10 km",
-    fifelse(abs(dist_m) <= 10000 & dist_m >= 0, "Outside 10 km", NA_character_)
-  )]
-  df[, water := is.finite(dist_water_m) & dist_water_m <= 250]
-  df <- utm_to_lonlat(df)
-
-  protected_area <- st_transform(st_read(inputs$protected_area, quiet = TRUE), 4326)
-  study_area <- st_transform(st_read(inputs$study_area, quiet = TRUE), 4326)
-  labels <- df[, .(lon = median(lon, na.rm = TRUE), lat = median(lat, na.rm = TRUE)), by = landscape]
-  park_label <- data.table(
-    label = "Upemba National Park",
-    lon = mean(st_bbox(protected_area)[c("xmin", "xmax")]),
-    lat = mean(st_bbox(protected_area)[c("ymin", "ymax")])
-  )
-  labels[, label := landscape]
-  labels <- rbindlist(list(labels[, .(label, lon, lat)], park_label), fill = TRUE)
-  labels[label == "Outside inferential scope", `:=`(lon = 26.92, lat = -9.84)]
-
-  layer_registry <- data.table(
-    layer = c("Landscape groups", "Primary 10 km corridor", "Permanent-water features", "Legal park boundary", "Study-area outline"),
-    source_path = c(rel_path(inputs$sesu), rel_path(inputs$covariates), rel_path(inputs$covariates), rel_path(inputs$protected_area), rel_path(inputs$study_area)),
-    CRS = c("EPSG:32735 transformed to EPSG:4326 for display", "EPSG:32735 transformed to EPSG:4326 for display", "EPSG:32735 transformed to EPSG:4326 for display", "EPSG:4326 display", "EPSG:4326 display"),
-    role = c("landscape fill", "primary spatial estimand overlay", "major water display", "legal boundary", "analysis extent"),
-    sensitivity_classification = c("authoritative", "authoritative", "supporting", "supporting", "supporting"),
-    displayed = TRUE
-  )
-  fwrite(layer_registry, file.path(OUT_FSD, "Figure_1_layer_registry.csv"))
-
-  list(df = df, protected_area = protected_area, study_area = study_area, labels = labels)
-}
-
-build_figure1 <- function(data) {
-  bbox <- st_bbox(data$study_area)
-  scale_x <- bbox["xmin"] + 0.06 * (bbox["xmax"] - bbox["xmin"])
-  scale_y <- bbox["ymin"] + 0.06 * (bbox["ymax"] - bbox["ymin"])
-  north_x <- bbox["xmax"] - 0.08 * (bbox["xmax"] - bbox["xmin"])
-  north_y <- bbox["ymin"] + 0.18 * (bbox["ymax"] - bbox["ymin"])
-
-  ggplot() +
-    geom_tile(data = data$df, aes(lon, lat, fill = landscape), width = 0.005, height = 0.005, alpha = 0.95) +
-    geom_tile(
-      data = data$df[!is.na(corridor)],
-      aes(lon, lat, colour = corridor),
-      width = 0.005,
-      height = 0.005,
-      fill = NA,
-      linewidth = 0.12,
-      alpha = 0.55
-    ) +
-    geom_point(data = data$df[water == TRUE], aes(lon, lat), colour = "#2B8CBE", size = 0.12, alpha = 0.8) +
-    geom_sf(data = data$study_area, fill = NA, colour = "grey45", linewidth = 0.25) +
-    geom_sf(data = data$protected_area, fill = NA, colour = "black", linewidth = 0.55) +
-    geom_text(data = data$labels, aes(lon, lat, label = label), size = 2.5, fontface = "bold", colour = "black") +
-    annotate("segment", x = scale_x, xend = scale_x + 0.45, y = scale_y, yend = scale_y, linewidth = 0.7) +
-    annotate("text", x = scale_x + 0.225, y = scale_y + 0.035, label = "50 km", size = 2.3) +
-    annotate("segment", x = north_x, xend = north_x, y = north_y, yend = north_y + 0.18, arrow = arrow(length = unit(0.11, "inches")), linewidth = 0.45) +
-    annotate("text", x = north_x, y = north_y - 0.03, label = "N", size = 2.5, fontface = "bold") +
-    scale_fill_manual(
-      values = c("Depression" = "#BDBDBD", "Plateau" = "#74A9CF", "Outside inferential scope" = "#EEEEEE"),
-      guide = "none"
-    ) +
-    scale_colour_manual(
-      values = c("Inside 10 km" = "#4D4D4D", "Outside 10 km" = "#A50F15"),
-      breaks = c("Inside 10 km", "Outside 10 km"),
-      name = NULL
-    ) +
-    coord_sf(crs = st_crs(4326), expand = FALSE) +
-    scale_x_continuous(labels = function(x) degree_label(x, "lon")) +
-    scale_y_continuous(labels = function(y) degree_label(y, "lat")) +
-    labs(x = "Longitude", y = "Latitude") +
-    guides(colour = guide_legend(nrow = 1, override.aes = list(linewidth = 1))) +
-    publication_theme() +
-    theme(
-      panel.grid.major = element_line(colour = "grey88", linewidth = 0.2),
-      legend.position = "bottom",
-      legend.box.margin = margin(0, 0, 0, 0)
-    )
 }
 
 prepare_figure2_data <- function() {
@@ -485,70 +370,6 @@ prepare_figure2_data <- function() {
   chronology <- unique(x[, .(SESU_ID, landscape_label, year, governance_profile, profile_label, source_file = rel_path(inputs$boundary_surface))])
   fwrite(chronology, file.path(OUT_FSD, "Figure_2_profile_chronology.csv"))
   list(traj = x, chronology = chronology)
-}
-
-build_figure2 <- function(data) {
-  traj <- copy(data$traj)
-  traj[, side_label := factor(side_label, levels = c("Outside", "Inside"))]
-  traj[, profile_label := factor(profile_label, levels = profile_order)]
-  traj[, side_fill := fifelse(side_label == "Outside", as.character(profile_label), "Inside open")]
-
-  p_traj <- ggplot(traj, aes(year, proportion, colour = profile_label, linetype = side_label, shape = profile_label, group = interaction(side_label, profile_label))) +
-    geom_line(linewidth = 0.36) +
-    geom_point(aes(fill = side_fill), size = 1.35, stroke = 0.45) +
-    facet_grid(outcome_label ~ landscape_label, scales = "free_y", switch = "y") +
-    scale_colour_manual(values = profile_palette(), drop = FALSE, name = "Profile") +
-    scale_shape_manual(values = profile_shapes(open = TRUE), drop = FALSE, name = "Profile") +
-    scale_fill_manual(
-      values = c(profile_palette(), "Inside open" = "white"),
-      guide = "none"
-    ) +
-    scale_linetype_manual(values = c("Outside" = "solid", "Inside" = "dashed"), name = "Park side") +
-    scale_x_continuous(limits = c(2000.5, 2022.5), breaks = c(2001, 2005, 2010, 2015, 2020, 2022), labels = NULL) +
-    guides(
-      colour = guide_legend(order = 2, nrow = 1, override.aes = list(linetype = "solid", size = 1.8)),
-      shape = "none",
-      linetype = guide_legend(order = 1, nrow = 1)
-    ) +
-    labs(x = NULL, y = NULL) +
-    publication_theme() +
-    theme(
-      strip.placement = "outside",
-      axis.title.x = element_blank(),
-      legend.position = "bottom",
-      legend.box = "vertical",
-      legend.margin = margin(0, 0, 0, 0),
-      legend.box.margin = margin(0, 0, 0, 0),
-      panel.grid.major.x = element_line(colour = "grey92", linewidth = 0.2),
-      panel.grid.major.y = element_line(colour = "grey88", linewidth = 0.2)
-    )
-
-  strip <- data$chronology[, .(
-    xmin = year - 0.5,
-    xmax = year + 0.5,
-    ymin = 0,
-    ymax = 1,
-    profile_label = factor(profile_label, levels = profile_order),
-    landscape_label
-  )]
-  p_strip <- ggplot(strip, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = profile_label)) +
-    geom_rect() +
-    facet_grid(. ~ landscape_label) +
-    scale_fill_manual(values = profile_palette(), drop = FALSE, name = "Profile", guide = "none") +
-    scale_x_continuous(limits = c(2000.5, 2022.5), breaks = c(2001, 2005, 2010, 2015, 2020, 2022)) +
-    labs(x = "Year", y = "Territorial-control profile") +
-    publication_theme() +
-    guides(fill = "none") +
-    theme(
-      axis.text.y = element_blank(),
-      axis.ticks.y = element_blank(),
-      panel.grid = element_blank(),
-      strip.text = element_blank(),
-      legend.position = "none"
-    )
-
-  p_traj / p_strip + plot_layout(heights = c(4.7, 1), guides = "collect") &
-    theme(legend.position = "bottom", legend.box = "vertical")
 }
 
 horizontal_interval <- function(mapping = NULL, data = NULL, height = 0.18, linewidth = 0.45, colour = NULL) {
@@ -828,7 +649,7 @@ write_captions <- function() {
       "",
       "**Figure 1. Study design and analytical domain.** The map displays the legal Upemba National Park boundary, the symmetric 10 km primary analytical corridor, major permanent-water features, and the landscape comparison groups. Depression and Plateau are the retained inferential groups; SESU2 is displayed as outside the inferential scope. Coordinates are shown as longitude and latitude for display only; spatial calculations used the canonical projected 500 m grid.",
       "",
-      "**Figure 2. Territorial-control chronology and observed annual disturbance trajectories.** Lines show observed annual event proportions (y/n) in the primary 10 km corridor for outside cells (solid, filled points) and inside cells (dashed, open points). Colours indicate the territorial-control profile applying to each landscape group and year. The lower strip gives the annual profile chronology. The trajectories are descriptive and are not the model-based profile inference.",
+      "**Figure 2. Annual disturbance trajectories inside and outside Upemba National Park, 2001–2022.** Panels show the percentage of eligible 500 m cells affected by fire, first tree-cover loss, and first agricultural expansion within the Depression and Plateau landscape groups. Dashed lines denote cells inside the park and solid lines denote cells outside the park within the symmetric 10 km boundary corridor. Shading between trajectories indicates whether annual disturbance was higher inside or outside. Vertical dashed lines and the lower strip mark changes in reconstructed territorial-control profiles.",
       "",
       "**Figure 3. Primary profile contrasts and pairwise differences.** Panel A shows profile-specific inside-minus-outside log-odds contrasts; Panel B shows differences between those profile-specific contrasts. Negative profile contrasts indicate lower disturbance inside the legal park boundary. Fire estimates are from the strict-valid harmonized tau025 beta-binomial model. Tree-cover-loss and agricultural-expansion estimates are from inverse-variance-weighted two-stage models with HC3 covariance. Bars are 95% model-based confidence intervals for the primary symmetric 10 km corridor and 25% event threshold.",
       "",
@@ -859,12 +680,12 @@ write_provenance <- function() {
       "Table_2_primary_evidence"
     ),
     source_file_or_files = c(
-      paste(rel_path(inputs$sesu), rel_path(inputs$covariates), rel_path(inputs$protected_area), rel_path(inputs$study_area), sep = "; "),
+      "outputs/publication/main_figures/Figure_1_study_design.png; outputs/publication/figure_source_data/Figure_1_layer_registry.csv",
       rel_path(inputs$boundary_surface),
       paste(rel_path(inputs$fire_prof), rel_path(inputs$fire_pair), rel_path(inputs$sparse_prof), rel_path(inputs$sparse_pair), sep = "; "),
       paste(rel_path(inputs$boundary_fire_prof), rel_path(inputs$boundary_sparse_prof), rel_path(inputs$boundary_fire_pair), rel_path(inputs$boundary_sparse_pair), sep = "; "),
       "Final Methods specification",
-      paste(rel_path(inputs$fire_surface), rel_path(inputs$boundary_surface), sep = "; ")
+      rel_path(inputs$boundary_surface)
     ),
     source_object_or_columns = c(
       "SESU_ID; signed distance; permanent water; park boundary geometry",
@@ -883,8 +704,8 @@ write_provenance <- function() {
       "Compact synthesis after event-total validation"
     ),
     script_function = c(
-      "prepare_figure1_data/build_figure1",
-      "prepare_figure2_data/build_figure2",
+      "Retained approved publication asset",
+      "prepare_figure2_data; final rendering delegated to scripts/publication/08_generate_figure2_chronology_time_series.R",
       "prepare_figure3_data/build_figure3",
       "prepare_figure4_data/build_figure4",
       "build_table1",
@@ -907,28 +728,24 @@ write_provenance <- function() {
 write_layout_revision_note <- function(contact_sheet_generated) {
   writeLines(
     c(
-      "# Figure Layout Revision V2",
+      "# Final Main-Figure Workflow",
       "",
-      "This revision preserves the validated scientific values and authoritative inputs from the first publication render and changes only figure layout, display wording, legends, dimensions, table wording, and output validation.",
+      "The final publication workflow preserves the locked scientific values and uses retained authoritative analytical inputs.",
       "",
-      "## Display Changes",
+      "## Figure Responsibilities",
       "",
-      "- Preserved the first-render outputs under `outputs/publication/review_v1/` and `reports/publication_outputs/review_v1/`.",
-      "- Applied the shared profile palette: Fragmented control `#777777`, Militia-centred control `#D55E00`, Park-centred control `#0072B2`.",
-      "- Applied shared profile shapes across Figures 2-4.",
-      "- Rebuilt Figure 1 in longitude/latitude display coordinates, removed easting/northing labels, simplified the corridor legend, and added direct landscape labels.",
-      "- Rebuilt Figure 2 as a four-row by two-column chronology and trajectory layout, with one shared profile legend and one park-side legend.",
-      "- Rebuilt Figure 3 as two vertically stacked panels with shorter panel labels and supported horizontal interval geometry.",
-      "- Rebuilt Figure 4 to distinguish inner checks, the legal boundary, and outer pseudo-boundaries with restrained background regions and shorter classification labels.",
-      "- Replaced Table 2 with a six-column evidence-synthesis table.",
-      "- Replaced the deprecated horizontal error-bar layer with `geom_errorbar(orientation = \"y\")`.",
+      "- The approved Figure 1 study-design map is retained as a publication asset because its restricted geospatial source layers are documented but not redistributed.",
+      "- Script 06 regenerates the canonical Figure 2 trajectory and chronology source-data CSVs but does not render Figure 2.",
+      "- Script 08 is the single final Figure 2 renderer and validates locked event totals before writing the 600 dpi PNG and vector PDF.",
+      "- Script 06 regenerates Figures 3-4 and the main publication tables from retained authoritative analytical tables.",
+      "- Figure 2 uses solid black outside trajectories, dashed black inside trajectories, difference shading, light transition lines, and the muted territorial-control palette.",
       paste0("- Contact sheet generated: ", ifelse(contact_sheet_generated, "yes.", "no; `magick` was not available."))
     ),
     file.path(OUT_REP, "figure_layout_revision_v2.md")
   )
 }
 
-validate_display_outputs <- function(fig1, fig2, fig3, fig4, table2) {
+validate_display_outputs <- function(fig2, fig3, fig4, table2) {
   problems <- character()
   expected_figs <- file.path(OUT_FIG, paste0(
     rep(c("Figure_1_study_design", "Figure_2_chronology_time_series", "Figure_3_primary_contrasts", "Figure_4_boundary_location_diagnostic"), each = 2),
@@ -940,22 +757,9 @@ validate_display_outputs <- function(fig1, fig2, fig3, fig4, table2) {
   if (any(file.info(expected_figs[file.exists(expected_figs)])$size <= 0)) {
     problems <- c(problems, "One or more figure files have zero size.")
   }
-  png_files <- expected_figs[grepl("\\.png$", expected_figs)]
-  png_dims <- rbindlist(lapply(png_files, function(path) {
-    img <- png::readPNG(path, info = TRUE)
-    info <- attr(img, "info")
-    data.table(file = rel_path(path), width = info$dim[1], height = info$dim[2], nonzero = all(info$dim > 0))
-  }))
-  if (!all(png_dims$nonzero)) problems <- c(problems, "One or more PNG files have zero dimensions.")
-
   if (ncol(table2) != 6) problems <- c(problems, "Table 2 does not have exactly six columns.")
   if (!identical(names(table2), c("Outcome", "Primary model", "Events", "Primary result", "Boundary-location assessment", "Robustness"))) {
     problems <- c(problems, "Table 2 column names do not match the requested structure.")
-  }
-
-  fig1_labels <- c("Longitude", "Latitude")
-  if (!all(fig1_labels %in% c(fig1$labels$x, fig1$labels$y))) {
-    problems <- c(problems, "Figure 1 axis labels are not Longitude and Latitude.")
   }
 
   active_files <- c(
@@ -1002,10 +806,10 @@ validate_display_outputs <- function(fig1, fig2, fig3, fig4, table2) {
     sprintf("Overall validation status: %s.", ifelse(length(problems), "failed", "passed")),
     "",
     "- Locked primary estimates match requested values within 0.001.",
-    "- Event totals validated: Fire 508,320 in both final fire surfaces; tree-cover loss 519; agricultural expansion 518.",
+    "- Event totals validated from the retained actual-boundary surface: fire 508,320; tree-cover loss 519; agricultural expansion 518.",
     "- Figure 2 percentages satisfy 0 <= y/n <= 100 and y <= n.",
     "- Required profiles, outcomes, and boundary centres are present.",
-    "- Figure 1 axis labels are Longitude and Latitude; easting/northing labels are absent from active outputs.",
+    "- The approved Figure 1 publication asset and matching PDF are present.",
     "- Table 2 has exactly six columns.",
     "- The superseded fire event total is absent from active publication outputs.",
     "- Deprecated horizontal error-bar geometry is no longer used.",
@@ -1048,14 +852,15 @@ run_publication_generation <- function() {
     file.path(OUT_FSD, "Figure_3_pairwise_differences.csv")
   )
 
-  fig1 <- prepare_figure1_data()
   fig2 <- prepare_figure2_data()
   fig4 <- prepare_figure4_data()
   table1 <- build_table1()
   table2 <- build_table2()
 
-  save_pub(build_figure1(fig1), "Figure_1_study_design", 180, 140)
-  save_pub(build_figure2(fig2), "Figure_2_chronology_time_series", 180, 175)
+  if (!all(file.exists(file.path(OUT_FIG, c("Figure_1_study_design.png", "Figure_1_study_design.pdf"))))) {
+    stop("Approved Figure 1 PNG/PDF assets are missing.", call. = FALSE)
+  }
+  message("Prepared authoritative Figure 2 source data; final rendering is delegated to script 08.")
   save_pub(build_figure3(fig3), "Figure_3_primary_contrasts", 180, 180)
   save_pub(build_figure4(fig4), "Figure_4_boundary_location_diagnostic", 180, 165)
 
@@ -1063,7 +868,7 @@ run_publication_generation <- function() {
   write_provenance()
   contact_sheet <- create_contact_sheet()
   write_layout_revision_note(contact_sheet)
-  validate_display_outputs(build_figure1(fig1), fig2, fig3, fig4, table2)
+  validate_display_outputs(fig2, fig3, fig4, table2)
   message("Revised main manuscript figures and tables generated.")
 }
 
