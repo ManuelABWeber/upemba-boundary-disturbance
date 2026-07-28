@@ -1,0 +1,21 @@
+rule_id,corridor_domain,status,numerator,denominator,proportion,reason
+two_consecutive_postevent_years_at_or_above_25pct,10km,not_estimable,,,,annual cropland fractions are unavailable
+two_consecutive_postevent_years_at_or_above_25pct,20km,not_estimable,,,,annual cropland fractions are unavailable
+two_consecutive_postevent_years_at_or_above_25pct,5km,not_estimable,,,,annual cropland fractions are unavailable
+two_consecutive_postevent_years_at_or_above_25pct,full,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau010,10km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau010,20km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau010,5km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau010,full,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau025,10km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau025,20km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau025,5km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau025,full,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau050,10km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau050,20km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau050,5km,not_estimable,,,,annual cropland fractions are unavailable
+two_of_three_including_plus1_or_plus2_tau050,full,not_estimable,,,,annual cropland fractions are unavailable
+year_plus1_at_or_above_25pct,10km,not_estimable,,,,annual cropland fractions are unavailable
+year_plus1_at_or_above_25pct,20km,not_estimable,,,,annual cropland fractions are unavailable
+year_plus1_at_or_above_25pct,5km,not_estimable,,,,annual cropland fractions are unavailable
+year_plus1_at_or_above_25pct,full,not_estimable,,,,annual cropland fractions are unavailable

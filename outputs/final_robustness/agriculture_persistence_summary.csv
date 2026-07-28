@@ -1,0 +1,196 @@
+park_side,governance_profile_at_event,landscape_group,event_year,corridor_domain,event_cells,persistent,transient_reversed,intermittent,right_censored,missing_uncertain,classifiable_fraction
+inside,Neither actor dominant,Depression,2001,5km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2001,5km,3,0,0,0,0,3,0
+outside,Neither actor dominant,Depression,2002,5km,11,0,0,0,0,11,0
+inside,Neither actor dominant,Depression,2002,5km,6,0,0,0,0,6,0
+inside,Neither actor dominant,Depression,2003,5km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2003,5km,4,0,0,0,0,4,0
+outside,Militia dominant,Depression,2004,5km,14,0,0,0,0,14,0
+inside,Militia dominant,Depression,2004,5km,19,0,0,0,0,19,0
+outside,Militia dominant,Depression,2005,5km,4,0,0,0,0,4,0
+inside,Militia dominant,Depression,2005,5km,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2006,5km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2007,5km,4,0,0,0,0,4,0
+inside,Neither actor dominant,Depression,2007,5km,2,0,0,0,0,2,0
+inside,Neither actor dominant,Depression,2008,5km,5,0,0,0,0,5,0
+outside,Neither actor dominant,Depression,2008,5km,1,0,0,0,0,1,0
+inside,Neither actor dominant,Depression,2009,5km,10,0,0,0,0,10,0
+outside,Neither actor dominant,Depression,2009,5km,5,0,0,0,0,5,0
+inside,Neither actor dominant,Depression,2010,5km,15,0,0,0,0,15,0
+outside,Neither actor dominant,Depression,2010,5km,7,0,0,0,0,7,0
+inside,Neither actor dominant,Depression,2011,5km,8,0,0,0,0,8,0
+outside,Neither actor dominant,Depression,2011,5km,1,0,0,0,0,1,0
+inside,Neither actor dominant,Depression,2012,5km,10,0,0,0,0,10,0
+outside,Neither actor dominant,Depression,2012,5km,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2013,5km,17,0,0,0,0,17,0
+inside,Militia dominant,Depression,2013,5km,23,0,0,0,0,23,0
+outside,Militia dominant,Depression,2014,5km,8,0,0,0,0,8,0
+inside,Militia dominant,Depression,2014,5km,23,0,0,0,0,23,0
+inside,Militia dominant,Depression,2015,5km,12,0,0,0,0,12,0
+outside,Militia dominant,Depression,2015,5km,6,0,0,0,0,6,0
+outside,Militia dominant,Depression,2016,5km,4,0,0,0,0,4,0
+inside,Militia dominant,Depression,2016,5km,21,0,0,0,0,21,0
+inside,Park dominant,Depression,2017,5km,17,0,0,0,0,17,0
+outside,Park dominant,Depression,2017,5km,21,0,0,0,0,21,0
+outside,Park dominant,Depression,2018,5km,9,0,0,0,0,9,0
+inside,Park dominant,Depression,2018,5km,18,0,0,0,0,18,0
+outside,Park dominant,Depression,2019,5km,5,0,0,0,0,5,0
+inside,Park dominant,Depression,2019,5km,5,0,0,0,0,5,0
+outside,Park dominant,Depression,2020,5km,8,0,0,0,0,8,0
+inside,Park dominant,Depression,2020,5km,6,0,0,0,0,6,0
+outside,Park dominant,Depression,2021,5km,12,0,0,0,0,12,0
+inside,Park dominant,Depression,2021,5km,7,0,0,0,0,7,0
+outside,Park dominant,Depression,2022,5km,13,0,0,0,0,13,0
+inside,Park dominant,Depression,2022,5km,10,0,0,0,0,10,0
+inside,Neither actor dominant,Depression,2001,10km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2001,10km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2002,10km,13,0,0,0,0,13,0
+inside,Neither actor dominant,Depression,2002,10km,6,0,0,0,0,6,0
+inside,Neither actor dominant,Depression,2003,10km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2003,10km,4,0,0,0,0,4,0
+outside,Militia dominant,Depression,2004,10km,21,0,0,0,0,21,0
+inside,Militia dominant,Depression,2004,10km,20,0,0,0,0,20,0
+outside,Militia dominant,Depression,2005,10km,5,0,0,0,0,5,0
+inside,Militia dominant,Depression,2005,10km,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2006,10km,12,0,0,0,0,12,0
+outside,Neither actor dominant,Depression,2007,10km,7,0,0,0,0,7,0
+inside,Neither actor dominant,Depression,2007,10km,2,0,0,0,0,2,0
+inside,Neither actor dominant,Depression,2008,10km,5,0,0,0,0,5,0
+outside,Neither actor dominant,Depression,2008,10km,3,0,0,0,0,3,0
+inside,Neither actor dominant,Depression,2009,10km,11,0,0,0,0,11,0
+outside,Neither actor dominant,Depression,2009,10km,7,0,0,0,0,7,0
+inside,Neither actor dominant,Depression,2010,10km,19,0,0,0,0,19,0
+outside,Neither actor dominant,Depression,2010,10km,9,0,0,0,0,9,0
+inside,Neither actor dominant,Depression,2011,10km,9,0,0,0,0,9,0
+outside,Neither actor dominant,Depression,2011,10km,2,0,0,0,0,2,0
+inside,Neither actor dominant,Depression,2012,10km,10,0,0,0,0,10,0
+outside,Neither actor dominant,Depression,2012,10km,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2013,10km,22,0,0,0,0,22,0
+inside,Militia dominant,Depression,2013,10km,25,0,0,0,0,25,0
+outside,Militia dominant,Depression,2014,10km,20,0,0,0,0,20,0
+inside,Militia dominant,Depression,2014,10km,26,0,0,0,0,26,0
+inside,Militia dominant,Depression,2015,10km,14,0,0,0,0,14,0
+outside,Militia dominant,Depression,2015,10km,8,0,0,0,0,8,0
+outside,Militia dominant,Depression,2016,10km,10,0,0,0,0,10,0
+inside,Militia dominant,Depression,2016,10km,22,0,0,0,0,22,0
+inside,Park dominant,Depression,2017,10km,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2017,10km,28,0,0,0,0,28,0
+outside,Park dominant,Depression,2018,10km,20,0,0,0,0,20,0
+inside,Park dominant,Depression,2018,10km,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2019,10km,12,0,0,0,0,12,0
+inside,Park dominant,Depression,2019,10km,5,0,0,0,0,5,0
+outside,Park dominant,Depression,2020,10km,14,0,0,0,0,14,0
+inside,Park dominant,Depression,2020,10km,7,0,0,0,0,7,0
+outside,Park dominant,Depression,2021,10km,20,0,0,0,0,20,0
+inside,Park dominant,Depression,2021,10km,8,0,0,0,0,8,0
+outside,Park dominant,Depression,2022,10km,17,0,0,0,0,17,0
+inside,Park dominant,Depression,2022,10km,10,0,0,0,0,10,0
+outside,Park dominant,Plateau,2011,10km,1,0,0,0,0,1,0
+outside,Park dominant,Plateau,2017,10km,2,0,0,0,0,2,0
+inside,Neither actor dominant,Depression,2001,20km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2001,20km,5,0,0,0,0,5,0
+outside,Neither actor dominant,Depression,2002,20km,14,0,0,0,0,14,0
+inside,Neither actor dominant,Depression,2002,20km,6,0,0,0,0,6,0
+inside,Neither actor dominant,Depression,2003,20km,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2003,20km,4,0,0,0,0,4,0
+outside,Militia dominant,Depression,2004,20km,22,0,0,0,0,22,0
+inside,Militia dominant,Depression,2004,20km,20,0,0,0,0,20,0
+outside,Militia dominant,Depression,2005,20km,6,0,0,0,0,6,0
+inside,Militia dominant,Depression,2005,20km,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2006,20km,14,0,0,0,0,14,0
+outside,Neither actor dominant,Depression,2007,20km,9,0,0,0,0,9,0
+inside,Neither actor dominant,Depression,2007,20km,2,0,0,0,0,2,0
+outside,Neither actor dominant,Depression,2008,20km,5,0,0,0,0,5,0
+inside,Neither actor dominant,Depression,2008,20km,6,0,0,0,0,6,0
+inside,Neither actor dominant,Depression,2009,20km,11,0,0,0,0,11,0
+outside,Neither actor dominant,Depression,2009,20km,9,0,0,0,0,9,0
+inside,Neither actor dominant,Depression,2010,20km,19,0,0,0,0,19,0
+outside,Neither actor dominant,Depression,2010,20km,10,0,0,0,0,10,0
+inside,Neither actor dominant,Depression,2011,20km,9,0,0,0,0,9,0
+outside,Neither actor dominant,Depression,2011,20km,2,0,0,0,0,2,0
+inside,Neither actor dominant,Depression,2012,20km,10,0,0,0,0,10,0
+outside,Neither actor dominant,Depression,2012,20km,4,0,0,0,0,4,0
+outside,Militia dominant,Depression,2013,20km,26,0,0,0,0,26,0
+inside,Militia dominant,Depression,2013,20km,25,0,0,0,0,25,0
+outside,Militia dominant,Depression,2014,20km,21,0,0,0,0,21,0
+inside,Militia dominant,Depression,2014,20km,26,0,0,0,0,26,0
+outside,Militia dominant,Depression,2015,20km,9,0,0,0,0,9,0
+inside,Militia dominant,Depression,2015,20km,14,0,0,0,0,14,0
+outside,Militia dominant,Depression,2016,20km,12,0,0,0,0,12,0
+inside,Militia dominant,Depression,2016,20km,22,0,0,0,0,22,0
+inside,Park dominant,Depression,2017,20km,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2017,20km,38,0,0,0,0,38,0
+outside,Park dominant,Depression,2018,20km,26,0,0,0,0,26,0
+inside,Park dominant,Depression,2018,20km,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2019,20km,15,0,0,0,0,15,0
+inside,Park dominant,Depression,2019,20km,5,0,0,0,0,5,0
+outside,Park dominant,Depression,2020,20km,16,0,0,0,0,16,0
+inside,Park dominant,Depression,2020,20km,7,0,0,0,0,7,0
+outside,Park dominant,Depression,2021,20km,32,0,0,0,0,32,0
+inside,Park dominant,Depression,2021,20km,8,0,0,0,0,8,0
+outside,Park dominant,Depression,2022,20km,23,0,0,0,0,23,0
+inside,Park dominant,Depression,2022,20km,10,0,0,0,0,10,0
+outside,Neither actor dominant,Plateau,2002,20km,1,0,0,0,0,1,0
+outside,Neither actor dominant,Plateau,2007,20km,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2011,20km,1,0,0,0,0,1,0
+outside,Militia dominant,Plateau,2014,20km,1,0,0,0,0,1,0
+outside,Militia dominant,Plateau,2015,20km,1,0,0,0,0,1,0
+outside,Park dominant,Plateau,2016,20km,1,0,0,0,0,1,0
+outside,Park dominant,Plateau,2017,20km,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2019,20km,1,0,0,0,0,1,0
+outside,Neither actor dominant,Depression,2001,full,57,0,0,0,0,57,0
+inside,Neither actor dominant,Depression,2001,full,4,0,0,0,0,4,0
+outside,Neither actor dominant,Depression,2002,full,32,0,0,0,0,32,0
+inside,Neither actor dominant,Depression,2002,full,6,0,0,0,0,6,0
+outside,Neither actor dominant,Depression,2003,full,31,0,0,0,0,31,0
+inside,Neither actor dominant,Depression,2003,full,4,0,0,0,0,4,0
+outside,Militia dominant,Depression,2004,full,136,0,0,0,0,136,0
+inside,Militia dominant,Depression,2004,full,20,0,0,0,0,20,0
+outside,Militia dominant,Depression,2005,full,98,0,0,0,0,98,0
+inside,Militia dominant,Depression,2005,full,3,0,0,0,0,3,0
+outside,Militia dominant,Depression,2006,full,105,0,0,0,0,105,0
+outside,Neither actor dominant,Depression,2007,full,53,0,0,0,0,53,0
+inside,Neither actor dominant,Depression,2007,full,2,0,0,0,0,2,0
+outside,Neither actor dominant,Depression,2008,full,76,0,0,0,0,76,0
+inside,Neither actor dominant,Depression,2008,full,6,0,0,0,0,6,0
+outside,Neither actor dominant,Depression,2009,full,58,0,0,0,0,58,0
+inside,Neither actor dominant,Depression,2009,full,11,0,0,0,0,11,0
+outside,Neither actor dominant,Depression,2010,full,48,0,0,0,0,48,0
+inside,Neither actor dominant,Depression,2010,full,19,0,0,0,0,19,0
+outside,Neither actor dominant,Depression,2011,full,17,0,0,0,0,17,0
+inside,Neither actor dominant,Depression,2011,full,9,0,0,0,0,9,0
+outside,Neither actor dominant,Depression,2012,full,19,0,0,0,0,19,0
+inside,Neither actor dominant,Depression,2012,full,10,0,0,0,0,10,0
+outside,Militia dominant,Depression,2013,full,120,0,0,0,0,120,0
+inside,Militia dominant,Depression,2013,full,25,0,0,0,0,25,0
+outside,Militia dominant,Depression,2014,full,213,0,0,0,0,213,0
+inside,Militia dominant,Depression,2014,full,26,0,0,0,0,26,0
+outside,Militia dominant,Depression,2015,full,64,0,0,0,0,64,0
+inside,Militia dominant,Depression,2015,full,14,0,0,0,0,14,0
+outside,Militia dominant,Depression,2016,full,151,0,0,0,0,151,0
+inside,Militia dominant,Depression,2016,full,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2017,full,302,0,0,0,0,302,0
+inside,Park dominant,Depression,2017,full,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2018,full,212,0,0,0,0,212,0
+inside,Park dominant,Depression,2018,full,22,0,0,0,0,22,0
+outside,Park dominant,Depression,2019,full,156,0,0,0,0,156,0
+inside,Park dominant,Depression,2019,full,5,0,0,0,0,5,0
+outside,Park dominant,Depression,2020,full,126,0,0,0,0,126,0
+inside,Park dominant,Depression,2020,full,7,0,0,0,0,7,0
+outside,Park dominant,Depression,2021,full,197,0,0,0,0,197,0
+inside,Park dominant,Depression,2021,full,8,0,0,0,0,8,0
+outside,Park dominant,Depression,2022,full,139,0,0,0,0,139,0
+inside,Park dominant,Depression,2022,full,10,0,0,0,0,10,0
+outside,Neither actor dominant,Plateau,2002,full,1,0,0,0,0,1,0
+outside,Neither actor dominant,Plateau,2007,full,2,0,0,0,0,2,0
+outside,Neither actor dominant,Plateau,2008,full,1,0,0,0,0,1,0
+outside,Neither actor dominant,Plateau,2009,full,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2011,full,1,0,0,0,0,1,0
+outside,Militia dominant,Plateau,2014,full,1,0,0,0,0,1,0
+outside,Militia dominant,Plateau,2015,full,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2016,full,1,0,0,0,0,1,0
+outside,Park dominant,Plateau,2017,full,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2019,full,2,0,0,0,0,2,0
+outside,Park dominant,Plateau,2020,full,3,0,0,0,0,3,0
+outside,Park dominant,Plateau,2021,full,1,0,0,0,0,1,0
+outside,Park dominant,Plateau,2022,full,1,0,0,0,0,1,0
