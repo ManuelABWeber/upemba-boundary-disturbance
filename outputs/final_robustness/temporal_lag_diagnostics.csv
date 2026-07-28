@@ -1,0 +1,16 @@
+run_id,outcome,model,fit_status,warning_messages,convergence_code,pdHess,maximum_absolute_gradient,model_matrix_rank,model_matrix_columns,specification,lag,transition_years_excluded,n_observations,rank,zero_corrected
+lag0__fire,fire,beta_binomial_logit,strict_valid,"Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')",0,TRUE,0.000954072389845351,47,47,lag0,0,0,,,
+lag0__tree_cover_loss,tree_cover_loss,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag0,0,0,44,4,23
+lag0__agriculture,agriculture,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag0,0,0,44,4,23
+lag1__fire,fire,beta_binomial_logit,strict_valid,"Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')",0,TRUE,0.000854452163622455,45,45,lag1,1,0,,,
+lag1__tree_cover_loss,tree_cover_loss,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag1,1,0,42,4,21
+lag1__agriculture,agriculture,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag1,1,0,42,4,22
+lag2__fire,fire,beta_binomial_logit,strict_valid,"Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')",0,TRUE,0.00022126078005158,43,43,lag2,2,0,,,
+lag2__tree_cover_loss,tree_cover_loss,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag2,2,0,40,4,20
+lag2__agriculture,agriculture,inverse_variance_weighted_lm_hc3,valid,"",,,,,,lag2,2,0,40,4,21
+exclude_first_posttransition__fire,fire,beta_binomial_logit,strict_valid,"Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')",0,TRUE,0.00086582493550047,38,38,exclude_first_posttransition,0,1,,,
+exclude_first_posttransition__tree_cover_loss,tree_cover_loss,inverse_variance_weighted_lm_hc3,valid,"",,,,,,exclude_first_posttransition,0,1,35,4,18
+exclude_first_posttransition__agriculture,agriculture,inverse_variance_weighted_lm_hc3,valid,"",,,,,,exclude_first_posttransition,0,1,35,4,18
+exclude_first_two_posttransition__fire,fire,beta_binomial_logit,strict_valid,"Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')",0,TRUE,0.000357823492478815,30,30,exclude_first_two_posttransition,0,2,,,
+exclude_first_two_posttransition__tree_cover_loss,tree_cover_loss,inverse_variance_weighted_lm_hc3,valid,"",,,,,,exclude_first_two_posttransition,0,2,27,4,13
+exclude_first_two_posttransition__agriculture,agriculture,inverse_variance_weighted_lm_hc3,valid,"",,,,,,exclude_first_two_posttransition,0,2,27,4,13
