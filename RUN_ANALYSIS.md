@@ -31,3 +31,26 @@ Then run:
 2. `Rscript --vanilla tests/scripts/run_downstream_validation.R`
 
 The `--vanilla` flag is intentional for publication-only clean-clone validation: it uses the installed package versions recorded in Table S18 without bootstrapping an empty project library. Use `renv::restore()` before the full upstream analytical workflow.
+
+## Final robustness suite
+
+The submission robustness suite requires the restricted prepared inputs listed
+in `data/manifests/required_external_inputs.csv`. Configure
+`UPEMBA_DATA_ROOT`, or copy `config/paths.example.R` to the ignored
+`config/paths.local.R`. Run from the repository root:
+
+1. `Rscript --vanilla scripts/analysis/04_audit_final_robustness.R`
+2. `Rscript --vanilla scripts/analysis/05_run_lag_robustness_influence.R`
+3. `Rscript --vanilla scripts/analysis/06_audit_pseudoboundaries.R`
+4. `Rscript --vanilla scripts/analysis/07_postevent_feasibility_and_agriculture.R`
+5. `Rscript --vanilla scripts/analysis/08_finalize_robustness_outputs.R`
+6. `Rscript --vanilla tests/testthat/test-final-robustness-functions.R`
+7. `Rscript --vanilla tests/scripts/compare_frozen_results.R`
+8. `Rscript --vanilla tests/scripts/run_downstream_validation.R`
+
+All new results are written to `outputs/final_robustness`. The shared
+specification is `config/final_robustness_config.R`; risk-set construction,
+Haldane–Anscombe correction, HC3 covariance, profile contrasts, and fit
+validity are implemented once in
+`scripts/lib/final_robustness_functions.R`. Failed and non-strict model runs
+remain in diagnostic outputs rather than being silently dropped.

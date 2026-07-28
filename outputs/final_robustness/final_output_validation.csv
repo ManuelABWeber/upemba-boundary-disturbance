@@ -1,0 +1,10 @@
+file,exists,bytes
+baseline_primary_results.csv,TRUE,3932
+session_info.txt,TRUE,2329
+temporal_lag_profile_estimates.csv,TRUE,7702
+robustness_run_registry.csv,TRUE,26982
+episode_influence.csv,TRUE,34790
+tree_regrowth_feasibility.md,TRUE,1600
+agriculture_postevent_classification.csv,TRUE,556739
+pseudoboundary_geometry.csv,TRUE,2099
+claims_audit.csv,TRUE,3272
