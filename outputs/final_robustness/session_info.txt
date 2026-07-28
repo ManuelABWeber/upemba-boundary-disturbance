@@ -1,0 +1,53 @@
+git_commit: 43e09c19323d23af085aacc87203ea5b799c83fe
+branch: analysis/final-robustness-suite
+execution_date: 2026-07-28 10:22:20 CEST
+commands:
+  Rscript --vanilla scripts/analysis/01_fit_governance_profile_models.R
+  Rscript --vanilla scripts/analysis/02_fit_sparse_outcomes_and_profile_robustness.R
+  Rscript --vanilla scripts/analysis/03_refine_fire_10km_optimizer.R
+  Rscript --vanilla tests/scripts/compare_frozen_results.R
+
+principal analytical datasets:
+Index: <dataset>
+                         dataset
+                          <char>
+1:          rs_surfaces_long.csv
+2:      SESU_covariates_500m.tif
+3:              SESU_ID_500m.tif
+4: upemba_sesu_year_profiles.csv
+                                                                                                path
+                                                                                              <char>
+1:                                      C:/0_Documents/Chapter_1/run_2026_05_27/rs_surfaces_long.csv
+2:                                  C:/0_Documents/Chapter_1/run_2026_05_27/SESU_covariates_500m.tif
+3:                                          C:/0_Documents/Chapter_1/run_2026_05_27/SESU_ID_500m.tif
+4: C:/0_Documents/upemba-boundary-disturbance/data/governance_profiles/upemba_sesu_year_profiles.csv
+   exists    bytes                              md5  rows
+   <lgcl>    <num>                           <char> <int>
+1:   TRUE    42472 87d5c6c222cec0d1ffe925ace31376a5   528
+2:   TRUE 24212836 23c28b8a8d9eb40071d71db7701f8153    NA
+3:   TRUE    27608 88393de878a43309d9c1dd488dd047a1    NA
+4:   TRUE      251 f187ec29fa425b2884996a32cd8ad7db    22
+
+R version 4.5.3 (2026-03-11 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_Netherlands.utf8  LC_CTYPE=English_Netherlands.utf8   
+[3] LC_MONETARY=English_Netherlands.utf8 LC_NUMERIC=C                        
+[5] LC_TIME=English_Netherlands.utf8    
+
+time zone: Europe/Amsterdam
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] data.table_1.18.4
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.3 tools_4.5.3   
