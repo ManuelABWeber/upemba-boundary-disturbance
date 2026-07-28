@@ -54,3 +54,24 @@ stopifnot(identical(fr_haldane_anscombe(rbindlist(list(
              governance_profile = FINAL_SPEC$profile_levels[1],
              side = "outside", y = 2L, n = 10L))))$inside_outside_log_odds_contrast))
 
+# When restricted prepared inputs have been restored, the final primary suite
+# must reproduce the locked manuscript support totals.
+registry_path <- file.path(FINAL_SPEC$output_dir,
+                           "robustness_run_registry.csv")
+if (file.exists(registry_path)) {
+  observed <- fread(registry_path)[robustness_run_id == "primary",
+    .(outcome, eligible_cells, cell_years, events)]
+  expected <- data.table(
+    outcome = c("fire", "tree_cover_loss", "agriculture"),
+    eligible_cells = c(42554L, 42554L, 42554L),
+    cell_years = c(936188L, 930969L, 931657L),
+    events = c(508320L, 519L, 518L)
+  )
+  checked <- merge(observed, expected, by = "outcome",
+                   suffixes = c("_observed", "_expected"))
+  stopifnot(nrow(checked) == 3L)
+  stopifnot(all(checked$eligible_cells_observed ==
+                  checked$eligible_cells_expected))
+  stopifnot(all(checked$cell_years_observed == checked$cell_years_expected))
+  stopifnot(all(checked$events_observed == checked$events_expected))
+}

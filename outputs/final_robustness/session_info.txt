@@ -1,6 +1,6 @@
 git_commit: 43e09c19323d23af085aacc87203ea5b799c83fe
 branch: analysis/final-robustness-suite
-execution_date: 2026-07-28 10:22:20 CEST
+execution_date: 2026-07-28 10:30:44 CEST
 commands:
   Rscript --vanilla scripts/analysis/01_fit_governance_profile_models.R
   Rscript --vanilla scripts/analysis/02_fit_sparse_outcomes_and_profile_robustness.R

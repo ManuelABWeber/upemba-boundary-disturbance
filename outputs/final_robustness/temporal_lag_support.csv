@@ -1,0 +1,16 @@
+run_id,outcome,eligible_cells,cell_years,events,group_years,historical_episodes,specification,lag,transition_years_excluded
+lag0__fire,fire,42554,936188,508320,44,11,lag0,0,0
+lag0__tree_cover_loss,tree_cover_loss,42554,930969,519,44,11,lag0,0,0
+lag0__agriculture,agriculture,42554,931657,518,44,11,lag0,0,0
+lag1__fire,fire,42554,893634,494511,42,11,lag1,1,0
+lag1__tree_cover_loss,tree_cover_loss,42553,888415,518,42,11,lag1,1,0
+lag1__agriculture,agriculture,42546,889103,510,42,11,lag1,1,0
+lag2__fire,fire,42554,851080,472870,40,11,lag2,2,0
+lag2__tree_cover_loss,tree_cover_loss,42519,845862,484,40,11,lag2,2,0
+lag2__agriculture,agriculture,42527,846557,491,40,11,lag2,2,0
+exclude_first_posttransition__fire,fire,42554,741049,394145,35,19,exclude_first_posttransition,0,1
+exclude_first_posttransition__tree_cover_loss,tree_cover_loss,42554,736792,456,35,19,exclude_first_posttransition,0,1
+exclude_first_posttransition__agriculture,agriculture,42554,737312,412,35,19,exclude_first_posttransition,0,1
+exclude_first_two_posttransition__fire,fire,42554,570833,295325,27,16,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__tree_cover_loss,tree_cover_loss,42554,567554,362,27,16,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__agriculture,agriculture,42554,567995,343,27,16,exclude_first_two_posttransition,0,2

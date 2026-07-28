@@ -63,11 +63,12 @@ fr_design_cells <- function(spatial, corridor_km) {
 }
 
 fr_event_year_values <- function(outcome, tag, cells, spatial, manifest) {
+  outcome_name <- outcome
   if (tag == "tau025") {
     band <- if (outcome == "tree_cover_loss") "year_deforest_masked" else "year_agri"
     v <- as.integer(fr_extract(spatial$cov[[band]], cells))
   } else {
-    p <- manifest[outcome == ..outcome & threshold_tag == tag &
+    p <- manifest[get("outcome") == outcome_name & threshold_tag == tag &
                     file_type == "event_year", abs_path][1]
     if (!length(p) || !file.exists(p)) stop("Missing event-year raster: ", p)
     v <- as.integer(fr_extract(terra::rast(p), cells))
@@ -94,25 +95,24 @@ fr_surface_event <- function(outcome, tag, geom, spatial, manifest, timeline) {
 
 fr_surface_fire <- function(tag, geom, spatial, manifest, timeline) {
   z <- vector("list", length(FINAL_SPEC$years))
-  if (tag != "tau025") {
-    stack_path <- manifest[outcome == "fire" & threshold_tag == tag &
-                             file_type == "fire_stack", abs_path][1]
-    rs <- terra::rast(stack_path)
-  }
+  stack_path <- manifest[outcome == "fire" & threshold_tag == tag &
+                           file_type == "fire_stack", abs_path][1]
+  rs <- terra::rast(stack_path)
   for (i in seq_along(FINAL_SPEC$years)) {
     yr <- FINAL_SPEC$years[i]
-    if (tag == "tau025") {
-      v <- fr_extract(spatial$cov[[paste0("fireDOY_", yr)]], geom$cell)
-      event <- is.finite(v) & v >= FINAL_SPEC$fire_doy[1] &
-        v <= FINAL_SPEC$fire_doy[2]
-    } else if (yr <= 2020L) {
+    if (yr <= 2020L) {
       band <- paste0(yr, "_fire_season_", yr)
       v <- fr_extract(rs[[band]], geom$cell)
       event <- is.finite(v) & v == 1
     } else {
-      p <- manifest[outcome == "fire" & threshold_tag == tag &
-                      file_type == "fire_annual_binary" & year_start == yr,
-                    abs_path][1]
+      p <- file.path(CH1_DATA_ROOT, "data", "fire_harmonized_500m",
+                     paste0("fireBurned_AprOct_", yr, "_500m_", tag,
+                            "_harmonized.tif"))
+      if (!file.exists(p)) {
+        p <- manifest[outcome == "fire" & threshold_tag == tag &
+                        file_type == "fire_annual_binary" & year_start == yr,
+                      abs_path][1]
+      }
       v <- fr_extract(terra::rast(p), geom$cell)
       event <- is.finite(v) & v == 1
     }
@@ -128,6 +128,22 @@ fr_surface_fire <- function(tag, geom, spatial, manifest, timeline) {
 
 fr_build_surface <- function(outcome, tag, corridor_km, spatial, manifest,
                              timeline) {
+  if (outcome == "fire" && (identical(corridor_km, 10) ||
+                             is.infinite(corridor_km))) {
+    p <- file.path(CH1_DATA_ROOT, "analysis_fire_harmonization_dev",
+                   "tables", "fire_harmonized_surface_summary.csv")
+    if (file.exists(p)) {
+      design <- if (is.infinite(corridor_km)) "all_cells" else "buffer_10km"
+      ans <- fread(p)[measurement_version == paste0("harmonized_", tag) &
+                        spatial_design == design]
+      if (nrow(ans)) {
+        ans[, `:=`(corridor_km = corridor_km,
+                    domain = ifelse(is.finite(corridor_km),
+                                    paste0(corridor_km, "km"), "full"))]
+        return(ans[])
+      }
+    }
+  }
   geom <- fr_design_cells(spatial, corridor_km)
   ans <- if (outcome == "fire") {
     fr_surface_fire(tag, geom, spatial, manifest, timeline)
@@ -166,7 +182,8 @@ fr_assign_profiles <- function(surface, timeline, lag = 0L,
              by = c("SESU_ID", "year"), all.x = TRUE)
   x <- x[!is.na(governance_profile)]
   if (exclude_after_transition > 0L) {
-    x <- x[years_since_transition >= exclude_after_transition]
+    x <- x[!(years_since_transition >= 1 &
+               years_since_transition <= exclude_after_transition)]
   }
   x[]
 }
@@ -200,19 +217,25 @@ fr_hc3 <- function(mod) {
   w <- weights(mod)
   if (is.null(w)) w <- rep(1, length(e))
   Xw <- X * sqrt(w)
-  meat <- crossprod(Xw, Xw * (e / pmax(1 - h, 1e-8))^2)
+  meat <- crossprod(
+    Xw,
+    Xw * (e * sqrt(w) / pmax(1 - h, 1e-8))^2
+  )
   bread <- solve(crossprod(Xw))
   bread %*% meat %*% bread
 }
 
-fr_profile_vectors <- function(mod, levels) {
-  nd <- CJ(governance_profile = levels,
-           SESU_ID = levels(model.frame(mod)$SESU_ID))
-  nd[, governance_profile := factor(governance_profile, levels = levels)]
-  nd[, SESU_ID := factor(SESU_ID, levels = levels(model.frame(mod)$SESU_ID))]
+fr_profile_vectors <- function(mod, profile_levels) {
+  has_sesu <- "SESU_ID" %in% names(model.frame(mod))
+  sesu_levels <- if (has_sesu) base::levels(model.frame(mod)$SESU_ID) else "single"
+  nd <- CJ(governance_profile = profile_levels, SESU_ID = sesu_levels)
+  nd[, governance_profile := factor(governance_profile,
+                                    levels = profile_levels)]
+  if (has_sesu) nd[, SESU_ID := factor(SESU_ID, levels = sesu_levels)]
   X <- model.matrix(delete.response(terms(mod)), nd)
-  setNames(lapply(levels, function(p) colMeans(
-    X[as.character(nd$governance_profile) == p, , drop = FALSE])), levels)
+  setNames(lapply(profile_levels, function(p) colMeans(
+    X[as.character(nd$governance_profile) == p, , drop = FALSE])),
+    profile_levels)
 }
 
 fr_fit_sparse <- function(surface, weighted = TRUE, run_id = NA_character_) {
@@ -227,11 +250,13 @@ fr_fit_sparse <- function(surface, weighted = TRUE, run_id = NA_character_) {
   w[, `:=`(governance_profile = factor(governance_profile,
                                         levels = FINAL_SPEC$profile_levels),
             SESU_ID = factor(SESU_ID))]
+  sparse_formula <- if (uniqueN(w$SESU_ID) > 1L) FINAL_SPEC$sparse_formula else
+    inside_outside_log_odds_contrast ~ governance_profile
   warns <- character()
   mod <- withCallingHandlers(
-    if (weighted) lm(FINAL_SPEC$sparse_formula, data = w,
+    if (weighted) lm(sparse_formula, data = w,
                      weights = inverse_variance_weight) else
-      lm(FINAL_SPEC$sparse_formula, data = w),
+      lm(sparse_formula, data = w),
     warning = function(z) { warns <<- c(warns, conditionMessage(z));
       invokeRestart("muffleWarning") })
   V <- tryCatch(fr_hc3(mod), error = function(e) NULL)
@@ -288,16 +313,28 @@ fr_fit_fire <- function(surface, run_id = NA_character_) {
     sesu_year = interaction(SESU_ID, year, drop = TRUE)
   )]
   warns <- character()
-  fit <- withCallingHandlers(tryCatch(
-    glmmTMB::glmmTMB(FINAL_SPEC$fire_formula,
-      family = glmmTMB::betabinomial(link = "logit"), data = d,
-      control = glmmTMB::glmmTMBControl(
-        optimizer = optim, optArgs = list(method = "BFGS"),
-        optCtrl = list(maxit = 20000, reltol = 1e-12))),
-    error = function(e) structure(list(error = conditionMessage(e)),
-                                  class = "fit_error")),
-    warning = function(w) { warns <<- c(warns, conditionMessage(w));
-      invokeRestart("muffleWarning") })
+  fit_stage <- function(control, start = NULL) withCallingHandlers(tryCatch(
+      glmmTMB::glmmTMB(FINAL_SPEC$fire_formula,
+        family = glmmTMB::betabinomial(link = "logit"), data = d,
+        control = control, start = start),
+      error = function(e) structure(list(error = conditionMessage(e)),
+                                    class = "fit_error")),
+      warning = function(w) { warns <<- c(warns, conditionMessage(w));
+        invokeRestart("muffleWarning") })
+  start_from <- function(m) if (inherits(m, "fit_error")) NULL else
+    list(beta = unname(glmmTMB::fixef(m)$cond),
+         betadisp = unname(glmmTMB::fixef(m)$disp))
+  baseline <- fit_stage(glmmTMB::glmmTMBControl(
+    optCtrl = list(iter.max = 50000, eval.max = 50000,
+                   rel.tol = 1e-10, x.tol = 1e-8)))
+  strict_nlminb <- fit_stage(glmmTMB::glmmTMBControl(
+    optCtrl = list(iter.max = 10000, eval.max = 20000,
+                   rel.tol = 1e-12, x.tol = 1e-10, abs.tol = 1e-10)),
+    start_from(baseline))
+  fit <- fit_stage(glmmTMB::glmmTMBControl(
+    optimizer = optim, optArgs = list(method = "BFGS"),
+    optCtrl = list(maxit = 20000, reltol = 1e-12)),
+    start_from(strict_nlminb))
   diag <- data.table(run_id = run_id, outcome = "fire",
                      model = "beta_binomial_logit")
   if (inherits(fit, "fit_error")) {
@@ -345,7 +382,7 @@ fr_fit_fire <- function(surface, run_id = NA_character_) {
 fr_support <- function(surface, run_id) {
   data.table(
     run_id = run_id, outcome = unique(surface$outcome),
-    eligible_cells = unique(surface[, sum(n), by = year]$V1)[1],
+    eligible_cells = max(surface[, sum(n), by = year]$V1),
     cell_years = sum(surface$n), events = sum(surface$y),
     group_years = uniqueN(surface[, .(SESU_ID, year)]),
     historical_episodes = nrow(unique(fr_episode_table(
@@ -353,4 +390,3 @@ fr_support <- function(surface, run_id) {
       by = "episode_id"))
   )
 }
-

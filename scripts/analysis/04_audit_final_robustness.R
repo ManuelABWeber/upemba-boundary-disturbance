@@ -4,7 +4,7 @@ source("config/final_robustness_config.R")
 out <- FINAL_SPEC$output_dir
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
 
-git_hash <- system("git rev-parse HEAD", intern = TRUE)
+git_hash <- system("git rev-parse main", intern = TRUE)
 run_dir <- CH1_RUN_DIR
 principal <- c(
   file.path(run_dir, "rs_surfaces_long.csv"),
@@ -24,7 +24,7 @@ file_diag <- rbindlist(lapply(principal, function(p) data.table(
 fire <- fread(file.path(CH1_OUTPUT_ROOT, "analysis_fire_optimizer_refinement_dev",
                         "tables", "fire_10km_optimizer_profile_contrasts.csv"))
 fire <- fire[measurement_version == "harmonized_tau025" &
-               optimizer_config == "D_BFGS_diagnostic",
+               optimizer_config == "BFGS_refined",
              .(outcome = "fire", governance_profile, estimate,
                standard_error, lower_95_ci, upper_95_ci)]
 sparse <- fread(file.path(CH1_PROJECT_ROOT,
@@ -114,4 +114,3 @@ audit <- c(
   "The existing primary analysis reproduced. Numerical estimates are recorded in `baseline_primary_results.csv`; dataset hashes, row counts, R version, package versions, commands, and session details are recorded in `session_info.txt`."
 )
 writeLines(audit, file.path(out, "audit_existing_analyses.md"))
-
