@@ -12,7 +12,9 @@ timeline <- fr_timeline()
 episodes <- fr_episode_table(timeline)
 spatial <- fr_load_spatial()
 manifest <- fr_manifest()
-pipeline_commit <- system("git rev-parse HEAD", intern = TRUE)
+# Record the immutable pre-suite manuscript baseline. The suite's own code
+# version is carried separately in FINAL_SPEC$pipeline_version.
+pipeline_commit <- system("git rev-parse main", intern = TRUE)
 
 fit_one <- function(surface, run_id, weighted = TRUE) {
   z <- if (unique(surface$outcome) == "fire") fr_fit_fire(surface, run_id) else
@@ -209,8 +211,31 @@ wide <- dcast(rob_profile,
   outcome + governance_profile ~ robustness_run_id,
   value.var = "estimate")
 fwrite(wide, file.path(out, "robustness_matrix_wide.csv"))
-plot_rob <- merge(rob_profile, fit_status,
+figure_ids <- c("primary", "threshold_tau010", "threshold_tau050",
+                "domain_5km", "domain_20km", "domain_full",
+                "weight_unweighted", "lag_1", "lag_2")
+plot_core <- rob_profile[robustness_run_id %in% figure_ids]
+range_row <- function(pattern, label) {
+  rob_profile[grepl(pattern, robustness_run_id), .(
+    estimate = median(estimate, na.rm = TRUE),
+    standard_error = NA_real_,
+    conf_low = min(estimate, na.rm = TRUE),
+    conf_high = max(estimate, na.rm = TRUE),
+    odds_ratio = exp(median(estimate, na.rm = TRUE)),
+    robustness_run_id = label,
+    comparison_class = "directly_matched"
+  ), by = .(outcome, governance_profile)]
+}
+plot_ranges <- rbindlist(list(
+  range_row("^transition_", "chronology_alternative_range"),
+  range_row("^omit_", "episode_omission_range")
+), fill = TRUE)
+plot_rob <- rbindlist(list(plot_core, plot_ranges), fill = TRUE)
+plot_rob <- merge(plot_rob, fit_status,
                   by = c("robustness_run_id", "outcome"), all.x = TRUE)
+plot_rob[robustness_run_id %in% c("chronology_alternative_range",
+                                  "episode_omission_range"),
+         fit_validity_status := "range_summary"]
 plot_rob[, evidence_state := fifelse(
   fit_validity_status %in% c("invalid_fit", "insufficient_support"),
   "invalid or unsupported",
@@ -226,19 +251,20 @@ plot_rob[evidence_state != "invalid or unsupported" &
            sign(estimate) == primary_sign,
          evidence_state := paste0(evidence_state, "; direction retained")]
 p_rob <- ggplot(plot_rob[comparison_class == "directly_matched"],
-  aes(estimate, interaction(governance_profile, robustness_run_id),
+  aes(estimate, factor(robustness_run_id, levels = rev(c(
+    figure_ids, "chronology_alternative_range", "episode_omission_range"))),
       colour = evidence_state)) +
   geom_vline(xintercept = 0, colour = "grey70") +
   geom_errorbar(aes(xmin = conf_low, xmax = conf_high), width = .15,
                 orientation = "y", na.rm = TRUE) + geom_point() +
-  facet_wrap(~outcome, scales = "free") +
+  facet_grid(governance_profile ~ outcome, scales = "free_x") +
   labs(x = "Inside-minus-outside log-odds contrast", y = NULL,
        colour = "Result classification") +
   theme_minimal(base_size = 8) + theme(legend.position = "bottom")
 ggsave(file.path(out, "fig_robustness_matrix.pdf"), p_rob,
-       width = 12, height = 14, limitsize = FALSE)
+       width = 13, height = 10, limitsize = FALSE)
 ggsave(file.path(out, "fig_robustness_matrix.png"), p_rob,
-       width = 12, height = 14, dpi = 300, limitsize = FALSE)
+       width = 13, height = 10, dpi = 300, limitsize = FALSE)
 
 # ---------------- episode and landscape influence ----------------
 episode_profile <- merge(
