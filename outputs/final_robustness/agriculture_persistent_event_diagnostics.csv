@@ -1,0 +1,2 @@
+model,fit_status,eligible_event_cells,classifiable_event_cells,persistent_event_cells,warning_messages
+persistent first establishment; 25%; 10 km; weighted HC3,not_estimable,2685,0,,annual AFCD cropland-fraction stack unavailable; no persistent-event model fitted

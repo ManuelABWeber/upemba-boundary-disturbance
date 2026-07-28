@@ -1,0 +1,4 @@
+outcome,governance_profile,estimate,standard_error,conf_low,conf_high,odds_ratio,fit_status
+agriculture_persistent_first_establishment,Neither actor dominant,,,,,,not_estimable
+agriculture_persistent_first_establishment,Militia dominant,,,,,,not_estimable
+agriculture_persistent_first_establishment,Park dominant,,,,,,not_estimable
