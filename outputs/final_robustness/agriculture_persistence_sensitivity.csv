@@ -1,21 +1,33 @@
 rule_id,corridor_domain,status,numerator,denominator,proportion,reason
-two_consecutive_postevent_years_at_or_above_25pct,10km,not_estimable,,,,annual cropland fractions are unavailable
-two_consecutive_postevent_years_at_or_above_25pct,20km,not_estimable,,,,annual cropland fractions are unavailable
-two_consecutive_postevent_years_at_or_above_25pct,5km,not_estimable,,,,annual cropland fractions are unavailable
-two_consecutive_postevent_years_at_or_above_25pct,full,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau010,10km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau010,20km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau010,5km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau010,full,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau025,10km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau025,20km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau025,5km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau025,full,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau050,10km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau050,20km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau050,5km,not_estimable,,,,annual cropland fractions are unavailable
-two_of_three_including_plus1_or_plus2_tau050,full,not_estimable,,,,annual cropland fractions are unavailable
-year_plus1_at_or_above_25pct,10km,not_estimable,,,,annual cropland fractions are unavailable
-year_plus1_at_or_above_25pct,20km,not_estimable,,,,annual cropland fractions are unavailable
-year_plus1_at_or_above_25pct,5km,not_estimable,,,,annual cropland fractions are unavailable
-year_plus1_at_or_above_25pct,full,not_estimable,,,,annual cropland fractions are unavailable
+year_plus1_at_or_above_25pct,5km,estimated,325,369,0.880758807588076,""
+two_consecutive_postevent_years_at_or_above_25pct,5km,estimated,313,350,0.894285714285714,""
+two_of_three_including_plus1_or_plus2_tau010,5km,estimated,350,350,1,""
+two_of_three_including_plus1_or_plus2_tau025,5km,estimated,318,350,0.908571428571429,""
+two_of_three_including_plus1_or_plus2_tau050,5km,estimated,17,350,0.0485714285714286,""
+year_plus1_at_or_above_25pct,10km,estimated,436,491,0.887983706720978,""
+two_consecutive_postevent_years_at_or_above_25pct,10km,estimated,417,463,0.900647948164147,""
+two_of_three_including_plus1_or_plus2_tau010,10km,estimated,462,463,0.997840172786177,""
+two_of_three_including_plus1_or_plus2_tau025,10km,estimated,424,463,0.915766738660907,""
+two_of_three_including_plus1_or_plus2_tau050,10km,estimated,18,463,0.0388768898488121,""
+year_plus1_at_or_above_25pct,20km,estimated,489,554,0.882671480144404,""
+two_consecutive_postevent_years_at_or_above_25pct,20km,estimated,462,514,0.898832684824903,""
+two_of_three_including_plus1_or_plus2_tau010,20km,estimated,513,514,0.998054474708171,""
+two_of_three_including_plus1_or_plus2_tau025,20km,estimated,472,514,0.918287937743191,""
+two_of_three_including_plus1_or_plus2_tau050,20km,estimated,18,514,0.0350194552529183,""
+year_plus1_at_or_above_25pct,full,estimated,2128,2535,0.839447731755424,""
+two_consecutive_postevent_years_at_or_above_25pct,full,estimated,1968,2329,0.844997853155861,""
+two_of_three_including_plus1_or_plus2_tau010,full,estimated,2304,2329,0.989265779304423,""
+two_of_three_including_plus1_or_plus2_tau025,full,estimated,2007,2329,0.861743237440962,""
+two_of_three_including_plus1_or_plus2_tau050,full,estimated,66,2329,0.0283383426363246,""
+threshold_consistent_persistence_tau010,5km,estimated,472,520,0.907692307692308,""
+threshold_consistent_persistence_tau010,10km,estimated,683,770,0.887012987012987,""
+threshold_consistent_persistence_tau010,20km,estimated,830,993,0.835850956696878,""
+threshold_consistent_persistence_tau010,full,estimated,4025,5289,0.761013424087729,""
+threshold_consistent_persistence_tau025,5km,estimated,318,350,0.908571428571429,""
+threshold_consistent_persistence_tau025,10km,estimated,424,463,0.915766738660907,""
+threshold_consistent_persistence_tau025,20km,estimated,472,514,0.918287937743191,""
+threshold_consistent_persistence_tau025,full,estimated,2007,2329,0.861743237440962,""
+threshold_consistent_persistence_tau050,5km,estimated,148,171,0.865497076023392,""
+threshold_consistent_persistence_tau050,10km,estimated,190,216,0.87962962962963,""
+threshold_consistent_persistence_tau050,20km,estimated,196,223,0.878923766816144,""
+threshold_consistent_persistence_tau050,full,estimated,993,1116,0.889784946236559,""

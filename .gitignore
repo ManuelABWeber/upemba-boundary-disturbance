@@ -50,6 +50,7 @@ tmp/
 render_*/
 review_*/
 reports/publication/render_*/
+outputs/final_robustness/cache/
 
 # Generated outputs
 outputs/diagnostics/**

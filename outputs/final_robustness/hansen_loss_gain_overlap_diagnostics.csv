@@ -1,0 +1,8 @@
+diagnostic,value
+gain_loss_native_geometry_identical,TRUE
+hansen_500m_geometry_matches_canonical,TRUE
+gain_period_start,2000
+gain_period_end,2012
+loss_overlap_period_start,2001
+loss_overlap_period_end,2012
+temporal_order_identifiable,FALSE
