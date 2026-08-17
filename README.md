@@ -24,6 +24,15 @@ The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire
    2. `Rscript --vanilla scripts/publication/08_generate_figure2_chronology_time_series.R`
    3. `Rscript --vanilla scripts/publication/07_generate_supplementary_material.R`
 
+To reproduce the post-event diagnostics added to the final robustness suite:
+
+1. Restore the checksum-matched annual AFCD stack listed in `data/manifests/postevent_diagnostic_inputs.csv` as `<UPEMBA_DATA_ROOT>/data/AFCD_stack.tif`.
+2. Download and checksum-verify the public Hansen v1.12 gain/loss-year tiles with `Rscript --vanilla scripts/acquisition/01_acquire_hansen_gain_loss_tiles.R`.
+3. Run `Rscript --vanilla scripts/analysis/09_hansen_gain_and_agriculture_persistence.R`.
+4. Refresh the integrated claims and methods summary with `Rscript --vanilla scripts/analysis/08_finalize_robustness_outputs.R`.
+
+The Hansen analysis is a 2000-2012 loss-gain overlap diagnostic, not a temporally ordered regrowth analysis. The agricultural analysis reconstructs annual 500 m cropland fractions and must reproduce the canonical 25% first-crossing raster exactly before reporting persistence or fitting the persistent-first-establishment model.
+
 Script 06 regenerates the authoritative Figure 2 source-data CSVs but deliberately does not export Figure 2. Script 08 is the single final Figure 2 renderer. Script 07 regenerates supplementary tables, figures, HTML, and data delivery files while retaining the verified final supplementary DOCX.
 
 `--vanilla` keeps publication-only clean-clone validation independent of an unrestored project library. The full upstream analytical workflow should use the package versions in `renv.lock` after `renv::restore()`.

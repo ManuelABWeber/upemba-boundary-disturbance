@@ -7,8 +7,8 @@ The authoritative primary workflow was reproduced; a centralized specification a
 ## 2. Deviations from the requested plan and why
 
 - No episode bootstrap was used. Eleven contiguous episodes are too few for routine asymptotic cluster-robust inference, and no prevalidated small-cluster bootstrap implementation was available in the repository. Leave-one-episode-out influence and episode-specific descriptive contrasts are reported instead.
-- Tree regrowth was not analysed because no annual regrowth-sensitive canopy/vegetation series exists.
-- Agricultural persistence and persistent-event refits were not estimated because the annual AFCD fraction stack is absent. All observable first-crossing cells are retained as missing/uncertain.
+- Confirmed tree regrowth remains unidentifiable because Hansen gain is a static 2000-2012 flag without timing. A native-grid loss-gain overlap diagnostic was completed instead; 0.5% of 2001-2012 loss pixels also carry the gain flag.
+- Annual AFCD fractions were recovered and validated against the canonical event raster. Agricultural persistence and persistent-first-establishment models were completed; the reconstruction had 0 first-crossing mismatches.
 - Multi-factor combinations were not expanded indiscriminately. The registry contains one-dimension-at-a-time directly matched runs; unsupported fits remain explicit.
 
 ## 3. Reproducibility status
@@ -32,11 +32,12 @@ All leave-one-episode-out tree-loss profile estimates remain negative. Fragmente
 
 ## 7. Tree-cover post-loss/regrowth feasibility
 
-Not testable with available data. Hansen loss remains a first cumulative mapped-loss threshold-crossing measure; it is not reversed to infer regrowth.
+Confirmed post-loss regrowth is still not testable from Hansen GFC because the 2000-2012 gain flag has no year. On the native grid, 7603 of 1445406 loss pixels from 2001-2012 (0.5%) also carry the gain flag. Among 500 m cells crossing 25% cumulative loss by 2012 in the primary 10 km corridor, 12.6% contain at least one native loss-gain overlap pixel. These are overlap diagnostics only: gain may precede loss, follow loss, or reflect classification discordance.
 
 ## 8. Agricultural persistence findings
 
-The full eligible domain contains 2685 recorded 25% first-crossing cells, including 518 in the primary 10 km corridor. None can be classified for persistence from the retained event-year raster alone.
+The annual AFCD reconstruction exactly reproduced the canonical 25% first-crossing raster. Of 2685 full-domain first crossings, 2007 were persistent, 203 transient/reversed, 119 intermittent, and 356 right-censored. Persistence among classifiable cells was 86.2% in the full domain and 91.6% in the primary corridor.
+Persistent first establishment retained 431 of 518 primary-corridor events. The park-centred conditional contrast changed from the primary first-crossing estimate to -0.237 [-0.642, 0.168]; its interval includes zero. This supports treating the agricultural boundary result as specification-sensitive.
 
 ## 9. Pseudo-boundary design recommendation
 
@@ -48,8 +49,9 @@ The +5 km design crosses the legal boundary and should be excluded. Retain +15 t
 - Supported with qualification: profile-specific fire contrasts as conditional burned-cell-year patterns, without a unique legal-boundary claim.
 - Move to supplement: profile-specific agricultural contrasts because support and specification sensitivity are substantial.
 - Unsupported: causal claims about conservation effectiveness, legal designation, or actor-specific effects.
-- Not testable: tree regrowth and agricultural persistence/reversal with currently retained data.
+- Not testable: confirmed temporal ordering of Hansen loss and gain, or ecological forest recovery, from the static gain band.
+- Supported with qualification: most classifiable agricultural first crossings persist under the predeclared mapped-threshold rule; this is not proof of continuous cultivation or ecological condition.
 
 ## 11. Recommended manuscript and supplement changes
 
-State the 10 km, 25% primary estimands exactly; report fire as burned cell-years; add the lag figure/table, matched robustness matrix, episode influence table, and pseudo-boundary geometry/design table to the supplement; qualify the 50% tree-loss sensitivity; move agricultural profile interpretation out of the headline conclusions; describe the post-event diagnostics as infeasible due to missing annual metrics; and retain explicit non-causal language throughout.
+State the 10 km, 25% primary estimands exactly; report fire as burned cell-years; add the lag figure/table, matched robustness matrix, episode influence table, and pseudo-boundary geometry/design table to the supplement; qualify the 50% tree-loss sensitivity; report Hansen loss-gain overlap only as a temporally unordered measurement diagnostic; report AFCD persistence descriptively and the persistent-establishment refit as a sensitivity; move agricultural profile interpretation out of the headline conclusions; and retain explicit non-causal language throughout.
