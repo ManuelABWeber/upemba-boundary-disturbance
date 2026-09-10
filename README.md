@@ -2,6 +2,8 @@
 
 This private repository contains the publication-facing analysis and output package for the Chapter 1 Upemba boundary disturbance study. The study asks whether protected-area boundary contrasts in remotely sensed fire, tree-cover loss, and agricultural expansion recover interpretable signals of fragmented territorial control in and around Upemba National Park, Democratic Republic of the Congo.
 
+**Submission audit:** start with [the analysis handover](docs/submission/ch1-analysis-handover.md), [cleanup manifest](docs/submission/cleanup-manifest.csv), and [execution instructions](RUN_ANALYSIS.md). This branch reconciles remote `10d119e` with the later local robustness suite through `d91730f`. Authority rests on matched inputs and reproduced results. The agricultural persistence refit exists and reproduces, but its 2021–2022 follow-up treatment remains unresolved; do not present it as an unqualified completed sensitivity.
+
 The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire uses the harmonized 2001-2022 seasonal burned-fraction series; tree-cover loss and agricultural expansion use tau025 SESU-year sparse-outcome contrasts. Locked event totals are fire 508,320, tree-cover loss 519, and agricultural expansion 518.
 
 ## Repository Structure
@@ -13,6 +15,9 @@ The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire
 - `outputs/publication/`: final manuscript, supplement, figures, tables, and source data.
 - `reports/`: publication, supplement, repository-audit, and validation reports.
 - `tests/`: frozen-result comparison scripts and reference checks.
+- The four top-level `analysis_*_dev/` directories are retained publication dependencies, not abandoned experiments; see [their roles](reports/repository/ANALYTICAL_OUTPUTS.md).
+- `outputs/final_robustness/`: matched robustness analyses and post-event diagnostics.
+- `docs/submission/validation/`: numerical audit evidence, aggregate model inputs and a newly reproduced persistence model object.
 
 ## Reproduction Workflow
 
@@ -40,6 +45,8 @@ Script 06 regenerates the authoritative Figure 2 source-data CSVs but deliberate
 Restricted raw rasters, private operational evidence, patrol/security material, and large intermediate geospatial products are not included. Authorized researchers should obtain those inputs through the project owner and place them at the configured local data root.
 
 ## Final Outputs
+
+These are retained repository assets, not proof of the latest editorial version. Local manuscripts in the separate Biological Conservation manuscript folder contain later editorial changes and were left untouched. The exact S7 document quoted in the reconciliation request was not located. Resolve manuscript wording using the handover before submission. The preserved `main_figures_revised/` and publication script 09 are separate figure revisions brought onto this branch; they are not silently substituted for the canonical Figure 2 annual-trajectory workflow.
 
 - Manuscript: `outputs/publication/manuscript/Chapter1_manuscript_final.docx`
 - Supplement: `outputs/publication/supplement/Chapter1_Supplementary_Material_final.docx`

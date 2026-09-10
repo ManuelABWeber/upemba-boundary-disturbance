@@ -156,6 +156,8 @@ summary_lines <- c(
   "",
   "## 8. Agricultural persistence findings",
   "",
+  "Submission audit qualification: the saved refit includes 2021-2022 zero-event years despite insufficient follow-up to establish events in those years. It reproduces numerically but requires a scientific censoring decision before being presented as a fully resolved sensitivity. See docs/submission/ch1-analysis-handover.md. No corrected model was run during the audit.",
+  "",
   paste0("The annual AFCD reconstruction exactly reproduced the canonical 25% first-crossing raster. Of ", nrow(agri), " full-domain first crossings, ", sum(agri$postevent_class == "persistent"), " were persistent, ", sum(agri$postevent_class == "transient/reversed"), " transient/reversed, ", sum(agri$postevent_class == "intermittent"), " intermittent, and ", sum(agri$postevent_class == "right-censored"), " right-censored. Persistence among classifiable cells was ", pct(agri_persist_full), " in the full domain and ", pct(agri_persist_10), " in the primary corridor."),
   paste0("Persistent first establishment retained ", agri_diag$persistent_first_establishment_cells_10km[1], " of ", agri_diag$canonical_first_crossing_cells_10km[1], " primary-corridor events. The park-centred conditional contrast changed from the primary first-crossing estimate to ", fmt(persistent_park$estimate), " [", fmt(persistent_park$conf_low), ", ", fmt(persistent_park$conf_high), "]; its interval includes zero. This supports treating the agricultural boundary result as specification-sensitive."),
   "",

@@ -1,56 +1,51 @@
-# Run Analysis
+# Run and verify the Chapter 1 analysis
 
-The upstream analytical workflow depends on nonredistributable external inputs and is not a one-command clean-machine reproduction. The publication-generation workflow is self-contained in this private repository because it consumes retained authoritative analytical tables and publication assets.
+Run commands from the repository root. Read [the submission handover](docs/submission/ch1-analysis-handover.md) before reconciling a manuscript. No new outcome definitions or corrected persistence sensitivity were introduced by this audit.
 
-One-time acquisition and preprocessing: scripts/acquisition/00_acquire_remote_sensing_gee.txt, scripts/preprocessing/01_preprocess_fire_agriculture_sources.R, scripts/preprocessing/02_construct_landscape_groups.R, and scripts/preprocessing/03_prepare_cell_year_data.R.
+## Checks using retained repository results
 
-Required final analysis from prepared inputs: scripts/preprocessing/04_harmonize_fire_2021_2022.R, scripts/analysis/01_fit_governance_profile_models.R, scripts/analysis/02_fit_sparse_outcomes_and_profile_robustness.R, and scripts/analysis/03_refine_fire_10km_optimizer.R.
+An installed R environment with the packages in `renv.lock` is required. `--vanilla` avoids bootstrapping an empty project library; it does not install dependencies. Restore `renv` before full upstream reproduction, and retain session information. The audit environment is recorded in `docs/submission/validation/reproduction_session.txt`.
 
-Final robustness analyses: scripts/sensitivity/01_run_spatial_threshold_sensitivity.R, scripts/sensitivity/02_audit_measurement_harmonization.R, and scripts/sensitivity/03_run_revised_boundary_falsification.R.
+```powershell
+Rscript --vanilla tests/scripts/compare_frozen_results.R
+Rscript --vanilla tests/test_postevent_diagnostics.R
+Rscript --vanilla tests/testthat/test-final-robustness-functions.R
+Rscript --vanilla tests/scripts/run_downstream_validation.R
+```
 
-The source-preparation script preserves historical logic but is not authoritative for final 2021-2022 fire reconstruction. The sparse-outcome script is required for final tree-cover-loss and agriculture estimates. No further model search is part of the workflow. Manual GEE exports remain necessary unless future automation replaces them.
+The first command checks 23 scalar results, 18 classifications, and the locked totals: 508,320 burned cell-years, 519 tree-cover-loss events and 518 agricultural-expansion events. It compares retained exports; it is not a raw-data model refit. The post-event check likewise checks retained outputs and numerical fit status, not scientific adequacy of censoring.
 
-## Publication workflow
+Downstream validation runs publication scripts 06, 08, 07, then frozen comparisons. It regenerates figures, tables, HTML and source data; review the diff. It preserves manuscript and supplementary DOCX files. Logs remain ignored under `outputs/_validation/downstream_logs/`; stage and dependency checks are retained under `reports/repository/`.
 
-Run these scripts from the repository root in this order:
+Publication script 06 reads the retained top-level analytical directories, writes main tables, Figures 3–4 and Figure 2 source data. Script 08 renders the canonical Figure 2 annual trajectories. Script 07 regenerates supplement tables/figures/HTML while retaining its existing DOCX. Figure 1 remains a retained asset whose restricted geospatial inputs are not distributed. Publication script 09 regenerates the preserved alternative figure revisions only; its chronology-only Figure 2 is a different editorial design.
 
-1. `Rscript --vanilla scripts/publication/06_generate_main_figures_tables.R`
-2. `Rscript --vanilla scripts/publication/08_generate_figure2_chronology_time_series.R`
-3. `Rscript --vanilla scripts/publication/07_generate_supplementary_material.R`
+## Reproduce existing post-event analyses from external inputs
 
-Script 06 regenerates the main tables, Figures 3-4, and the canonical Figure 2 source-data files:
+`UPEMBA_DATA_ROOT` is the parent containing **both** `data/` and `run_2026_05_27/`, not the raw-data subdirectory itself. Configure it in the environment or ignored `config/paths.local.R`; see `config/paths.example.R` and `data/manifests/required_external_inputs.csv`. The original local `Chapter_1` checkout supplies these inputs and must remain available.
 
-- `outputs/publication/figure_source_data/Figure_2_annual_trajectories.csv`
-- `outputs/publication/figure_source_data/Figure_2_profile_chronology.csv`
+Required for post-event reproduction:
 
-The approved Figure 1 is retained as a publication asset because its restricted geospatial source layers are documented but not redistributed. Script 08 validates the locked event totals and generates the final 600 dpi PNG and vector PDF for Figure 2. Script 07 regenerates supplementary outputs without overwriting the verified final supplementary DOCX.
+- `<UPEMBA_DATA_ROOT>/data/AFCD_stack.tif`: 23 annual binary layers, 2000–2022, checksum in `data/manifests/postevent_diagnostic_inputs.csv`.
+- `<UPEMBA_DATA_ROOT>/data/studyarea_chapter1.geojson`.
+- `<UPEMBA_DATA_ROOT>/run_2026_05_27/SESU_covariates_500m.tif` and `SESU_ID_500m.tif`.
+- Four matching Hansen v1.12 gain/loss-year tiles under ignored `data/external/hansen_gfc_2024_v1_12/`. Acquire missing tiles with `Rscript --vanilla scripts/acquisition/01_acquire_hansen_gain_loss_tiles.R` and verify the manifest checksums.
+- The tracked territorial-control chronology in `data/governance_profiles/`.
 
-Then run:
+```powershell
+$env:UPEMBA_DATA_ROOT = 'D:/authorized/ch1-inputs' # replace with your local input parent
+Rscript --vanilla tests/scripts/audit_submission_reproduction.R
+```
 
-1. `Rscript --vanilla tests/scripts/compare_frozen_results.R`
-2. `Rscript --vanilla tests/scripts/run_downstream_validation.R`
+The audit wrapper executes the existing generator in isolated `outputs/_validation/submission-postevent/`, compares ten post-event CSVs with retained results, reconstructs the same sparse model object, and writes aggregate evidence to `docs/submission/validation/`. It also refits the two primary sparse models from retained legal-boundary surfaces. It does not replace authoritative analytical outputs. Raw-input projection occurs when the isolated cache is absent; subsequent runs reuse it. Start with a fresh isolated cache when input checksums change. Generator caches validate geometry only, so a same-geometry cache must not be assumed to match changed inputs.
 
-The `--vanilla` flag is intentional for publication-only clean-clone validation: it uses the installed package versions recorded in Table S18 without bootstrapping an empty project library. Use `renv::restore()` before the full upstream analytical workflow.
+For intentional regeneration after review, run analysis script 09 and then 08. `UPEMBA_POSTEVENT_OUTPUT_DIR` redirects script 09 and its cache; its default is `outputs/final_robustness/`. The deprecated analysis script 07 was deleted because it overwrote completed results with missing-input placeholders. Do not substitute a corrected follow-up policy without an explicit scientific decision and separately labelled analysis.
 
-## Final robustness suite
+## Full upstream workflow
 
-The submission robustness suite requires the restricted prepared inputs listed
-in `data/manifests/required_external_inputs.csv`. Configure
-`UPEMBA_DATA_ROOT`, or copy `config/paths.example.R` to the ignored
-`config/paths.local.R`. Run from the repository root:
+One-time acquisition/preparation: acquisition script 00 (manual GEE exports), preprocessing scripts 01–03, followed by 04 for harmonized 2021–2022 fire. Historical source-preparation code is not authoritative for the final fire reconstruction. Restore all manifest-listed external inputs first.
 
-1. `Rscript --vanilla scripts/analysis/04_audit_final_robustness.R`
-2. `Rscript --vanilla scripts/analysis/05_run_lag_robustness_influence.R`
-3. `Rscript --vanilla scripts/analysis/06_audit_pseudoboundaries.R`
-4. `Rscript --vanilla scripts/analysis/07_postevent_feasibility_and_agriculture.R`
-5. `Rscript --vanilla scripts/analysis/08_finalize_robustness_outputs.R`
-6. `Rscript --vanilla tests/testthat/test-final-robustness-functions.R`
-7. `Rscript --vanilla tests/scripts/compare_frozen_results.R`
-8. `Rscript --vanilla tests/scripts/run_downstream_validation.R`
+Primary models: analysis scripts 01–03. Spatial/threshold/measurement and revised boundary sensitivities: sensitivity scripts 01–03. Matched final robustness: analysis scripts 04, 05, 06, 09, then 08. Scientific specifications are `config/analysis_config.R` and `config/final_robustness_config.R`; shared risk sets, HC3 covariance and model validity are in `scripts/lib/final_robustness_functions.R`.
 
-All new results are written to `outputs/final_robustness`. The shared
-specification is `config/final_robustness_config.R`; risk-set construction,
-Haldane–Anscombe correction, HC3 covariance, profile contrasts, and fit
-validity are implemented once in
-`scripts/lib/final_robustness_functions.R`. Failed and non-strict model runs
-remain in diagnostic outputs rather than being silently dropped.
+Upstream scripts use `UPEMBA_OUTPUT_ROOT` (default `outputs/`) for analytical outputs, whereas publication scripts consume retained top-level `analysis_*_dev/` snapshots. Reproduce upstream into a separate output root, compare against retained results, and resolve discrepancies before promoting outputs. Never infer authority from the `_dev` suffix or copy a fresh fit over a frozen result without checking its specification and diagnostics.
+
+Raw rasters, caches, private evidence, operational records and local path configuration stay outside Git. Repository checks do not reproduce acquisition, frozen spatial clustering, every optimizer/robustness run, or manuscript editorial reconciliation.
