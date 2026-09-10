@@ -15,10 +15,13 @@ suppressPackageStartupMessages({
 
 source("config/final_robustness_config.R")
 source("scripts/lib/final_robustness_functions.R")
+source("scripts/lib/agriculture_followup.R")
+historical_rules <- identical(Sys.getenv("UPEMBA_POSTEVENT_RULE_VERSION"), "historical_2026_08")
+persistence_years <- if (historical_rules) FINAL_SPEC$years else 2001:2019
 
-out <- Sys.getenv("UPEMBA_POSTEVENT_OUTPUT_DIR", unset = FINAL_SPEC$output_dir)
+out <- Sys.getenv("UPEMBA_POSTEVENT_OUTPUT_DIR", unset = if (historical_rules) FINAL_SPEC$output_dir else file.path(CH1_PROJECT_ROOT, "outputs", "final_reconciliation", "postevent"))
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
-cache_dir <- file.path(out, "cache")
+cache_dir <- Sys.getenv("UPEMBA_POSTEVENT_CACHE_DIR", unset = file.path(out, "cache"))
 dir.create(cache_dir, recursive = TRUE, showWarnings = FALSE)
 
 spatial <- fr_load_spatial()
@@ -380,23 +383,7 @@ colnames(frac_mat) <- as.character(required_afcd_years)
 if (nrow(frac_mat) != nrow(spatial$geom)) stop_with("AFCD extraction row mismatch.")
 
 first_transition <- function(x, tau, persistent = FALSE) {
-  above <- is.finite(x) & x >= tau
-  crossing <- above[-1L] & !above[-length(above)]
-  candidate <- which(crossing) + 1L
-  if (!persistent) {
-    return(if (length(candidate)) required_afcd_years[candidate[1L]] else NA_integer_)
-  }
-  qualifies <- vapply(candidate, function(k) {
-    # At least years +1 and +2 must exist. Persistence is >=tau in two of the
-    # next three observed years, including at least one of +1 or +2.
-    if (k + 2L > length(x)) return(FALSE)
-    post_idx <- seq.int(k + 1L, min(k + 3L, length(x)))
-    post <- x[post_idx]
-    if (any(!is.finite(post))) return(FALSE)
-    sum(post >= tau) >= 2L && any(x[k + c(1L, 2L)] >= tau)
-  }, logical(1))
-  candidate <- candidate[qualifies]
-  if (length(candidate)) required_afcd_years[candidate[1L]] else NA_integer_
+  ag_first_crossing(x, required_afcd_years, tau, persistent, historical_rules)
 }
 
 computed_first_025 <- apply(frac_mat, 1, first_transition, tau = 0.25,
@@ -450,9 +437,9 @@ classify_postevent <- function(event_year, p1, p2, p3, tau = 0.25) {
   ans <- rep("missing/uncertain", n)
   reason <- rep("annual source observation unavailable or invalid", n)
   for (i in seq_len(n)) {
-    if (event_year[i] > 2020L) {
+    if (event_year[i] > if (historical_rules) 2020L else 2019L) {
       ans[i] <- "right-censored"
-      reason[i] <- "fewer than two post-event years available by 2022"
+      reason[i] <- if (historical_rules) "fewer than two post-event years available by 2022" else "three calendar follow-up years unavailable by 2022"
       next
     }
     if (!is.finite(p1[i]) || !is.finite(p2[i]) ||
@@ -543,7 +530,7 @@ eval_rule <- function(d, rule_id, tau) {
     hit <- (p1 >= tau & p2 >= tau) |
       (is.finite(p2) & is.finite(p3) & p2 >= tau & p3 >= tau)
   } else {
-    eligible <- is.finite(p1) & is.finite(p2)
+    eligible <- is.finite(p1) & is.finite(p2) & (historical_rules | is.finite(p3))
     hit <- rowSums(cbind(p1, p2, p3) >= tau, na.rm = TRUE) >= 2L &
       (p1 >= tau | p2 >= tau)
   }
@@ -593,7 +580,7 @@ threshold_sens <- rbindlist(lapply(c(0.10, 0.25, 0.50), function(tau) {
     tmp
   ))
   all_domains[, {
-    eligible <- is.finite(p1) & is.finite(p2)
+    eligible <- is.finite(p1) & is.finite(p2) & (historical_rules | is.finite(p3))
     hit <- rowSums(cbind(p1, p2, p3) >= tau, na.rm = TRUE) >= 2L &
       (p1 >= tau | p2 >= tau)
     .(rule_id = sprintf("threshold_consistent_persistence_tau%03d",
@@ -619,13 +606,12 @@ match10 <- match(geom10$cell, spatial$geom$cell)
 persistent_ev10 <- persistent_first_025[match10]
 
 surface_from_event_vector <- function(geom, event_year, timeline) {
-  # Historical specification retained for exact reproduction. It includes
-  # 2021-2022 zero-event years although persistence requires follow-up through
-  # at least +2. See the submission handover before interpreting this refit.
-  z <- vector("list", length(FINAL_SPEC$years))
-  for (i in seq_along(FINAL_SPEC$years)) {
-    yr <- FINAL_SPEC$years[i]
-    keep <- is.na(event_year) | yr <= event_year
+  # Strict candidate years end in 2019; follow-up extends through 2022.
+  z <- vector("list", length(persistence_years))
+  for (i in seq_along(persistence_years)) {
+    yr <- persistence_years[i]
+    keep <- (is.na(event_year) | yr <= event_year) &
+      (historical_rules | yr <= persistent_observation_end[match(geom$cell, spatial$geom$cell)])
     d <- geom[keep]
     d[, `:=`(
       year = yr,
@@ -640,6 +626,9 @@ surface_from_event_vector <- function(geom, event_year, timeline) {
         by = c("SESU_ID", "year"), all.x = TRUE)
 }
 
+persistent_observation_end <- apply(frac_mat, 1, ag_observation_end, persistent = TRUE)
+if (!historical_rules)
+  persistent_ev10[persistent_ev10 > persistent_observation_end[match10]] <- NA_integer_
 persistent_surface <- surface_from_event_vector(
   geom10, persistent_ev10, timeline
 )
@@ -758,7 +747,8 @@ agri_methods <- c(
   "",
   "The annual AFCD binary stack for 2000-2022 was aggregated to the canonical 500 m grid by averaging native binary cropland presence. The reconstructed first transition from below 25% to at least 25% was required to reproduce the canonical event-year raster exactly before any persistence result was accepted.",
   "",
-  "The primary post-event classification uses the predeclared rule: persistent means at least 25% cropland in at least two of the next three observed years, including at least one of years +1 or +2. Transient/reversed means below 25% in both +1 and +2. Other threshold alternation is intermittent. Events after 2020 are right-censored because fewer than two post-event years remain.",
+  paste0("Rule version: ", if (historical_rules) "historical_2026_08 (superseded)" else "corrected_2026_09 (candidate years 2001-2019; all three calendar follow-ups valid)."),
+  "The primary post-event classification uses the predeclared rule: persistent means at least 25% cropland in at least two of the next three calendar years, including at least one of years +1 or +2. Transient/reversed means below 25% in both +1 and +2. Other threshold alternation is intermittent. Corrected persistence requires all three follow-ups and censors events after 2019. Reversal is separately assessed with two valid follow-ups, including 2020 events.",
   "",
   "Persistent first establishment is the first below-to-at-least-25% transition satisfying that same future-persistence rule. Its boundary model uses the final primary 10 km risk set, Haldane-Anscombe correction, inverse-variance weighting, and HC3 covariance. The model is fitted only if there are at least 30 events overall and at least five events under every governance profile.",
   "",
@@ -767,4 +757,5 @@ agri_methods <- c(
 writeLines(agri_methods,
            file.path(out, "agriculture_persistence_methods.md"))
 
+if (!historical_rules) source("scripts/analysis/10_agriculture_final_reconciliation.R")
 message("Hansen loss-gain and agricultural persistence diagnostics complete.")

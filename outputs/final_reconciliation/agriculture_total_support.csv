@@ -1,0 +1,5 @@
+analysis,cell_years,events_or_presence_cell_years,inside,outside
+first_crossing_full,931657,518,254,264
+first_crossing_restricted,805391,442,229,213
+persistence_corrected,805592,414,217,197
+annual_presence,936188,12031,4482,7549

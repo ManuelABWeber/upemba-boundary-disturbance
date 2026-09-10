@@ -1,0 +1,138 @@
+[
+  {
+    "product": "FireCCI51",
+    "url": "https://dap.ceda.ac.uk/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/compressed/2022/20220101-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz?download=1",
+    "file": "20220101-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz",
+    "bytes": 51545303,
+    "sha256": "0888bf4925517f3901e794621e3f4e6a8e71e3e9ed5b5656432858c915f5be27",
+    "retrieved_utc": "2026-09-10T09:43:30.805835+00:00"
+  },
+  {
+    "product": "FireCCI51",
+    "url": "https://dap.ceda.ac.uk/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/compressed/2022/20220201-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz?download=1",
+    "file": "20220201-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz",
+    "bytes": 31605978,
+    "sha256": "2955f23b509f9d243b60e29783119957e3501e951c6781cf03e372b78755a783",
+    "retrieved_utc": "2026-09-10T09:43:28.963369+00:00"
+  },
+  {
+    "product": "FireCCI51",
+    "url": "https://dap.ceda.ac.uk/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/compressed/2022/20220301-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz?download=1",
+    "file": "20220301-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz",
+    "bytes": 17161052,
+    "sha256": "4710d0ab62a74b22bb22840b38d8feb8616fe304cfb92aab3e114d1a78405040",
+    "retrieved_utc": "2026-09-10T09:43:23.512639+00:00"
+  },
+  {
+    "product": "FireCCI51",
+    "url": "https://dap.ceda.ac.uk/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/compressed/2022/20221101-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz?download=1",
+    "file": "20221101-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz",
+    "bytes": 39629143,
+    "sha256": "e8bd6ba638c4dba889aff5d4fee3366f75498c449a0e223f4b07e6c78b698fc5",
+    "retrieved_utc": "2026-09-10T09:43:38.917351+00:00"
+  },
+  {
+    "product": "FireCCI51",
+    "url": "https://dap.ceda.ac.uk/neodc/esacci/fire/data/burned_area/MODIS/pixel/v5.1/compressed/2022/20221201-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz?download=1",
+    "file": "20221201-ESACCI-L3S_FIRE-BA-MODIS-AREA_5-fv5.1.tar.gz",
+    "bytes": 47669874,
+    "sha256": "4bba0697f509cdb8ced5f3dacf495f8d799bbc1906b7be1ef14244c6c0b6ada8",
+    "retrieved_utc": "2026-09-10T09:43:44.990602+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.01.tif.gz",
+    "file": "chirps-v2.0.2022.01.tif.gz",
+    "bytes": 14474572,
+    "sha256": "4c4edbcb92433bba4e300b19507e87c219e58092a5a21caea1e89eea1e68bfec",
+    "retrieved_utc": "2026-09-10T09:43:46.869560+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.02.tif.gz",
+    "file": "chirps-v2.0.2022.02.tif.gz",
+    "bytes": 14576256,
+    "sha256": "700408ba0a8f73053c7ec195688e185c36928f2343eacb97ce8dbfce79d85a5a",
+    "retrieved_utc": "2026-09-10T09:43:41.757126+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.03.tif.gz",
+    "file": "chirps-v2.0.2022.03.tif.gz",
+    "bytes": 14538682,
+    "sha256": "997c92e5d0a8a17c9a460deee6ce3127510ca83cae4f2e9bc5812aba8a13731e",
+    "retrieved_utc": "2026-09-10T09:43:46.613162+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.04.tif.gz",
+    "file": "chirps-v2.0.2022.04.tif.gz",
+    "bytes": 14508968,
+    "sha256": "ba5b689ca4d72679cd2514dec71963260b3b6f5b888e69cd6023073369ed7f28",
+    "retrieved_utc": "2026-09-10T09:44:01.747463+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.05.tif.gz",
+    "file": "chirps-v2.0.2022.05.tif.gz",
+    "bytes": 14551058,
+    "sha256": "1c3752f3a0e1a9a69be1002809ef15c7382b8429c6a16dd0192bec9f43671c63",
+    "retrieved_utc": "2026-09-10T09:43:50.024049+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.06.tif.gz",
+    "file": "chirps-v2.0.2022.06.tif.gz",
+    "bytes": 14623884,
+    "sha256": "d4dad8a67693294812e13ac1d93dcb00a2140716ed229f3c71daf2b1412ce751",
+    "retrieved_utc": "2026-09-10T09:43:56.595157+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.07.tif.gz",
+    "file": "chirps-v2.0.2022.07.tif.gz",
+    "bytes": 14669139,
+    "sha256": "d23a8dc0e76d3d60693a872d29e64b0ce0c9bb50294c28b79bee8d9b3fd8a28e",
+    "retrieved_utc": "2026-09-10T09:43:52.852141+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.08.tif.gz",
+    "file": "chirps-v2.0.2022.08.tif.gz",
+    "bytes": 14647247,
+    "sha256": "3f3b9c4d206449617afa0cd950b65b6f16767a0e6de961836cad1bd540cfe26a",
+    "retrieved_utc": "2026-09-10T09:43:55.436564+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.09.tif.gz",
+    "file": "chirps-v2.0.2022.09.tif.gz",
+    "bytes": 14617828,
+    "sha256": "e49def0e05e09dbae448f66477ffd36e5f5d16e3e24ad00a1b4565a750455a0f",
+    "retrieved_utc": "2026-09-10T09:43:58.076185+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.10.tif.gz",
+    "file": "chirps-v2.0.2022.10.tif.gz",
+    "bytes": 14588874,
+    "sha256": "6ff4040abd5ed016ae427aaa14aa24d9768881dabd89cd4a55a52b0d840c51f9",
+    "retrieved_utc": "2026-09-10T09:44:02.524900+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.11.tif.gz",
+    "file": "chirps-v2.0.2022.11.tif.gz",
+    "bytes": 14581202,
+    "sha256": "14b12507434e9caa6d1845083c740ef1389af46757daad28232230ae1b07c52e",
+    "retrieved_utc": "2026-09-10T09:44:06.118990+00:00"
+  },
+  {
+    "product": "CHIRPS v2.0 final monthly",
+    "url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/tifs/chirps-v2.0.2022.12.tif.gz",
+    "file": "chirps-v2.0.2022.12.tif.gz",
+    "bytes": 14578630,
+    "sha256": "a2d1aac2f20bd2f11ab19e9fd7733484c2d6255d9d8adab485ec7cd4553411cb",
+    "retrieved_utc": "2026-09-10T09:44:04.372944+00:00"
+  }
+]

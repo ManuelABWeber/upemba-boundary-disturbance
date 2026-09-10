@@ -1,0 +1,5 @@
+SESU_ID,side,cells,baseline_agricultural,missing_baseline,first_missing_history_censored,persistent_missing_history_censored
+1,outside,10019,259,0,0,0
+3,outside,11987,4,0,0,0
+1,inside,7612,115,0,0,0
+3,inside,12936,0,0,0,0

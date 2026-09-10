@@ -282,7 +282,7 @@ fr_fit_sparse <- function(surface, weighted = TRUE, run_id = NA_character_) {
     cbind(data.table(run_id = run_id, outcome = unique(surface$outcome),
                      profile_comparison = paste(p[1], "minus", p[2])),
           stat(vec[[p[1]]] - vec[[p[2]]]))))
-  list(profile = profile, pair = pair, contrasts = w,
+  list(profile = profile, pair = pair, contrasts = w, model = mod, covariance = V,
        diagnostics = base_diag[, `:=`(
          fit_status = "valid",
          warning_messages = paste(unique(warns), collapse = " | "),
