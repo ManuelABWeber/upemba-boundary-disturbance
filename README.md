@@ -1,4 +1,4 @@
-# A protected-area boundary separates tree-cover loss but not fire across changing territorial control
+# Disturbance-specific spatial signatures of a protected-area boundary under changing territorial control
 
 This private repository contains the publication-facing analysis and output package for the Chapter 1 Upemba boundary disturbance study. The study asks whether protected-area boundary contrasts in remotely sensed fire, tree-cover loss, and agricultural expansion recover interpretable signals of fragmented territorial control in and around Upemba National Park, Democratic Republic of the Congo.
 
