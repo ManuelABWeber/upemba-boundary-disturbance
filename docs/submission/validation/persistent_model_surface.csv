@@ -1,0 +1,89 @@
+SESU_ID,year,side,n,y,outcome,governance_profile
+1,2001,outside,10019,3,agriculture_persistent_first_establishment,Neither actor dominant
+1,2001,inside,7612,4,agriculture_persistent_first_establishment,Neither actor dominant
+1,2002,outside,10016,12,agriculture_persistent_first_establishment,Neither actor dominant
+1,2002,inside,7608,6,agriculture_persistent_first_establishment,Neither actor dominant
+1,2003,outside,10004,4,agriculture_persistent_first_establishment,Neither actor dominant
+1,2003,inside,7602,4,agriculture_persistent_first_establishment,Neither actor dominant
+1,2004,outside,10000,18,agriculture_persistent_first_establishment,Militia dominant
+1,2004,inside,7598,13,agriculture_persistent_first_establishment,Militia dominant
+1,2005,outside,9982,4,agriculture_persistent_first_establishment,Militia dominant
+1,2005,inside,7585,2,agriculture_persistent_first_establishment,Militia dominant
+1,2006,outside,9978,12,agriculture_persistent_first_establishment,Militia dominant
+1,2006,inside,7583,0,agriculture_persistent_first_establishment,Militia dominant
+1,2007,outside,9966,8,agriculture_persistent_first_establishment,Neither actor dominant
+1,2007,inside,7583,4,agriculture_persistent_first_establishment,Neither actor dominant
+1,2008,outside,9958,3,agriculture_persistent_first_establishment,Neither actor dominant
+1,2008,inside,7579,6,agriculture_persistent_first_establishment,Neither actor dominant
+1,2009,outside,9955,7,agriculture_persistent_first_establishment,Neither actor dominant
+1,2009,inside,7573,11,agriculture_persistent_first_establishment,Neither actor dominant
+1,2010,outside,9948,9,agriculture_persistent_first_establishment,Neither actor dominant
+1,2010,inside,7562,20,agriculture_persistent_first_establishment,Neither actor dominant
+1,2011,outside,9939,2,agriculture_persistent_first_establishment,Neither actor dominant
+1,2011,inside,7542,9,agriculture_persistent_first_establishment,Neither actor dominant
+1,2012,outside,9937,3,agriculture_persistent_first_establishment,Neither actor dominant
+1,2012,inside,7533,9,agriculture_persistent_first_establishment,Neither actor dominant
+1,2013,outside,9934,20,agriculture_persistent_first_establishment,Militia dominant
+1,2013,inside,7524,25,agriculture_persistent_first_establishment,Militia dominant
+1,2014,outside,9914,20,agriculture_persistent_first_establishment,Militia dominant
+1,2014,inside,7499,25,agriculture_persistent_first_establishment,Militia dominant
+1,2015,outside,9894,8,agriculture_persistent_first_establishment,Militia dominant
+1,2015,inside,7474,14,agriculture_persistent_first_establishment,Militia dominant
+1,2016,outside,9886,9,agriculture_persistent_first_establishment,Militia dominant
+1,2016,inside,7460,22,agriculture_persistent_first_establishment,Militia dominant
+1,2017,outside,9877,26,agriculture_persistent_first_establishment,Park dominant
+1,2017,inside,7438,19,agriculture_persistent_first_establishment,Park dominant
+1,2018,outside,9851,15,agriculture_persistent_first_establishment,Park dominant
+1,2018,inside,7419,20,agriculture_persistent_first_establishment,Park dominant
+1,2019,outside,9836,11,agriculture_persistent_first_establishment,Park dominant
+1,2019,inside,7399,4,agriculture_persistent_first_establishment,Park dominant
+1,2020,outside,9825,11,agriculture_persistent_first_establishment,Park dominant
+1,2020,inside,7395,6,agriculture_persistent_first_establishment,Park dominant
+1,2021,outside,9814,0,agriculture_persistent_first_establishment,Park dominant
+1,2021,inside,7389,0,agriculture_persistent_first_establishment,Park dominant
+1,2022,outside,9814,0,agriculture_persistent_first_establishment,Park dominant
+1,2022,inside,7389,0,agriculture_persistent_first_establishment,Park dominant
+3,2001,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2001,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2002,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2002,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2003,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2003,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2004,outside,11987,0,agriculture_persistent_first_establishment,Militia dominant
+3,2004,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2005,outside,11987,0,agriculture_persistent_first_establishment,Militia dominant
+3,2005,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2006,outside,11987,0,agriculture_persistent_first_establishment,Militia dominant
+3,2006,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2007,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2007,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2008,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2008,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2009,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2009,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2010,outside,11987,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2010,inside,12936,0,agriculture_persistent_first_establishment,Neither actor dominant
+3,2011,outside,11987,1,agriculture_persistent_first_establishment,Park dominant
+3,2011,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2012,outside,11986,0,agriculture_persistent_first_establishment,Park dominant
+3,2012,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2013,outside,11986,0,agriculture_persistent_first_establishment,Militia dominant
+3,2013,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2014,outside,11986,0,agriculture_persistent_first_establishment,Militia dominant
+3,2014,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2015,outside,11986,0,agriculture_persistent_first_establishment,Militia dominant
+3,2015,inside,12936,0,agriculture_persistent_first_establishment,Militia dominant
+3,2016,outside,11986,0,agriculture_persistent_first_establishment,Park dominant
+3,2016,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2017,outside,11986,2,agriculture_persistent_first_establishment,Park dominant
+3,2017,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2018,outside,11984,0,agriculture_persistent_first_establishment,Park dominant
+3,2018,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2019,outside,11984,0,agriculture_persistent_first_establishment,Park dominant
+3,2019,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2020,outside,11984,0,agriculture_persistent_first_establishment,Park dominant
+3,2020,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2021,outside,11984,0,agriculture_persistent_first_establishment,Park dominant
+3,2021,inside,12936,0,agriculture_persistent_first_establishment,Park dominant
+3,2022,outside,11984,0,agriculture_persistent_first_establishment,Park dominant
+3,2022,inside,12936,0,agriculture_persistent_first_establishment,Park dominant

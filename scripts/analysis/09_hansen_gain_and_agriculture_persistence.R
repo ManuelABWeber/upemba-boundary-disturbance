@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
 source("config/final_robustness_config.R")
 source("scripts/lib/final_robustness_functions.R")
 
-out <- FINAL_SPEC$output_dir
+out <- Sys.getenv("UPEMBA_POSTEVENT_OUTPUT_DIR", unset = FINAL_SPEC$output_dir)
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
 cache_dir <- file.path(out, "cache")
 dir.create(cache_dir, recursive = TRUE, showWarnings = FALSE)
@@ -619,6 +619,9 @@ match10 <- match(geom10$cell, spatial$geom$cell)
 persistent_ev10 <- persistent_first_025[match10]
 
 surface_from_event_vector <- function(geom, event_year, timeline) {
+  # Historical specification retained for exact reproduction. It includes
+  # 2021-2022 zero-event years although persistence requires follow-up through
+  # at least +2. See the submission handover before interpreting this refit.
   z <- vector("list", length(FINAL_SPEC$years))
   for (i in seq_along(FINAL_SPEC$years)) {
     yr <- FINAL_SPEC$years[i]

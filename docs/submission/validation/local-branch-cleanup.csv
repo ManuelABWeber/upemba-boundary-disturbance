@@ -1,0 +1,20 @@
+repository,branch,tip,retained_in,reason
+external:Chapter_1,methods-review/final-targeted-audits,1d0dd82fe62dcb176614102efcef06034fc12487,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,methods-review/fire-missingness-resolution,29314f061b724f3109776a5ae794f653fdb2facf,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,methods-review/targeted-audits,7857440e0b77f82c6b05103868fc1e8820a17bd8,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/fire-2021-2022-harmonization,5ed80d04e60efd9b83be73587cc5ae2efeb5ba07,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/fire-optimizer-refinement,a76c91e0e9051aba2878ad43d4eb4b30d5264d78,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/governance-profiles,38c6bc00a5821f019d3161be12417b8562fee61c,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/measurement-harmonization,b287ab3f4f6c4028367c7da633c4513e9a12d202,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/profile-robustness,a12172a1039fc057ed5c2472d2ab9e4da64529cf,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/spatial-falsification,4dcdcd55b2efd68ad24c576ffa66d04341796bb6,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/spatial-falsification-revised,b282fff0900edbedd3a87b7722a42b13175b6ce7,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication-revision/spatial-threshold-sensitivity,def94629291fe23f3a7ae04ed39ac3bb20d23dde,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication/assemble-supplement,509c94edab38318e71f02caf36d36e6ed8cf37d0,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication/main-figures-tables,e981e4148429e54d1a75c310b3ee051eee51e609,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication/repair-supplement,e45ec3d4be7e9c82c285d6b6806a675f426425bc,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,publication/revise-main-figures-tables,7bd5e82cae3b35c83d004b128b9425e3433f5135,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,repository-normalization/audit,3a293e04a26462287373e95cb18dc11a84435643,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,repository-normalization/candidate-execution-validation,b3c91b2ef32a62eade454e8928f6da1daf556ba5,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+external:Chapter_1,repository-normalization/sanitized-candidate,150307c6fc29b483eedaa991879837d5e917fa69,26b19e4262d891151133cbbb1d236cdabe67fefa,Merged ancestor; no active worktree; complete Git bundle checkpoint
+upemba-boundary-disturbance,analysis/final-robustness-suite,d91730f48ec07de52717f56553a34fecbb2ff822,codex/ch1-submission-audit-cleanup,Merged ancestor; no active worktree; complete Git bundle checkpoint

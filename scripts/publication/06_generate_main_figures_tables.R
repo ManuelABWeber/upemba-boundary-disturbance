@@ -84,7 +84,7 @@ save_pub <- function(g, stem, width_mm, height_mm) {
 
 html_table <- function(dt, path, title) {
   esc <- function(x) {
-    gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", as.character(x))))
+    gsub("<", "&lt;", gsub(">", "&gt;", gsub("&", "&amp;", as.character(x))))
   }
   hdr <- paste0("<tr>", paste0("<th>", esc(names(dt)), "</th>", collapse = ""), "</tr>")
   rows <- apply(dt, 1, function(z) {
@@ -103,7 +103,7 @@ html_table <- function(dt, path, title) {
       rows,
       "</table></body></html>"
     ),
-    path
+    path, useBytes = TRUE
   )
 }
 

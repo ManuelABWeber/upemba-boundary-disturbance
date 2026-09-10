@@ -33,7 +33,7 @@ Audit commit: `43e09c19323d23af085aacc87203ea5b799c83fe`. The authoritative prim
 
 - `config/analysis_config.R` historically set the Phase 3 reference spatial design to `all_cells`, which conflicts with the manuscript's 10 km primary design when chronology outputs are reused without refitting.
 - Historical terminology uses `Neither actor dominant`, `Militia dominant`, and `Park dominant`; these map to fragmented, militia-centred, and park-centred profiles but should not be interpreted as actor-specific causal effects.
-- The configured local data root contains threshold/event-year rasters and the canonical prepared stack, but no annual AFCD cropland-fraction stack and no validated annual regrowth-sensitive vegetation/canopy series. Agricultural persistence and post-loss regrowth cannot be estimated as requested from event-year rasters alone.
+- The initial audit lacked annual cropland fractions. This was superseded by script 09, which reconstructs the retained AFCD annual stack and validates canonical first crossings. See docs/submission/ch1-analysis-handover.md for the reproduced persistence fit and its unresolved follow-up limitation. No validated annual regrowth-sensitive canopy series was located; event-year rasters alone cannot identify recovery.
 - The primary run emitted known empty-bootstrap-file warnings (bootstrap disabled) and many sparse beta-binomial diagnostic warnings; failed or non-strict fits are retained in diagnostic tables.
 - Reproduction depends on restricted inputs and cannot be performed on a clean public clone without restoring the manifest-listed data.
 

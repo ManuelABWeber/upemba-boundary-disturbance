@@ -51,6 +51,7 @@ render_*/
 review_*/
 reports/publication/render_*/
 outputs/final_robustness/cache/
+outputs/final_robustness.zip
 
 # Generated outputs
 outputs/diagnostics/**

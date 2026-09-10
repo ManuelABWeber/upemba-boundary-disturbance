@@ -1,6 +1,6 @@
 # Supplement Generation Log
 
-Generated: 2026-06-27 10:21:26 CEST
+Generated: 2026-09-10 11:07:06 CEST
 Tables generated: 18
 Figures generated: 3
 HTML supplement generated: TRUE

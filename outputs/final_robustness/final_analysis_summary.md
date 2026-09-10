@@ -36,6 +36,8 @@ Confirmed post-loss regrowth is still not testable from Hansen GFC because the 2
 
 ## 8. Agricultural persistence findings
 
+Submission audit qualification: the saved refit includes 2021-2022 zero-event years despite insufficient follow-up to establish events in those years. It reproduces numerically but requires a scientific censoring decision before being presented as a fully resolved sensitivity. See docs/submission/ch1-analysis-handover.md. No corrected model was run during the audit.
+
 The annual AFCD reconstruction exactly reproduced the canonical 25% first-crossing raster. Of 2685 full-domain first crossings, 2007 were persistent, 203 transient/reversed, 119 intermittent, and 356 right-censored. Persistence among classifiable cells was 86.2% in the full domain and 91.6% in the primary corridor.
 Persistent first establishment retained 431 of 518 primary-corridor events. The park-centred conditional contrast changed from the primary first-crossing estimate to -0.237 [-0.642, 0.168]; its interval includes zero. This supports treating the agricultural boundary result as specification-sensitive.
 
