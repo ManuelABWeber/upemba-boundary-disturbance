@@ -1,0 +1,5 @@
+action,path,replacement,reason,recovery
+remove,newly generated outputs/final_reconciliation/rainfall_fire/Figure_S19_rainfall_fire_2021.png,outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.png,Identical image under corrected Word supplement numbering,Generating script and tidy data retained
+remove,newly generated outputs/final_reconciliation/rainfall_fire/Figure_S19_rainfall_fire_2021.pdf,outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.pdf,Same regenerated figure under corrected numbering; PDF creation timestamps differ,Generating script and tidy data retained
+rename,outputs/final_reconciliation/rainfall_fire/acquisition_manifest.json,outputs/final_reconciliation/rainfall_fire/acquisition_manifest_2021.json,Make both evaluated acquisition years explicit,No content discarded
+retain,all original manuscripts and external Chapter_1 inputs,,Preserve later or unique source evidence,Starting commit 01a5d338fde07caaeaec05a47e1c052449e250a9 and prior C:/0_Documents/ch1-submission-recovery-20260910 checkpoint

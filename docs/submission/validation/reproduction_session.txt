@@ -1,5 +1,5 @@
 Command: Rscript --vanilla tests/scripts/audit_submission_reproduction.R
-Verification reused the isolated projection cache; the first audit pass freshly projected raw inputs and matched all ten CSVs.
+Verification reused the isolated projection cache; see handover for first-pass raw-input reproduction.
 The existing 2001-2022 model, including its unresolved follow-up limitation, was reproduced without alteration.
 R version 4.5.3 (2026-03-11 ucrt)
 Platform: x86_64-w64-mingw32/x64

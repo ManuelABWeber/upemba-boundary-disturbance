@@ -1,0 +1,140 @@
+domain,park_side,SESU_ID,governance_profile_at_event,event_year,reversal_status,N
+full,outside,1,Neither actor dominant,2001,reversed,11
+full,outside,1,Neither actor dominant,2001,not_reversed,46
+full,inside,1,Neither actor dominant,2001,not_reversed,4
+full,outside,1,Neither actor dominant,2002,not_reversed,31
+full,outside,1,Neither actor dominant,2002,reversed,1
+full,inside,1,Neither actor dominant,2002,not_reversed,6
+full,outside,1,Neither actor dominant,2003,not_reversed,31
+full,inside,1,Neither actor dominant,2003,not_reversed,4
+full,outside,1,Militia dominant,2004,not_reversed,130
+full,outside,1,Militia dominant,2004,reversed,6
+full,inside,1,Militia dominant,2004,not_reversed,15
+full,inside,1,Militia dominant,2004,reversed,5
+full,outside,1,Militia dominant,2005,not_reversed,91
+full,outside,1,Militia dominant,2005,reversed,7
+full,inside,1,Militia dominant,2005,not_reversed,3
+full,outside,1,Militia dominant,2006,reversed,18
+full,outside,1,Militia dominant,2006,not_reversed,87
+full,outside,1,Neither actor dominant,2007,not_reversed,51
+full,outside,1,Neither actor dominant,2007,reversed,2
+full,inside,1,Neither actor dominant,2007,not_reversed,2
+full,outside,1,Neither actor dominant,2008,not_reversed,61
+full,outside,1,Neither actor dominant,2008,reversed,15
+full,inside,1,Neither actor dominant,2008,not_reversed,6
+full,outside,1,Neither actor dominant,2009,not_reversed,45
+full,outside,1,Neither actor dominant,2009,reversed,13
+full,inside,1,Neither actor dominant,2009,not_reversed,11
+full,outside,1,Neither actor dominant,2010,not_reversed,44
+full,outside,1,Neither actor dominant,2010,reversed,4
+full,inside,1,Neither actor dominant,2010,not_reversed,19
+full,outside,1,Neither actor dominant,2011,not_reversed,14
+full,outside,1,Neither actor dominant,2011,reversed,3
+full,inside,1,Neither actor dominant,2011,not_reversed,9
+full,outside,1,Neither actor dominant,2012,not_reversed,17
+full,outside,1,Neither actor dominant,2012,reversed,2
+full,inside,1,Neither actor dominant,2012,not_reversed,10
+full,outside,1,Militia dominant,2013,not_reversed,117
+full,outside,1,Militia dominant,2013,reversed,3
+full,inside,1,Militia dominant,2013,not_reversed,25
+full,outside,1,Militia dominant,2014,not_reversed,198
+full,outside,1,Militia dominant,2014,reversed,15
+full,inside,1,Militia dominant,2014,not_reversed,25
+full,inside,1,Militia dominant,2014,reversed,1
+full,outside,1,Militia dominant,2015,reversed,5
+full,outside,1,Militia dominant,2015,not_reversed,59
+full,inside,1,Militia dominant,2015,not_reversed,14
+full,outside,1,Militia dominant,2016,not_reversed,148
+full,outside,1,Militia dominant,2016,reversed,3
+full,inside,1,Militia dominant,2016,not_reversed,21
+full,inside,1,Militia dominant,2016,reversed,1
+full,outside,1,Park dominant,2017,not_reversed,274
+full,outside,1,Park dominant,2017,reversed,28
+full,inside,1,Park dominant,2017,not_reversed,20
+full,inside,1,Park dominant,2017,reversed,2
+full,outside,1,Park dominant,2018,not_reversed,185
+full,outside,1,Park dominant,2018,reversed,27
+full,inside,1,Park dominant,2018,not_reversed,22
+full,outside,1,Park dominant,2019,not_reversed,130
+full,outside,1,Park dominant,2019,reversed,26
+full,inside,1,Park dominant,2019,not_reversed,4
+full,inside,1,Park dominant,2019,reversed,1
+full,outside,1,Park dominant,2020,not_reversed,123
+full,inside,1,Park dominant,2020,not_reversed,7
+full,outside,1,Park dominant,2020,reversed,3
+full,outside,1,Park dominant,2021,insufficient_followup,197
+full,inside,1,Park dominant,2021,insufficient_followup,8
+full,outside,1,Park dominant,2022,insufficient_followup,139
+full,inside,1,Park dominant,2022,insufficient_followup,10
+full,outside,3,Neither actor dominant,2002,not_reversed,1
+full,outside,3,Neither actor dominant,2007,not_reversed,2
+full,outside,3,Neither actor dominant,2008,not_reversed,1
+full,outside,3,Neither actor dominant,2009,not_reversed,2
+full,outside,3,Park dominant,2011,not_reversed,1
+full,outside,3,Militia dominant,2014,not_reversed,1
+full,outside,3,Militia dominant,2015,not_reversed,2
+full,outside,3,Park dominant,2016,not_reversed,1
+full,outside,3,Park dominant,2017,not_reversed,2
+full,outside,3,Park dominant,2019,not_reversed,2
+full,outside,3,Park dominant,2020,not_reversed,2
+full,outside,3,Park dominant,2020,reversed,1
+full,outside,3,Park dominant,2021,insufficient_followup,1
+full,outside,3,Park dominant,2022,insufficient_followup,1
+10km,inside,1,Neither actor dominant,2001,not_reversed,4
+10km,outside,1,Neither actor dominant,2001,not_reversed,3
+10km,outside,1,Neither actor dominant,2001,reversed,1
+10km,outside,1,Neither actor dominant,2002,not_reversed,13
+10km,inside,1,Neither actor dominant,2002,not_reversed,6
+10km,inside,1,Neither actor dominant,2003,not_reversed,4
+10km,outside,1,Neither actor dominant,2003,not_reversed,4
+10km,outside,1,Militia dominant,2004,not_reversed,20
+10km,outside,1,Militia dominant,2004,reversed,1
+10km,inside,1,Militia dominant,2004,not_reversed,15
+10km,inside,1,Militia dominant,2004,reversed,5
+10km,outside,1,Militia dominant,2005,reversed,1
+10km,inside,1,Militia dominant,2005,not_reversed,3
+10km,outside,1,Militia dominant,2005,not_reversed,4
+10km,outside,1,Militia dominant,2006,not_reversed,12
+10km,outside,1,Neither actor dominant,2007,not_reversed,7
+10km,inside,1,Neither actor dominant,2007,not_reversed,2
+10km,inside,1,Neither actor dominant,2008,not_reversed,5
+10km,outside,1,Neither actor dominant,2008,not_reversed,3
+10km,inside,1,Neither actor dominant,2009,not_reversed,11
+10km,outside,1,Neither actor dominant,2009,not_reversed,7
+10km,inside,1,Neither actor dominant,2010,not_reversed,19
+10km,outside,1,Neither actor dominant,2010,not_reversed,9
+10km,inside,1,Neither actor dominant,2011,not_reversed,9
+10km,outside,1,Neither actor dominant,2011,not_reversed,2
+10km,inside,1,Neither actor dominant,2012,not_reversed,10
+10km,outside,1,Neither actor dominant,2012,not_reversed,3
+10km,outside,1,Militia dominant,2013,not_reversed,20
+10km,inside,1,Militia dominant,2013,not_reversed,25
+10km,outside,1,Militia dominant,2013,reversed,2
+10km,outside,1,Militia dominant,2014,not_reversed,20
+10km,inside,1,Militia dominant,2014,not_reversed,25
+10km,inside,1,Militia dominant,2014,reversed,1
+10km,inside,1,Militia dominant,2015,not_reversed,14
+10km,outside,1,Militia dominant,2015,not_reversed,8
+10km,outside,1,Militia dominant,2016,reversed,1
+10km,outside,1,Militia dominant,2016,not_reversed,9
+10km,inside,1,Militia dominant,2016,not_reversed,21
+10km,inside,1,Militia dominant,2016,reversed,1
+10km,inside,1,Park dominant,2017,not_reversed,20
+10km,inside,1,Park dominant,2017,reversed,2
+10km,outside,1,Park dominant,2017,not_reversed,26
+10km,outside,1,Park dominant,2017,reversed,2
+10km,outside,1,Park dominant,2018,not_reversed,16
+10km,inside,1,Park dominant,2018,not_reversed,22
+10km,outside,1,Park dominant,2018,reversed,4
+10km,outside,1,Park dominant,2019,not_reversed,11
+10km,inside,1,Park dominant,2019,not_reversed,4
+10km,inside,1,Park dominant,2019,reversed,1
+10km,outside,1,Park dominant,2019,reversed,1
+10km,outside,1,Park dominant,2020,not_reversed,14
+10km,inside,1,Park dominant,2020,not_reversed,7
+10km,outside,1,Park dominant,2021,insufficient_followup,20
+10km,inside,1,Park dominant,2021,insufficient_followup,8
+10km,outside,1,Park dominant,2022,insufficient_followup,17
+10km,inside,1,Park dominant,2022,insufficient_followup,10
+10km,outside,3,Park dominant,2011,not_reversed,1
+10km,outside,3,Park dominant,2017,not_reversed,2

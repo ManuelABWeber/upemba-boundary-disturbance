@@ -1,3 +1,7 @@
+# Final reconciliation workflow
+
+Use [the current handover](docs/submission/ch1-final-reconciliation.md#reproduction-and-validation) for corrected script 09/10, the bounded annual-presence analysis, rainfall acquisition/plotting, and separate Word review generation. Script 09 now defaults to corrected outputs under `outputs/final_reconciliation/postevent`; historical reproduction is explicitly selected only by its audit script. The prior instructions below retain the original primary workflow. Do not overwrite external editorial sources.
+
 # Run and verify the Chapter 1 analysis
 
 Run commands from the repository root. Read [the submission handover](docs/submission/ch1-analysis-handover.md) before reconciling a manuscript. No new outcome definitions or corrected persistence sensitivity were introduced by this audit.

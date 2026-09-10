@@ -1,5 +1,7 @@
 # Chapter 1 analysis handover
 
+**Updated reconciliation:** the corrected 414-event analysis, review documents and seasonal figure are now described in [ch1-final-reconciliation.md](ch1-final-reconciliation.md). The remainder records the preceding historical audit; its 431-event result is superseded. The corridor arithmetic below has been corrected against exact cell and model-input comparisons.
+
 The later analytical work is present, and the agricultural persistent-first-establishment refit **ran successfully and reproduces numerically**. It is not ready for unqualified manuscript use: the fitted risk set includes 2021â€“2022 as zero-event years although the persistence definition cannot identify events in those years. The primary estimates remain unchanged. This branch prepares reconciliation; it does not certify a reconciled manuscript or submit it to the journal.
 
 ## Authority and provenance
@@ -60,10 +62,10 @@ The supplied S7 reversal numerators are reproducible, but their denominators des
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Full, inside | 255 | 219 | 10 | 8 | 18 |
 | Full, outside | 2,430 | 1,788 | 193 | 111 | 338 |
-| 10 km, inside | 252 | 218 | 10 | 8 | 18 |
-| 10 km, outside | 266 | 206 | 13 | 8 | 37 |
+| 10 km, inside | 254 | 218 | 10 | 8 | 18 |
+| 10 km, outside | 264 | 206 | 13 | 8 | 37 |
 
-Thus full-domain reversal is 10/255 and 193/2,430 when expressed against *all* events; classifiable-event denominators are 237 and 2,092. Corridor reversal is 10/252 and 13/266 against all events, or 10/234 and 13/229 against classifiable events. The corridor has 55 late events without sufficient follow-up. Persistence among classifiable first crossings is 2,007/2,329 (86.2%) full-domain and 424/463 (91.6%) corridor. Do not silently interpret all-event proportions as reversal risk conditional on adequate follow-up.
+Thus full-domain reversal is 10/255 and 193/2,430 when expressed against *all* events; classifiable-event denominators are 237 and 2,092. Corridor reversal is 10/254 and 13/264 against all events, or 10/236 and 13/227 against classifiable events. The corridor has 55 late events without sufficient follow-up. Persistence among classifiable first crossings is 2,007/2,329 (86.2%) full-domain and 424/463 (91.6%) corridor. Do not silently interpret all-event proportions as reversal risk conditional on adequate follow-up.
 
 The full-period tree-loss counts are 5,460 full-domain versus 519 corridor in the retained spatial-domain outputs. However, the **completed Hansen overlap diagnostic does not use 5,460 as its loss-crossing denominator**: it restricts crossings to 2012 and reports 2,801 full-domain cells (599 with overlap) and 364 corridor cells (46 with overlap). The separate 20 km diagnostic also happens to have 519 crossings through 2012; this is not the primary 10 km total. See [Hansen overall results](../../outputs/final_robustness/hansen_loss_gain_overlap_overall.csv) and [spatial-domain support](../../analysis_spatial_threshold_sensitivity_dev/tables/event_support_summary.csv).
 

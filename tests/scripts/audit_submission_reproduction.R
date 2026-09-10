@@ -1,3 +1,4 @@
+Sys.setenv(UPEMBA_POSTEVENT_RULE_VERSION = "historical_2026_08")
 #!/usr/bin/env Rscript
 # Reproduce the EXISTING post-event analysis in an isolated output directory.
 # No outcome definition, censoring policy, model specification or year is changed.

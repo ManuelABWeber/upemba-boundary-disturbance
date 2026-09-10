@@ -392,8 +392,9 @@ make_tables <- function() {
   t10[, `Interpretive change from primary` := fifelse(Weighting == "Weighted", "primary specification", "sensitivity only")]
   out[[10]] <- write_table(t10, 10, "Weighted and unweighted sparse-outcome models", "Sparse-outcome weighted primary and unweighted sensitivity estimates.", paste(inputs$sparse_threshold_profile, inputs$sparse_threshold_pair, sep = "; "), "filtered tau025 10 km sparse-outcome estimates")
 
-  stp <- read_dt(inputs$threshold_profile)
-  stq <- read_dt(inputs$threshold_pair)
+  source(file.path(ROOT, "scripts/lib/refined_fire_publication.R"))
+  stp <- publication_refined_fire(read_dt(inputs$threshold_profile), root = ROOT)
+  stq <- publication_refined_fire(read_dt(inputs$threshold_pair), pairwise = TRUE, root = ROOT)
   es_all <- read_dt(inputs$event_support)
   event_lookup <- es_all[, .(`Event support` = sum(total_events, na.rm = TRUE)), by = .(outcome, threshold_tag, spatial_design)]
   event_lookup[threshold_tag == "tau025" & spatial_design == "buffer_10km" & outcome == "fire", `Event support` := 508320L]
@@ -605,7 +606,8 @@ make_figures <- function() {
   fwrite(rbindlist(list(sil[, .(specification = "full covariate", k, silhouette)], no[, .(specification = "without accessibility", k, silhouette)])), file.path(OUT_SRC, "Figure_S1_source_data.csv"))
 
   # S2
-  st <- read_dt(inputs$threshold_profile)
+  source(file.path(ROOT, "scripts/lib/refined_fire_publication.R"))
+  st <- publication_refined_fire(read_dt(inputs$threshold_profile), root = ROOT)
   st[, `:=`(Outcome = factor(map_outcome(outcome), levels = outcome_order), Profile = factor(map_profile(governance_profile), levels = profile_order), Domain = label_design(spatial_design))]
   st[, `:=`(
     Threshold = threshold_label(threshold_tag),
