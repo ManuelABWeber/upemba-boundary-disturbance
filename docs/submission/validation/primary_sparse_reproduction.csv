@@ -1,0 +1,7 @@
+outcome,governance_profile,estimate_difference,lower_difference,upper_difference,pass
+tree_cover_loss,Militia dominant,-3.33066907387547e-16,4.44089209850063e-15,-1.11022302462516e-16,TRUE
+tree_cover_loss,Neither actor dominant,-1.11022302462516e-16,3.10862446895044e-15,4.9960036108132e-16,TRUE
+tree_cover_loss,Park dominant,-2.22044604925031e-16,1.33226762955019e-15,1.11022302462516e-16,TRUE
+agriculture,Militia dominant,-2.77555756156289e-17,4.16333634234434e-17,-1.11022302462516e-16,TRUE
+agriculture,Neither actor dominant,4.44089209850063e-16,4.16333634234434e-16,-4.44089209850063e-16,TRUE
+agriculture,Park dominant,-5.55111512312578e-17,0,4.85722573273506e-17,TRUE

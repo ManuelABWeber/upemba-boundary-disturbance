@@ -1,48 +1,33 @@
-# Disturbance-specific spatial signatures of a protected-area boundary under changing territorial control
+# Upemba boundary disturbance: code and retained results
 
-This private repository contains the publication-facing analysis and output package for the Chapter 1 Upemba boundary disturbance study. The study asks whether protected-area boundary contrasts in remotely sensed fire, tree-cover loss, and agricultural expansion recover interpretable signals of fragmented territorial control in and around Upemba National Park, Democratic Republic of the Congo.
+This public repository contains code and retained analytical results for comparisons of fire, tree-cover loss and agricultural expansion across Upemba National Park's legal boundary during 2001–2022. An independently reconstructed chronology distinguishes fragmented, militia-centred and park-centred territorial control. Outer pseudo-boundaries assess whether comparable contrasts occur elsewhere in the sampled landscape; these comparisons do not establish a causal effect of protection.
 
-The primary spatial estimand is the symmetric 10 km park-boundary corridor. Fire uses the harmonized 2001-2022 seasonal burned-fraction series; tree-cover loss and agricultural expansion use tau025 SESU-year sparse-outcome contrasts. Locked event totals are fire 508,320, tree-cover loss 519, and agricultural expansion 518.
+## Current code release
 
-## Repository Structure
+The [code-2026-09-23 release](https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-09-23) brings the already-public final-reconciliation analyses onto the default branch, clarifies reproduction instructions, adds reuse licences and supplies a renderer for the combined legal/outer-boundary contrast plot.
 
-- `config/`: public configuration and measurement manifests.
-- `scripts/`: preprocessing, analysis, sensitivity, and publication-generation scripts.
-- `data/`: sanitized public inputs and manifests for restricted local inputs.
-- `evidence/`: sanitized evidence ledger metadata; restricted source evidence is excluded.
-- `outputs/publication/`: final manuscript, supplement, figures, tables, and source data.
-- `reports/`: publication, supplement, repository-audit, and validation reports.
-- `tests/`: frozen-result comparison scripts and reference checks.
+This update publishes code and results already present on the public final-reconciliation branch. It does not add the current unpublished manuscript, supplement, newly rendered figure files, title page or cover letter. Older document and figure snapshots already in the public repository remain historical records, not the current submission version.
 
-## Reproduction Workflow
+The primary 10 km corridor contains 42,554 cells. Retained totals are 508,320 burned cell-years, 519 tree-cover-loss events and 518 agricultural first crossings. Corrected persistence uses candidate years 2001–2019 and retains 414 events; the older 431-event result is superseded. Agricultural spatial-bootstrap intervals, annual presence and follow-up diagnostics are under outputs/final_reconciliation/. First crossing, persistent establishment and annual presence measure different responses.
 
-1. Review `data/manifests/required_external_inputs.csv` and configure local restricted inputs through `UPEMBA_DATA_ROOT` or `config/paths.local.R`.
-2. Restore the R environment from `renv.lock`.
-3. Run the staged analysis scripts in `scripts/preprocessing/`, `scripts/analysis/`, and `scripts/sensitivity/` as data access permits.
-4. Regenerate the publication package, from the repository root, in this order:
-   1. `Rscript --vanilla scripts/publication/06_generate_main_figures_tables.R`
-   2. `Rscript --vanilla scripts/publication/08_generate_figure2_chronology_time_series.R`
-   3. `Rscript --vanilla scripts/publication/07_generate_supplementary_material.R`
+## Finding the files
 
-Script 06 regenerates the authoritative Figure 2 source-data CSVs but deliberately does not export Figure 2. Script 08 is the single final Figure 2 renderer. Script 07 regenerates supplementary tables, figures, HTML, and data delivery files while retaining the verified final supplementary DOCX.
+| Location | Role |
+|---|---|
+| scripts/, config/, renv.lock | Analysis/publication code, specifications and original R environment |
+| data/manifests/ | Required external inputs, recorded checksums and restoration instructions |
+| data/governance_profiles/, evidence/ | Coded chronology and documentary-evidence metadata |
+| Four top-level analysis_*_dev/ directories | Retained analytical snapshots used by publication code; the suffix does not mean disposable files |
+| outputs/final_reconciliation/ | Corrected agricultural analyses, bootstrap results, post-event diagnostics and rainfall/fire data |
+| tests/ | Frozen-result and agricultural follow-up/reconciliation checks |
+| outputs/publication/, outputs/submission_review/ | Previously public historical layouts and review copies; not a current submission bundle |
 
-`--vanilla` keeps publication-only clean-clone validation independent of an unrestored project library. The full upstream analytical workflow should use the package versions in `renv.lock` after `renv::restore()`.
+## Reproduce and inspect
 
-Restricted raw rasters, private operational evidence, patrol/security material, and large intermediate geospatial products are not included. Authorized researchers should obtain those inputs through the project owner and place them at the configured local data root.
+Start with [RUN_ANALYSIS.md](RUN_ANALYSIS.md) and the [release validation record](docs/submission/validation/code-release-2026-09-23.md). Retained-result checks and the combined contrast renderer use committed data. A complete analysis rerun additionally requires the external raster/spatial inputs in the manifests and the original environment in renv.lock. A fresh clone alone does not reproduce every upstream analysis.
 
-## Final Outputs
+Original historical documents, private operational evidence, raw imagery and local configuration are not distributed. Older handovers describe the state at their dates; their former private-repository statements and historical figure/table numbering do not describe this code release.
 
-- Manuscript: `outputs/publication/manuscript/Chapter1_manuscript_final.docx`
-- Supplement: `outputs/publication/supplement/Chapter1_Supplementary_Material_final.docx`
-- Main figures: `outputs/publication/main_figures/`
-- Supplementary figures: `outputs/publication/supplement/figures/`
-- Supplementary tables: `outputs/publication/supplement/tables/`
-- Source data: `outputs/publication/figure_source_data/`, `outputs/publication/table_source_data/`, and `outputs/publication/supplement/source_data/`
+## Reuse and citation
 
-The final supplementary figure sequence is Figures S1-S3 only. Historical transition-year and episode-omission diagnostics are reported in Table S13 only.
-
-## Availability And Status
-
-This repository is intended to be private. It includes code, sanitized tabular inputs, final outputs, and provenance reports needed to inspect the study and reproduce outputs where data access permits. It does not include confidential evidence, restricted operational data, or large raw remote-sensing/geospatial inputs.
-
-No reuse licence has yet been assigned. Contact the repository owner before reuse.
+Original code is under the [MIT licence](LICENSE). Original research data, figures and documentation already distributed here are under [CC BY 4.0](LICENSE_CONTENT.md). Third-party materials retain their own terms; see [third-party notices](THIRD_PARTY_NOTICES.md). Cite the code release using [CITATION.cff](CITATION.cff). No DOI or journal acceptance is claimed.

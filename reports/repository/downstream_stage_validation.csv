@@ -1,5 +1,5 @@
 "stage_order","script","exit_status","elapsed_seconds","log","pass"
-1,"scripts/publication/06_generate_main_figures_tables.R",0,5.27711009979248,"temporary validation log removed after stage completion",TRUE
-2,"scripts/publication/08_generate_figure2_chronology_time_series.R",0,3.76848292350769,"temporary validation log removed after stage completion",TRUE
-3,"scripts/publication/07_generate_supplementary_material.R",0,5.36804604530334,"temporary validation log removed after stage completion",TRUE
-4,"tests/scripts/compare_frozen_results.R",0,0.19188404083252,"temporary validation log removed after stage completion",TRUE
+1,"scripts/publication/06_generate_main_figures_tables.R",0,17.1914591789246,"outputs/_validation/downstream_logs/stage_01.log",TRUE
+2,"scripts/publication/08_generate_figure2_chronology_time_series.R",0,7.5197811126709,"outputs/_validation/downstream_logs/stage_02.log",TRUE
+3,"scripts/publication/07_generate_supplementary_material.R",0,12.8159058094025,"outputs/_validation/downstream_logs/stage_03.log",TRUE
+4,"tests/scripts/compare_frozen_results.R",0,0.348371028900146,"outputs/_validation/downstream_logs/stage_04.log",TRUE

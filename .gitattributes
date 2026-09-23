@@ -10,6 +10,8 @@
 *.json text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+*.cff text eol=lf
+*.svg text eol=lf -whitespace
 *.tif binary
 *.tiff binary
 *.vrt binary

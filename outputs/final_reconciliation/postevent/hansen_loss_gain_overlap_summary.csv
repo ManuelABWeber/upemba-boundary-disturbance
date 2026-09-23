@@ -1,0 +1,60 @@
+corridor_domain,park_side,landscape_group,governance_profile_at_loss,eligible_500m_cells,loss_crossing_cells_by_2012,loss_crossing_cells_with_any_gain,loss_crossing_cells_with_any_overlap,median_gain_fraction_among_loss_crossing_cells,q25_gain_fraction_among_loss_crossing_cells,q75_gain_fraction_among_loss_crossing_cells,gain_ge_10pct_cells,gain_ge_25pct_cells,gain_ge_50pct_cells,proportion_loss_crossing_cells_with_any_gain,proportion_loss_crossing_cells_with_any_overlap
+5km,outside,Depression,,4033,0,0,0,,,,0,0,0,,
+5km,inside,Depression,,3671,0,0,0,,,,0,0,0,,
+5km,outside,Depression,Neither actor dominant,99,99,13,9,0,0,0,0,0,0,0.131313131313131,0.0909090909090909
+5km,inside,Depression,Neither actor dominant,111,111,15,11,0,0,0,0,0,0,0.135135135135135,0.0990990990990991
+5km,inside,Depression,Militia dominant,15,8,2,2,0,0,0.000760249793529511,0,0,0,0.25,0.25
+5km,outside,Depression,Militia dominant,18,4,1,1,0,0,0.000759933376684785,0,0,0,0.25,0.25
+5km,outside,Depression,Park dominant,22,0,0,0,,,,0,0,0,,
+5km,inside,Depression,Park dominant,10,0,0,0,,,,0,0,0,,
+5km,outside,Plateau,,5397,0,0,0,,,,0,0,0,,
+5km,inside,Plateau,,5140,0,0,0,,,,0,0,0,,
+5km,outside,Plateau,Neither actor dominant,7,7,3,3,0,0,0.00197909530834295,0,0,0,0.428571428571429,0.428571428571429
+5km,inside,Plateau,Park dominant,2,2,0,0,0,0,0,0,0,0,0,0
+5km,outside,Plateau,Militia dominant,1,0,0,0,,,,0,0,0,,
+5km,outside,Plateau,Park dominant,28,0,0,0,,,,0,0,0,,
+10km,outside,Depression,,7831,0,0,0,,,,0,0,0,,
+10km,inside,Depression,,6903,0,0,0,,,,0,0,0,,
+10km,outside,Depression,Neither actor dominant,179,179,28,21,0,0,0,0,0,0,0.156424581005587,0.11731843575419
+10km,inside,Depression,Neither actor dominant,114,114,15,11,0,0,0,0,0,0,0.131578947368421,0.0964912280701754
+10km,inside,Depression,Militia dominant,16,8,2,2,0,0,0.000760249793529511,0,0,0,0.25,0.25
+10km,outside,Depression,Militia dominant,39,16,4,4,0,0,0.000759886635933071,0,0,0,0.25,0.25
+10km,outside,Depression,Park dominant,44,0,0,0,,,,0,0,0,,
+10km,inside,Depression,Park dominant,12,0,0,0,,,,0,0,0,,
+10km,outside,Plateau,,10568,0,0,0,,,,0,0,0,,
+10km,inside,Plateau,,9450,0,0,0,,,,0,0,0,,
+10km,outside,Plateau,Neither actor dominant,26,26,8,7,0,0,0.000713373734470224,0,0,0,0.307692307692308,0.269230769230769
+10km,outside,Plateau,Militia dominant,11,7,0,0,0,0,0,0,0,0,0,0
+10km,inside,Plateau,Neither actor dominant,2,2,0,0,0,0,0,0,0,0,0,0
+10km,outside,Plateau,Park dominant,74,10,1,1,0,0,0,0,0,0,0.1,0.1
+10km,inside,Plateau,Park dominant,2,2,0,0,0,0,0,0,0,0,0,0
+20km,outside,Depression,,16312,0,0,0,,,,0,0,0,,
+20km,inside,Depression,,10551,0,0,0,,,,0,0,0,,
+20km,outside,Depression,Neither actor dominant,290,290,48,35,0,0,0,0,0,0,0.16551724137931,0.120689655172414
+20km,inside,Depression,Neither actor dominant,114,114,15,11,0,0,0,0,0,0,0.131578947368421,0.0964912280701754
+20km,inside,Depression,Militia dominant,16,8,2,2,0,0,0.000760249793529511,0,0,0,0.25,0.25
+20km,outside,Depression,Militia dominant,98,34,7,7,0,0,0,0,0,0,0.205882352941176,0.205882352941176
+20km,outside,Depression,Park dominant,114,0,0,0,,,,0,0,0,,
+20km,inside,Depression,Park dominant,12,0,0,0,,,,0,0,0,,
+20km,outside,Plateau,,17967,0,0,0,,,,0,0,0,,
+20km,inside,Plateau,,15430,0,0,0,,,,0,0,0,,
+20km,outside,Plateau,Neither actor dominant,40,40,14,10,0,0,0.00303233455633745,0,0,0,0.35,0.25
+20km,outside,Plateau,Militia dominant,19,8,1,0,0,0,0,0,0,0,0.125,0
+20km,inside,Plateau,Neither actor dominant,2,2,0,0,0,0,0,0,0,0,0,0
+20km,outside,Plateau,Park dominant,168,20,2,2,0,0,0,0,0,0,0.1,0.1
+20km,inside,Plateau,Park dominant,3,3,0,0,0,0,0,0,0,0,0,0
+full,outside,Depression,,87809,0,0,0,,,,0,0,0,,
+full,inside,Depression,,11532,0,0,0,,,,0,0,0,,
+full,outside,Depression,Neither actor dominant,2160,2160,589,464,0,0,0.00199633865850046,0,0,0,0.272685185185185,0.214814814814815
+full,inside,Depression,Neither actor dominant,114,114,15,11,0,0,0,0,0,0,0.131578947368421,0.0964912280701754
+full,outside,Depression,Militia dominant,845,296,86,73,0,0,0.00303655542666093,1,1,0,0.290540540540541,0.246621621621622
+full,inside,Depression,Militia dominant,16,8,2,2,0,0,0.000760249793529511,0,0,0,0.25,0.25
+full,outside,Depression,Park dominant,1536,0,0,0,,,,0,0,0,,
+full,inside,Depression,Park dominant,13,0,0,0,,,,0,0,0,,
+full,outside,Plateau,,47300,0,0,0,,,,0,0,0,,
+full,inside,Plateau,,18347,0,0,0,,,,0,0,0,,
+full,outside,Plateau,Neither actor dominant,123,123,38,31,0,0,0.00303778238594532,0,0,0,0.308943089430894,0.252032520325203
+full,outside,Plateau,Militia dominant,74,30,13,8,0,0,0.00387877516914159,0,0,0,0.433333333333333,0.266666666666667
+full,inside,Plateau,Neither actor dominant,2,2,0,0,0,0,0,0,0,0,0,0
+full,outside,Plateau,Park dominant,574,65,11,10,0,0,0,0,0,0,0.169230769230769,0.153846153846154
+full,inside,Plateau,Park dominant,3,3,0,0,0,0,0,0,0,0,0,0

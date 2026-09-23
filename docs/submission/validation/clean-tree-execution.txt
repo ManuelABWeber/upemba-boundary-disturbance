@@ -1,0 +1,6 @@
+Verified staged tree: 48a512fd443176a43f027bbf4b71b126c5340fdb
+Command: Rscript --vanilla tests/scripts/run_downstream_validation.R
+Command: Rscript --vanilla tests/test_postevent_diagnostics.R
+Command: Rscript --vanilla tests/testthat/test-final-robustness-functions.R
+All commands returned exit status 0. This check used only the exported staged files and the installed R runtime.
+No external rasters or paths.local.R were present. Later changes add validation records and explanatory prose only.

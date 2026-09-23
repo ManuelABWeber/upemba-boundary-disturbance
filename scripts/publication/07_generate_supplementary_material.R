@@ -139,7 +139,7 @@ save_fig <- function(plot, name, w = 180, h = 130) {
 }
 
 html_escape <- function(x) {
-  gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", as.character(x))))
+  gsub("<", "&lt;", gsub(">", "&gt;", gsub("&", "&amp;", as.character(x))))
 }
 
 html_table <- function(dt, title, caption = NULL, max_rows = Inf) {
@@ -392,8 +392,9 @@ make_tables <- function() {
   t10[, `Interpretive change from primary` := fifelse(Weighting == "Weighted", "primary specification", "sensitivity only")]
   out[[10]] <- write_table(t10, 10, "Weighted and unweighted sparse-outcome models", "Sparse-outcome weighted primary and unweighted sensitivity estimates.", paste(inputs$sparse_threshold_profile, inputs$sparse_threshold_pair, sep = "; "), "filtered tau025 10 km sparse-outcome estimates")
 
-  stp <- read_dt(inputs$threshold_profile)
-  stq <- read_dt(inputs$threshold_pair)
+  source(file.path(ROOT, "scripts/lib/refined_fire_publication.R"))
+  stp <- publication_refined_fire(read_dt(inputs$threshold_profile), root = ROOT)
+  stq <- publication_refined_fire(read_dt(inputs$threshold_pair), pairwise = TRUE, root = ROOT)
   es_all <- read_dt(inputs$event_support)
   event_lookup <- es_all[, .(`Event support` = sum(total_events, na.rm = TRUE)), by = .(outcome, threshold_tag, spatial_design)]
   event_lookup[threshold_tag == "tau025" & spatial_design == "buffer_10km" & outcome == "fire", `Event support` := 508320L]
@@ -492,7 +493,7 @@ make_tables <- function() {
 
   bq <- read_dt(inputs$fig4_pair)
   class <- read_dt(inputs$boundary_class)
-  class[, `:=`(Outcome = map_outcome(outcome), Comparison = map_pair(profile_comparison))]
+  class[, `:=`(Outcome = map_outcome(outcome), Comparison = map_pair_long(profile_comparison))]
   bq[, `:=`(Outcome = map_outcome(outcome), Comparison = map_pair_long(profile_comparison), `Boundary role` = fcase(boundary_center_km %in% c(-20, -15), "inner descriptive check", boundary_center_km == 0, "legal boundary", boundary_center_km %in% c(20, 40, 60), "primary spaced outer boundary", default = "dense outer gradient"))]
   bq <- merge(bq, unique(class[finding_type == "pairwise profile differences", .(Outcome, Comparison, boundary_specificity_classification)]), by = c("Outcome", "Comparison"), all.x = TRUE)
   bq_full <- bq[, .(Outcome, `Boundary centre` = boundary_center_km, `Boundary role`, Comparison, Estimate = estimate, `Lower 95%` = lower_interval, `Upper 95%` = upper_interval, `Fit validity` = fit_validity, `Boundary-specificity classification` = boundary_specificity_classification)]
@@ -514,37 +515,40 @@ make_tables <- function() {
     `final boundary-specificity classification` = boundary_specificity_classification
   )]
   class_panel <- rbindlist(list(class_profile, class_pair), fill = TRUE)
-  legal_profile <- bp_full[`Boundary centre` == 0, .(Outcome, Estimand = Profile, `legal-boundary estimate` = Estimate)]
+  legal_profile <- bp_full[`Boundary centre` == 0, .(Outcome, Estimand = map_profile(Profile), `legal-boundary estimate` = Estimate)]
   legal_pair <- bq_full[`Boundary centre` == 0, .(Outcome, Estimand = Comparison, `legal-boundary estimate` = Estimate)]
   class_panel <- merge(class_panel, rbindlist(list(legal_profile, legal_pair), fill = TRUE), by = c("Outcome", "Estimand"), all.x = TRUE)
   class_panel[, `:=`(
     `spaced-outer comparison result` = fifelse(`spaced outer flag`, "actual outside +20/+40/+60 range", "actual within +20/+40/+60 range"),
-    `dense-gradient result` = fifelse(`dense outer flag`, "actual outside dense outer 80% envelope", "actual within dense outer 80% envelope"),
-    `inner-check support` = fcase(
+    `dense outer 10th–90th percentile result` = fifelse(
+      `dense outer flag`,
+      "legal estimate outside dense outer 10th–90th percentile interval",
+      "legal estimate within dense outer 10th–90th percentile interval"
+    ),    `inner-check support` = fcase(
       Outcome == "Tree-cover loss", "limited inner checks only; 2 and 10 events",
       Outcome == "Agricultural expansion", "limited inner checks only; 1 and 31 events",
       default = "inner checks reported descriptively"
     ),
     reason = fcase(
-      `final boundary-specificity classification` == "boundary-specific support", "actual estimate is outside the spaced-outer range and dense outer envelope with adequate diagnostics",
-      `final boundary-specificity classification` == "partial boundary-specific support", "actual estimate is distinct from one pseudo-boundary comparison but not uniquely across all diagnostics",
-      `final boundary-specificity classification` == "not boundary-specific", "similar estimates recur along pseudo-boundaries or the actual estimate lies within the outer diagnostic distribution",
+      `final boundary-specificity classification` == "boundary-specific support", "legal estimate lies outside both the +20/+40/+60 range and the dense outer 10th–90th percentile interval, and neither inner check shares its sign",
+      `final boundary-specificity classification` == "partial boundary-specific support", "legal estimate lies outside either the +20/+40/+60 range or the dense outer 10th–90th percentile interval, but does not meet every criterion for full support",
+      `final boundary-specificity classification` == "not boundary-specific", "legal estimate lies within both the +20/+40/+60 range and the dense outer 10th–90th percentile interval",
       default = "sparse support or model-validity limits prevent boundary-specific interpretation"
     )
   )]
-  class_panel <- class_panel[, .(Outcome, `Estimand type`, Estimand, `legal-boundary estimate`, `spaced-outer comparison result`, `dense-gradient result`, `inner-check support`, `final boundary-specificity classification`, reason)]
+  class_panel <- class_panel[, .(Outcome, `Estimand type`, Estimand, `legal-boundary estimate`, `spaced-outer comparison result`, `dense outer 10th–90th percentile result`, `inner-check support`, `final boundary-specificity classification`, reason)]
   out[[16]] <- write_table(class_panel, 16, "Boundary-specificity classifications", "Legal-boundary classification panel. Complete boundary-level pairwise rows are retained in source data.", paste(inputs$boundary_class, inputs$fig4_profile, inputs$fig4_pair, sep = "; "), "combined implemented classification output with legal-boundary estimates")
 
   miss <- read_dt(inputs$missingness_decision)
   na_k3 <- read_dt(inputs$no_access_k3)
   t17 <- data.table(
     `Validation topic` = c("FireCCI harmonization", "FireCCI missingness", "tree-cover-loss baseline mask", "agricultural-product reproduction", "clustering reproduction", "accessibility-removal sensitivity", "spatial-design selection", "SESU2 support"),
-    Question = c("Does the 2021-2022 fire series match the intended FireCCI measurement?", "Can fully unobserved native pixels alter tau025 fire?", "Was a fixed baseline forest mask used?", "Did agriculture reproduce across canonical and standalone products?", "Was the frozen clustering reproducible?", "Does removing travel time to cities alter groups?", "Which spatial design is primary?", "Can the third group support primary inference?"),
+    Question = c("Does the 2021-2022 fire series match the intended FireCCI measurement?", "Could fully unobserved native pixels alter the primary 25% fire classification?", "Was a fixed baseline forest mask used?", "Did agriculture reproduce across canonical and standalone products?", "Was the frozen clustering reproducible?", "Does removing travel time to cities alter groups?", "Which spatial design is primary?", "Can the third group support primary inference?"),
     Result = c("Harmonized 2001-2022 fire series retained", miss$final_classification, "fixed 30% tree-cover mask retained", "exact identity confirmed in measurement audit", "near reproduction accepted; frozen raster remains authoritative", sprintf("ARI %.3f; retained groups unchanged", na_k3$adjusted_rand_index[1]), "symmetric 10 km corridor selected", "outside inferential scope"),
     Decision = c("use harmonized fire", "no correction required", "retain primary definition", "retain primary product", "retain frozen k = 3 partition", "no model rerun", "10 km primary, all cells sensitivity", "exclude from primary models"),
     `Primary pipeline changed` = c("yes, earlier fire products deprecated", "no", "no", "no", "no", "no", "yes, spatial estimand selected", "no new chronology constructed"),
     `Manuscript implication` = c("Methods report harmonized FireCCI series", "Methods can report missingness bound audit", "Methods report baseline forest eligibility", "Methods report product reproduction", "Methods report frozen clustering", "Supplementary sensitivity only", "Main analyses use 10 km corridor", "Scope statement required"),
-    `Final report` = c("docs/fire_2021_2022_harmonization_report.md", "reports/fire_missingness_resolution/fire_missingness_final_decision.md", "analysis_measurement_harmonization_dev/tables/tree_cover_loss_mask_diagnostics.csv", "analysis_measurement_harmonization_dev/tables/agriculture_pipeline_comparison.csv", "reports/methods_review_final_audits/clustering_near_reproduction_acceptance.md", "reports/methods_review_final_audits/no_accessibility_clustering_audit.md", "analysis_spatial_threshold_sensitivity_dev/tables/spatial_design_decision_matrix.csv", "reports/methods_review_targeted_audits/sesu2_support_audit.md")
+    `Final report` = c("docs/decisions/fire_2021_2022_harmonization_report.md", "reports/fire_missingness_resolution/fire_missingness_final_decision.md", "docs/provenance/disturbance_measurement_provenance_report.md", "docs/provenance/disturbance_measurement_provenance_report.md", "reports/methods_review_final_audits/clustering_near_reproduction_acceptance.md", "reports/methods_review_final_audits/no_accessibility_clustering_audit.md", "analysis_spatial_threshold_sensitivity_dev/tables/spatial_design_decision_matrix.csv", "reports/methods_review_targeted_audits/sesu2_support_audit.md")
   )
   out[[17]] <- write_table(t17, 17, "Measurement and validation decisions", "Final validation decisions supporting the frozen analysis.", "final validation reports", "curated validation-decision registry")
 
@@ -602,7 +606,8 @@ make_figures <- function() {
   fwrite(rbindlist(list(sil[, .(specification = "full covariate", k, silhouette)], no[, .(specification = "without accessibility", k, silhouette)])), file.path(OUT_SRC, "Figure_S1_source_data.csv"))
 
   # S2
-  st <- read_dt(inputs$threshold_profile)
+  source(file.path(ROOT, "scripts/lib/refined_fire_publication.R"))
+  st <- publication_refined_fire(read_dt(inputs$threshold_profile), root = ROOT)
   st[, `:=`(Outcome = factor(map_outcome(outcome), levels = outcome_order), Profile = factor(map_profile(governance_profile), levels = profile_order), Domain = label_design(spatial_design))]
   st[, `:=`(
     Threshold = threshold_label(threshold_tag),

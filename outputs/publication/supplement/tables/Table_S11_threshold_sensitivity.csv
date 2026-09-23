@@ -17,24 +17,24 @@ Agricultural expansion,50%,Profile contrast,Park-centred control,0.1811093553123
 Agricultural expansion,50%,Pairwise difference,Militia-centred control minus Fragmented control,0.330754533523119,,-0.129396839696332,0.79090590674257,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
 Agricultural expansion,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.063959378882952,,-0.482861126700113,0.610779884466017,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
 Agricultural expansion,50%,Pairwise difference,Park-centred control minus Fragmented control,0.394713912406071,,-0.155755317013328,0.94518314182547,227,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
-Fire,10%,Profile contrast,Militia-centred control,-0.0108922905953573,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,10%,Profile contrast,Fragmented control,0.155681920833334,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,10%,Profile contrast,Park-centred control,0.0431466017176489,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,10%,Pairwise difference,Militia-centred control minus Fragmented control,-0.166574211428691,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,10%,Pairwise difference,Park-centred control minus Militia-centred control,0.0540388923130062,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,10%,Pairwise difference,Park-centred control minus Fragmented control,-0.112535319115685,,,,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Profile contrast,Militia-centred control,-0.0108903922289631,,-0.0790488855069724,0.0572681010490461,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Profile contrast,Fragmented control,0.155682820053635,,0.0946531254603759,0.216712514646894,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Profile contrast,Park-centred control,0.0435302539969729,,-0.0190925714610363,0.106153079454982,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Militia-centred control minus Fragmented control,-0.166573212282598,,-0.258061449853177,-0.0750849747120188,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Park-centred control minus Militia-centred control,0.054420646225936,,-0.0381369377293381,0.14697823018121,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,10%,Pairwise difference,Park-centred control minus Fragmented control,-0.112152566056662,,-0.19959465763,-0.0247104744833234,554273,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
 Fire,25%,Profile contrast,Militia-centred control,0.0107091233715076,0.0330098626703633,-0.0539890185970177,0.0754072653400329,508320,fire_beta_binomial,strict-valid,primary threshold
 Fire,25%,Profile contrast,Fragmented control,0.170288429758373,0.0297450591051261,0.111989185194311,0.228587674322435,508320,fire_beta_binomial,strict-valid,primary threshold
 Fire,25%,Profile contrast,Park-centred control,0.0678282180423288,0.0305524668753538,0.00794648332778246,0.127709952756875,508320,fire_beta_binomial,strict-valid,primary threshold
 Fire,25%,Pairwise difference,Militia-centred control minus Fragmented control,-0.159579306386865,0.0444340886528708,-0.246668519832352,-0.0724900929413787,508320,fire_beta_binomial,strict-valid,primary threshold
 Fire,25%,Pairwise difference,Park-centred control minus Militia-centred control,0.0571190946708212,0.0449781665061582,-0.0310364917718946,0.145274681113537,508320,fire_beta_binomial,strict-valid,primary threshold
 Fire,25%,Pairwise difference,Park-centred control minus Fragmented control,-0.102460211716044,0.0426402589370402,-0.186033583524105,-0.0188868399079833,508320,fire_beta_binomial,strict-valid,primary threshold
-Fire,50%,Profile contrast,Militia-centred control,0.0199554761068823,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,50%,Profile contrast,Fragmented control,0.179420846133153,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,50%,Profile contrast,Park-centred control,0.0885555419746091,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,50%,Pairwise difference,Militia-centred control minus Fragmented control,-0.15946537002627,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.0686000658677267,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
-Fire,50%,Pairwise difference,Park-centred control minus Fragmented control,-0.0908653041585436,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Profile contrast,Militia-centred control,0.0199556553177914,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Profile contrast,Fragmented control,0.179420681653883,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Profile contrast,Park-centred control,0.0887079230885564,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Militia-centred control minus Fragmented control,-0.159465026336092,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Park-centred control minus Militia-centred control,0.068752267770765,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
+Fire,50%,Pairwise difference,Park-centred control minus Fragmented control,-0.0907127585653267,,,,445518,fire_beta_binomial,see fire optimizer diagnostics,threshold sensitivity
 Tree-cover loss,10%,Profile contrast,Militia-centred control,-1.16978085292463,,-1.71368645867306,-0.625875247176199,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
 Tree-cover loss,10%,Profile contrast,Fragmented control,-0.882619985667311,,-1.20377774689139,-0.561462224443235,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity
 Tree-cover loss,10%,Profile contrast,Park-centred control,-1.44277318681612,,-1.88896864993014,-0.996577723702091,2073,sparse_two_stage_weighted,accepted two-stage estimate,threshold sensitivity

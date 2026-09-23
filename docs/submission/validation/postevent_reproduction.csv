@@ -1,0 +1,11 @@
+file,rows,max_numeric_difference,pass
+agriculture_persistence_sensitivity.csv,32,0,TRUE
+agriculture_persistence_summary.csv,195,0,TRUE
+agriculture_persistent_event_diagnostics.csv,1,0,TRUE
+agriculture_persistent_event_model.csv,6,0,TRUE
+agriculture_postevent_classification.csv,2685,0,TRUE
+hansen_loss_gain_overlap_cell_metrics.csv,2801,0,TRUE
+hansen_loss_gain_overlap_diagnostics.csv,7,0,TRUE
+hansen_loss_gain_overlap_overall.csv,4,0,TRUE
+hansen_loss_gain_overlap_summary.csv,59,0,TRUE
+hansen_native_loss_gain_overlap_summary.csv,1,0,TRUE

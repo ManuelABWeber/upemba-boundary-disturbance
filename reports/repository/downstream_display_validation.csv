@@ -1,0 +1,5 @@
+"check","pass"
+"S16_all_18_legal_estimates_present",TRUE
+"pairwise_classification_join_complete",TRUE
+"S17_retained_report_paths_exist",TRUE
+"HTML_no_Unicode_escape_artifacts",TRUE

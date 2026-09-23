@@ -1,0 +1,9 @@
+outcome,domain,events
+agriculture,all_cells,2685
+agriculture,buffer_05km,392
+agriculture,buffer_10km,518
+agriculture,buffer_20km,587
+tree_cover_loss,all_cells,5460
+tree_cover_loss,buffer_05km,313
+tree_cover_loss,buffer_10km,519
+tree_cover_loss,buffer_20km,876
