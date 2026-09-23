@@ -1,55 +1,53 @@
-# Final reconciliation workflow
+# Run and verify the Upemba analysis
 
-Use [the current handover](docs/submission/ch1-final-reconciliation.md#reproduction-and-validation) for corrected script 09/10, the bounded annual-presence analysis, rainfall acquisition/plotting, and separate Word review generation. Script 09 now defaults to corrected outputs under `outputs/final_reconciliation/postevent`; historical reproduction is explicitly selected only by its audit script. The prior instructions below retain the original primary workflow. Do not overwrite external editorial sources.
+Run from the repository root. The original analytical environment is recorded in renv.lock (R 4.5.3). The current code release contains the already-public corrected analyses; current unpublished submission documents are held separately.
 
-# Run and verify the Chapter 1 analysis
+## Check retained results
 
-Run commands from the repository root. Read [the submission handover](docs/submission/ch1-analysis-handover.md) before reconciling a manuscript. No new outcome definitions or corrected persistence sensitivity were introduced by this audit.
+The frozen-result script needs base R. The agricultural checks also need data.table.
 
-## Checks using retained repository results
+    Rscript --vanilla tests/scripts/compare_frozen_results.R
+    Rscript --vanilla tests/test_agriculture_followup.R
+    Rscript --vanilla tests/scripts/check_final_reconciliation.R
 
-An installed R environment with the packages in `renv.lock` is required. `--vanilla` avoids bootstrapping an empty project library; it does not install dependencies. Restore `renv` before full upstream reproduction, and retain session information. The audit environment is recorded in `docs/submission/validation/reproduction_session.txt`.
+These check 23 frozen scalar targets, 18 classifications, three primary totals, follow-up logic, corrected counts/denominators, retained model rank, bootstrap rows and rainfall coverage. They do not refit models from raw data. See docs/submission/validation/code-release-2026-09-23.md.
 
-```powershell
-Rscript --vanilla tests/scripts/compare_frozen_results.R
-Rscript --vanilla tests/test_postevent_diagnostics.R
-Rscript --vanilla tests/testthat/test-final-robustness-functions.R
-Rscript --vanilla tests/scripts/run_downstream_validation.R
-```
+## Render combined legal/outer-boundary contrasts
 
-The first command checks 23 scalar results, 18 classifications, and the locked totals: 508,320 burned cell-years, 519 tree-cover-loss events and 518 agricultural-expansion events. It compares retained exports; it is not a raw-data model refit. The post-event check likewise checks retained outputs and numerical fit status, not scientific adequacy of censoring.
+    python -m pip install -r requirements-publication.txt
+    python scripts/publication/12_generate_submission_figure3.py
 
-Downstream validation runs publication scripts 06, 08, 07, then frozen comparisons. It regenerates figures, tables, HTML and source data; review the diff. It preserves manuscript and supplementary DOCX files. Logs remain ignored under `outputs/_validation/downstream_logs/`; stage and dependency checks are retained under `reports/repository/`.
+The renderer reads committed CSVs in analysis_spatial_falsification_revised_dev/tables/. It writes PDF, SVG, TIFF and PNG to the ignored local folder outputs/_validation/current_figures/. Set UPEMBA_FIGURE_OUTPUT_DIR to choose another output directory. Generated artwork is not published by running this script.
 
-Publication script 06 reads the retained top-level analytical directories, writes main tables, Figures 3–4 and Figure 2 source data. Script 08 renders the canonical Figure 2 annual trajectories. Script 07 regenerates supplement tables/figures/HTML while retaining its existing DOCX. Figure 1 remains a retained asset whose restricted geospatial inputs are not distributed. Publication script 09 regenerates the preserved alternative figure revisions only; its chronology-only Figure 2 is a different editorial design.
+An installed, licensed copy of Times New Roman is required; the script fails rather than substituting another font. It preserves 99 estimates, checks nine legal estimates/intervals and 18 outer-range endpoints against retained values, and omits interpreted intervals for 21 numerically unaccepted fire fits. It does not fit models. Conditional model-based intervals are retained; agricultural spatial-bootstrap sensitivity is separately available in outputs/final_reconciliation/agriculture_spatial_bootstrap_intervals.csv.
 
-## Reproduce existing post-event analyses from external inputs
+## Reproduce corrected post-event analyses
 
-`UPEMBA_DATA_ROOT` is the parent containing **both** `data/` and `run_2026_05_27/`, not the raw-data subdirectory itself. Configure it in the environment or ignored `config/paths.local.R`; see `config/paths.example.R` and `data/manifests/required_external_inputs.csv`. The original local `Chapter_1` checkout supplies these inputs and must remain available.
+Restore packages with renv::restore() and configure UPEMBA_DATA_ROOT or ignored config/paths.local.R. UPEMBA_DATA_ROOT is the parent containing **both** data/ and run_2026_05_27/, not the raw-data subdirectory. See config/paths.example.R and the manifests under data/manifests/.
 
-Required for post-event reproduction:
+Required inputs include the checksum-matched AFCD annual stack (2000–2022), study-area geometry, frozen grid/covariates and landscape groups, and matching Hansen v1.12 gain/loss-year tiles. Acquisition script scripts/acquisition/01_acquire_hansen_gain_loss_tiles.R obtains the public Hansen tiles and verifies recorded hashes.
 
-- `<UPEMBA_DATA_ROOT>/data/AFCD_stack.tif`: 23 annual binary layers, 2000–2022, checksum in `data/manifests/postevent_diagnostic_inputs.csv`.
-- `<UPEMBA_DATA_ROOT>/data/studyarea_chapter1.geojson`.
-- `<UPEMBA_DATA_ROOT>/run_2026_05_27/SESU_covariates_500m.tif` and `SESU_ID_500m.tif`.
-- Four matching Hansen v1.12 gain/loss-year tiles under ignored `data/external/hansen_gfc_2024_v1_12/`. Acquire missing tiles with `Rscript --vanilla scripts/acquisition/01_acquire_hansen_gain_loss_tiles.R` and verify the manifest checksums.
-- The tracked territorial-control chronology in `data/governance_profiles/`.
+    Rscript --vanilla scripts/analysis/09_hansen_gain_and_agriculture_persistence.R
+    Rscript --vanilla tests/test_agriculture_followup.R
+    Rscript --vanilla tests/scripts/check_final_reconciliation.R
 
-```powershell
-$env:UPEMBA_DATA_ROOT = 'D:/authorized/ch1-inputs' # replace with your local input parent
-Rscript --vanilla tests/scripts/audit_submission_reproduction.R
-```
+Without a historical-rule override, analysis script 09 defaults to outputs/final_reconciliation/postevent/ and invokes script 10, which writes corrected models, spatial-bootstrap results and annual presence to its parent outputs/final_reconciliation/. Correct persistence requires all three future calendar-year observations through 2022; candidate years end in 2019. Corrected corridor totals are 414 persistent events and 442 period-restricted first crossings; the full-period primary total remains 518.
 
-The audit wrapper executes the existing generator in isolated `outputs/_validation/submission-postevent/`, compares ten post-event CSVs with retained results, reconstructs the same sparse model object, and writes aggregate evidence to `docs/submission/validation/`. It also refits the two primary sparse models from retained legal-boundary surfaces. It does not replace authoritative analytical outputs. Raw-input projection occurs when the isolated cache is absent; subsequent runs reuse it. Start with a fresh isolated cache when input checksums change. Generator caches validate geometry only, so a same-geometry cache must not be assumed to match changed inputs.
+UPEMBA_POSTEVENT_OUTPUT_DIR and UPEMBA_POSTEVENT_CACHE_DIR redirect outputs/cache. Geometry equality alone does not prove cached inputs are unchanged; start with a fresh cache when input hashes change. tests/scripts/audit_submission_reproduction.R deliberately selects the superseded historical rule in isolation. Use it only to reproduce the historical 431-event result.
 
-For intentional regeneration after review, run analysis script 09 and then 08. `UPEMBA_POSTEVENT_OUTPUT_DIR` redirects script 09 and its cache; its default is `outputs/final_robustness/`. The deprecated analysis script 07 was deleted because it overwrote completed results with missing-input placeholders. Do not substitute a corrected follow-up policy without an explicit scientific decision and separately labelled analysis.
+Static Hansen gain/loss overlap cannot establish gain after loss. Agricultural first crossing, persistence, reversal and annual presence are not interchangeable measures of ecological recovery or net change.
 
-## Full upstream workflow
+## Rainfall/fire illustration
 
-One-time acquisition/preparation: acquisition script 00 (manual GEE exports), preprocessing scripts 01–03, followed by 04 for harmonized 2021–2022 fire. Historical source-preparation code is not authoritative for the final fire reconstruction. Restore all manifest-listed external inputs first.
+    python scripts/acquisition/02_acquire_rainfall_fire_2021.py
+    Rscript --vanilla scripts/publication/10_rainfall_fire_appendix.R
 
-Primary models: analysis scripts 01–03. Spatial/threshold/measurement and revised boundary sensitivities: sensitivity scripts 01–03. Matched final robustness: analysis scripts 04, 05, 06, 09, then 08. Scientific specifications are `config/analysis_config.R` and `config/final_robustness_config.R`; shared risk sets, HC3 covariance and model validity are in `scripts/lib/final_robustness_functions.R`.
+The acquisition script defaults to 2021; UPEMBA_ILLUSTRATION_YEAR=2022 selects the second audited year. These need network access and the dependencies listed in their headers. Retained monthly values, coverage audits, source URLs and hashes are under outputs/final_reconciliation/rainfall_fire/. Figure numbering in the retained generator is historical. The plot illustrates one year's seasonal co-occurrence, not a general optimal burning-season window.
 
-Upstream scripts use `UPEMBA_OUTPUT_ROOT` (default `outputs/`) for analytical outputs, whereas publication scripts consume retained top-level `analysis_*_dev/` snapshots. Reproduce upstream into a separate output root, compare against retained results, and resolve discrepancies before promoting outputs. Never infer authority from the `_dev` suffix or copy a fresh fit over a frozen result without checking its specification and diagnostics.
+## Full workflow and historical layouts
 
-Raw rasters, caches, private evidence, operational records and local path configuration stay outside Git. Repository checks do not reproduce acquisition, frozen spatial clustering, every optimizer/robustness run, or manuscript editorial reconciliation.
+Restore all manifest-listed inputs first. The staged workflow is acquisition script 00 (manual Earth Engine exports), preprocessing scripts 01–03 then 04 for harmonised 2021–2022 fire; primary analysis scripts 01–03; sensitivity scripts 01–03; and matched robustness scripts 04, 05, 06, 09, then 08. See script headers and config/analysis_config.R / config/final_robustness_config.R for inputs. Upstream outputs use UPEMBA_OUTPUT_ROOT (default outputs/); publication code reads retained top-level snapshots. Compare specifications, diagnostics and results before promoting regenerated files.
+
+Publication scripts 06, 08 and 07, in that order, regenerate the older four-main-figure layout and its former supplementary numbering. Script 09 renders an earlier alternative design; script 11 creates September 10 annotated review documents from external sources. These remain for provenance and do not build the current unpublished Word files. tests/scripts/run_downstream_validation.R validates the historical layout.
+
+Raw imagery, restricted historical/operational sources, downloaded software, caches and local paths stay outside Git.
