@@ -1,0 +1,2 @@
+spatial_unit,domain,period,loss_pixels,gain_pixels,overlap_pixels,proportion_loss_pixels_also_gain,proportion_gain_pixels_also_loss,corridor_domain,park_side,landscape_group,governance_profile_at_loss
+native Hansen pixel,study area,gain 2000-2012; loss 2001-2012,1445406,43253,7603,0.00526011376734288,0.17577971470187,native_AOI,all,all,not assigned

@@ -1,0 +1,14 @@
+boundary_center_km,park_facing_min_km,park_facing_max_km,park_facing_interval,outward_facing_min_km,outward_facing_max_km,outward_facing_interval,crosses_legal_boundary,touches_legal_boundary,design_membership,implementation_rule
+0,-10,0,"[-10, 0)",0,10,"[0, 10]",TRUE,FALSE,legal,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+5,-5,5,"[-5, 5)",5,15,"[5, 15]",TRUE,FALSE,"",abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+10,0,10,"[0, 10)",10,20,"[10, 20]",FALSE,TRUE,round_number,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+15,5,15,"[5, 15)",15,25,"[15, 25]",FALSE,FALSE,dense;non_adjacent,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+20,10,20,"[10, 20)",20,30,"[20, 30]",FALSE,FALSE,dense;round_number;historical,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+25,15,25,"[15, 25)",25,35,"[25, 35]",FALSE,FALSE,dense;non_adjacent,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+30,20,30,"[20, 30)",30,40,"[30, 40]",FALSE,FALSE,dense;round_number,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+35,25,35,"[25, 35)",35,45,"[35, 45]",FALSE,FALSE,dense;non_adjacent,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+40,30,40,"[30, 40)",40,50,"[40, 50]",FALSE,FALSE,dense;round_number;historical,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+45,35,45,"[35, 45)",45,55,"[45, 55]",FALSE,FALSE,dense;non_adjacent,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+50,40,50,"[40, 50)",50,60,"[50, 60]",FALSE,FALSE,dense;round_number,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+55,45,55,"[45, 55)",55,65,"[55, 65]",FALSE,FALSE,dense;non_adjacent,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing
+60,50,60,"[50, 60)",60,70,"[60, 70]",FALSE,FALSE,dense;historical,abs(signed_distance_km-center)<=10; signed_distance_km<center is park-facing

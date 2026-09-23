@@ -1,0 +1,329 @@
+analysis,SESU_ID,side,year,governance_profile,n,y,outcome,landscape_group
+first_crossing_full,1,outside,2001,Neither actor dominant,10019,4,agriculture,Depression
+first_crossing_full,1,inside,2001,Neither actor dominant,7612,4,agriculture,Depression
+first_crossing_restricted,1,outside,2001,Neither actor dominant,10019,4,agriculture,Depression
+first_crossing_restricted,1,inside,2001,Neither actor dominant,7612,4,agriculture,Depression
+persistence_corrected,1,outside,2001,Neither actor dominant,10019,3,agriculture,Depression
+persistence_corrected,1,inside,2001,Neither actor dominant,7612,4,agriculture,Depression
+annual_presence,1,outside,2001,Neither actor dominant,10019,253,agriculture,Depression
+annual_presence,1,inside,2001,Neither actor dominant,7612,113,agriculture,Depression
+first_crossing_full,1,outside,2002,Neither actor dominant,10015,13,agriculture,Depression
+first_crossing_full,1,inside,2002,Neither actor dominant,7608,6,agriculture,Depression
+first_crossing_restricted,1,outside,2002,Neither actor dominant,10015,13,agriculture,Depression
+first_crossing_restricted,1,inside,2002,Neither actor dominant,7608,6,agriculture,Depression
+persistence_corrected,1,outside,2002,Neither actor dominant,10016,12,agriculture,Depression
+persistence_corrected,1,inside,2002,Neither actor dominant,7608,6,agriculture,Depression
+annual_presence,1,outside,2002,Neither actor dominant,10019,263,agriculture,Depression
+annual_presence,1,inside,2002,Neither actor dominant,7612,118,agriculture,Depression
+first_crossing_full,1,outside,2003,Neither actor dominant,10002,4,agriculture,Depression
+first_crossing_full,1,inside,2003,Neither actor dominant,7602,4,agriculture,Depression
+first_crossing_restricted,1,outside,2003,Neither actor dominant,10002,4,agriculture,Depression
+first_crossing_restricted,1,inside,2003,Neither actor dominant,7602,4,agriculture,Depression
+persistence_corrected,1,outside,2003,Neither actor dominant,10004,4,agriculture,Depression
+persistence_corrected,1,inside,2003,Neither actor dominant,7602,4,agriculture,Depression
+annual_presence,1,outside,2003,Neither actor dominant,10019,264,agriculture,Depression
+annual_presence,1,inside,2003,Neither actor dominant,7612,120,agriculture,Depression
+first_crossing_full,1,outside,2004,Militia dominant,9998,21,agriculture,Depression
+first_crossing_full,1,inside,2004,Militia dominant,7598,20,agriculture,Depression
+first_crossing_restricted,1,outside,2004,Militia dominant,9998,21,agriculture,Depression
+first_crossing_restricted,1,inside,2004,Militia dominant,7598,20,agriculture,Depression
+persistence_corrected,1,outside,2004,Militia dominant,10000,18,agriculture,Depression
+persistence_corrected,1,inside,2004,Militia dominant,7598,13,agriculture,Depression
+annual_presence,1,outside,2004,Militia dominant,10019,288,agriculture,Depression
+annual_presence,1,inside,2004,Militia dominant,7612,142,agriculture,Depression
+first_crossing_full,1,outside,2005,Militia dominant,9977,5,agriculture,Depression
+first_crossing_full,1,inside,2005,Militia dominant,7578,3,agriculture,Depression
+first_crossing_restricted,1,outside,2005,Militia dominant,9977,5,agriculture,Depression
+first_crossing_restricted,1,inside,2005,Militia dominant,7578,3,agriculture,Depression
+persistence_corrected,1,outside,2005,Militia dominant,9982,4,agriculture,Depression
+persistence_corrected,1,inside,2005,Militia dominant,7585,2,agriculture,Depression
+annual_presence,1,outside,2005,Militia dominant,10019,288,agriculture,Depression
+annual_presence,1,inside,2005,Militia dominant,7612,139,agriculture,Depression
+first_crossing_full,1,outside,2006,Militia dominant,9972,12,agriculture,Depression
+first_crossing_full,1,inside,2006,Militia dominant,7575,0,agriculture,Depression
+first_crossing_restricted,1,outside,2006,Militia dominant,9972,12,agriculture,Depression
+first_crossing_restricted,1,inside,2006,Militia dominant,7575,0,agriculture,Depression
+persistence_corrected,1,outside,2006,Militia dominant,9978,12,agriculture,Depression
+persistence_corrected,1,inside,2006,Militia dominant,7583,0,agriculture,Depression
+annual_presence,1,outside,2006,Militia dominant,10019,301,agriculture,Depression
+annual_presence,1,inside,2006,Militia dominant,7612,136,agriculture,Depression
+first_crossing_full,1,outside,2007,Neither actor dominant,9960,7,agriculture,Depression
+first_crossing_full,1,inside,2007,Neither actor dominant,7575,2,agriculture,Depression
+first_crossing_restricted,1,outside,2007,Neither actor dominant,9960,7,agriculture,Depression
+first_crossing_restricted,1,inside,2007,Neither actor dominant,7575,2,agriculture,Depression
+persistence_corrected,1,outside,2007,Neither actor dominant,9966,8,agriculture,Depression
+persistence_corrected,1,inside,2007,Neither actor dominant,7583,4,agriculture,Depression
+annual_presence,1,outside,2007,Neither actor dominant,10019,297,agriculture,Depression
+annual_presence,1,inside,2007,Neither actor dominant,7612,132,agriculture,Depression
+first_crossing_full,1,outside,2008,Neither actor dominant,9953,3,agriculture,Depression
+first_crossing_full,1,inside,2008,Neither actor dominant,7573,5,agriculture,Depression
+first_crossing_restricted,1,outside,2008,Neither actor dominant,9953,3,agriculture,Depression
+first_crossing_restricted,1,inside,2008,Neither actor dominant,7573,5,agriculture,Depression
+persistence_corrected,1,outside,2008,Neither actor dominant,9958,3,agriculture,Depression
+persistence_corrected,1,inside,2008,Neither actor dominant,7579,6,agriculture,Depression
+annual_presence,1,outside,2008,Neither actor dominant,10019,302,agriculture,Depression
+annual_presence,1,inside,2008,Neither actor dominant,7612,141,agriculture,Depression
+first_crossing_full,1,outside,2009,Neither actor dominant,9950,7,agriculture,Depression
+first_crossing_full,1,inside,2009,Neither actor dominant,7568,11,agriculture,Depression
+first_crossing_restricted,1,outside,2009,Neither actor dominant,9950,7,agriculture,Depression
+first_crossing_restricted,1,inside,2009,Neither actor dominant,7568,11,agriculture,Depression
+persistence_corrected,1,outside,2009,Neither actor dominant,9955,7,agriculture,Depression
+persistence_corrected,1,inside,2009,Neither actor dominant,7573,11,agriculture,Depression
+annual_presence,1,outside,2009,Neither actor dominant,10019,308,agriculture,Depression
+annual_presence,1,inside,2009,Neither actor dominant,7612,152,agriculture,Depression
+first_crossing_full,1,outside,2010,Neither actor dominant,9943,9,agriculture,Depression
+first_crossing_full,1,inside,2010,Neither actor dominant,7557,19,agriculture,Depression
+first_crossing_restricted,1,outside,2010,Neither actor dominant,9943,9,agriculture,Depression
+first_crossing_restricted,1,inside,2010,Neither actor dominant,7557,19,agriculture,Depression
+persistence_corrected,1,outside,2010,Neither actor dominant,9948,9,agriculture,Depression
+persistence_corrected,1,inside,2010,Neither actor dominant,7562,20,agriculture,Depression
+annual_presence,1,outside,2010,Neither actor dominant,10019,319,agriculture,Depression
+annual_presence,1,inside,2010,Neither actor dominant,7612,171,agriculture,Depression
+first_crossing_full,1,outside,2011,Neither actor dominant,9934,2,agriculture,Depression
+first_crossing_full,1,inside,2011,Neither actor dominant,7538,9,agriculture,Depression
+first_crossing_restricted,1,outside,2011,Neither actor dominant,9934,2,agriculture,Depression
+first_crossing_restricted,1,inside,2011,Neither actor dominant,7538,9,agriculture,Depression
+persistence_corrected,1,outside,2011,Neither actor dominant,9939,2,agriculture,Depression
+persistence_corrected,1,inside,2011,Neither actor dominant,7542,9,agriculture,Depression
+annual_presence,1,outside,2011,Neither actor dominant,10019,320,agriculture,Depression
+annual_presence,1,inside,2011,Neither actor dominant,7612,179,agriculture,Depression
+first_crossing_full,1,outside,2012,Neither actor dominant,9932,3,agriculture,Depression
+first_crossing_full,1,inside,2012,Neither actor dominant,7529,10,agriculture,Depression
+first_crossing_restricted,1,outside,2012,Neither actor dominant,9932,3,agriculture,Depression
+first_crossing_restricted,1,inside,2012,Neither actor dominant,7529,10,agriculture,Depression
+persistence_corrected,1,outside,2012,Neither actor dominant,9937,3,agriculture,Depression
+persistence_corrected,1,inside,2012,Neither actor dominant,7533,9,agriculture,Depression
+annual_presence,1,outside,2012,Neither actor dominant,10019,324,agriculture,Depression
+annual_presence,1,inside,2012,Neither actor dominant,7612,188,agriculture,Depression
+first_crossing_full,1,outside,2013,Militia dominant,9929,22,agriculture,Depression
+first_crossing_full,1,inside,2013,Militia dominant,7519,25,agriculture,Depression
+first_crossing_restricted,1,outside,2013,Militia dominant,9929,22,agriculture,Depression
+first_crossing_restricted,1,inside,2013,Militia dominant,7519,25,agriculture,Depression
+persistence_corrected,1,outside,2013,Militia dominant,9934,20,agriculture,Depression
+persistence_corrected,1,inside,2013,Militia dominant,7524,25,agriculture,Depression
+annual_presence,1,outside,2013,Militia dominant,10019,342,agriculture,Depression
+annual_presence,1,inside,2013,Militia dominant,7612,213,agriculture,Depression
+first_crossing_full,1,outside,2014,Militia dominant,9907,20,agriculture,Depression
+first_crossing_full,1,inside,2014,Militia dominant,7494,26,agriculture,Depression
+first_crossing_restricted,1,outside,2014,Militia dominant,9907,20,agriculture,Depression
+first_crossing_restricted,1,inside,2014,Militia dominant,7494,26,agriculture,Depression
+persistence_corrected,1,outside,2014,Militia dominant,9914,20,agriculture,Depression
+persistence_corrected,1,inside,2014,Militia dominant,7499,25,agriculture,Depression
+annual_presence,1,outside,2014,Militia dominant,10019,355,agriculture,Depression
+annual_presence,1,inside,2014,Militia dominant,7612,236,agriculture,Depression
+first_crossing_full,1,outside,2015,Militia dominant,9887,8,agriculture,Depression
+first_crossing_full,1,inside,2015,Militia dominant,7468,14,agriculture,Depression
+first_crossing_restricted,1,outside,2015,Militia dominant,9887,8,agriculture,Depression
+first_crossing_restricted,1,inside,2015,Militia dominant,7468,14,agriculture,Depression
+persistence_corrected,1,outside,2015,Militia dominant,9894,8,agriculture,Depression
+persistence_corrected,1,inside,2015,Militia dominant,7474,14,agriculture,Depression
+annual_presence,1,outside,2015,Militia dominant,10019,358,agriculture,Depression
+annual_presence,1,inside,2015,Militia dominant,7612,246,agriculture,Depression
+first_crossing_full,1,outside,2016,Militia dominant,9879,10,agriculture,Depression
+first_crossing_full,1,inside,2016,Militia dominant,7454,22,agriculture,Depression
+first_crossing_restricted,1,outside,2016,Militia dominant,9879,10,agriculture,Depression
+first_crossing_restricted,1,inside,2016,Militia dominant,7454,22,agriculture,Depression
+persistence_corrected,1,outside,2016,Militia dominant,9886,9,agriculture,Depression
+persistence_corrected,1,inside,2016,Militia dominant,7460,22,agriculture,Depression
+annual_presence,1,outside,2016,Militia dominant,10019,362,agriculture,Depression
+annual_presence,1,inside,2016,Militia dominant,7612,263,agriculture,Depression
+first_crossing_full,1,outside,2017,Park dominant,9869,28,agriculture,Depression
+first_crossing_full,1,inside,2017,Park dominant,7432,22,agriculture,Depression
+first_crossing_restricted,1,outside,2017,Park dominant,9869,28,agriculture,Depression
+first_crossing_restricted,1,inside,2017,Park dominant,7432,22,agriculture,Depression
+persistence_corrected,1,outside,2017,Park dominant,9877,26,agriculture,Depression
+persistence_corrected,1,inside,2017,Park dominant,7438,19,agriculture,Depression
+annual_presence,1,outside,2017,Park dominant,10019,388,agriculture,Depression
+annual_presence,1,inside,2017,Park dominant,7612,285,agriculture,Depression
+first_crossing_full,1,outside,2018,Park dominant,9841,20,agriculture,Depression
+first_crossing_full,1,inside,2018,Park dominant,7410,22,agriculture,Depression
+first_crossing_restricted,1,outside,2018,Park dominant,9841,20,agriculture,Depression
+first_crossing_restricted,1,inside,2018,Park dominant,7410,22,agriculture,Depression
+persistence_corrected,1,outside,2018,Park dominant,9851,15,agriculture,Depression
+persistence_corrected,1,inside,2018,Park dominant,7419,20,agriculture,Depression
+annual_presence,1,outside,2018,Park dominant,10019,405,agriculture,Depression
+annual_presence,1,inside,2018,Park dominant,7612,305,agriculture,Depression
+first_crossing_full,1,outside,2019,Park dominant,9821,12,agriculture,Depression
+first_crossing_full,1,inside,2019,Park dominant,7388,5,agriculture,Depression
+first_crossing_restricted,1,outside,2019,Park dominant,9821,12,agriculture,Depression
+first_crossing_restricted,1,inside,2019,Park dominant,7388,5,agriculture,Depression
+persistence_corrected,1,outside,2019,Park dominant,9836,11,agriculture,Depression
+persistence_corrected,1,inside,2019,Park dominant,7399,4,agriculture,Depression
+annual_presence,1,outside,2019,Park dominant,10019,408,agriculture,Depression
+annual_presence,1,inside,2019,Park dominant,7612,305,agriculture,Depression
+first_crossing_full,1,outside,2020,Park dominant,9809,14,agriculture,Depression
+first_crossing_full,1,inside,2020,Park dominant,7383,7,agriculture,Depression
+annual_presence,1,outside,2020,Park dominant,10019,412,agriculture,Depression
+annual_presence,1,inside,2020,Park dominant,7612,292,agriculture,Depression
+first_crossing_full,1,outside,2021,Park dominant,9795,20,agriculture,Depression
+first_crossing_full,1,inside,2021,Park dominant,7376,8,agriculture,Depression
+annual_presence,1,outside,2021,Park dominant,10019,437,agriculture,Depression
+annual_presence,1,inside,2021,Park dominant,7612,302,agriculture,Depression
+first_crossing_full,1,outside,2022,Park dominant,9775,17,agriculture,Depression
+first_crossing_full,1,inside,2022,Park dominant,7368,10,agriculture,Depression
+annual_presence,1,outside,2022,Park dominant,10019,445,agriculture,Depression
+annual_presence,1,inside,2022,Park dominant,7612,304,agriculture,Depression
+first_crossing_full,3,outside,2001,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2001,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2001,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2001,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2001,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2001,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2001,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2001,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2002,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2002,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2002,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2002,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2002,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2002,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2002,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2002,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2003,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2003,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2003,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2003,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2003,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2003,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2003,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2003,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2004,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2004,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2004,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2004,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2004,Militia dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2004,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2004,Militia dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2004,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2005,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2005,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2005,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2005,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2005,Militia dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2005,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2005,Militia dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2005,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2006,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2006,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2006,Militia dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2006,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2006,Militia dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2006,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2006,Militia dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2006,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2007,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2007,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2007,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2007,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2007,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2007,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2007,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2007,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2008,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2008,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2008,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2008,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2008,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2008,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2008,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2008,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2009,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2009,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2009,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2009,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2009,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2009,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2009,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2009,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2010,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_full,3,inside,2010,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2010,Neither actor dominant,11987,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2010,Neither actor dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2010,Neither actor dominant,11987,0,agriculture,Plateau
+persistence_corrected,3,inside,2010,Neither actor dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2010,Neither actor dominant,11987,4,agriculture,Plateau
+annual_presence,3,inside,2010,Neither actor dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2011,Park dominant,11987,1,agriculture,Plateau
+first_crossing_full,3,inside,2011,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2011,Park dominant,11987,1,agriculture,Plateau
+first_crossing_restricted,3,inside,2011,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2011,Park dominant,11987,1,agriculture,Plateau
+persistence_corrected,3,inside,2011,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2011,Park dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2011,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2012,Park dominant,11986,0,agriculture,Plateau
+first_crossing_full,3,inside,2012,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2012,Park dominant,11986,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2012,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2012,Park dominant,11986,0,agriculture,Plateau
+persistence_corrected,3,inside,2012,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2012,Park dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2012,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2013,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_full,3,inside,2013,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2013,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2013,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2013,Militia dominant,11986,0,agriculture,Plateau
+persistence_corrected,3,inside,2013,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2013,Militia dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2013,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2014,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_full,3,inside,2014,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2014,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2014,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2014,Militia dominant,11986,0,agriculture,Plateau
+persistence_corrected,3,inside,2014,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2014,Militia dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2014,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2015,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_full,3,inside,2015,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2015,Militia dominant,11986,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2015,Militia dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2015,Militia dominant,11986,0,agriculture,Plateau
+persistence_corrected,3,inside,2015,Militia dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2015,Militia dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2015,Militia dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2016,Park dominant,11986,0,agriculture,Plateau
+first_crossing_full,3,inside,2016,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2016,Park dominant,11986,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2016,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2016,Park dominant,11986,0,agriculture,Plateau
+persistence_corrected,3,inside,2016,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2016,Park dominant,11987,5,agriculture,Plateau
+annual_presence,3,inside,2016,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2017,Park dominant,11986,2,agriculture,Plateau
+first_crossing_full,3,inside,2017,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2017,Park dominant,11986,2,agriculture,Plateau
+first_crossing_restricted,3,inside,2017,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2017,Park dominant,11986,2,agriculture,Plateau
+persistence_corrected,3,inside,2017,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2017,Park dominant,11987,7,agriculture,Plateau
+annual_presence,3,inside,2017,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2018,Park dominant,11984,0,agriculture,Plateau
+first_crossing_full,3,inside,2018,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2018,Park dominant,11984,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2018,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2018,Park dominant,11984,0,agriculture,Plateau
+persistence_corrected,3,inside,2018,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2018,Park dominant,11987,7,agriculture,Plateau
+annual_presence,3,inside,2018,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2019,Park dominant,11984,0,agriculture,Plateau
+first_crossing_full,3,inside,2019,Park dominant,12936,0,agriculture,Plateau
+first_crossing_restricted,3,outside,2019,Park dominant,11984,0,agriculture,Plateau
+first_crossing_restricted,3,inside,2019,Park dominant,12936,0,agriculture,Plateau
+persistence_corrected,3,outside,2019,Park dominant,11984,0,agriculture,Plateau
+persistence_corrected,3,inside,2019,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2019,Park dominant,11987,7,agriculture,Plateau
+annual_presence,3,inside,2019,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2020,Park dominant,11984,0,agriculture,Plateau
+first_crossing_full,3,inside,2020,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2020,Park dominant,11987,7,agriculture,Plateau
+annual_presence,3,inside,2020,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2021,Park dominant,11984,0,agriculture,Plateau
+first_crossing_full,3,inside,2021,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2021,Park dominant,11987,6,agriculture,Plateau
+annual_presence,3,inside,2021,Park dominant,12936,0,agriculture,Plateau
+first_crossing_full,3,outside,2022,Park dominant,11984,0,agriculture,Plateau
+first_crossing_full,3,inside,2022,Park dominant,12936,0,agriculture,Plateau
+annual_presence,3,outside,2022,Park dominant,11987,6,agriculture,Plateau
+annual_presence,3,inside,2022,Park dominant,12936,0,agriculture,Plateau

@@ -1,0 +1,5 @@
+run_id,outcome,model,fit_status,warning_messages,n_observations,rank,zero_corrected
+first_crossing_full,agriculture,inverse_variance_weighted_lm_hc3,valid,"",44,4,23
+first_crossing_restricted,agriculture,inverse_variance_weighted_lm_hc3,valid,"",38,4,20
+persistence_corrected,agriculture,inverse_variance_weighted_lm_hc3,valid,"",38,4,20
+annual_presence,agriculture,inverse_variance_weighted_lm_hc3,valid,"",44,4,22

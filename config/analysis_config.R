@@ -1,6 +1,12 @@
 # Sanitized Chapter 1 analysis configuration.
 
-.config_file <- tryCatch(normalizePath(sys.frame(1)$ofile, winslash = "/", mustWork = TRUE), error = function(e) NA_character_)
+.config_sources <- vapply(sys.frames(), function(frame) {
+  if (is.null(frame$ofile)) "" else as.character(frame$ofile)[1L]
+}, character(1))
+.config_sources <- .config_sources[grepl("(^|[/\\\\])analysis_config\\.R$", .config_sources)]
+.config_file <- if (length(.config_sources)) {
+  normalizePath(tail(.config_sources, 1L), winslash = "/", mustWork = TRUE)
+} else NA_character_
 if (is.na(.config_file)) {
   .config_file <- normalizePath("config/analysis_config.R", winslash = "/", mustWork = TRUE)
 }

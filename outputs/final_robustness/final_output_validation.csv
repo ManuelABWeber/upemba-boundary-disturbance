@@ -1,0 +1,13 @@
+file,exists,bytes
+baseline_primary_results.csv,TRUE,3932
+session_info.txt,TRUE,2329
+temporal_lag_profile_estimates.csv,TRUE,7702
+robustness_run_registry.csv,TRUE,26982
+episode_influence.csv,TRUE,34790
+tree_regrowth_feasibility.md,TRUE,1035
+hansen_native_loss_gain_overlap_summary.csv,TRUE,353
+hansen_loss_gain_overlap_overall.csv,TRUE,594
+agriculture_postevent_classification.csv,TRUE,683267
+agriculture_persistent_event_model.csv,TRUE,1925
+pseudoboundary_geometry.csv,TRUE,2099
+claims_audit.csv,TRUE,3719

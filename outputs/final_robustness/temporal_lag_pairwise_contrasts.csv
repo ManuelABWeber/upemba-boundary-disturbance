@@ -1,0 +1,46 @@
+run_id,outcome,profile_comparison,estimate,standard_error,conf_low,conf_high,odds_ratio,specification,lag,transition_years_excluded
+lag0__fire,fire,Neither actor dominant minus Militia dominant,0.159579306386865,0.0444340886528708,0.0724900929413787,0.246668519832352,1.17301728629468,lag0,0,0
+lag0__fire,fire,Neither actor dominant minus Park dominant,0.102460211716044,0.0426402589370402,0.0188868399079833,0.186033583524105,1.10789321986281,lag0,0,0
+lag0__fire,fire,Militia dominant minus Park dominant,-0.0571190946708212,0.0449781665061582,-0.145274681113537,0.0310364917718946,0.944481579945351,lag0,0,0
+lag0__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Militia dominant,0.0517637594727072,0.389016633079405,-0.710694830749959,0.814222349695374,1.05312692186443,lag0,0,0
+lag0__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Park dominant,0.584172628184976,0.342445374778389,-0.0870079730529867,1.25535322942294,1.79350647489602,lag0,0,0
+lag0__tree_cover_loss,tree_cover_loss,Militia dominant minus Park dominant,0.532408868712269,0.402431716726428,-0.256342802308155,1.32116053973269,1.70302974661481,lag0,0,0
+lag0__agriculture,agriculture,Neither actor dominant minus Militia dominant,0.0647296164837915,0.290673749570715,-0.504980463926025,0.634439696893608,1.06687052117984,lag0,0,0
+lag0__agriculture,agriculture,Neither actor dominant minus Park dominant,0.633446962428786,0.311439815058039,0.0230361415632143,1.24385778329436,1.88409379967632,lag0,0,0
+lag0__agriculture,agriculture,Militia dominant minus Park dominant,0.568717345944994,0.22051748120104,0.136511024829467,1.00092366706052,1.76600043048591,lag0,0,0
+lag1__fire,fire,Neither actor dominant minus Militia dominant,0.0369608141094968,0.0456687595727886,-0.0525483098717876,0.126469938090781,1.03765235870976,lag1,1,0
+lag1__fire,fire,Neither actor dominant minus Park dominant,0.0243874331267374,0.0457427791582609,-0.0652667665762234,0.114041632829698,1.02468723877635,lag1,1,0
+lag1__fire,fire,Militia dominant minus Park dominant,-0.0125733809827594,0.048016523736544,-0.106684038169198,0.0815372762036794,0.987505333723204,lag1,1,0
+lag1__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Militia dominant,0.485072427558225,0.429400889361019,-0.35653785051884,1.32668270563529,1.62429264813436,lag1,1,0
+lag1__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Park dominant,0.608031144753438,0.366901601354612,-0.111082779771673,1.32714506927855,1.83681142054215,lag1,1,0
+lag1__tree_cover_loss,tree_cover_loss,Militia dominant minus Park dominant,0.122958717195213,0.435132209125339,-0.729884741203802,0.975802175594228,1.13083773583036,lag1,1,0
+lag1__agriculture,agriculture,Neither actor dominant minus Militia dominant,0.121833350570638,0.277320171676491,-0.42170419810175,0.665370899243026,1.12956584459085,lag1,1,0
+lag1__agriculture,agriculture,Neither actor dominant minus Park dominant,0.633825481258866,0.314413830483044,0.017585697270818,1.25006526524691,1.88480709964736,lag1,1,0
+lag1__agriculture,agriculture,Militia dominant minus Park dominant,0.511992130688228,0.349821805390956,-0.173646008884826,1.19763027026128,1.66861197926011,lag1,1,0
+lag2__fire,fire,Neither actor dominant minus Militia dominant,-0.0504053189780364,0.046131731044303,-0.140821850369358,0.0400112124132857,0.950843951287579,lag2,2,0
+lag2__fire,fire,Neither actor dominant minus Park dominant,0.00176478147685294,0.0485326211271269,-0.0933574080076435,0.0968869709613494,1.00176633962014,lag2,2,0
+lag2__fire,fire,Militia dominant minus Park dominant,0.0521701004548893,0.0505632394322631,-0.0469320277740218,0.151272228683801,1.05355493744647,lag2,2,0
+lag2__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Militia dominant,0.42112281380147,0.3276367783125,-0.221033471701763,1.0632790993047,1.52367139479447,lag2,2,0
+lag2__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Park dominant,0.53021205529889,0.38239919838811,-0.219276601258794,1.27970071185657,1.69929261441807,lag2,2,0
+lag2__tree_cover_loss,tree_cover_loss,Militia dominant minus Park dominant,0.109089241497419,0.430552244145912,-0.734777650491465,0.952956133486304,1.11526187354019,lag2,2,0
+lag2__agriculture,agriculture,Neither actor dominant minus Militia dominant,0.18466047624783,0.250229045308254,-0.305779440442188,0.675100392937849,1.20280998823171,lag2,2,0
+lag2__agriculture,agriculture,Neither actor dominant minus Park dominant,0.903876129871085,0.162115075139177,0.586136421247294,1.22161583849488,2.46915535315268,lag2,2,0
+lag2__agriculture,agriculture,Militia dominant minus Park dominant,0.719215653623255,0.242174502015759,0.244562351698444,1.19386895554807,2.05282245517654,lag2,2,0
+exclude_first_posttransition__fire,fire,Neither actor dominant minus Militia dominant,0.152746601005475,0.0487845581060319,0.0571306241159512,0.248362577894999,1.16502972417499,exclude_first_posttransition,0,1
+exclude_first_posttransition__fire,fire,Neither actor dominant minus Park dominant,0.0989278677405843,0.0448141340836293,0.011093778938322,0.186761956542846,1.10398666363434,exclude_first_posttransition,0,1
+exclude_first_posttransition__fire,fire,Militia dominant minus Park dominant,-0.0538187332648909,0.050180885440101,-0.152171461439819,0.0445339949100374,0.947603859992608,exclude_first_posttransition,0,1
+exclude_first_posttransition__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Militia dominant,0.106455700666575,0.465483087876868,-0.805874386984579,1.01878578831773,1.11232864993649,exclude_first_posttransition,0,1
+exclude_first_posttransition__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Park dominant,0.632628803667374,0.41751415823634,-0.18568390951141,1.45094151684616,1.88255294224575,exclude_first_posttransition,0,1
+exclude_first_posttransition__tree_cover_loss,tree_cover_loss,Militia dominant minus Park dominant,0.526173103000799,0.487076696205287,-0.428479679270321,1.48082588527192,1.69244309436175,exclude_first_posttransition,0,1
+exclude_first_posttransition__agriculture,agriculture,Neither actor dominant minus Militia dominant,0.0277894130590337,0.344880872685076,-0.648164676360458,0.703743502478526,1.0281791405216,exclude_first_posttransition,0,1
+exclude_first_posttransition__agriculture,agriculture,Neither actor dominant minus Park dominant,0.751772279174191,0.334297629521465,0.0965609651950049,1.40698359315338,2.12075525833931,exclude_first_posttransition,0,1
+exclude_first_posttransition__agriculture,agriculture,Militia dominant minus Park dominant,0.723982866115157,0.260966781203915,0.21249737379414,1.23546835843617,2.06263205968509,exclude_first_posttransition,0,1
+exclude_first_two_posttransition__fire,fire,Neither actor dominant minus Militia dominant,0.186872484510883,0.0629086167746405,0.0635738613153556,0.310171107706411,1.20547355869843,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__fire,fire,Neither actor dominant minus Park dominant,0.0976964122263425,0.0502093775119811,-0.000712159383315661,0.196104983836001,1.10262798991458,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__fire,fire,Militia dominant minus Park dominant,-0.0891760722845408,0.0645242903507136,-0.215641357499945,0.0372892129308632,0.914684508804248,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Militia dominant,0.0903793521658529,0.63303395211645,-1.15034439497344,1.33110309930515,1.09458943982976,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__tree_cover_loss,tree_cover_loss,Neither actor dominant minus Park dominant,0.704164702270866,0.635105190360302,-0.54061859722978,1.94894800177151,2.02215687622725,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__tree_cover_loss,tree_cover_loss,Militia dominant minus Park dominant,0.613785350105013,0.743962099321885,-0.844353570428692,2.07192427063872,1.8474112782796,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__agriculture,agriculture,Neither actor dominant minus Militia dominant,-0.0065807704668301,0.429620593567112,-0.848621660875089,0.835460119941429,0.99344083538278,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__agriculture,agriculture,Neither actor dominant minus Park dominant,0.685747406950862,0.406426618021737,-0.11083412673016,1.48232894063188,1.98525507461852,exclude_first_two_posttransition,0,2
+exclude_first_two_posttransition__agriculture,agriculture,Militia dominant minus Park dominant,0.692328177417692,0.302225926087195,0.0999762470925263,1.28468010774286,1.99836266429856,exclude_first_two_posttransition,0,2

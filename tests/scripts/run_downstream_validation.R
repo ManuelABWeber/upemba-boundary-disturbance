@@ -12,7 +12,9 @@ OUT <- file.path(ROOT, "reports", "repository")
 dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
 
 run_stage <- function(order, script) {
-  log_path <- tempfile(sprintf("downstream_stage_%02d_", order), fileext = ".log")
+  log_dir <- file.path(ROOT, "outputs", "_validation", "downstream_logs")
+  dir.create(log_dir, recursive = TRUE, showWarnings = FALSE)
+  log_path <- file.path(log_dir, sprintf("stage_%02d.log", order))
   start <- Sys.time()
   status <- system2(
     file.path(R.home("bin"), "Rscript"),
@@ -26,11 +28,10 @@ run_stage <- function(order, script) {
     script = script,
     exit_status = status,
     elapsed_seconds = as.numeric(difftime(end, start, units = "secs")),
-    log = "temporary validation log removed after stage completion",
+    log = substring(log_path, nchar(ROOT) + 2),
     pass = identical(status, 0L),
     stringsAsFactors = FALSE
   )
-  unlink(log_path)
   result
 }
 
@@ -130,7 +131,27 @@ write.csv(
   row.names = FALSE
 )
 
-failed <- any(!stage_results$pass) ||
+table16 <- read.csv(file.path(ROOT, "outputs/publication/supplement/tables",
+  "Table_S16_boundary_specificity_classifications.csv"), check.names = FALSE)
+pair_source <- read.csv(file.path(ROOT, "outputs/publication/supplement/source_data",
+  "Table_S16_complete_pseudo_boundary_pairwise_differences.csv"), check.names = FALSE)
+table17 <- read.csv(file.path(ROOT, "outputs/publication/supplement/tables",
+  "Table_S17_measurement_and_validation_decisions.csv"), check.names = FALSE)
+html_files <- list.files(file.path(ROOT, "outputs/publication"), pattern = "\\.html$",
+                         recursive = TRUE, full.names = TRUE)
+display_validation <- data.frame(
+  check = c("S16_all_18_legal_estimates_present", "pairwise_classification_join_complete",
+            "S17_retained_report_paths_exist", "HTML_no_Unicode_escape_artifacts"),
+  pass = c(nrow(table16) == 18L && all(is.finite(table16[["legal-boundary estimate"]])),
+           all(!is.na(pair_source[["Boundary-specificity classification"]]) &
+                 nzchar(pair_source[["Boundary-specificity classification"]])),
+           all(file.exists(file.path(ROOT, table17[["Final report"]]))),
+           !any(vapply(html_files, function(p) any(grepl("<U\\+[0-9A-F]+>|&amp;(lt|gt);",
+             readLines(p, warn = FALSE, encoding = "UTF-8"))), logical(1))))
+)
+write.csv(display_validation, file.path(OUT, "downstream_display_validation.csv"), row.names = FALSE)
+
+failed <- any(!stage_results$pass) || any(!display_validation$pass) ||
   any(!required_validation$pass) ||
   nrow(obsolete_validation) > 0 ||
   any(!static_validation$pass)

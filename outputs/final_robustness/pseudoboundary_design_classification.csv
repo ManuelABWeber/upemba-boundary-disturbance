@@ -1,0 +1,13 @@
+design,outcome,all_profiles_legal_below_offsets,all_profiles_legal_within_range
+dense,agriculture,FALSE,TRUE
+dense,fire,FALSE,TRUE
+dense,tree_cover_loss,TRUE,FALSE
+non_adjacent,agriculture,FALSE,FALSE
+non_adjacent,fire,FALSE,TRUE
+non_adjacent,tree_cover_loss,TRUE,FALSE
+round_number,agriculture,FALSE,TRUE
+round_number,fire,FALSE,TRUE
+round_number,tree_cover_loss,TRUE,FALSE
+historical,agriculture,FALSE,FALSE
+historical,fire,FALSE,TRUE
+historical,tree_cover_loss,TRUE,FALSE
