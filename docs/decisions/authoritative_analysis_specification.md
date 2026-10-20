@@ -1,17 +1,13 @@
-# Authoritative Analysis Specification
+# Current analysis specification
 
-Study period: 2001-2022.
+The study covers 2001–2022 on a 500 m grid. The primary comparison uses symmetric 10 km park-boundary bands, Depression and Plateau landscape groups, and the 25% event definition. The 5 km, 20 km and full-domain comparisons are sensitivities. Governance is categorical: fragmented, militia-centred and park-centred territorial control, reconstructed independently of the satellite outcomes.
 
-Primary spatial design: symmetric 10 km park-boundary corridor. Landscape-scale sensitivity: all cells.
+Fire combines FireCCI v5.1 for 2001–2020 with the original monthly-product reconstruction for 2021–2022. The seasonal window is day 100–300. Native seasonal burned status is averaged to the study grid, then thresholded at 25%. The primary fire model and its retained optimizer results remain unchanged. The additional dependence estimator reproduces their point estimates within the recorded numerical tolerance and supplies separate uncertainty calculations.
 
-Primary threshold: tau025.
+Tree loss is a first threshold-crossing event defined from cumulative mapped Hansen loss in cells with at least 30% baseline tree cover. The original primary denominator includes all comparison cells; baseline-forest-only denominators are a separately labelled sensitivity. Agriculture is a first detected below-to-at-least-25% cropland crossing, with baseline agricultural cells retained. Both sparse outcomes use paired landscape-year log-odds differences, a 0.5 count correction, inverse-variance weighting and HC3 conditional covariance in the primary analysis.
 
-Fire: harmonized 2001-2022 series, FireCCI 2001-2020, local monthly JD reconstruction 2021-2022, DOY 100-300, native seasonal binary, 500 m mean burned fraction, and BFGS_refined final 10 km optimizer.
+Boundary-location diagnostics compare the legal boundary with all ten outer centres from +15 to +60 km in 5 km increments, using 10 km bands on each side. Overlapping corridors are not independent replications. The earlier spaced subsets remain analytical diagnostics; they do not replace the ten-centre presentation. The spatial and temporal dependence module adds common-resample legal-minus-outer comparisons and explicitly approximate simultaneous bands.
 
-Tree-cover loss: tau025, 2000 tree-cover eligibility >=30%, SESU-year two-stage contrast model.
+Corrected agricultural persistence requires three valid following calendar years, with at least two at or above the threshold including year +1 or +2. Candidate event years are 2001–2019. The corrected corridor contains 414 persistent events; primary first crossing remains 518. Annual presence, classification reversal and static Hansen loss/gain overlap are separate responses and do not establish net recovery.
 
-Agriculture: tau025, SESU-year two-stage contrast model, support-sensitive secondary outcome.
-
-Governance: categorical territorial-control profiles; ordinal scores deprecated.
-
-Falsification: +20/+40/+60 km primary spaced outer, +15 through +60 km dense outer gradient, and -15/-20 km descriptive inner checks.
+The supplementary dependence checks retain the primary models and point estimates. They use whole-history joint geographic-block resampling, annual score HAC, year omission and tree-loss small-sample temporal checks. The [methods and results](../dependence_sensitivity/methods_and_results.md) document their definitions and limits. The [results index](../RESULTS_INDEX.md) identifies canonical outputs. No comparison establishes a causal effect of protection or ranks institutional legitimacy.

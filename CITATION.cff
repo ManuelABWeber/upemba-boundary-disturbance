@@ -11,10 +11,10 @@ authors:
     given-names: Jennifer
   - family-names: de Beurs
     given-names: Kirsten
-version: code-2026-10-20
+version: code-2026-10-20.1
 date-released: 2026-10-20
 repository-code: "https://github.com/ManuelABWeber/upemba-boundary-disturbance"
-url: "https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-10-20"
+url: "https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-10-20.1"
 license:
   - MIT
   - CC-BY-4.0

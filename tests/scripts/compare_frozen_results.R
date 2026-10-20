@@ -8,7 +8,7 @@ script_file <- if (length(file_arg)) {
   normalizePath("tests/scripts/compare_frozen_results.R", winslash = "/", mustWork = TRUE)
 }
 ROOT <- normalizePath(file.path(dirname(script_file), "..", ".."), winslash = "/", mustWork = TRUE)
-OUT <- file.path(ROOT, "reports", "repository")
+OUT <- file.path(ROOT, "outputs", "_validation", "frozen_results")
 dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
 
 read_csv <- function(path) read.csv(path, stringsAsFactors = FALSE, check.names = FALSE)

@@ -76,3 +76,17 @@ id_ed25519
 private/
 restricted/
 confidential/
+
+# Paper and editorial documents stay outside the public code repository.
+*.doc
+*.docx
+*.docm
+*.odt
+*.rtf
+/submission/
+/outputs/submission_review/
+/outputs/publication/
+*[Mm]anuscript*.pdf
+*[Mm]anuscript*.md
+*review_text.md
+*[Cc]over_[Ll]etter*

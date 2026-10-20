@@ -1,11 +1,36 @@
 {
-  "release": "code-2026-10-20",
-  "scope": "Additional spatial and temporal sensitivity analyses and publication metadata. Original primary results are retained.",
+  "release": "code-2026-10-20.1",
+  "scope": "Additional spatial and temporal sensitivity analyses and current reproduction instructions. Primary point estimates are unchanged.",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 577,
-      "sha256": "9e2bbf2ddd76e3f9ce89d6887bc112b5754f6ceb04bb581a13f26f3a180a9813"
+      "bytes": 561,
+      "sha256": "64c7557f7d768f7941e4ca8f273b54623237961b06ecc7dd43f0ca56cda70ce2"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1126,
+      "sha256": "7836085377df05fd08f877ca756630e384ab657b39087dbed0b2e156995a53a9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3973,
+      "sha256": "f0aa7834cff50c64adb78270f5fe76fecdd8262f96859425752e7b446f460613"
+    },
+    {
+      "path": "RUN_ANALYSIS.md",
+      "bytes": 5581,
+      "sha256": "45c5dacef75c44836156c7d8a0d806ba1fca74f27e5fbcb4a153f00c5e08bded"
+    },
+    {
+      "path": "SANITIZATION.md",
+      "bytes": 1340,
+      "sha256": "cb2bc3431a3ebead5441350511400e733caad19cb6bc19eae1500e7fe7077a66"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/README.md",
+      "bytes": 4378,
+      "sha256": "3093e845a2260300c53af006e0108f631143921eeaa096ea7f4f450ccbf869cf"
     },
     {
       "path": "analysis/dependence_sensitivity/audit_results.py",
@@ -28,24 +53,19 @@
       "sha256": "efb6f2869a55747e8a7599dbd43eb238038f5c4b8ec55de139bbd31fadc0e2ce"
     },
     {
-      "path": "analysis/dependence_sensitivity/paths.py",
-      "bytes": 587,
-      "sha256": "ed6abde1d9b3f63810240b5f85ffc53a60103c16054bf24fe369edfb4c2b24f9"
-    },
-    {
       "path": "analysis/dependence_sensitivity/paths.R",
       "bytes": 703,
       "sha256": "9b4215540abc4559d60b997046fd34d4f911cb3d98bce63444d2fd0c43d4d6c6"
     },
     {
+      "path": "analysis/dependence_sensitivity/paths.py",
+      "bytes": 587,
+      "sha256": "ed6abde1d9b3f63810240b5f85ffc53a60103c16054bf24fe369edfb4c2b24f9"
+    },
+    {
       "path": "analysis/dependence_sensitivity/prepare_inputs.py",
       "bytes": 5308,
       "sha256": "90c7790889689f4b04d50fd0549cfacd38735d2e57e0539dd4b4428403e35523"
-    },
-    {
-      "path": "analysis/dependence_sensitivity/README.md",
-      "bytes": 4378,
-      "sha256": "3093e845a2260300c53af006e0108f631143921eeaa096ea7f4f450ccbf869cf"
     },
     {
       "path": "analysis/dependence_sensitivity/rebuild_fire_terra.R",
@@ -99,8 +119,8 @@
     },
     {
       "path": "analysis/dependence_sensitivity/validate_fire_optimizer.R",
-      "bytes": 2703,
-      "sha256": "b57e32d900710ca01f40072af5d4075f8422a14a9dbfa8c0f0cb8fc112db137b"
+      "bytes": 2633,
+      "sha256": "522a0f4e6457780f83810f7ff78f3bffe60fd1346b47a2433d0a9d36f8e5ccd9"
     },
     {
       "path": "analysis/dependence_sensitivity/verify_release.py",
@@ -108,9 +128,9 @@
       "sha256": "eb87c78dbffd881982da254095e47d88a0d408e206a04c1ac8756fdaebe5c4c2"
     },
     {
-      "path": "CITATION.cff",
-      "bytes": 1122,
-      "sha256": "e5b4c79f1b1d81315df3305a40303f22b62a7ff2821af842d1aaf503da1d12d6"
+      "path": "data/dependence_sensitivity/README.md",
+      "bytes": 3766,
+      "sha256": "71280a0ea7f353813ae2869fc6e003230a0ee39bdf15b7fe6cb16c0c7d24612d"
     },
     {
       "path": "data/dependence_sensitivity/blocks_10km_shift0.json",
@@ -213,14 +233,14 @@
       "sha256": "a52d42c94df05c28526c4360edf96b37782922406d658f88fac57c491d524eca"
     },
     {
-      "path": "data/dependence_sensitivity/README.md",
-      "bytes": 3766,
-      "sha256": "71280a0ea7f353813ae2869fc6e003230a0ee39bdf15b7fe6cb16c0c7d24612d"
+      "path": "docs/dependence_sensitivity/R-package-versions.csv",
+      "bytes": 178,
+      "sha256": "d1cc698203b3bdf5c6cdd70a34dde61a98355ab2db498b385269ff1648968f90"
     },
     {
       "path": "docs/dependence_sensitivity/computational_notes.md",
-      "bytes": 2535,
-      "sha256": "077e2eb720fcb37c4f095ecde54ab08379752bce50577af7a0e05d99a08210aa"
+      "bytes": 2526,
+      "sha256": "145d74aadabce7e97bffbc25446ec6555495d1bd03d704cb27075ba5b1c0cffa"
     },
     {
       "path": "docs/dependence_sensitivity/methods_and_results.md",
@@ -233,19 +253,19 @@
       "sha256": "e4d4b10dd5c1d807e716c3a7cf19a98b21cfcd6a511c0ffba321e98f7c86180d"
     },
     {
-      "path": "docs/dependence_sensitivity/R-package-versions.csv",
-      "bytes": 178,
-      "sha256": "d1cc698203b3bdf5c6cdd70a34dde61a98355ab2db498b385269ff1648968f90"
-    },
-    {
       "path": "docs/dependence_sensitivity/software_environment.json",
       "bytes": 261,
       "sha256": "f9563127c7622977e102eca6f3c9e00ec8afc8745e09dda8336e37c50f314982"
     },
     {
-      "path": "docs/submission/validation/code-release-2026-10-20.md",
-      "bytes": 3669,
-      "sha256": "0086d20db310bd1aaa4a8d1216941a7f7da368aa3acaf7088a7743fdc92f3c56"
+      "path": "docs/validation/repository_cleanup.md",
+      "bytes": 2486,
+      "sha256": "332c7ce6d996811da9edd53a64b423f98ab2d555b08bf209e7e64d4664a7f3f1"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/README.md",
+      "bytes": 2330,
+      "sha256": "ea75569fa93efd10bf6dc582571a674b3b2d22b75dfe0c3a54acb102fd4f070e"
     },
     {
       "path": "outputs/dependence_sensitivity/bootstrap_endpoint_monte_carlo.csv",
@@ -331,11 +351,6 @@
       "path": "outputs/dependence_sensitivity/fire_longrange_baseline.csv",
       "bytes": 719,
       "sha256": "ce75e7e4b37854a5c8bac961766989398f38b33ceca82ed3c14e3493e47de8ca"
-    },
-    {
-      "path": "outputs/dependence_sensitivity/fire_longrange_sessionInfo.txt",
-      "bytes": 915,
-      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
     },
     {
       "path": "outputs/dependence_sensitivity/fire_main_10km_shift0_diagnostics.csv",
@@ -433,17 +448,7 @@
       "sha256": "0029c0ab1c14df5ccfa965d30c4d958d8100cb1e7ef7da94ad1585a4e666cdc4"
     },
     {
-      "path": "outputs/dependence_sensitivity/fire_main_sessionInfo.txt",
-      "bytes": 915,
-      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
-    },
-    {
       "path": "outputs/dependence_sensitivity/fire_optimizer_crosscheck.csv",
-      "bytes": 1122,
-      "sha256": "7074814dd356008758a9e336ad0051d203d44b9dad32151d14617352658536d7"
-    },
-    {
-      "path": "outputs/dependence_sensitivity/fire_optimizer_crosscheck_bounded_raw.csv",
       "bytes": 1122,
       "sha256": "7074814dd356008758a9e336ad0051d203d44b9dad32151d14617352658536d7"
     },
@@ -471,11 +476,6 @@
       "path": "outputs/dependence_sensitivity/fire_outer_baseline.csv",
       "bytes": 3706,
       "sha256": "d13042eb3a9031acd1fb9732b8e05243e33d34870246dec37a56ff9ee318ad2c"
-    },
-    {
-      "path": "outputs/dependence_sensitivity/fire_outer_sessionInfo.txt",
-      "bytes": 915,
-      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
     },
     {
       "path": "outputs/dependence_sensitivity/fire_pairwise_temporal_intervals.csv",
@@ -528,9 +528,9 @@
       "sha256": "9b8dbe91e6b6dfe56897c48844aa9e966d9d92d59c825fba5805f11a713c73de"
     },
     {
-      "path": "outputs/dependence_sensitivity/README.md",
-      "bytes": 2324,
-      "sha256": "7d721dbf6efa7905b9271e29723e627d091e4cf95cf3faf7fc90556bbe2780e4"
+      "path": "outputs/dependence_sensitivity/sessionInfo_fire.txt",
+      "bytes": 915,
+      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
     },
     {
       "path": "outputs/dependence_sensitivity/small_sample_sessionInfo.txt",
@@ -698,29 +698,9 @@
       "sha256": "044790ea4c7a1348816229d104925a06ddc40e2bf3b7f8a08decc5a46e3ab341"
     },
     {
-      "path": "outputs/dependence_sensitivity/verified_fire_sessionInfo.txt",
-      "bytes": 915,
-      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
-    },
-    {
       "path": "outputs/dependence_sensitivity/within_cell_temporal_correlations.csv",
       "bytes": 377,
       "sha256": "010db61d32162e75c8d4aaaa7358cc466943c670976a1dd8247894b50f3f172a"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4314,
-      "sha256": "0adbc03899304f4c1c8f6a12521f25816815bdbb89cb0c4020f391c29cc20ae9"
-    },
-    {
-      "path": "RUN_ANALYSIS.md",
-      "bytes": 6790,
-      "sha256": "fcc87243e6a60c581b379254b094fe7aa8a441c803fe0a2443f77f46e6a00ec9"
-    },
-    {
-      "path": "SANITIZATION.md",
-      "bytes": 929,
-      "sha256": "65af21166466feb128be1600e9366ce4a4e4742aedc75690b1d0783d325b9953"
     }
   ]
 }

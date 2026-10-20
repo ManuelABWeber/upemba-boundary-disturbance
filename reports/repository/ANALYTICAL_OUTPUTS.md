@@ -1,10 +1,7 @@
-# Retained Authoritative Analytical Outputs
+# Retained analytical snapshots
 
-The top-level analytical output directories retain authoritative results consumed directly by the publication-generation scripts. Their `_dev` suffixes reflect historical working names, not provisional scientific status. Renaming them would create a broad path migration without improving reproducibility.
+The four top-level analysis_*_dev/ directories contain frozen numerical inputs used by current verification and figure code. Their names are stable paths, not provisional scientific status. The cleanup preserves their model tables and unique diagnostics.
 
-- `analysis_fire_optimizer_refinement_dev/` contains the selected 10 km fire-model diagnostics, profile contrasts, pairwise differences, retained-fit records, and environment provenance used by scripts 06 and 07 and the frozen-result tests.
-- `analysis_governance_profiles_robustness_dev/` contains the frozen territorial-control chronology, episode support, transition-year and episode-omission diagnostics, SESU comparisons, optimizer checks, and environment provenance used by script 07.
-- `analysis_spatial_falsification_revised_dev/` contains the legal- and pseudo-boundary surfaces, profile and pairwise estimates, support tables, classifications, and environment provenance used by scripts 06-08.
-- `analysis_spatial_threshold_sensitivity_dev/` contains spatial-domain and threshold sensitivities, sparse-outcome estimates, event support, balance diagnostics, and environment provenance used by scripts 06 and 07 and the validation suite.
+analysis_fire_optimizer_refinement_dev/ retains primary 10 km fire contrasts, pairwise comparisons, fit checks and optimizer provenance. analysis_governance_profiles_robustness_dev/ retains transition, episode, landscape and numerical-stability tables; repeated console logs were retired. analysis_spatial_falsification_revised_dev/ supplies legal/outer-boundary counts and estimates. analysis_spatial_threshold_sensitivity_dev/ supplies threshold and domain sensitivities and sparse-outcome support.
 
-These directories are retained as publication dependencies and scientific provenance. Generated diagnostic figures and logs are retained where they document an analytical decision or provide unique provenance.
+The identical spatial-analysis software records are consolidated in docs/provenance/sessionInfo_spatial.txt. Corrected agricultural and Hansen outputs have a single canonical location in outputs/final_reconciliation/. Additional dependence outputs are in outputs/dependence_sensitivity/. The [results index](../../docs/RESULTS_INDEX.md) identifies the current analysis sources; the cleanup manifest records retired duplicates and document artifacts.

@@ -40,7 +40,6 @@ for(km in c(5,40)) {
   }
 }
 dd<-rbindlist(results)
-fwrite(dd,file.path(out,"fire_optimizer_crosscheck_bounded_raw.csv"))
 stopifnot(all(dd$alternate_pdHess),all(dd$alternate_convergence==0),max(dd$maximum_contrast_difference)<1e-4,
           max(abs(dd$objective_difference))<1e-5)
 fwrite(dd,file.path(out,"fire_optimizer_crosscheck.csv"))
