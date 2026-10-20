@@ -1,12 +1,7 @@
 {
-  "release": "code-2026-10-20.1",
+  "release": "code-2026-10-20.2",
   "scope": "Complete curated code and research-output release, excluding this manifest itself.",
   "files": [
-    {
-      "path": ".Rprofile",
-      "bytes": 26,
-      "sha256": "3f9d62fc3f1bf5888a09816101b705f9844ef4cd44ee5ad157f4168dac4af4d4"
-    },
     {
       "path": ".gitattributes",
       "bytes": 561,
@@ -23,44 +18,9 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "CITATION.cff",
-      "bytes": 1126,
-      "sha256": "7836085377df05fd08f877ca756630e384ab657b39087dbed0b2e156995a53a9"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1097,
-      "sha256": "002c37748c9e2ba0b04f45a4e31b2cc79a0a41d09dafdc6e7d5c170638589eef"
-    },
-    {
-      "path": "LICENSE_CONTENT.md",
-      "bytes": 811,
-      "sha256": "271a299d097535c82039e0b512923cea4e34a4249df5d12565811d68c06e1779"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3973,
-      "sha256": "f0aa7834cff50c64adb78270f5fe76fecdd8262f96859425752e7b446f460613"
-    },
-    {
-      "path": "RUN_ANALYSIS.md",
-      "bytes": 5581,
-      "sha256": "45c5dacef75c44836156c7d8a0d806ba1fca74f27e5fbcb4a153f00c5e08bded"
-    },
-    {
-      "path": "SANITIZATION.md",
-      "bytes": 1340,
-      "sha256": "cb2bc3431a3ebead5441350511400e733caad19cb6bc19eae1500e7fe7077a66"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 936,
-      "sha256": "e53347b1c347877641c1b81de7f48837c0df2c5934b46964ae49a9f9ba473d7e"
-    },
-    {
-      "path": "analysis/dependence_sensitivity/README.md",
-      "bytes": 4378,
-      "sha256": "3093e845a2260300c53af006e0108f631143921eeaa096ea7f4f450ccbf869cf"
+      "path": ".Rprofile",
+      "bytes": 26,
+      "sha256": "3f9d62fc3f1bf5888a09816101b705f9844ef4cd44ee5ad157f4168dac4af4d4"
     },
     {
       "path": "analysis/dependence_sensitivity/audit_results.py",
@@ -83,19 +43,24 @@
       "sha256": "efb6f2869a55747e8a7599dbd43eb238038f5c4b8ec55de139bbd31fadc0e2ce"
     },
     {
-      "path": "analysis/dependence_sensitivity/paths.R",
-      "bytes": 703,
-      "sha256": "9b4215540abc4559d60b997046fd34d4f911cb3d98bce63444d2fd0c43d4d6c6"
-    },
-    {
       "path": "analysis/dependence_sensitivity/paths.py",
       "bytes": 587,
       "sha256": "ed6abde1d9b3f63810240b5f85ffc53a60103c16054bf24fe369edfb4c2b24f9"
     },
     {
+      "path": "analysis/dependence_sensitivity/paths.R",
+      "bytes": 703,
+      "sha256": "9b4215540abc4559d60b997046fd34d4f911cb3d98bce63444d2fd0c43d4d6c6"
+    },
+    {
       "path": "analysis/dependence_sensitivity/prepare_inputs.py",
       "bytes": 5308,
       "sha256": "90c7790889689f4b04d50fd0549cfacd38735d2e57e0539dd4b4428403e35523"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/README.md",
+      "bytes": 4378,
+      "sha256": "3093e845a2260300c53af006e0108f631143921eeaa096ea7f4f450ccbf869cf"
     },
     {
       "path": "analysis/dependence_sensitivity/rebuild_fire_terra.R",
@@ -633,6 +598,11 @@
       "sha256": "f1d5dc1a150e50998d706a38485d944a5aeef3a41f5dd8bc4181792e0a7f80bd"
     },
     {
+      "path": "CITATION.cff",
+      "bytes": 1126,
+      "sha256": "be789d3ff76c6d52a17c666d06c66392625ad4d8095d4b7dd9406dc7f497376c"
+    },
+    {
       "path": "config/analysis_config.R",
       "bytes": 4323,
       "sha256": "36f69f9594592931a1cd17a07672edaf52360e83f287b35dd3f9fdbeba3e10a1"
@@ -661,16 +631,6 @@
       "path": "config/paths.example.R",
       "bytes": 345,
       "sha256": "eeed4af9cce0412a375c7b662ad5c4aa631ee17566b4eb6f0cf70cbd937125e3"
-    },
-    {
-      "path": "data/README.md",
-      "bytes": 1142,
-      "sha256": "e754f5dc9357901bfcedb4c82f61486622df5010bc411ce01babfc5777dc0a2a"
-    },
-    {
-      "path": "data/dependence_sensitivity/README.md",
-      "bytes": 3766,
-      "sha256": "71280a0ea7f353813ae2869fc6e003230a0ee39bdf15b7fe6cb16c0c7d24612d"
     },
     {
       "path": "data/dependence_sensitivity/blocks_10km_shift0.json",
@@ -773,6 +733,11 @@
       "sha256": "a52d42c94df05c28526c4360edf96b37782922406d658f88fac57c491d524eca"
     },
     {
+      "path": "data/dependence_sensitivity/README.md",
+      "bytes": 3766,
+      "sha256": "71280a0ea7f353813ae2869fc6e003230a0ee39bdf15b7fe6cb16c0c7d24612d"
+    },
+    {
       "path": "data/dependence_sensitivity/release_manifest.json",
       "bytes": 27289,
       "sha256": "a13d76743cb936ae1aef2281d6a74035c67e2bc2894783155449f9bbb92eeab9"
@@ -798,9 +763,9 @@
       "sha256": "aff506fdb8d0ca47f85c26f090c0a06319368665f94af527ef1f4f0c07e68d00"
     },
     {
-      "path": "docs/RESULTS_INDEX.md",
-      "bytes": 2938,
-      "sha256": "9837e8da4c5cbbae3fee13896ae42a383f40118cdc7e3a055f680e75994f09b9"
+      "path": "data/README.md",
+      "bytes": 1142,
+      "sha256": "e754f5dc9357901bfcedb4c82f61486622df5010bc411ce01babfc5777dc0a2a"
     },
     {
       "path": "docs/cleanup_manifest.csv",
@@ -833,11 +798,6 @@
       "sha256": "2a7b62b439220cb62ef7867a22f78855eee538a490cb94583fa3ad5a2654cb15"
     },
     {
-      "path": "docs/dependence_sensitivity/R-package-versions.csv",
-      "bytes": 178,
-      "sha256": "d1cc698203b3bdf5c6cdd70a34dde61a98355ab2db498b385269ff1648968f90"
-    },
-    {
       "path": "docs/dependence_sensitivity/computational_notes.md",
       "bytes": 2526,
       "sha256": "145d74aadabce7e97bffbc25446ec6555495d1bd03d704cb27075ba5b1c0cffa"
@@ -851,6 +811,11 @@
       "path": "docs/dependence_sensitivity/portable_validation.json",
       "bytes": 1170,
       "sha256": "e4d4b10dd5c1d807e716c3a7cf19a98b21cfcd6a511c0ffba321e98f7c86180d"
+    },
+    {
+      "path": "docs/dependence_sensitivity/R-package-versions.csv",
+      "bytes": 178,
+      "sha256": "d1cc698203b3bdf5c6cdd70a34dde61a98355ab2db498b385269ff1648968f90"
     },
     {
       "path": "docs/dependence_sensitivity/software_environment.json",
@@ -883,6 +848,11 @@
       "sha256": "93d6996ac9b0fa91dc60e1540d6138c365f4c1190314119fa55e61c81c793215"
     },
     {
+      "path": "docs/RESULTS_INDEX.md",
+      "bytes": 2938,
+      "sha256": "9837e8da4c5cbbae3fee13896ae42a383f40118cdc7e3a055f680e75994f09b9"
+    },
+    {
       "path": "docs/validation/fire_10km_optimizer_refinement_validation.md",
       "bytes": 3253,
       "sha256": "00a4e2fd7fc654f00f28b18242d30dd944b857bfaa74307ba99b21321c779ba5"
@@ -901,6 +871,11 @@
       "path": "docs/validation/measurement_harmonization_validation.md",
       "bytes": 5575,
       "sha256": "523cb3b006e7e3ca213c7903620e2c5a20f58a4fb80829d1cd6156c341551674"
+    },
+    {
+      "path": "docs/validation/releases/code-2026-10-20.2.md",
+      "bytes": 669,
+      "sha256": "50898598f1ae9817e9edfc2af3e5b2ffeda32cc5bf96c68be27928becf349033"
     },
     {
       "path": "docs/validation/releases/code-release-2026-09-23.md",
@@ -928,24 +903,24 @@
       "sha256": "5a95ea219821ebd563551151612e9842a1b9f3f625d34231804c4cfab5ee8b80"
     },
     {
-      "path": "evidence/README.md",
-      "bytes": 549,
-      "sha256": "8109c754fd29f0fb7b794e61ad2ddcbd51b77d86a4bdff4c1a396342817d3ba2"
-    },
-    {
       "path": "evidence/governance_episode_evidence_ledger.csv",
       "bytes": 16811,
       "sha256": "7656e3d51365bcf95c70a3fbe67a22babf45155d5c8e973f19ee7715108fb63c"
     },
     {
-      "path": "outputs/README.md",
-      "bytes": 848,
-      "sha256": "c2aa55bd591690f4ed984e9ca18c1cc3c17f947f604e6ae31a16f2ad6ddf7d2c"
+      "path": "evidence/README.md",
+      "bytes": 549,
+      "sha256": "8109c754fd29f0fb7b794e61ad2ddcbd51b77d86a4bdff4c1a396342817d3ba2"
     },
     {
-      "path": "outputs/dependence_sensitivity/README.md",
-      "bytes": 2330,
-      "sha256": "ea75569fa93efd10bf6dc582571a674b3b2d22b75dfe0c3a54acb102fd4f070e"
+      "path": "LICENSE",
+      "bytes": 1097,
+      "sha256": "002c37748c9e2ba0b04f45a4e31b2cc79a0a41d09dafdc6e7d5c170638589eef"
+    },
+    {
+      "path": "LICENSE_CONTENT.md",
+      "bytes": 811,
+      "sha256": "271a299d097535c82039e0b512923cea4e34a4249df5d12565811d68c06e1779"
     },
     {
       "path": "outputs/dependence_sensitivity/bootstrap_endpoint_monte_carlo.csv",
@@ -1208,6 +1183,11 @@
       "sha256": "9b8dbe91e6b6dfe56897c48844aa9e966d9d92d59c825fba5805f11a713c73de"
     },
     {
+      "path": "outputs/dependence_sensitivity/README.md",
+      "bytes": 2330,
+      "sha256": "ea75569fa93efd10bf6dc582571a674b3b2d22b75dfe0c3a54acb102fd4f070e"
+    },
+    {
       "path": "outputs/dependence_sensitivity/sessionInfo_fire.txt",
       "bytes": 915,
       "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
@@ -1419,8 +1399,8 @@
     },
     {
       "path": "outputs/final_reconciliation/agriculture_models.rds",
-      "bytes": 33996,
-      "sha256": "03aa64a64c7081aa93d2a4bd27942cc40dd7a4c5455e161f8290b705fa9ec80f"
+      "bytes": 32898,
+      "sha256": "9af81db448e62454486b3c0e93562ae039e337b6f73c5a67c26e45ffa4eab669"
     },
     {
       "path": "outputs/final_reconciliation/agriculture_paired_changes_bootstrap.csv",
@@ -1563,16 +1543,6 @@
       "sha256": "5a30082c869ca49a07799a97dc0f557a03327eb64ab513f306c2e79a481926ab"
     },
     {
-      "path": "outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.pdf",
-      "bytes": 25535,
-      "sha256": "aebfc2044da314f2b7fdecc791a01c7dd194fec3b62ceccf0d5ca070d880827c"
-    },
-    {
-      "path": "outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.png",
-      "bytes": 225939,
-      "sha256": "a7bc65d854317a89a6063a2d5aea1539d743dfbd70319962c0549b5270e77144"
-    },
-    {
       "path": "outputs/final_reconciliation/rainfall_fire/acquisition_manifest_2021.json",
       "bytes": 6543,
       "sha256": "ff5f87b1b786c5326bbbb82ce61f1262131d2340ca261f43f2e292e14be78ecb"
@@ -1586,6 +1556,16 @@
       "path": "outputs/final_reconciliation/rainfall_fire/figure_caption_and_provenance.md",
       "bytes": 4100,
       "sha256": "e26eef581110070a40f57a093f3f013ade4327f7852f69bf1a2b7ec58907e3fd"
+    },
+    {
+      "path": "outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.pdf",
+      "bytes": 25535,
+      "sha256": "aebfc2044da314f2b7fdecc791a01c7dd194fec3b62ceccf0d5ca070d880827c"
+    },
+    {
+      "path": "outputs/final_reconciliation/rainfall_fire/Figure_S3_rainfall_fire_2021.png",
+      "bytes": 225939,
+      "sha256": "a7bc65d854317a89a6063a2d5aea1539d743dfbd70319962c0549b5270e77144"
     },
     {
       "path": "outputs/final_reconciliation/rainfall_fire/processing_input_checksums.csv",
@@ -1738,9 +1718,14 @@
       "sha256": "24cda94506e08b7083e150ebb11f27e77f548088900c279ce4b4da6b79ef724f"
     },
     {
-      "path": "renv.lock",
-      "bytes": 356696,
-      "sha256": "fd6655d2a147230de8db12154b5d5ff46a43fb89814a22933c9b20a855bca12a"
+      "path": "outputs/README.md",
+      "bytes": 848,
+      "sha256": "c2aa55bd591690f4ed984e9ca18c1cc3c17f947f604e6ae31a16f2ad6ddf7d2c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3973,
+      "sha256": "68c161fdc83b086c394847e5cfcb26a18d5bc58bf6513e127d57d4095d81201d"
     },
     {
       "path": "renv/.gitignore",
@@ -1756,6 +1741,11 @@
       "path": "renv/settings.json",
       "bytes": 466,
       "sha256": "380cca0841ba78adb09c86db2566115ad3f45dc84e82fcc3a56ff86aa0c6a2c7"
+    },
+    {
+      "path": "renv.lock",
+      "bytes": 356696,
+      "sha256": "fd6655d2a147230de8db12154b5d5ff46a43fb89814a22933c9b20a855bca12a"
     },
     {
       "path": "reports/fire_missingness_resolution/authoritative_fire_reproduction.csv",
@@ -2098,6 +2088,16 @@
       "sha256": "4c99eec1590d6267ee3090e957cee0c46408839cb1283a86eb38a098ed827bcd"
     },
     {
+      "path": "RUN_ANALYSIS.md",
+      "bytes": 5581,
+      "sha256": "45c5dacef75c44836156c7d8a0d806ba1fca74f27e5fbcb4a153f00c5e08bded"
+    },
+    {
+      "path": "SANITIZATION.md",
+      "bytes": 1340,
+      "sha256": "cb2bc3431a3ebead5441350511400e733caad19cb6bc19eae1500e7fe7077a66"
+    },
+    {
       "path": "scripts/acquisition/00_acquire_remote_sensing_gee.txt",
       "bytes": 24149,
       "sha256": "afaf79e9b3db913563f4dfdaa832356761d12e885b5904e4d83fe72c7065b19d"
@@ -2144,8 +2144,8 @@
     },
     {
       "path": "scripts/analysis/10_agriculture_final_reconciliation.R",
-      "bytes": 10025,
-      "sha256": "5a4950f444849183449355dac7edb58c1bd0ed7602c1041b7ec5d21f15ca0e4b"
+      "bytes": 10510,
+      "sha256": "520b58c0eb2e533b89e2a3bbf855d2f2014681e6e6528c4e2c69b93970cbbba5"
     },
     {
       "path": "scripts/lib/agriculture_followup.R",
@@ -2256,6 +2256,11 @@
       "path": "tests/testthat/test-final-robustness-functions.R",
       "bytes": 3689,
       "sha256": "0f7fa75471bc0b6a0f29c5798a21f1eaf0568abe5fe2fd72e9e8dca4b91f1489"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 936,
+      "sha256": "e53347b1c347877641c1b81de7f48837c0df2c5934b46964ae49a9f9ba473d7e"
     }
   ]
 }

@@ -51,7 +51,20 @@ fwrite(surface[, .(cell_years = sum(n), events_or_presence_cell_years = sum(y),
   file.path(dest, "agriculture_total_support.csv"))
 fwrite(specs, file.path(dest, "agriculture_model_specifications.csv"))
 fits <- setNames(lapply(specs$analysis, function(nm) fr_fit_sparse(surface[analysis == nm], run_id = nm)), specs$analysis)
-saveRDS(list(fits = fits, specifications = specs, session = sessionInfo()), file.path(dest, "agriculture_models.rds"))
+# Keep package versions, but omit identifying local-library paths from saved metadata.
+anonymize_session_paths <- function(x) {
+  if (is.character(x)) {
+    x <- gsub("[A-Za-z]:/Users/[^/]+", "<user-directory>", x)
+    x <- gsub("/home/[^/]+", "<user-directory>", x)
+  }
+  if (is.list(x)) x[] <- lapply(x, anonymize_session_paths)
+  attrs <- attributes(x)
+  if (length(attrs)) attributes(x) <- lapply(attrs, anonymize_session_paths)
+  x
+}
+saveRDS(list(fits = fits, specifications = specs,
+             session = anonymize_session_paths(sessionInfo())),
+        file.path(dest, "agriculture_models.rds"))
 fwrite(rbindlist(lapply(fits, `[[`, "profile")), file.path(dest, "agriculture_profile_estimates_hc3.csv"))
 fwrite(rbindlist(lapply(fits, `[[`, "pair")), file.path(dest, "agriculture_pairwise_estimates_hc3.csv"))
 fwrite(rbindlist(lapply(fits, `[[`, "diagnostics")), file.path(dest, "agriculture_model_diagnostics.csv"))
