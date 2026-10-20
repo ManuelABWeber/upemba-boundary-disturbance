@@ -1,0 +1,179 @@
+{
+  "all_counts_reproduced": 1936,
+  "runs_verified": 27,
+  "fire_bootstrap_fits": 18981,
+  "tree_bootstrap_fits": 359962,
+  "runs": [
+    {
+      "outcome": "fire",
+      "run": "fire_main_5km_shift0",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.95269928694142e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_main_5km_shift50",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.86632285870925e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_main_10km_shift0",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.95888518318111e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_main_10km_shift50",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.64703339434436e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_main_20km_shift0",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.68174358462193e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_main_20km_shift50",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.80960135343878e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_longrange_40km_shift0",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.82198748999963e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_longrange_40km_shift50",
+      "replicates": 999,
+      "model_fits": 999,
+      "maximum_gradient": 9.89197612710768e-08
+    },
+    {
+      "outcome": "fire",
+      "run": "fire_outer_10km_shift0",
+      "replicates": 999,
+      "model_fits": 10989,
+      "maximum_gradient": 9.99530147538508e-08
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_10km_shift0_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_10km_shift0_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_10km_shift50_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_10km_shift50_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_20km_shift0_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_20km_shift0_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_20km_shift50_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_20km_shift50_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_40km_shift0_baseline_forest_only_draws",
+      "replicates": 19999,
+      "model_fits": 19999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_40km_shift0_reported_all_cells_draws",
+      "replicates": 19999,
+      "model_fits": 19999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_40km_shift50_baseline_forest_only_draws",
+      "replicates": 19999,
+      "model_fits": 19999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_40km_shift50_reported_all_cells_draws",
+      "replicates": 19999,
+      "model_fits": 19999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_5km_shift0_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_5km_shift0_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_5km_shift50_baseline_forest_only_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_main_5km_shift50_reported_all_cells_draws",
+      "replicates": 4999,
+      "model_fits": 4999
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_outer_10km_shift0_baseline_forest_only_draws",
+      "replicates": 9999,
+      "model_fits": 109989
+    },
+    {
+      "outcome": "tree_cover_loss",
+      "run": "tree_outer_10km_shift0_reported_all_cells_draws",
+      "replicates": 9999,
+      "model_fits": 109989
+    }
+  ]
+}

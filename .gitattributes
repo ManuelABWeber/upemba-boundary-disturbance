@@ -25,6 +25,7 @@
 *.zip binary
 *.7z binary
 *.rds binary
+*.npz binary
 *.RData binary
 *.png binary
 *.pdf binary

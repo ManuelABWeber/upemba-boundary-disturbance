@@ -1,0 +1,30 @@
+{
+  "description": "Environmental raster inputs used to derive the committed cell histories. Source rasters are external; derived histories reproduce all 1,936 retained count/denominator pairs.",
+  "inputs": [
+    {
+      "path": "run_2026_04_07/SESU_ID_500m.tif",
+      "bytes": 27608,
+      "sha256": "82bf53a13d9eda0ecb5a2fdc96e649ecaef4731c1c839e81450b6152e75acb42"
+    },
+    {
+      "path": "run_2026_04_07/SESU_covariates_500m.tif",
+      "bytes": 24212836,
+      "sha256": "61bb84c24b56717ad2ae429caa936569d919526bdc8300f601678f20165c09c3"
+    },
+    {
+      "path": "data/FireCCI51_season_DOYmin_tau_and_binary_2001_2020_500m_epsg32735.tif",
+      "bytes": 5088495,
+      "sha256": "392761ef4aca4ce3eafcdd532acb82fe9c7b3e0648dd54015a8ec25719eec215"
+    },
+    {
+      "path": "terra_fire/fire_2021_tau025.tif",
+      "bytes": 28212,
+      "sha256": "5af92335cabf13646a371e93a1e9868dbeadb994f6678a59960aa8c317fea29d"
+    },
+    {
+      "path": "terra_fire/fire_2022_tau025.tif",
+      "bytes": 27916,
+      "sha256": "dc390b1ee31756dc66d6689351c9d0fa427f3a71c4bc919fa7d00863d2d5f251"
+    }
+  ]
+}

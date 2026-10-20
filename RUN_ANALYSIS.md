@@ -1,6 +1,15 @@
 # Run and verify the Upemba analysis
 
-Run from the repository root. The original analytical environment is recorded in renv.lock (R 4.5.3). The current code release contains the already-public corrected analyses; current unpublished submission documents are held separately.
+Run from the repository root. The original analytical environment is recorded in renv.lock (R 4.5.3). The October release adds supplementary dependence checks with their own recorded environment and derived inputs; current unpublished submission documents are held separately.
+
+## Additional dependence sensitivity analyses
+
+    python -m pip install -r analysis/dependence_sensitivity/requirements.txt
+    python analysis/dependence_sensitivity/verify_release.py
+
+This verifies input hashes and all accepted resampling draws, recomputes interval summaries, and checks the 1,936 count/denominator pairs at every geographic-block configuration. The [module README](analysis/dependence_sensitivity/README.md) gives the full rerun sequence, R package versions, timing and optional upstream extraction. Its committed environmental histories allow reproduction of these new statistical checks without restoring the lost workspace. New computations default to the ignored outputs/_validation/dependence_sensitivity/ folder.
+
+The additional checks preserve primary point estimates. Forest-only denominator results remain explicitly separate. They address supplementary uncertainty rather than replacing the main analysis or establishing causal effects. The [methods and result map](docs/dependence_sensitivity/methods_and_results.md) links each added supplementary table and Figure S5 to its numerical files.
 
 ## Check retained results
 

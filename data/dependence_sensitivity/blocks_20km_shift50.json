@@ -1,0 +1,21 @@
+{
+  "block_km": 20,
+  "origin_fraction": 0.5,
+  "ntiles": 149,
+  "ncolumns": 968,
+  "centers": [
+    0,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "main_active_blocks": 59,
+  "main_mixed_landscape_blocks": 21
+}

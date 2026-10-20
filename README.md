@@ -4,9 +4,9 @@ This public repository contains code and retained analytical results for compari
 
 ## Current code release
 
-The [code-2026-09-23 release](https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-09-23) brings the already-public final-reconciliation analyses onto the default branch, clarifies reproduction instructions, adds reuse licences and supplies a renderer for the combined legal/outer-boundary contrast plot.
+The [code-2026-10-20 release](https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-10-20) adds supplementary spatial and temporal dependence checks for fire and tree-cover loss. It includes portable analysis code, compact derived environmental inputs, all accepted bootstrap draws, numerical diagnostics, interval tables and the associated figures. The primary estimates and original analyses are retained. Start with the [sensitivity module](analysis/dependence_sensitivity/README.md) and its [methods and result map](docs/dependence_sensitivity/methods_and_results.md).
 
-This update publishes code and results already present on the public final-reconciliation branch. It does not add the current unpublished manuscript, supplement, newly rendered figure files, title page or cover letter. Older document and figure snapshots already in the public repository remain historical records, not the current submission version.
+The earlier [September release](https://github.com/ManuelABWeber/upemba-boundary-disturbance/releases/tag/code-2026-09-23) remains available. The October update adds sensitivity code and numerical materials; the current unpublished manuscript, supplementary Word document, title page and cover letter are held separately. Older document and figure snapshots already in the public repository remain historical records, not the current submission version.
 
 The primary 10 km corridor contains 42,554 cells. Retained totals are 508,320 burned cell-years, 519 tree-cover-loss events and 518 agricultural first crossings. Corrected persistence uses candidate years 2001–2019 and retains 414 events; the older 431-event result is superseded. Agricultural spatial-bootstrap intervals, annual presence and follow-up diagnostics are under outputs/final_reconciliation/. First crossing, persistent establishment and annual presence measure different responses.
 
@@ -19,12 +19,13 @@ The primary 10 km corridor contains 42,554 cells. Retained totals are 508,320 bu
 | data/governance_profiles/, evidence/ | Coded chronology and documentary-evidence metadata |
 | Four top-level analysis_*_dev/ directories | Retained analytical snapshots used by publication code; the suffix does not mean disposable files |
 | outputs/final_reconciliation/ | Corrected agricultural analyses, bootstrap results, post-event diagnostics and rainfall/fire data |
+| analysis/dependence_sensitivity/, data/dependence_sensitivity/, outputs/dependence_sensitivity/ | October supplementary dependence code, derived inputs, retained draws, diagnostics and results |
 | tests/ | Frozen-result and agricultural follow-up/reconciliation checks |
 | outputs/publication/, outputs/submission_review/ | Previously public historical layouts and review copies; not a current submission bundle |
 
 ## Reproduce and inspect
 
-Start with [RUN_ANALYSIS.md](RUN_ANALYSIS.md) and the [release validation record](docs/submission/validation/code-release-2026-09-23.md). Retained-result checks and the combined contrast renderer use committed data. A complete analysis rerun additionally requires the external raster/spatial inputs in the manifests and the original environment in renv.lock. A fresh clone alone does not reproduce every upstream analysis.
+Start with [RUN_ANALYSIS.md](RUN_ANALYSIS.md) and the [October validation record](docs/submission/validation/code-release-2026-10-20.md). The new dependence checks and retained-result verification use committed inputs. A complete upstream analysis rerun additionally requires the external raster/spatial inputs in the manifests and the original environment in renv.lock. A fresh clone alone does not reproduce every upstream analysis.
 
 Original historical documents, private operational evidence, raw imagery and local configuration are not distributed. Older handovers describe the state at their dates; their former private-repository statements and historical figure/table numbering do not describe this code release.
 

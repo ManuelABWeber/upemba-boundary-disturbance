@@ -1,0 +1,48 @@
+source("analysis/dependence_sensitivity/fire_core.R")
+out<-dependence_output()
+invisible(parse(file="analysis/dependence_sensitivity/run_fire.R"))
+metadata<-fread(file.path(out,"surface_columns.csv"))[1:88]
+results<-list()
+bounded_optimizer<-function(par,fn,gr,control=list(),...) {
+  lower<-rep(-30,length(par));upper<-rep(30,length(par))
+  lower[names(par)=="betadisp"]<--10
+  upper[names(par)=="betadisp"]<-12
+  z<-optim(par,fn,gr,method="L-BFGS-B",lower=lower,upper=upper,
+           control=list(maxit=20000,factr=1e4,pgtol=1e-8))
+  list(par=z$par,objective=z$value,convergence=z$convergence,
+       iterations=unname(z$counts[1]),evaluations=z$counts,message=z$message)
+}
+for(km in c(5,40)) {
+  tag<-paste0(km,"km_shift0")
+  lines<-readLines(file.path(out,paste0("blocks_",tag,".json")))
+  nt<-as.integer(gsub("[^0-9]","",grep('"ntiles":',lines,value=TRUE,fixed=TRUE)))
+  N<-matrix(readBin(file.path(out,paste0("fire_n_",tag,".bin")),integer(),n=nt*968,size=4,endian="little"),nrow=nt)[,1:88]
+  Y<-matrix(readBin(file.path(out,paste0("fire_y_",tag,".bin")),integer(),n=nt*968,size=4,endian="little"),nrow=nt)[,1:88]
+  active<-rowSums(N)>0;N<-N[active,];Y<-Y[active,]
+  set.seed(48291+km*100)
+  for(rep in 1:5) {
+    w<-as.integer(rmultinom(1,nrow(N),rep(1/nrow(N),nrow(N))))
+    saved_seed<-.Random.seed
+    d<-copy(metadata);d[,`:=`(n=drop(crossprod(w,N)),y=drop(crossprod(w,Y)))]
+    f<-fit_fire(d)
+    stopifnot(identical(saved_seed,.Random.seed),f$valid)
+    alternative<-suppressWarnings(glmmTMB(fire_formula,data=prepare_fire(d),family=betabinomial("logit"),
+        control=glmmTMBControl(optimizer=bounded_optimizer)))
+    b<-fixef(alternative)$cond
+    e<-c(b["sideinside"],b["sideinside"]+b["inside_profile_militia"],b["sideinside"]+b["inside_profile_park"])
+    results[[length(results)+1L]]<-data.table(block_km=km,replicate=rep,
+       maximum_contrast_difference=max(abs(e-f$estimate)),
+       objective_difference=alternative$obj$fn(alternative$fit$par)-f$model$fit$objective,
+       alternate_gradient=max(abs(alternative$obj$gr(alternative$fit$par))),
+       alternate_log_precision=unname(fixef(alternative)$disp),
+       alternate_pdHess=alternative$sdr$pdHess,alternate_convergence=alternative$fit$convergence,
+       RNG_unchanged=identical(saved_seed,.Random.seed))
+  }
+}
+dd<-rbindlist(results)
+fwrite(dd,file.path(out,"fire_optimizer_crosscheck_bounded_raw.csv"))
+stopifnot(all(dd$alternate_pdHess),all(dd$alternate_convergence==0),max(dd$maximum_contrast_difference)<1e-4,
+          max(abs(dd$objective_difference))<1e-5)
+fwrite(dd,file.path(out,"fire_optimizer_crosscheck.csv"))
+capture.output(sessionInfo(),file=file.path(out,"verified_fire_sessionInfo.txt"))
+print(dd)

@@ -1,0 +1,67 @@
+population,center,profile,estimate
+reported_all_cells,0,Neither actor dominant,-0.8460814737903737
+reported_all_cells,0,Militia dominant,-0.897845233263082
+reported_all_cells,0,Park dominant,-1.4302541019753507
+reported_all_cells,15,Neither actor dominant,0.21468390004867988
+reported_all_cells,15,Militia dominant,0.2005234857129633
+reported_all_cells,15,Park dominant,-0.5681065877364703
+reported_all_cells,20,Neither actor dominant,-0.39302007409052486
+reported_all_cells,20,Militia dominant,0.13199357612398244
+reported_all_cells,20,Park dominant,-0.4174796665370347
+reported_all_cells,25,Neither actor dominant,-0.20755021314321187
+reported_all_cells,25,Militia dominant,-0.19060558293649532
+reported_all_cells,25,Park dominant,-0.32402147034504025
+reported_all_cells,30,Neither actor dominant,-0.23239197744561835
+reported_all_cells,30,Militia dominant,-0.4269794586451273
+reported_all_cells,30,Park dominant,-0.08098281528682882
+reported_all_cells,35,Neither actor dominant,-0.19372097050313197
+reported_all_cells,35,Militia dominant,-0.1455455882502491
+reported_all_cells,35,Park dominant,0.5465010489436695
+reported_all_cells,40,Neither actor dominant,0.37768992745438634
+reported_all_cells,40,Militia dominant,0.17743741038885807
+reported_all_cells,40,Park dominant,0.5036896386728796
+reported_all_cells,45,Neither actor dominant,0.5196800912408353
+reported_all_cells,45,Militia dominant,0.0013499974928071895
+reported_all_cells,45,Park dominant,-0.052488900301159304
+reported_all_cells,50,Neither actor dominant,0.10812479052288371
+reported_all_cells,50,Militia dominant,-0.2571698870384889
+reported_all_cells,50,Park dominant,-0.483604192427854
+reported_all_cells,55,Neither actor dominant,-0.09904927413176293
+reported_all_cells,55,Militia dominant,0.02767001971384577
+reported_all_cells,55,Park dominant,-0.43199149275016285
+reported_all_cells,60,Neither actor dominant,-0.09810538143008142
+reported_all_cells,60,Militia dominant,0.30946010083996756
+reported_all_cells,60,Park dominant,-0.06982548435695297
+baseline_forest_only,0,Neither actor dominant,-0.8158407257723461
+baseline_forest_only,0,Militia dominant,-0.8678144719814094
+baseline_forest_only,0,Park dominant,-1.4020071121984206
+baseline_forest_only,15,Neither actor dominant,0.15266620529027997
+baseline_forest_only,15,Militia dominant,0.1385458472015179
+baseline_forest_only,15,Park dominant,-0.630965497874383
+baseline_forest_only,20,Neither actor dominant,-0.4735328073219342
+baseline_forest_only,20,Militia dominant,0.050898183051867794
+baseline_forest_only,20,Park dominant,-0.5016993816652764
+baseline_forest_only,25,Neither actor dominant,-0.29705951569128575
+baseline_forest_only,25,Militia dominant,-0.2817400419032069
+baseline_forest_only,25,Park dominant,-0.42202090025229055
+baseline_forest_only,30,Neither actor dominant,-0.22860815722770284
+baseline_forest_only,30,Militia dominant,-0.4236906494007537
+baseline_forest_only,30,Park dominant,-0.0832761437655018
+baseline_forest_only,35,Neither actor dominant,-0.08326189345953372
+baseline_forest_only,35,Militia dominant,-0.035668393304248314
+baseline_forest_only,35,Park dominant,0.6600649110400806
+baseline_forest_only,40,Neither actor dominant,0.47914781190434647
+baseline_forest_only,40,Militia dominant,0.281498005483986
+baseline_forest_only,40,Park dominant,0.6149720550469029
+baseline_forest_only,45,Neither actor dominant,0.5600842647046278
+baseline_forest_only,45,Militia dominant,0.045071927322802186
+baseline_forest_only,45,Park dominant,-0.001692532477025277
+baseline_forest_only,50,Neither actor dominant,0.10077637941948026
+baseline_forest_only,50,Militia dominant,-0.2627612729573463
+baseline_forest_only,50,Park dominant,-0.48589728067426774
+baseline_forest_only,55,Neither actor dominant,-0.11247350654418688
+baseline_forest_only,55,Militia dominant,0.01468012487449278
+baseline_forest_only,55,Park dominant,-0.4444100346207328
+baseline_forest_only,60,Neither actor dominant,-0.03889479720765419
+baseline_forest_only,60,Militia dominant,0.3688884191304062
+baseline_forest_only,60,Park dominant,-0.00992856977081869

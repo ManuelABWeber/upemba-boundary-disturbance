@@ -1,0 +1,969 @@
+center,SESU_ID,year,side,governance_profile
+0,1,2001,outside,Neither actor dominant
+0,1,2001,inside,Neither actor dominant
+0,1,2002,outside,Neither actor dominant
+0,1,2002,inside,Neither actor dominant
+0,1,2003,outside,Neither actor dominant
+0,1,2003,inside,Neither actor dominant
+0,1,2004,outside,Militia dominant
+0,1,2004,inside,Militia dominant
+0,1,2005,outside,Militia dominant
+0,1,2005,inside,Militia dominant
+0,1,2006,outside,Militia dominant
+0,1,2006,inside,Militia dominant
+0,1,2007,outside,Neither actor dominant
+0,1,2007,inside,Neither actor dominant
+0,1,2008,outside,Neither actor dominant
+0,1,2008,inside,Neither actor dominant
+0,1,2009,outside,Neither actor dominant
+0,1,2009,inside,Neither actor dominant
+0,1,2010,outside,Neither actor dominant
+0,1,2010,inside,Neither actor dominant
+0,1,2011,outside,Neither actor dominant
+0,1,2011,inside,Neither actor dominant
+0,1,2012,outside,Neither actor dominant
+0,1,2012,inside,Neither actor dominant
+0,1,2013,outside,Militia dominant
+0,1,2013,inside,Militia dominant
+0,1,2014,outside,Militia dominant
+0,1,2014,inside,Militia dominant
+0,1,2015,outside,Militia dominant
+0,1,2015,inside,Militia dominant
+0,1,2016,outside,Militia dominant
+0,1,2016,inside,Militia dominant
+0,1,2017,outside,Park dominant
+0,1,2017,inside,Park dominant
+0,1,2018,outside,Park dominant
+0,1,2018,inside,Park dominant
+0,1,2019,outside,Park dominant
+0,1,2019,inside,Park dominant
+0,1,2020,outside,Park dominant
+0,1,2020,inside,Park dominant
+0,1,2021,outside,Park dominant
+0,1,2021,inside,Park dominant
+0,1,2022,outside,Park dominant
+0,1,2022,inside,Park dominant
+0,3,2001,outside,Neither actor dominant
+0,3,2001,inside,Neither actor dominant
+0,3,2002,outside,Neither actor dominant
+0,3,2002,inside,Neither actor dominant
+0,3,2003,outside,Neither actor dominant
+0,3,2003,inside,Neither actor dominant
+0,3,2004,outside,Militia dominant
+0,3,2004,inside,Militia dominant
+0,3,2005,outside,Militia dominant
+0,3,2005,inside,Militia dominant
+0,3,2006,outside,Militia dominant
+0,3,2006,inside,Militia dominant
+0,3,2007,outside,Neither actor dominant
+0,3,2007,inside,Neither actor dominant
+0,3,2008,outside,Neither actor dominant
+0,3,2008,inside,Neither actor dominant
+0,3,2009,outside,Neither actor dominant
+0,3,2009,inside,Neither actor dominant
+0,3,2010,outside,Neither actor dominant
+0,3,2010,inside,Neither actor dominant
+0,3,2011,outside,Park dominant
+0,3,2011,inside,Park dominant
+0,3,2012,outside,Park dominant
+0,3,2012,inside,Park dominant
+0,3,2013,outside,Militia dominant
+0,3,2013,inside,Militia dominant
+0,3,2014,outside,Militia dominant
+0,3,2014,inside,Militia dominant
+0,3,2015,outside,Militia dominant
+0,3,2015,inside,Militia dominant
+0,3,2016,outside,Park dominant
+0,3,2016,inside,Park dominant
+0,3,2017,outside,Park dominant
+0,3,2017,inside,Park dominant
+0,3,2018,outside,Park dominant
+0,3,2018,inside,Park dominant
+0,3,2019,outside,Park dominant
+0,3,2019,inside,Park dominant
+0,3,2020,outside,Park dominant
+0,3,2020,inside,Park dominant
+0,3,2021,outside,Park dominant
+0,3,2021,inside,Park dominant
+0,3,2022,outside,Park dominant
+0,3,2022,inside,Park dominant
+15,1,2001,outside,Neither actor dominant
+15,1,2001,inside,Neither actor dominant
+15,1,2002,outside,Neither actor dominant
+15,1,2002,inside,Neither actor dominant
+15,1,2003,outside,Neither actor dominant
+15,1,2003,inside,Neither actor dominant
+15,1,2004,outside,Militia dominant
+15,1,2004,inside,Militia dominant
+15,1,2005,outside,Militia dominant
+15,1,2005,inside,Militia dominant
+15,1,2006,outside,Militia dominant
+15,1,2006,inside,Militia dominant
+15,1,2007,outside,Neither actor dominant
+15,1,2007,inside,Neither actor dominant
+15,1,2008,outside,Neither actor dominant
+15,1,2008,inside,Neither actor dominant
+15,1,2009,outside,Neither actor dominant
+15,1,2009,inside,Neither actor dominant
+15,1,2010,outside,Neither actor dominant
+15,1,2010,inside,Neither actor dominant
+15,1,2011,outside,Neither actor dominant
+15,1,2011,inside,Neither actor dominant
+15,1,2012,outside,Neither actor dominant
+15,1,2012,inside,Neither actor dominant
+15,1,2013,outside,Militia dominant
+15,1,2013,inside,Militia dominant
+15,1,2014,outside,Militia dominant
+15,1,2014,inside,Militia dominant
+15,1,2015,outside,Militia dominant
+15,1,2015,inside,Militia dominant
+15,1,2016,outside,Militia dominant
+15,1,2016,inside,Militia dominant
+15,1,2017,outside,Park dominant
+15,1,2017,inside,Park dominant
+15,1,2018,outside,Park dominant
+15,1,2018,inside,Park dominant
+15,1,2019,outside,Park dominant
+15,1,2019,inside,Park dominant
+15,1,2020,outside,Park dominant
+15,1,2020,inside,Park dominant
+15,1,2021,outside,Park dominant
+15,1,2021,inside,Park dominant
+15,1,2022,outside,Park dominant
+15,1,2022,inside,Park dominant
+15,3,2001,outside,Neither actor dominant
+15,3,2001,inside,Neither actor dominant
+15,3,2002,outside,Neither actor dominant
+15,3,2002,inside,Neither actor dominant
+15,3,2003,outside,Neither actor dominant
+15,3,2003,inside,Neither actor dominant
+15,3,2004,outside,Militia dominant
+15,3,2004,inside,Militia dominant
+15,3,2005,outside,Militia dominant
+15,3,2005,inside,Militia dominant
+15,3,2006,outside,Militia dominant
+15,3,2006,inside,Militia dominant
+15,3,2007,outside,Neither actor dominant
+15,3,2007,inside,Neither actor dominant
+15,3,2008,outside,Neither actor dominant
+15,3,2008,inside,Neither actor dominant
+15,3,2009,outside,Neither actor dominant
+15,3,2009,inside,Neither actor dominant
+15,3,2010,outside,Neither actor dominant
+15,3,2010,inside,Neither actor dominant
+15,3,2011,outside,Park dominant
+15,3,2011,inside,Park dominant
+15,3,2012,outside,Park dominant
+15,3,2012,inside,Park dominant
+15,3,2013,outside,Militia dominant
+15,3,2013,inside,Militia dominant
+15,3,2014,outside,Militia dominant
+15,3,2014,inside,Militia dominant
+15,3,2015,outside,Militia dominant
+15,3,2015,inside,Militia dominant
+15,3,2016,outside,Park dominant
+15,3,2016,inside,Park dominant
+15,3,2017,outside,Park dominant
+15,3,2017,inside,Park dominant
+15,3,2018,outside,Park dominant
+15,3,2018,inside,Park dominant
+15,3,2019,outside,Park dominant
+15,3,2019,inside,Park dominant
+15,3,2020,outside,Park dominant
+15,3,2020,inside,Park dominant
+15,3,2021,outside,Park dominant
+15,3,2021,inside,Park dominant
+15,3,2022,outside,Park dominant
+15,3,2022,inside,Park dominant
+20,1,2001,outside,Neither actor dominant
+20,1,2001,inside,Neither actor dominant
+20,1,2002,outside,Neither actor dominant
+20,1,2002,inside,Neither actor dominant
+20,1,2003,outside,Neither actor dominant
+20,1,2003,inside,Neither actor dominant
+20,1,2004,outside,Militia dominant
+20,1,2004,inside,Militia dominant
+20,1,2005,outside,Militia dominant
+20,1,2005,inside,Militia dominant
+20,1,2006,outside,Militia dominant
+20,1,2006,inside,Militia dominant
+20,1,2007,outside,Neither actor dominant
+20,1,2007,inside,Neither actor dominant
+20,1,2008,outside,Neither actor dominant
+20,1,2008,inside,Neither actor dominant
+20,1,2009,outside,Neither actor dominant
+20,1,2009,inside,Neither actor dominant
+20,1,2010,outside,Neither actor dominant
+20,1,2010,inside,Neither actor dominant
+20,1,2011,outside,Neither actor dominant
+20,1,2011,inside,Neither actor dominant
+20,1,2012,outside,Neither actor dominant
+20,1,2012,inside,Neither actor dominant
+20,1,2013,outside,Militia dominant
+20,1,2013,inside,Militia dominant
+20,1,2014,outside,Militia dominant
+20,1,2014,inside,Militia dominant
+20,1,2015,outside,Militia dominant
+20,1,2015,inside,Militia dominant
+20,1,2016,outside,Militia dominant
+20,1,2016,inside,Militia dominant
+20,1,2017,outside,Park dominant
+20,1,2017,inside,Park dominant
+20,1,2018,outside,Park dominant
+20,1,2018,inside,Park dominant
+20,1,2019,outside,Park dominant
+20,1,2019,inside,Park dominant
+20,1,2020,outside,Park dominant
+20,1,2020,inside,Park dominant
+20,1,2021,outside,Park dominant
+20,1,2021,inside,Park dominant
+20,1,2022,outside,Park dominant
+20,1,2022,inside,Park dominant
+20,3,2001,outside,Neither actor dominant
+20,3,2001,inside,Neither actor dominant
+20,3,2002,outside,Neither actor dominant
+20,3,2002,inside,Neither actor dominant
+20,3,2003,outside,Neither actor dominant
+20,3,2003,inside,Neither actor dominant
+20,3,2004,outside,Militia dominant
+20,3,2004,inside,Militia dominant
+20,3,2005,outside,Militia dominant
+20,3,2005,inside,Militia dominant
+20,3,2006,outside,Militia dominant
+20,3,2006,inside,Militia dominant
+20,3,2007,outside,Neither actor dominant
+20,3,2007,inside,Neither actor dominant
+20,3,2008,outside,Neither actor dominant
+20,3,2008,inside,Neither actor dominant
+20,3,2009,outside,Neither actor dominant
+20,3,2009,inside,Neither actor dominant
+20,3,2010,outside,Neither actor dominant
+20,3,2010,inside,Neither actor dominant
+20,3,2011,outside,Park dominant
+20,3,2011,inside,Park dominant
+20,3,2012,outside,Park dominant
+20,3,2012,inside,Park dominant
+20,3,2013,outside,Militia dominant
+20,3,2013,inside,Militia dominant
+20,3,2014,outside,Militia dominant
+20,3,2014,inside,Militia dominant
+20,3,2015,outside,Militia dominant
+20,3,2015,inside,Militia dominant
+20,3,2016,outside,Park dominant
+20,3,2016,inside,Park dominant
+20,3,2017,outside,Park dominant
+20,3,2017,inside,Park dominant
+20,3,2018,outside,Park dominant
+20,3,2018,inside,Park dominant
+20,3,2019,outside,Park dominant
+20,3,2019,inside,Park dominant
+20,3,2020,outside,Park dominant
+20,3,2020,inside,Park dominant
+20,3,2021,outside,Park dominant
+20,3,2021,inside,Park dominant
+20,3,2022,outside,Park dominant
+20,3,2022,inside,Park dominant
+25,1,2001,outside,Neither actor dominant
+25,1,2001,inside,Neither actor dominant
+25,1,2002,outside,Neither actor dominant
+25,1,2002,inside,Neither actor dominant
+25,1,2003,outside,Neither actor dominant
+25,1,2003,inside,Neither actor dominant
+25,1,2004,outside,Militia dominant
+25,1,2004,inside,Militia dominant
+25,1,2005,outside,Militia dominant
+25,1,2005,inside,Militia dominant
+25,1,2006,outside,Militia dominant
+25,1,2006,inside,Militia dominant
+25,1,2007,outside,Neither actor dominant
+25,1,2007,inside,Neither actor dominant
+25,1,2008,outside,Neither actor dominant
+25,1,2008,inside,Neither actor dominant
+25,1,2009,outside,Neither actor dominant
+25,1,2009,inside,Neither actor dominant
+25,1,2010,outside,Neither actor dominant
+25,1,2010,inside,Neither actor dominant
+25,1,2011,outside,Neither actor dominant
+25,1,2011,inside,Neither actor dominant
+25,1,2012,outside,Neither actor dominant
+25,1,2012,inside,Neither actor dominant
+25,1,2013,outside,Militia dominant
+25,1,2013,inside,Militia dominant
+25,1,2014,outside,Militia dominant
+25,1,2014,inside,Militia dominant
+25,1,2015,outside,Militia dominant
+25,1,2015,inside,Militia dominant
+25,1,2016,outside,Militia dominant
+25,1,2016,inside,Militia dominant
+25,1,2017,outside,Park dominant
+25,1,2017,inside,Park dominant
+25,1,2018,outside,Park dominant
+25,1,2018,inside,Park dominant
+25,1,2019,outside,Park dominant
+25,1,2019,inside,Park dominant
+25,1,2020,outside,Park dominant
+25,1,2020,inside,Park dominant
+25,1,2021,outside,Park dominant
+25,1,2021,inside,Park dominant
+25,1,2022,outside,Park dominant
+25,1,2022,inside,Park dominant
+25,3,2001,outside,Neither actor dominant
+25,3,2001,inside,Neither actor dominant
+25,3,2002,outside,Neither actor dominant
+25,3,2002,inside,Neither actor dominant
+25,3,2003,outside,Neither actor dominant
+25,3,2003,inside,Neither actor dominant
+25,3,2004,outside,Militia dominant
+25,3,2004,inside,Militia dominant
+25,3,2005,outside,Militia dominant
+25,3,2005,inside,Militia dominant
+25,3,2006,outside,Militia dominant
+25,3,2006,inside,Militia dominant
+25,3,2007,outside,Neither actor dominant
+25,3,2007,inside,Neither actor dominant
+25,3,2008,outside,Neither actor dominant
+25,3,2008,inside,Neither actor dominant
+25,3,2009,outside,Neither actor dominant
+25,3,2009,inside,Neither actor dominant
+25,3,2010,outside,Neither actor dominant
+25,3,2010,inside,Neither actor dominant
+25,3,2011,outside,Park dominant
+25,3,2011,inside,Park dominant
+25,3,2012,outside,Park dominant
+25,3,2012,inside,Park dominant
+25,3,2013,outside,Militia dominant
+25,3,2013,inside,Militia dominant
+25,3,2014,outside,Militia dominant
+25,3,2014,inside,Militia dominant
+25,3,2015,outside,Militia dominant
+25,3,2015,inside,Militia dominant
+25,3,2016,outside,Park dominant
+25,3,2016,inside,Park dominant
+25,3,2017,outside,Park dominant
+25,3,2017,inside,Park dominant
+25,3,2018,outside,Park dominant
+25,3,2018,inside,Park dominant
+25,3,2019,outside,Park dominant
+25,3,2019,inside,Park dominant
+25,3,2020,outside,Park dominant
+25,3,2020,inside,Park dominant
+25,3,2021,outside,Park dominant
+25,3,2021,inside,Park dominant
+25,3,2022,outside,Park dominant
+25,3,2022,inside,Park dominant
+30,1,2001,outside,Neither actor dominant
+30,1,2001,inside,Neither actor dominant
+30,1,2002,outside,Neither actor dominant
+30,1,2002,inside,Neither actor dominant
+30,1,2003,outside,Neither actor dominant
+30,1,2003,inside,Neither actor dominant
+30,1,2004,outside,Militia dominant
+30,1,2004,inside,Militia dominant
+30,1,2005,outside,Militia dominant
+30,1,2005,inside,Militia dominant
+30,1,2006,outside,Militia dominant
+30,1,2006,inside,Militia dominant
+30,1,2007,outside,Neither actor dominant
+30,1,2007,inside,Neither actor dominant
+30,1,2008,outside,Neither actor dominant
+30,1,2008,inside,Neither actor dominant
+30,1,2009,outside,Neither actor dominant
+30,1,2009,inside,Neither actor dominant
+30,1,2010,outside,Neither actor dominant
+30,1,2010,inside,Neither actor dominant
+30,1,2011,outside,Neither actor dominant
+30,1,2011,inside,Neither actor dominant
+30,1,2012,outside,Neither actor dominant
+30,1,2012,inside,Neither actor dominant
+30,1,2013,outside,Militia dominant
+30,1,2013,inside,Militia dominant
+30,1,2014,outside,Militia dominant
+30,1,2014,inside,Militia dominant
+30,1,2015,outside,Militia dominant
+30,1,2015,inside,Militia dominant
+30,1,2016,outside,Militia dominant
+30,1,2016,inside,Militia dominant
+30,1,2017,outside,Park dominant
+30,1,2017,inside,Park dominant
+30,1,2018,outside,Park dominant
+30,1,2018,inside,Park dominant
+30,1,2019,outside,Park dominant
+30,1,2019,inside,Park dominant
+30,1,2020,outside,Park dominant
+30,1,2020,inside,Park dominant
+30,1,2021,outside,Park dominant
+30,1,2021,inside,Park dominant
+30,1,2022,outside,Park dominant
+30,1,2022,inside,Park dominant
+30,3,2001,outside,Neither actor dominant
+30,3,2001,inside,Neither actor dominant
+30,3,2002,outside,Neither actor dominant
+30,3,2002,inside,Neither actor dominant
+30,3,2003,outside,Neither actor dominant
+30,3,2003,inside,Neither actor dominant
+30,3,2004,outside,Militia dominant
+30,3,2004,inside,Militia dominant
+30,3,2005,outside,Militia dominant
+30,3,2005,inside,Militia dominant
+30,3,2006,outside,Militia dominant
+30,3,2006,inside,Militia dominant
+30,3,2007,outside,Neither actor dominant
+30,3,2007,inside,Neither actor dominant
+30,3,2008,outside,Neither actor dominant
+30,3,2008,inside,Neither actor dominant
+30,3,2009,outside,Neither actor dominant
+30,3,2009,inside,Neither actor dominant
+30,3,2010,outside,Neither actor dominant
+30,3,2010,inside,Neither actor dominant
+30,3,2011,outside,Park dominant
+30,3,2011,inside,Park dominant
+30,3,2012,outside,Park dominant
+30,3,2012,inside,Park dominant
+30,3,2013,outside,Militia dominant
+30,3,2013,inside,Militia dominant
+30,3,2014,outside,Militia dominant
+30,3,2014,inside,Militia dominant
+30,3,2015,outside,Militia dominant
+30,3,2015,inside,Militia dominant
+30,3,2016,outside,Park dominant
+30,3,2016,inside,Park dominant
+30,3,2017,outside,Park dominant
+30,3,2017,inside,Park dominant
+30,3,2018,outside,Park dominant
+30,3,2018,inside,Park dominant
+30,3,2019,outside,Park dominant
+30,3,2019,inside,Park dominant
+30,3,2020,outside,Park dominant
+30,3,2020,inside,Park dominant
+30,3,2021,outside,Park dominant
+30,3,2021,inside,Park dominant
+30,3,2022,outside,Park dominant
+30,3,2022,inside,Park dominant
+35,1,2001,outside,Neither actor dominant
+35,1,2001,inside,Neither actor dominant
+35,1,2002,outside,Neither actor dominant
+35,1,2002,inside,Neither actor dominant
+35,1,2003,outside,Neither actor dominant
+35,1,2003,inside,Neither actor dominant
+35,1,2004,outside,Militia dominant
+35,1,2004,inside,Militia dominant
+35,1,2005,outside,Militia dominant
+35,1,2005,inside,Militia dominant
+35,1,2006,outside,Militia dominant
+35,1,2006,inside,Militia dominant
+35,1,2007,outside,Neither actor dominant
+35,1,2007,inside,Neither actor dominant
+35,1,2008,outside,Neither actor dominant
+35,1,2008,inside,Neither actor dominant
+35,1,2009,outside,Neither actor dominant
+35,1,2009,inside,Neither actor dominant
+35,1,2010,outside,Neither actor dominant
+35,1,2010,inside,Neither actor dominant
+35,1,2011,outside,Neither actor dominant
+35,1,2011,inside,Neither actor dominant
+35,1,2012,outside,Neither actor dominant
+35,1,2012,inside,Neither actor dominant
+35,1,2013,outside,Militia dominant
+35,1,2013,inside,Militia dominant
+35,1,2014,outside,Militia dominant
+35,1,2014,inside,Militia dominant
+35,1,2015,outside,Militia dominant
+35,1,2015,inside,Militia dominant
+35,1,2016,outside,Militia dominant
+35,1,2016,inside,Militia dominant
+35,1,2017,outside,Park dominant
+35,1,2017,inside,Park dominant
+35,1,2018,outside,Park dominant
+35,1,2018,inside,Park dominant
+35,1,2019,outside,Park dominant
+35,1,2019,inside,Park dominant
+35,1,2020,outside,Park dominant
+35,1,2020,inside,Park dominant
+35,1,2021,outside,Park dominant
+35,1,2021,inside,Park dominant
+35,1,2022,outside,Park dominant
+35,1,2022,inside,Park dominant
+35,3,2001,outside,Neither actor dominant
+35,3,2001,inside,Neither actor dominant
+35,3,2002,outside,Neither actor dominant
+35,3,2002,inside,Neither actor dominant
+35,3,2003,outside,Neither actor dominant
+35,3,2003,inside,Neither actor dominant
+35,3,2004,outside,Militia dominant
+35,3,2004,inside,Militia dominant
+35,3,2005,outside,Militia dominant
+35,3,2005,inside,Militia dominant
+35,3,2006,outside,Militia dominant
+35,3,2006,inside,Militia dominant
+35,3,2007,outside,Neither actor dominant
+35,3,2007,inside,Neither actor dominant
+35,3,2008,outside,Neither actor dominant
+35,3,2008,inside,Neither actor dominant
+35,3,2009,outside,Neither actor dominant
+35,3,2009,inside,Neither actor dominant
+35,3,2010,outside,Neither actor dominant
+35,3,2010,inside,Neither actor dominant
+35,3,2011,outside,Park dominant
+35,3,2011,inside,Park dominant
+35,3,2012,outside,Park dominant
+35,3,2012,inside,Park dominant
+35,3,2013,outside,Militia dominant
+35,3,2013,inside,Militia dominant
+35,3,2014,outside,Militia dominant
+35,3,2014,inside,Militia dominant
+35,3,2015,outside,Militia dominant
+35,3,2015,inside,Militia dominant
+35,3,2016,outside,Park dominant
+35,3,2016,inside,Park dominant
+35,3,2017,outside,Park dominant
+35,3,2017,inside,Park dominant
+35,3,2018,outside,Park dominant
+35,3,2018,inside,Park dominant
+35,3,2019,outside,Park dominant
+35,3,2019,inside,Park dominant
+35,3,2020,outside,Park dominant
+35,3,2020,inside,Park dominant
+35,3,2021,outside,Park dominant
+35,3,2021,inside,Park dominant
+35,3,2022,outside,Park dominant
+35,3,2022,inside,Park dominant
+40,1,2001,outside,Neither actor dominant
+40,1,2001,inside,Neither actor dominant
+40,1,2002,outside,Neither actor dominant
+40,1,2002,inside,Neither actor dominant
+40,1,2003,outside,Neither actor dominant
+40,1,2003,inside,Neither actor dominant
+40,1,2004,outside,Militia dominant
+40,1,2004,inside,Militia dominant
+40,1,2005,outside,Militia dominant
+40,1,2005,inside,Militia dominant
+40,1,2006,outside,Militia dominant
+40,1,2006,inside,Militia dominant
+40,1,2007,outside,Neither actor dominant
+40,1,2007,inside,Neither actor dominant
+40,1,2008,outside,Neither actor dominant
+40,1,2008,inside,Neither actor dominant
+40,1,2009,outside,Neither actor dominant
+40,1,2009,inside,Neither actor dominant
+40,1,2010,outside,Neither actor dominant
+40,1,2010,inside,Neither actor dominant
+40,1,2011,outside,Neither actor dominant
+40,1,2011,inside,Neither actor dominant
+40,1,2012,outside,Neither actor dominant
+40,1,2012,inside,Neither actor dominant
+40,1,2013,outside,Militia dominant
+40,1,2013,inside,Militia dominant
+40,1,2014,outside,Militia dominant
+40,1,2014,inside,Militia dominant
+40,1,2015,outside,Militia dominant
+40,1,2015,inside,Militia dominant
+40,1,2016,outside,Militia dominant
+40,1,2016,inside,Militia dominant
+40,1,2017,outside,Park dominant
+40,1,2017,inside,Park dominant
+40,1,2018,outside,Park dominant
+40,1,2018,inside,Park dominant
+40,1,2019,outside,Park dominant
+40,1,2019,inside,Park dominant
+40,1,2020,outside,Park dominant
+40,1,2020,inside,Park dominant
+40,1,2021,outside,Park dominant
+40,1,2021,inside,Park dominant
+40,1,2022,outside,Park dominant
+40,1,2022,inside,Park dominant
+40,3,2001,outside,Neither actor dominant
+40,3,2001,inside,Neither actor dominant
+40,3,2002,outside,Neither actor dominant
+40,3,2002,inside,Neither actor dominant
+40,3,2003,outside,Neither actor dominant
+40,3,2003,inside,Neither actor dominant
+40,3,2004,outside,Militia dominant
+40,3,2004,inside,Militia dominant
+40,3,2005,outside,Militia dominant
+40,3,2005,inside,Militia dominant
+40,3,2006,outside,Militia dominant
+40,3,2006,inside,Militia dominant
+40,3,2007,outside,Neither actor dominant
+40,3,2007,inside,Neither actor dominant
+40,3,2008,outside,Neither actor dominant
+40,3,2008,inside,Neither actor dominant
+40,3,2009,outside,Neither actor dominant
+40,3,2009,inside,Neither actor dominant
+40,3,2010,outside,Neither actor dominant
+40,3,2010,inside,Neither actor dominant
+40,3,2011,outside,Park dominant
+40,3,2011,inside,Park dominant
+40,3,2012,outside,Park dominant
+40,3,2012,inside,Park dominant
+40,3,2013,outside,Militia dominant
+40,3,2013,inside,Militia dominant
+40,3,2014,outside,Militia dominant
+40,3,2014,inside,Militia dominant
+40,3,2015,outside,Militia dominant
+40,3,2015,inside,Militia dominant
+40,3,2016,outside,Park dominant
+40,3,2016,inside,Park dominant
+40,3,2017,outside,Park dominant
+40,3,2017,inside,Park dominant
+40,3,2018,outside,Park dominant
+40,3,2018,inside,Park dominant
+40,3,2019,outside,Park dominant
+40,3,2019,inside,Park dominant
+40,3,2020,outside,Park dominant
+40,3,2020,inside,Park dominant
+40,3,2021,outside,Park dominant
+40,3,2021,inside,Park dominant
+40,3,2022,outside,Park dominant
+40,3,2022,inside,Park dominant
+45,1,2001,outside,Neither actor dominant
+45,1,2001,inside,Neither actor dominant
+45,1,2002,outside,Neither actor dominant
+45,1,2002,inside,Neither actor dominant
+45,1,2003,outside,Neither actor dominant
+45,1,2003,inside,Neither actor dominant
+45,1,2004,outside,Militia dominant
+45,1,2004,inside,Militia dominant
+45,1,2005,outside,Militia dominant
+45,1,2005,inside,Militia dominant
+45,1,2006,outside,Militia dominant
+45,1,2006,inside,Militia dominant
+45,1,2007,outside,Neither actor dominant
+45,1,2007,inside,Neither actor dominant
+45,1,2008,outside,Neither actor dominant
+45,1,2008,inside,Neither actor dominant
+45,1,2009,outside,Neither actor dominant
+45,1,2009,inside,Neither actor dominant
+45,1,2010,outside,Neither actor dominant
+45,1,2010,inside,Neither actor dominant
+45,1,2011,outside,Neither actor dominant
+45,1,2011,inside,Neither actor dominant
+45,1,2012,outside,Neither actor dominant
+45,1,2012,inside,Neither actor dominant
+45,1,2013,outside,Militia dominant
+45,1,2013,inside,Militia dominant
+45,1,2014,outside,Militia dominant
+45,1,2014,inside,Militia dominant
+45,1,2015,outside,Militia dominant
+45,1,2015,inside,Militia dominant
+45,1,2016,outside,Militia dominant
+45,1,2016,inside,Militia dominant
+45,1,2017,outside,Park dominant
+45,1,2017,inside,Park dominant
+45,1,2018,outside,Park dominant
+45,1,2018,inside,Park dominant
+45,1,2019,outside,Park dominant
+45,1,2019,inside,Park dominant
+45,1,2020,outside,Park dominant
+45,1,2020,inside,Park dominant
+45,1,2021,outside,Park dominant
+45,1,2021,inside,Park dominant
+45,1,2022,outside,Park dominant
+45,1,2022,inside,Park dominant
+45,3,2001,outside,Neither actor dominant
+45,3,2001,inside,Neither actor dominant
+45,3,2002,outside,Neither actor dominant
+45,3,2002,inside,Neither actor dominant
+45,3,2003,outside,Neither actor dominant
+45,3,2003,inside,Neither actor dominant
+45,3,2004,outside,Militia dominant
+45,3,2004,inside,Militia dominant
+45,3,2005,outside,Militia dominant
+45,3,2005,inside,Militia dominant
+45,3,2006,outside,Militia dominant
+45,3,2006,inside,Militia dominant
+45,3,2007,outside,Neither actor dominant
+45,3,2007,inside,Neither actor dominant
+45,3,2008,outside,Neither actor dominant
+45,3,2008,inside,Neither actor dominant
+45,3,2009,outside,Neither actor dominant
+45,3,2009,inside,Neither actor dominant
+45,3,2010,outside,Neither actor dominant
+45,3,2010,inside,Neither actor dominant
+45,3,2011,outside,Park dominant
+45,3,2011,inside,Park dominant
+45,3,2012,outside,Park dominant
+45,3,2012,inside,Park dominant
+45,3,2013,outside,Militia dominant
+45,3,2013,inside,Militia dominant
+45,3,2014,outside,Militia dominant
+45,3,2014,inside,Militia dominant
+45,3,2015,outside,Militia dominant
+45,3,2015,inside,Militia dominant
+45,3,2016,outside,Park dominant
+45,3,2016,inside,Park dominant
+45,3,2017,outside,Park dominant
+45,3,2017,inside,Park dominant
+45,3,2018,outside,Park dominant
+45,3,2018,inside,Park dominant
+45,3,2019,outside,Park dominant
+45,3,2019,inside,Park dominant
+45,3,2020,outside,Park dominant
+45,3,2020,inside,Park dominant
+45,3,2021,outside,Park dominant
+45,3,2021,inside,Park dominant
+45,3,2022,outside,Park dominant
+45,3,2022,inside,Park dominant
+50,1,2001,outside,Neither actor dominant
+50,1,2001,inside,Neither actor dominant
+50,1,2002,outside,Neither actor dominant
+50,1,2002,inside,Neither actor dominant
+50,1,2003,outside,Neither actor dominant
+50,1,2003,inside,Neither actor dominant
+50,1,2004,outside,Militia dominant
+50,1,2004,inside,Militia dominant
+50,1,2005,outside,Militia dominant
+50,1,2005,inside,Militia dominant
+50,1,2006,outside,Militia dominant
+50,1,2006,inside,Militia dominant
+50,1,2007,outside,Neither actor dominant
+50,1,2007,inside,Neither actor dominant
+50,1,2008,outside,Neither actor dominant
+50,1,2008,inside,Neither actor dominant
+50,1,2009,outside,Neither actor dominant
+50,1,2009,inside,Neither actor dominant
+50,1,2010,outside,Neither actor dominant
+50,1,2010,inside,Neither actor dominant
+50,1,2011,outside,Neither actor dominant
+50,1,2011,inside,Neither actor dominant
+50,1,2012,outside,Neither actor dominant
+50,1,2012,inside,Neither actor dominant
+50,1,2013,outside,Militia dominant
+50,1,2013,inside,Militia dominant
+50,1,2014,outside,Militia dominant
+50,1,2014,inside,Militia dominant
+50,1,2015,outside,Militia dominant
+50,1,2015,inside,Militia dominant
+50,1,2016,outside,Militia dominant
+50,1,2016,inside,Militia dominant
+50,1,2017,outside,Park dominant
+50,1,2017,inside,Park dominant
+50,1,2018,outside,Park dominant
+50,1,2018,inside,Park dominant
+50,1,2019,outside,Park dominant
+50,1,2019,inside,Park dominant
+50,1,2020,outside,Park dominant
+50,1,2020,inside,Park dominant
+50,1,2021,outside,Park dominant
+50,1,2021,inside,Park dominant
+50,1,2022,outside,Park dominant
+50,1,2022,inside,Park dominant
+50,3,2001,outside,Neither actor dominant
+50,3,2001,inside,Neither actor dominant
+50,3,2002,outside,Neither actor dominant
+50,3,2002,inside,Neither actor dominant
+50,3,2003,outside,Neither actor dominant
+50,3,2003,inside,Neither actor dominant
+50,3,2004,outside,Militia dominant
+50,3,2004,inside,Militia dominant
+50,3,2005,outside,Militia dominant
+50,3,2005,inside,Militia dominant
+50,3,2006,outside,Militia dominant
+50,3,2006,inside,Militia dominant
+50,3,2007,outside,Neither actor dominant
+50,3,2007,inside,Neither actor dominant
+50,3,2008,outside,Neither actor dominant
+50,3,2008,inside,Neither actor dominant
+50,3,2009,outside,Neither actor dominant
+50,3,2009,inside,Neither actor dominant
+50,3,2010,outside,Neither actor dominant
+50,3,2010,inside,Neither actor dominant
+50,3,2011,outside,Park dominant
+50,3,2011,inside,Park dominant
+50,3,2012,outside,Park dominant
+50,3,2012,inside,Park dominant
+50,3,2013,outside,Militia dominant
+50,3,2013,inside,Militia dominant
+50,3,2014,outside,Militia dominant
+50,3,2014,inside,Militia dominant
+50,3,2015,outside,Militia dominant
+50,3,2015,inside,Militia dominant
+50,3,2016,outside,Park dominant
+50,3,2016,inside,Park dominant
+50,3,2017,outside,Park dominant
+50,3,2017,inside,Park dominant
+50,3,2018,outside,Park dominant
+50,3,2018,inside,Park dominant
+50,3,2019,outside,Park dominant
+50,3,2019,inside,Park dominant
+50,3,2020,outside,Park dominant
+50,3,2020,inside,Park dominant
+50,3,2021,outside,Park dominant
+50,3,2021,inside,Park dominant
+50,3,2022,outside,Park dominant
+50,3,2022,inside,Park dominant
+55,1,2001,outside,Neither actor dominant
+55,1,2001,inside,Neither actor dominant
+55,1,2002,outside,Neither actor dominant
+55,1,2002,inside,Neither actor dominant
+55,1,2003,outside,Neither actor dominant
+55,1,2003,inside,Neither actor dominant
+55,1,2004,outside,Militia dominant
+55,1,2004,inside,Militia dominant
+55,1,2005,outside,Militia dominant
+55,1,2005,inside,Militia dominant
+55,1,2006,outside,Militia dominant
+55,1,2006,inside,Militia dominant
+55,1,2007,outside,Neither actor dominant
+55,1,2007,inside,Neither actor dominant
+55,1,2008,outside,Neither actor dominant
+55,1,2008,inside,Neither actor dominant
+55,1,2009,outside,Neither actor dominant
+55,1,2009,inside,Neither actor dominant
+55,1,2010,outside,Neither actor dominant
+55,1,2010,inside,Neither actor dominant
+55,1,2011,outside,Neither actor dominant
+55,1,2011,inside,Neither actor dominant
+55,1,2012,outside,Neither actor dominant
+55,1,2012,inside,Neither actor dominant
+55,1,2013,outside,Militia dominant
+55,1,2013,inside,Militia dominant
+55,1,2014,outside,Militia dominant
+55,1,2014,inside,Militia dominant
+55,1,2015,outside,Militia dominant
+55,1,2015,inside,Militia dominant
+55,1,2016,outside,Militia dominant
+55,1,2016,inside,Militia dominant
+55,1,2017,outside,Park dominant
+55,1,2017,inside,Park dominant
+55,1,2018,outside,Park dominant
+55,1,2018,inside,Park dominant
+55,1,2019,outside,Park dominant
+55,1,2019,inside,Park dominant
+55,1,2020,outside,Park dominant
+55,1,2020,inside,Park dominant
+55,1,2021,outside,Park dominant
+55,1,2021,inside,Park dominant
+55,1,2022,outside,Park dominant
+55,1,2022,inside,Park dominant
+55,3,2001,outside,Neither actor dominant
+55,3,2001,inside,Neither actor dominant
+55,3,2002,outside,Neither actor dominant
+55,3,2002,inside,Neither actor dominant
+55,3,2003,outside,Neither actor dominant
+55,3,2003,inside,Neither actor dominant
+55,3,2004,outside,Militia dominant
+55,3,2004,inside,Militia dominant
+55,3,2005,outside,Militia dominant
+55,3,2005,inside,Militia dominant
+55,3,2006,outside,Militia dominant
+55,3,2006,inside,Militia dominant
+55,3,2007,outside,Neither actor dominant
+55,3,2007,inside,Neither actor dominant
+55,3,2008,outside,Neither actor dominant
+55,3,2008,inside,Neither actor dominant
+55,3,2009,outside,Neither actor dominant
+55,3,2009,inside,Neither actor dominant
+55,3,2010,outside,Neither actor dominant
+55,3,2010,inside,Neither actor dominant
+55,3,2011,outside,Park dominant
+55,3,2011,inside,Park dominant
+55,3,2012,outside,Park dominant
+55,3,2012,inside,Park dominant
+55,3,2013,outside,Militia dominant
+55,3,2013,inside,Militia dominant
+55,3,2014,outside,Militia dominant
+55,3,2014,inside,Militia dominant
+55,3,2015,outside,Militia dominant
+55,3,2015,inside,Militia dominant
+55,3,2016,outside,Park dominant
+55,3,2016,inside,Park dominant
+55,3,2017,outside,Park dominant
+55,3,2017,inside,Park dominant
+55,3,2018,outside,Park dominant
+55,3,2018,inside,Park dominant
+55,3,2019,outside,Park dominant
+55,3,2019,inside,Park dominant
+55,3,2020,outside,Park dominant
+55,3,2020,inside,Park dominant
+55,3,2021,outside,Park dominant
+55,3,2021,inside,Park dominant
+55,3,2022,outside,Park dominant
+55,3,2022,inside,Park dominant
+60,1,2001,outside,Neither actor dominant
+60,1,2001,inside,Neither actor dominant
+60,1,2002,outside,Neither actor dominant
+60,1,2002,inside,Neither actor dominant
+60,1,2003,outside,Neither actor dominant
+60,1,2003,inside,Neither actor dominant
+60,1,2004,outside,Militia dominant
+60,1,2004,inside,Militia dominant
+60,1,2005,outside,Militia dominant
+60,1,2005,inside,Militia dominant
+60,1,2006,outside,Militia dominant
+60,1,2006,inside,Militia dominant
+60,1,2007,outside,Neither actor dominant
+60,1,2007,inside,Neither actor dominant
+60,1,2008,outside,Neither actor dominant
+60,1,2008,inside,Neither actor dominant
+60,1,2009,outside,Neither actor dominant
+60,1,2009,inside,Neither actor dominant
+60,1,2010,outside,Neither actor dominant
+60,1,2010,inside,Neither actor dominant
+60,1,2011,outside,Neither actor dominant
+60,1,2011,inside,Neither actor dominant
+60,1,2012,outside,Neither actor dominant
+60,1,2012,inside,Neither actor dominant
+60,1,2013,outside,Militia dominant
+60,1,2013,inside,Militia dominant
+60,1,2014,outside,Militia dominant
+60,1,2014,inside,Militia dominant
+60,1,2015,outside,Militia dominant
+60,1,2015,inside,Militia dominant
+60,1,2016,outside,Militia dominant
+60,1,2016,inside,Militia dominant
+60,1,2017,outside,Park dominant
+60,1,2017,inside,Park dominant
+60,1,2018,outside,Park dominant
+60,1,2018,inside,Park dominant
+60,1,2019,outside,Park dominant
+60,1,2019,inside,Park dominant
+60,1,2020,outside,Park dominant
+60,1,2020,inside,Park dominant
+60,1,2021,outside,Park dominant
+60,1,2021,inside,Park dominant
+60,1,2022,outside,Park dominant
+60,1,2022,inside,Park dominant
+60,3,2001,outside,Neither actor dominant
+60,3,2001,inside,Neither actor dominant
+60,3,2002,outside,Neither actor dominant
+60,3,2002,inside,Neither actor dominant
+60,3,2003,outside,Neither actor dominant
+60,3,2003,inside,Neither actor dominant
+60,3,2004,outside,Militia dominant
+60,3,2004,inside,Militia dominant
+60,3,2005,outside,Militia dominant
+60,3,2005,inside,Militia dominant
+60,3,2006,outside,Militia dominant
+60,3,2006,inside,Militia dominant
+60,3,2007,outside,Neither actor dominant
+60,3,2007,inside,Neither actor dominant
+60,3,2008,outside,Neither actor dominant
+60,3,2008,inside,Neither actor dominant
+60,3,2009,outside,Neither actor dominant
+60,3,2009,inside,Neither actor dominant
+60,3,2010,outside,Neither actor dominant
+60,3,2010,inside,Neither actor dominant
+60,3,2011,outside,Park dominant
+60,3,2011,inside,Park dominant
+60,3,2012,outside,Park dominant
+60,3,2012,inside,Park dominant
+60,3,2013,outside,Militia dominant
+60,3,2013,inside,Militia dominant
+60,3,2014,outside,Militia dominant
+60,3,2014,inside,Militia dominant
+60,3,2015,outside,Militia dominant
+60,3,2015,inside,Militia dominant
+60,3,2016,outside,Park dominant
+60,3,2016,inside,Park dominant
+60,3,2017,outside,Park dominant
+60,3,2017,inside,Park dominant
+60,3,2018,outside,Park dominant
+60,3,2018,inside,Park dominant
+60,3,2019,outside,Park dominant
+60,3,2019,inside,Park dominant
+60,3,2020,outside,Park dominant
+60,3,2020,inside,Park dominant
+60,3,2021,outside,Park dominant
+60,3,2021,inside,Park dominant
+60,3,2022,outside,Park dominant
+60,3,2022,inside,Park dominant

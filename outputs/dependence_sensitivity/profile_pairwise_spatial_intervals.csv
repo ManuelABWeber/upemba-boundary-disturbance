@@ -1,0 +1,73 @@
+outcome,population,tag,contrast,estimate,low,high,replicates
+tree_cover_loss,baseline_forest_only,10km_shift0,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.6116482005138698,0.5678563662536564,4999
+tree_cover_loss,baseline_forest_only,10km_shift0,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.3552910762480794,0.31095220005648283,4999
+tree_cover_loss,baseline_forest_only,10km_shift0,Park dominant minus Militia dominant,-0.5341926402170112,-1.0552417275298176,0.03931479110156543,4999
+tree_cover_loss,reported_all_cells,10km_shift0,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.6113634974573732,0.5679635261864792,4999
+tree_cover_loss,reported_all_cells,10km_shift0,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.3533739629140282,0.3139006477228602,4999
+tree_cover_loss,reported_all_cells,10km_shift0,Park dominant minus Militia dominant,-0.5324088687122688,-1.0525279943944619,0.04028925331724897,4999
+tree_cover_loss,baseline_forest_only,10km_shift50,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.7034362081446134,0.6493174181755585,4999
+tree_cover_loss,baseline_forest_only,10km_shift50,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.468643295890768,0.1831735681660148,4999
+tree_cover_loss,baseline_forest_only,10km_shift50,Park dominant minus Militia dominant,-0.5341926402170112,-1.1494156254272914,0.07600493720900535,4999
+tree_cover_loss,reported_all_cells,10km_shift50,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.7037623826736323,0.6483758402461928,4999
+tree_cover_loss,reported_all_cells,10km_shift50,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.4674589120947192,0.1856741670820594,4999
+tree_cover_loss,reported_all_cells,10km_shift50,Park dominant minus Militia dominant,-0.5324088687122688,-1.1485414934358391,0.07810415135896652,4999
+tree_cover_loss,baseline_forest_only,20km_shift0,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.49683746124247274,0.4465095936848934,4999
+tree_cover_loss,baseline_forest_only,20km_shift0,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.2868321389057098,0.26012455011457963,4999
+tree_cover_loss,baseline_forest_only,20km_shift0,Park dominant minus Militia dominant,-0.5341926402170112,-1.044824501132532,0.17887236680161975,4999
+tree_cover_loss,reported_all_cells,20km_shift0,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.49699258994407675,0.4472775589882835,4999
+tree_cover_loss,reported_all_cells,20km_shift0,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.2854029465624792,0.2609077347368016,4999
+tree_cover_loss,reported_all_cells,20km_shift0,Park dominant minus Militia dominant,-0.5324088687122688,-1.0431745512401924,0.17992829042393144,4999
+tree_cover_loss,baseline_forest_only,20km_shift50,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.6974189649392474,0.5456230951117044,4999
+tree_cover_loss,baseline_forest_only,20km_shift50,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.4405578974682647,0.33847999487325603,4999
+tree_cover_loss,baseline_forest_only,20km_shift50,Park dominant minus Militia dominant,-0.5341926402170112,-1.051304191486884,0.0887298946193372,4999
+tree_cover_loss,reported_all_cells,20km_shift50,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.6974644871298258,0.5461546029733053,4999
+tree_cover_loss,reported_all_cells,20km_shift50,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.4395419546752066,0.3414302862972609,4999
+tree_cover_loss,reported_all_cells,20km_shift50,Park dominant minus Militia dominant,-0.5324088687122688,-1.049532966076355,0.08960243128513,4999
+tree_cover_loss,baseline_forest_only,40km_shift0,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.49019429184408714,0.45865276053116666,19999
+tree_cover_loss,baseline_forest_only,40km_shift0,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.3350272153797007,0.3534634008279431,19999
+tree_cover_loss,baseline_forest_only,40km_shift0,Park dominant minus Militia dominant,-0.5341926402170112,-1.1983664332994304,0.445340630837851,19999
+tree_cover_loss,reported_all_cells,40km_shift0,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.4899384786192132,0.4583246383205753,19999
+tree_cover_loss,reported_all_cells,40km_shift0,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.333090920748104,0.35459181205061235,19999
+tree_cover_loss,reported_all_cells,40km_shift0,Park dominant minus Militia dominant,-0.5324088687122688,-1.1957915687684741,0.4459699332173715,19999
+tree_cover_loss,baseline_forest_only,40km_shift50,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.5366943781489878,0.3512818239934681,19999
+tree_cover_loss,baseline_forest_only,40km_shift50,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.2353589098617428,0.23537024259017508,19999
+tree_cover_loss,baseline_forest_only,40km_shift50,Park dominant minus Militia dominant,-0.5341926402170112,-0.8950414610418844,0.27799965728179443,19999
+tree_cover_loss,reported_all_cells,40km_shift50,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.5364619242707735,0.35128040267068533,19999
+tree_cover_loss,reported_all_cells,40km_shift50,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.2347917247244982,0.23682453735397654,19999
+tree_cover_loss,reported_all_cells,40km_shift50,Park dominant minus Militia dominant,-0.5324088687122688,-0.8932602730798743,0.27940560399980896,19999
+tree_cover_loss,baseline_forest_only,5km_shift0,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.6314908713112556,0.6009514069258896,4999
+tree_cover_loss,baseline_forest_only,5km_shift0,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.373207353309959,0.21446932128760338,4999
+tree_cover_loss,baseline_forest_only,5km_shift0,Park dominant minus Militia dominant,-0.5341926402170112,-1.131920626233509,0.07103451047457725,4999
+tree_cover_loss,reported_all_cells,5km_shift0,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.6312731566711083,0.6011864366212888,4999
+tree_cover_loss,reported_all_cells,5km_shift0,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.3712794857869255,0.21706121344984944,4999
+tree_cover_loss,reported_all_cells,5km_shift0,Park dominant minus Militia dominant,-0.5324088687122688,-1.1307602569049686,0.07295009586652244,4999
+tree_cover_loss,baseline_forest_only,5km_shift50,Militia dominant minus Neither actor dominant,-0.051973746209063254,-0.7192473345779807,0.6001773470371359,4999
+tree_cover_loss,baseline_forest_only,5km_shift50,Park dominant minus Neither actor dominant,-0.5861663864260744,-1.2134841765247901,0.10959874404748253,4999
+tree_cover_loss,baseline_forest_only,5km_shift50,Park dominant minus Militia dominant,-0.5341926402170112,-1.1464395291960299,0.13012918619433056,4999
+tree_cover_loss,reported_all_cells,5km_shift50,Militia dominant minus Neither actor dominant,-0.05176375947270828,-0.7188923463556169,0.6000922286976977,4999
+tree_cover_loss,reported_all_cells,5km_shift50,Park dominant minus Neither actor dominant,-0.5841726281849771,-1.2120349218668816,0.11207856041139298,4999
+tree_cover_loss,reported_all_cells,5km_shift50,Park dominant minus Militia dominant,-0.5324088687122688,-1.1448736246516023,0.13234861234495912,4999
+fire,reported_all_cells,10km_shift0,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.2600273477858342,-0.06301690607481364,999
+fire,reported_all_cells,10km_shift0,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.2321457201002368,0.022393932001626454,999
+fire,reported_all_cells,10km_shift0,Park dominant minus Militia dominant,0.0571187605835883,-0.06011795063104136,0.17162863615360144,999
+fire,reported_all_cells,10km_shift50,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.26544031355475955,-0.060374185008710515,999
+fire,reported_all_cells,10km_shift50,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.23741073313337843,0.03735603014972366,999
+fire,reported_all_cells,10km_shift50,Park dominant minus Militia dominant,0.0571187605835883,-0.049498492245406,0.17549670620336,999
+fire,reported_all_cells,20km_shift0,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.2935511336301097,-0.044819028492634506,999
+fire,reported_all_cells,20km_shift0,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.24621711478812458,0.02136382690297884,999
+fire,reported_all_cells,20km_shift0,Park dominant minus Militia dominant,0.0571187605835883,-0.09021139698832029,0.21630175354609088,999
+fire,reported_all_cells,20km_shift50,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.26166514732002893,-0.0249182703808039,999
+fire,reported_all_cells,20km_shift50,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.24597893721623076,0.03781950923283229,999
+fire,reported_all_cells,20km_shift50,Park dominant minus Militia dominant,0.0571187605835883,-0.0976258085296303,0.19528414473588368,999
+fire,reported_all_cells,5km_shift0,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.2341010980414427,-0.08459231266595894,999
+fire,reported_all_cells,5km_shift0,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.20956580108703102,-0.006242687533706939,999
+fire,reported_all_cells,5km_shift0,Park dominant minus Militia dominant,0.0571187605835883,-0.0226890486537584,0.1451963853325077,999
+fire,reported_all_cells,5km_shift50,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.2411554031601738,-0.08387609266688635,999
+fire,reported_all_cells,5km_shift50,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.20170549121147285,-0.0014909002197475481,999
+fire,reported_all_cells,5km_shift50,Park dominant minus Militia dominant,0.0571187605835883,-0.028840868213736853,0.1484607563805175,999
+fire,reported_all_cells,40km_shift0,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.3016631151530439,-0.04796536991127089,999
+fire,reported_all_cells,40km_shift0,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.23363955193735753,0.0011994385355055498,999
+fire,reported_all_cells,40km_shift0,Park dominant minus Militia dominant,0.0571187605835883,-0.11077519668632474,0.22958637733082968,999
+fire,reported_all_cells,40km_shift50,Militia dominant minus Neither actor dominant,-0.1595792998488735,-0.32000283357129683,-0.028442840840320314,999
+fire,reported_all_cells,40km_shift50,Park dominant minus Neither actor dominant,-0.1024605392652852,-0.2224315121880786,0.03623073293761344,999
+fire,reported_all_cells,40km_shift50,Park dominant minus Militia dominant,0.0571187605835883,-0.10069005835306982,0.2574233972925554,999

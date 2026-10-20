@@ -1,0 +1,10 @@
+file,attempted,failed
+fire_longrange_40km_shift0_diagnostics.csv,999,0
+fire_longrange_40km_shift50_diagnostics.csv,999,0
+fire_main_10km_shift0_diagnostics.csv,999,0
+fire_main_10km_shift50_diagnostics.csv,999,0
+fire_main_20km_shift0_diagnostics.csv,999,0
+fire_main_20km_shift50_diagnostics.csv,999,0
+fire_main_5km_shift0_diagnostics.csv,999,0
+fire_main_5km_shift50_diagnostics.csv,999,0
+fire_outer_10km_shift0_diagnostics.csv,10989,0

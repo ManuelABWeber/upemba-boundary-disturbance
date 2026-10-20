@@ -1,0 +1,726 @@
+{
+  "release": "code-2026-10-20",
+  "scope": "Additional spatial and temporal sensitivity analyses and publication metadata. Original primary results are retained.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 577,
+      "sha256": "9e2bbf2ddd76e3f9ce89d6887bc112b5754f6ceb04bb581a13f26f3a180a9813"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/audit_results.py",
+      "bytes": 3715,
+      "sha256": "256b8f294134ada3e4602f04b8be0a615a42f3f6b7d7b2d0912ff81956d9e4f7"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/extract_raster_inputs.py",
+      "bytes": 2239,
+      "sha256": "b24d7f90789510fe1f9c4ab9c61b0d7a931d25583956138d0c42d20a89f50294"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/fire_core.R",
+      "bytes": 3534,
+      "sha256": "b474812c2313936fa0ce1f723415eb9e36c7ea0c723a1483d5d4da468476a9a3"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/fire_temporal.R",
+      "bytes": 3750,
+      "sha256": "efb6f2869a55747e8a7599dbd43eb238038f5c4b8ec55de139bbd31fadc0e2ce"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/paths.py",
+      "bytes": 587,
+      "sha256": "ed6abde1d9b3f63810240b5f85ffc53a60103c16054bf24fe369edfb4c2b24f9"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/paths.R",
+      "bytes": 703,
+      "sha256": "9b4215540abc4559d60b997046fd34d4f911cb3d98bce63444d2fd0c43d4d6c6"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/prepare_inputs.py",
+      "bytes": 5308,
+      "sha256": "90c7790889689f4b04d50fd0549cfacd38735d2e57e0539dd4b4428403e35523"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/README.md",
+      "bytes": 4378,
+      "sha256": "3093e845a2260300c53af006e0108f631143921eeaa096ea7f4f450ccbf869cf"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/rebuild_fire_terra.R",
+      "bytes": 1485,
+      "sha256": "c5773109b3adb840ca08089ac45d12caa4376633d8d366d906136e7bfb126a8e"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/render_figures.py",
+      "bytes": 4139,
+      "sha256": "704d8c4d23bb50ae9d3a737f1de47693bc460689bebfccd0f93e5ddf22119c2a"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/requirements.txt",
+      "bytes": 111,
+      "sha256": "24013e177963e677507ee017f2e2eb65ea0c7accb5fd1ac6d0dbff5034ab8bdb"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/residual_diagnostics.py",
+      "bytes": 2785,
+      "sha256": "23f8345e29fa34d9da2bc2839427124676b2eda5c234739ccd0e68527c97e86a"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/run_fire.R",
+      "bytes": 4577,
+      "sha256": "ed5e0885aadd55ce6a3eab5d8c6e44cce7fc697c96d9ea10a223a0cee34c1ddf"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/small_sample_temporal.R",
+      "bytes": 1971,
+      "sha256": "fdfe47c2aec86e17ba84c2c8c0ff8b26798b639e371c36209d48f25f9cd4bb4f"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/stage_retained.py",
+      "bytes": 615,
+      "sha256": "776f47834b03645f197febacb986da8243066d11587cdb059a3c1db32fd05a4c"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/summarize_results.py",
+      "bytes": 8142,
+      "sha256": "1d99a4e4f00c6c78e4ac90ff1f29301944ae1a19a176d8ab198b3025b4f9335d"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/tree_checks.py",
+      "bytes": 6764,
+      "sha256": "c2030e00ea0f37c9bf2c4ba31fe1c87c082e3622bd9e18d8cb15d41f483355ae"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/validate_estimators.R",
+      "bytes": 2488,
+      "sha256": "9993ea978d42c2b24309269af2f585376036e533d9f3be5bda4564114ed463f5"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/validate_fire_optimizer.R",
+      "bytes": 2703,
+      "sha256": "b57e32d900710ca01f40072af5d4075f8422a14a9dbfa8c0f0cb8fc112db137b"
+    },
+    {
+      "path": "analysis/dependence_sensitivity/verify_release.py",
+      "bytes": 4024,
+      "sha256": "eb87c78dbffd881982da254095e47d88a0d408e206a04c1ac8756fdaebe5c4c2"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1122,
+      "sha256": "e5b4c79f1b1d81315df3305a40303f22b62a7ff2821af842d1aaf503da1d12d6"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_10km_shift0.json",
+      "bytes": 252,
+      "sha256": "38babdfbe94112a2498e5242aa9d64e6a407fe280421f36fc630ff3c381c2538"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_10km_shift0.npz",
+      "bytes": 198553,
+      "sha256": "9322216d7b8b37332478f4ac9a0a711ba7b4dc2e2f04ce671fd930a53658c111"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_10km_shift50.json",
+      "bytes": 254,
+      "sha256": "f3d0a35848007914f7da2aeea1904a7dc8c0dbd43a5b75a4c57c855b6325ad24"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_10km_shift50.npz",
+      "bytes": 195745,
+      "sha256": "489eeb507ceae4991aafea605b09d24fed1084ab316c674648a7299d23d785fd"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_20km_shift0.json",
+      "bytes": 251,
+      "sha256": "e2b897c59d7a614d53170db338e75dec7a54bea3ec8fcc2a4294b9e7f1799dd2"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_20km_shift0.npz",
+      "bytes": 99693,
+      "sha256": "6539ba7c8863ab5d98c84fef585dbccb011e7d4d3628cd61ab7a34f4028d2cfa"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_20km_shift50.json",
+      "bytes": 253,
+      "sha256": "97bead0ae4d1486a47f7f71b2d8d66f951f4b052ab7b21e9649bef0dfed83101"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_20km_shift50.npz",
+      "bytes": 100841,
+      "sha256": "1de7f960bf980a0db447ed4d80825f71be319b7b92022cf8c3004124b48e4336"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_40km_shift0.json",
+      "bytes": 250,
+      "sha256": "73882440da956912dd747beef93e461549255c5f7add2c92c22b9a944382f6cf"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_40km_shift0.npz",
+      "bytes": 54501,
+      "sha256": "444318abc65892416de86161dcbb6b8058ac926a372dfeee66348a28245e88c5"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_40km_shift50.json",
+      "bytes": 252,
+      "sha256": "b96acd8fb0c1e61542cb2c3832c7cba2bee1dcbf2c972164399875acb71ad2fb"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_40km_shift50.npz",
+      "bytes": 56887,
+      "sha256": "6ea1bdd3db0e972fe28417556e86be73784f1b4d9ffc35096c61c91ac7845547"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_5km_shift0.json",
+      "bytes": 252,
+      "sha256": "851316111820e6504a82f4fdeea8f4f854dd46d4c84b208bc01b2fa6c3a63f3e"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_5km_shift0.npz",
+      "bytes": 401696,
+      "sha256": "f6dedad4804a96b8802d67b566336e56a359d42be29a600ed24ce92b4d226b0c"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_5km_shift50.json",
+      "bytes": 254,
+      "sha256": "07a87090b1864f0b40d9db3bcdbd534df7b2556d9e1af4b124c72b2a81441a08"
+    },
+    {
+      "path": "data/dependence_sensitivity/blocks_5km_shift50.npz",
+      "bytes": 407781,
+      "sha256": "e06d5b6d0bd67f4ec5f4e6c4765a0be7a1a1e861afa406172f16fbf3cc723d57"
+    },
+    {
+      "path": "data/dependence_sensitivity/grid.json",
+      "bytes": 443,
+      "sha256": "29f16f589fb5342d875eecd585a7259a205af4779c553754c643a19e3fd151f1"
+    },
+    {
+      "path": "data/dependence_sensitivity/landscape_arrays.npz",
+      "bytes": 871555,
+      "sha256": "3b0e827326b1e3f4e26951f100b46e259a8783b37c71bac86e86bf7d1e66bebc"
+    },
+    {
+      "path": "data/dependence_sensitivity/profile_chronology.csv",
+      "bytes": 6006,
+      "sha256": "5ae3e8c581105a55da8bf18aa2cd7689e7cf02e70e5ecf30df42adfc0f2f61eb"
+    },
+    {
+      "path": "data/dependence_sensitivity/raster_provenance.json",
+      "bytes": 1104,
+      "sha256": "a52d42c94df05c28526c4360edf96b37782922406d658f88fac57c491d524eca"
+    },
+    {
+      "path": "data/dependence_sensitivity/README.md",
+      "bytes": 3766,
+      "sha256": "71280a0ea7f353813ae2869fc6e003230a0ee39bdf15b7fe6cb16c0c7d24612d"
+    },
+    {
+      "path": "docs/dependence_sensitivity/computational_notes.md",
+      "bytes": 2535,
+      "sha256": "077e2eb720fcb37c4f095ecde54ab08379752bce50577af7a0e05d99a08210aa"
+    },
+    {
+      "path": "docs/dependence_sensitivity/methods_and_results.md",
+      "bytes": 5021,
+      "sha256": "83e9bf68844463b15a6bf909570879dc42f4f8f3143dd1058d81f484e31c1635"
+    },
+    {
+      "path": "docs/dependence_sensitivity/portable_validation.json",
+      "bytes": 1170,
+      "sha256": "e4d4b10dd5c1d807e716c3a7cf19a98b21cfcd6a511c0ffba321e98f7c86180d"
+    },
+    {
+      "path": "docs/dependence_sensitivity/R-package-versions.csv",
+      "bytes": 178,
+      "sha256": "d1cc698203b3bdf5c6cdd70a34dde61a98355ab2db498b385269ff1648968f90"
+    },
+    {
+      "path": "docs/dependence_sensitivity/software_environment.json",
+      "bytes": 261,
+      "sha256": "f9563127c7622977e102eca6f3c9e00ec8afc8745e09dda8336e37c50f314982"
+    },
+    {
+      "path": "docs/submission/validation/code-release-2026-10-20.md",
+      "bytes": 3669,
+      "sha256": "0086d20db310bd1aaa4a8d1216941a7f7da368aa3acaf7088a7743fdc92f3c56"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/bootstrap_endpoint_monte_carlo.csv",
+      "bytes": 19110,
+      "sha256": "70dc8f478d910223a2844789af5714023e2a6023dc34d2002925d11199969850"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/combined_spatial_intervals.csv",
+      "bytes": 13691,
+      "sha256": "565a04a0bf71eeff51b5346d4399e6848f88ab6c5f4cf1ea984fe6aeab85e93d"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/count_validation.csv",
+      "bytes": 88899,
+      "sha256": "6438c62e0ab30aeab527f16a7d7ae4f3886798c9bf7b6db51f267e284ac667d5"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/dependence_intervals.pdf",
+      "bytes": 22404,
+      "sha256": "7fddb438140efcbfcfd76ff35d8409fa9cdafcd7fe86cb7b0d8d3427a39e1033"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/dependence_intervals.png",
+      "bytes": 76732,
+      "sha256": "79e05f8664b8df0b4a252b96960ce154752d870a9f16bbac642776f18442da05"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/final_validation.json",
+      "bytes": 4682,
+      "sha256": "7ea36bfb724ae15cc9185c3abc1045dc61236d6be9fac1e07f0a261c50bf236b"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_annual_influence.csv",
+      "bytes": 1506,
+      "sha256": "e423df6370ccbbcf05cde0a888cbb2e5a266180c7e3bec2cc881a347c1e2f834"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_fit_summary.csv",
+      "bytes": 433,
+      "sha256": "5e655fed3c3f0f5811a7651e57f8bd2e9e974564b8f8ff4cec61adcfe2bd306c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_fitted_surface.csv",
+      "bytes": 5621,
+      "sha256": "92fb15bd166205982b62cf98a0df519f34560bd73f7494e2cf58f4157a72e39c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_leave_year_out.csv",
+      "bytes": 4154,
+      "sha256": "b187a2a76ce54d4665b0225641a6e9d079abf8178f2fbcb6a1524c7d27eb5bbf"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift0_diagnostics.csv",
+      "bytes": 84539,
+      "sha256": "37e64c21ee893009e6376aad081fa41daf1a4d53da64929389a599d0de815f0e"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift0_draws.csv",
+      "bytes": 163033,
+      "sha256": "9cb78fc78e69decc9949d9604e958e96ca9ecb685356ddb317f04ef42bf9d939"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift0_intervals.csv",
+      "bytes": 321,
+      "sha256": "a23a51e25018cccbc1e4eea2fef38f2b72acc318d917fe3e51cea37f6df87095"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift50_diagnostics.csv",
+      "bytes": 85574,
+      "sha256": "2b775c6156c157d5d97e89245662e5e9d03638e9181699c998c5bab215f2d8fd"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift50_draws.csv",
+      "bytes": 166696,
+      "sha256": "c2b3124cc379418293ec67b8cceb6175a6c747dcc2a9f4f7e728676eb474ae21"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_40km_shift50_intervals.csv",
+      "bytes": 323,
+      "sha256": "93803432eddbc7942b5c92bae2f5f4f8469be7e4f5a13bf9e0b8a03dc8104198"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_baseline.csv",
+      "bytes": 719,
+      "sha256": "ce75e7e4b37854a5c8bac961766989398f38b33ceca82ed3c14e3493e47de8ca"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_longrange_sessionInfo.txt",
+      "bytes": 915,
+      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift0_diagnostics.csv",
+      "bytes": 84565,
+      "sha256": "952cfbf70b3d6c493bc7fb056f2161d8202a7df1943b4a3328a6960c6dff805c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift0_draws.csv",
+      "bytes": 163458,
+      "sha256": "b1dde88cb363bcd15bc49b3517c32dcdc1ed87b3da010f40bc5425c2729ab768"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift0_intervals.csv",
+      "bytes": 322,
+      "sha256": "0abde62a27d7f4c12a3b4cccded26f2ab789d261697da2b7579654754bc89168"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift50_diagnostics.csv",
+      "bytes": 85564,
+      "sha256": "d3c6fc78d7da69eb235bd62100a862ead486481805fb768b214ec494b79e4352"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift50_draws.csv",
+      "bytes": 166468,
+      "sha256": "0d46d5a29f2a15de316c855173ca7cca29b42e2d7c610daf1c2d3f01630174e6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_10km_shift50_intervals.csv",
+      "bytes": 324,
+      "sha256": "403be4782e0a6507ef2921bfa31a28d24ebde2fcabbb96c944d93ae3ad1832f2"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift0_diagnostics.csv",
+      "bytes": 84587,
+      "sha256": "720e9acb8c1d09ab017376458b5c578a845900491f54089741c3a8fc7261cf72"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift0_draws.csv",
+      "bytes": 163594,
+      "sha256": "cd537ed4bbd11f5210a9c04bfa9d60cca4f2175e546c9bc1e772b3a860bed4f0"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift0_intervals.csv",
+      "bytes": 321,
+      "sha256": "8d6977a44afe3afe14f68da9cbd8876b2cb75d5a972948667219a972a5ed3bad"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift50_diagnostics.csv",
+      "bytes": 85539,
+      "sha256": "22860ba1b2b014f6a1c05baba8f87bb54eb3a6fe2102cce5a55b062dfc5e1dcb"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift50_draws.csv",
+      "bytes": 166311,
+      "sha256": "6741634cd1da9a1ca8096926689c114dff7f3140003e63148fb55fbcc3d8dfe2"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_20km_shift50_intervals.csv",
+      "bytes": 324,
+      "sha256": "c8f7edadeab24c6c0038c41dd79c0cc2afd20dd4ce4ca86df4a2940c3132e351"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift0_diagnostics.csv",
+      "bytes": 83562,
+      "sha256": "5891d5a7e249798800e0f58a9ed55956418db427864ba4f98573ad38cb77b1a1"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift0_draws.csv",
+      "bytes": 160661,
+      "sha256": "ff86ab19e248bae620cfc4fdb0493468cbcd5eb8611a6146aaa7b189c71dcac6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift0_intervals.csv",
+      "bytes": 317,
+      "sha256": "ff3a7625cc0979bc11e03faf3ce9222f6f9ef0b3c67ba9bf27a5f9ec8dc17b8c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift50_diagnostics.csv",
+      "bytes": 84592,
+      "sha256": "4d4e14db83d1309512f3bd973ea1c5599d84cbede19092dba0f2a869903c2f91"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift50_draws.csv",
+      "bytes": 163662,
+      "sha256": "bc865ce5cdde93f869a2ac8419fa3597cc91af863a70b89481e31c4ba067b88e"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_5km_shift50_intervals.csv",
+      "bytes": 323,
+      "sha256": "f007f01eecdb28df0b14b9eff23728e9672d584b82763a397489df102eaad203"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_baseline.csv",
+      "bytes": 2011,
+      "sha256": "0029c0ab1c14df5ccfa965d30c4d958d8100cb1e7ef7da94ad1585a4e666cdc4"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_main_sessionInfo.txt",
+      "bytes": 915,
+      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_optimizer_crosscheck.csv",
+      "bytes": 1122,
+      "sha256": "7074814dd356008758a9e336ad0051d203d44b9dad32151d14617352658536d7"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_optimizer_crosscheck_bounded_raw.csv",
+      "bytes": 1122,
+      "sha256": "7074814dd356008758a9e336ad0051d203d44b9dad32151d14617352658536d7"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_optimizer_crosscheck_raw.csv",
+      "bytes": 735,
+      "sha256": "6d7f11cafaf16c3bddef7885b90d425bc57e09063fd3e63cbdb08d1a4209541a"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_outer_10km_shift0_diagnostics.csv",
+      "bytes": 939231,
+      "sha256": "994d741ede1c71b2e4f177f1c4281abe3656a1c902fd630e90d2bb926c1cbab6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_outer_10km_shift0_draws.csv",
+      "bytes": 1830406,
+      "sha256": "34badaa240021f181f28777bb171c5bc15097da5e8ce70f653abfacc4a4982bb"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_outer_10km_shift0_intervals.csv",
+      "bytes": 3110,
+      "sha256": "48805ee878854ed1fd9a44ff795c80a416e444349024b4b06da15df8921792e9"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_outer_baseline.csv",
+      "bytes": 3706,
+      "sha256": "d13042eb3a9031acd1fb9732b8e05243e33d34870246dec37a56ff9ee318ad2c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_outer_sessionInfo.txt",
+      "bytes": 915,
+      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_pairwise_temporal_intervals.csv",
+      "bytes": 2001,
+      "sha256": "b6d3411f79494dae75904b165e83ca0e1c67ecc499a1338dd1935e2839827830"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_scores.csv",
+      "bytes": 17184,
+      "sha256": "2fdbfd552dd56e813b2acdd61a3627602f6eeca2f8a2f509d9022b0e6bce1f84"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_temporal_boundary_differences.csv",
+      "bytes": 11781,
+      "sha256": "e44d5f62c4690d358ad56de5d65bd173bf0fc9becf348c376a926ef5485c1f3a"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_temporal_diagnostics.csv",
+      "bytes": 510,
+      "sha256": "00168ec66a59bad16462c97acf79a1eb81a47e82a5d0758a9d1921c070073463"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/fire_temporal_intervals.csv",
+      "bytes": 20561,
+      "sha256": "e0945aa3459dbe0731a2a1ce014f7579c9b7c0dbcdcbe1f00ef6c60fa2ceebd9"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/independent_fire_validation.csv",
+      "bytes": 5063,
+      "sha256": "a469297cc1c26dd308e22838016c9dbe5c0a0c85c82c6e64516db6040c25b25c"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/independent_tree_validation.csv",
+      "bytes": 5169,
+      "sha256": "10d0f1bcfc3a53aacbb227571c48a96efc35ceaaa287528f1a9bfdbfac52bb7f"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/input_validation.json",
+      "bytes": 254,
+      "sha256": "94012fb707fd10931786ec1267f8f882ec279c1a23875180ed2cacd7bebe055e"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/joint_boundary_intervals.csv",
+      "bytes": 15850,
+      "sha256": "4d02e9a392bd00d4a2f3cf0414cb8f31ec9f7c29798d7bf14f131673d80c320d"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/profile_pairwise_spatial_intervals.csv",
+      "bytes": 10950,
+      "sha256": "9b8dbe91e6b6dfe56897c48844aa9e966d9d92d59c825fba5805f11a713c73de"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/README.md",
+      "bytes": 2324,
+      "sha256": "7d721dbf6efa7905b9271e29723e627d091e4cf95cf3faf7fc90556bbe2780e4"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/small_sample_sessionInfo.txt",
+      "bytes": 540,
+      "sha256": "324cc438d03c12247abeea469ea6ce0db84a7e77d5aced493e3966b8e7c800ee"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/spatial_residual_correlations.csv",
+      "bytes": 866,
+      "sha256": "814b441a98aa3e71a9764301a73182d07ad9f3ae42eb3d0d55f2626eaef9cb39"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/surface_columns.csv",
+      "bytes": 34474,
+      "sha256": "a24593d0ec73f61917ff959f413b084e2df335b3aa15a630260dd8ea10af5391"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_baseline_estimates.csv",
+      "bytes": 4070,
+      "sha256": "be1f5dab076c9003fc757c3346468c2d8563d3d7d1c376fa8c97fdb4dee28745"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_block_support.csv",
+      "bytes": 227,
+      "sha256": "c8d4b9f421bfe967b828e35ecf07288579322e5800cb4e02c0dee3aba8bbd513"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_bootstrap_stability.csv",
+      "bytes": 15782,
+      "sha256": "9dd0c28fe7814c704995ca1f9a3e03d19fff1e77331767e4530a3c6f79e54454"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_boundary_comparisons.pdf",
+      "bytes": 21313,
+      "sha256": "8d4589f5c4fd8d135ccb38355a1745998a04f21e8b338d6c504dec946fcbf82d"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_boundary_comparisons.png",
+      "bytes": 82688,
+      "sha256": "83721cde0f2c6edf1e262da0d8c092259990f77b566c1975fb23cb51a7a08d60"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_forest_only_counts.csv",
+      "bytes": 34437,
+      "sha256": "0ec8f09b1375057732b092462ba40cb2445685ac7aed5dd5d9214b7d69ecbf60"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_joint_boundary_differences.csv",
+      "bytes": 6404,
+      "sha256": "93838026fa0a3e60b6d544e5a28fc783ce591b265d3f95137be6c266fe2b7430"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_leave_year_out.csv",
+      "bytes": 127019,
+      "sha256": "52977bf61487c94dc3fa1c4e21163ce11caf343bb3ea030465c649eb575857e7"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_10km_shift0_baseline_forest_only_draws.npz",
+      "bytes": 113544,
+      "sha256": "3e24a6e3b6c22e24556d8d8cb3715f7bab40fe67406b603fff52b9ee8fac5624"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_10km_shift0_reported_all_cells_draws.npz",
+      "bytes": 113456,
+      "sha256": "4caad9f205de938f6074862b677373f977a885e595ff04d39c447b4fe48284bb"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_10km_shift50_baseline_forest_only_draws.npz",
+      "bytes": 113538,
+      "sha256": "07fcd32ba186b2c347015b2e7a26e1520d36633a06b68a5f9bd01417e5936f40"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_10km_shift50_reported_all_cells_draws.npz",
+      "bytes": 113470,
+      "sha256": "e52dec476a5aa4a6f01449145c4b79fc09d8c71e0c6166cc1a77b449aad651d3"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_20km_shift0_baseline_forest_only_draws.npz",
+      "bytes": 113419,
+      "sha256": "0580d3b84b612ee43630f4d5459ea3c30a218a4b7e7bcc1a2e8d2f33f75950a6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_20km_shift0_reported_all_cells_draws.npz",
+      "bytes": 113359,
+      "sha256": "86cf5ea539f465422c0e748b21bcb93dc9a04e8d664ba73f296e21866a23c2b9"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_20km_shift50_baseline_forest_only_draws.npz",
+      "bytes": 113587,
+      "sha256": "6302e47246df90c6c0a07ea7d26a3a50f1d80e9d28e7b4db0615d159354c7fd8"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_20km_shift50_reported_all_cells_draws.npz",
+      "bytes": 113540,
+      "sha256": "13ff03b0e06bd4a1794f0b4569afc75b7a72f136ad3496ca767c3908954a6297"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_40km_shift0_baseline_forest_only_draws.npz",
+      "bytes": 453062,
+      "sha256": "bab1a829923e4fe551d304435df5471058ee918bb021ab949252f32adba722b6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_40km_shift0_reported_all_cells_draws.npz",
+      "bytes": 453233,
+      "sha256": "a2ea7c7c986333bdc72fecd85e17973ad2736e66b06f1f8a0442f0c2b622efcf"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_40km_shift50_baseline_forest_only_draws.npz",
+      "bytes": 452158,
+      "sha256": "01c76289d5f41b46f524a90bca078c093a0cac8785650bfb5b979370fc16d380"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_40km_shift50_reported_all_cells_draws.npz",
+      "bytes": 452115,
+      "sha256": "1982fc820460ff62e29436012afebcc0986aac3537ac11f7b90ec1d1b2c836a6"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_5km_shift0_baseline_forest_only_draws.npz",
+      "bytes": 113374,
+      "sha256": "1f7cd84a8346a25b73fc2fec3b6dfc4f7bd688dc7a938b69f1ae16e0da590cd9"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_5km_shift0_reported_all_cells_draws.npz",
+      "bytes": 113365,
+      "sha256": "d5a175aea1113c867884d1816619452725c5c24be5f862b8ed668b7c1f1340f5"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_5km_shift50_baseline_forest_only_draws.npz",
+      "bytes": 113380,
+      "sha256": "5137a719d9ccc022f70b8e2df8aa609bba874e5e7f6605d49d584ccb6f20486e"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_main_5km_shift50_reported_all_cells_draws.npz",
+      "bytes": 113371,
+      "sha256": "638974a45468621e85dc5e518ab6882f5a7cd8f9071e30de98cfe6240f8c2171"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_outer_10km_shift0_baseline_forest_only_draws.npz",
+      "bytes": 2527980,
+      "sha256": "1ba2c85e6705eb9dc67684e56a6768c46f6e346508e2ef51a9ae2004455ee862"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_outer_10km_shift0_reported_all_cells_draws.npz",
+      "bytes": 2528100,
+      "sha256": "5a9feff55e052292fe153ba89dfd8e57aadef338fd22e007e69d05f7a50fced7"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_small_sample_temporal.csv",
+      "bytes": 5834,
+      "sha256": "cf4eac8aca63b92be3711411714e8affe3761991c5ab4b0b2ad10a2d3929b1fb"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_spatial_intervals.csv",
+      "bytes": 14520,
+      "sha256": "28b35dedbfa559d3a40f51d294a9331c4cb48aa95196e6db0130e7064388fc27"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_temporal_diagnostics.csv",
+      "bytes": 1518,
+      "sha256": "ad993d6131b27ca9f837e6913df87d6b7e0341262d03b8dd0c7f3b366091122e"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/tree_temporal_hac.csv",
+      "bytes": 40477,
+      "sha256": "044790ea4c7a1348816229d104925a06ddc40e2bf3b7f8a08decc5a46e3ab341"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/verified_fire_sessionInfo.txt",
+      "bytes": 915,
+      "sha256": "4095a19b00a3f61acb6b24299ad2e448b9f9fe2acd9138c60093d525756c4efe"
+    },
+    {
+      "path": "outputs/dependence_sensitivity/within_cell_temporal_correlations.csv",
+      "bytes": 377,
+      "sha256": "010db61d32162e75c8d4aaaa7358cc466943c670976a1dd8247894b50f3f172a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4314,
+      "sha256": "0adbc03899304f4c1c8f6a12521f25816815bdbb89cb0c4020f391c29cc20ae9"
+    },
+    {
+      "path": "RUN_ANALYSIS.md",
+      "bytes": 6790,
+      "sha256": "fcc87243e6a60c581b379254b094fe7aa8a441c803fe0a2443f77f46e6a00ec9"
+    },
+    {
+      "path": "SANITIZATION.md",
+      "bytes": 929,
+      "sha256": "65af21166466feb128be1600e9366ce4a4e4742aedc75690b1d0783d325b9953"
+    }
+  ]
+}

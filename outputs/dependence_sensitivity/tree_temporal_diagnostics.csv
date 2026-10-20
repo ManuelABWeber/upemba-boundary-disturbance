@@ -1,0 +1,25 @@
+population,profile,lag_years,annual_influence_correlation
+reported_all_cells,Neither actor dominant,1,-0.0041043163560342995
+reported_all_cells,Neither actor dominant,2,-0.16180834967719185
+reported_all_cells,Neither actor dominant,3,0.14525815358899416
+reported_all_cells,Neither actor dominant,4,-0.12120738775602359
+reported_all_cells,Militia dominant,1,-0.2740230151117324
+reported_all_cells,Militia dominant,2,0.058470708097473144
+reported_all_cells,Militia dominant,3,-0.019887887247422235
+reported_all_cells,Militia dominant,4,-0.17801496056055366
+reported_all_cells,Park dominant,1,-0.0830303669287165
+reported_all_cells,Park dominant,2,-0.07099532982254396
+reported_all_cells,Park dominant,3,0.17737859787917973
+reported_all_cells,Park dominant,4,0.020434668392112214
+baseline_forest_only,Neither actor dominant,1,-0.004821026168472511
+baseline_forest_only,Neither actor dominant,2,-0.1621366600523702
+baseline_forest_only,Neither actor dominant,3,0.14484072095034836
+baseline_forest_only,Neither actor dominant,4,-0.12125823875257763
+baseline_forest_only,Militia dominant,1,-0.2726768841899956
+baseline_forest_only,Militia dominant,2,0.057471925156255654
+baseline_forest_only,Militia dominant,3,-0.019896213460901962
+baseline_forest_only,Militia dominant,4,-0.17821055199699012
+baseline_forest_only,Park dominant,1,-0.08244601418254031
+baseline_forest_only,Park dominant,2,-0.07073658011572612
+baseline_forest_only,Park dominant,3,0.17685271383319007
+baseline_forest_only,Park dominant,4,0.02080795344098391

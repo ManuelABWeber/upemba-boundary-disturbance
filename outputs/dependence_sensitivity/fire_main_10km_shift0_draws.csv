@@ -1,0 +1,2998 @@
+replicate,tag,center,profile,estimate
+1,10km_shift0,0,Neither actor dominant,0.308513985551785
+1,10km_shift0,0,Militia dominant,0.170369869528858
+1,10km_shift0,0,Park dominant,0.253881666195691
+2,10km_shift0,0,Neither actor dominant,0.276180482713023
+2,10km_shift0,0,Militia dominant,0.124195563342154
+2,10km_shift0,0,Park dominant,0.159137129466823
+3,10km_shift0,0,Neither actor dominant,0.242506010057761
+3,10km_shift0,0,Militia dominant,0.0609006571711684
+3,10km_shift0,0,Park dominant,0.088596091716101
+4,10km_shift0,0,Neither actor dominant,0.0212645548012876
+4,10km_shift0,0,Militia dominant,-0.0688813928605724
+4,10km_shift0,0,Park dominant,0.0341879986339221
+5,10km_shift0,0,Neither actor dominant,0.226795487065896
+5,10km_shift0,0,Militia dominant,0.0382699873276632
+5,10km_shift0,0,Park dominant,0.117657031678863
+6,10km_shift0,0,Neither actor dominant,0.38929298080353
+6,10km_shift0,0,Militia dominant,0.244135326921765
+6,10km_shift0,0,Park dominant,0.303903915511416
+7,10km_shift0,0,Neither actor dominant,0.388553375330981
+7,10km_shift0,0,Militia dominant,0.280424896709654
+7,10km_shift0,0,Park dominant,0.352647463025467
+8,10km_shift0,0,Neither actor dominant,0.125592903520635
+8,10km_shift0,0,Militia dominant,-0.11567214190436
+8,10km_shift0,0,Park dominant,-0.00827679006217297
+9,10km_shift0,0,Neither actor dominant,0.203288386544295
+9,10km_shift0,0,Militia dominant,0.092481324261735
+9,10km_shift0,0,Park dominant,0.162863124292787
+10,10km_shift0,0,Neither actor dominant,0.0478193656126255
+10,10km_shift0,0,Militia dominant,-0.14345106736704
+10,10km_shift0,0,Park dominant,-0.0806046863368296
+11,10km_shift0,0,Neither actor dominant,0.172011034984624
+11,10km_shift0,0,Militia dominant,-0.00681515438521704
+11,10km_shift0,0,Park dominant,0.0375551957278534
+12,10km_shift0,0,Neither actor dominant,0.260876913851365
+12,10km_shift0,0,Militia dominant,0.131707199270921
+12,10km_shift0,0,Park dominant,0.155082563273519
+13,10km_shift0,0,Neither actor dominant,0.237174638073931
+13,10km_shift0,0,Militia dominant,0.14216915862
+13,10km_shift0,0,Park dominant,0.220995862815926
+14,10km_shift0,0,Neither actor dominant,0.253189807304793
+14,10km_shift0,0,Militia dominant,0.0766007250184473
+14,10km_shift0,0,Park dominant,0.178739319490072
+15,10km_shift0,0,Neither actor dominant,0.20493584696944
+15,10km_shift0,0,Militia dominant,0.0315915127749348
+15,10km_shift0,0,Park dominant,0.0527350382683669
+16,10km_shift0,0,Neither actor dominant,0.0287995047353489
+16,10km_shift0,0,Militia dominant,-0.150333214431236
+16,10km_shift0,0,Park dominant,-0.06823268288892
+17,10km_shift0,0,Neither actor dominant,0.0632968089605096
+17,10km_shift0,0,Militia dominant,-0.105122946423953
+17,10km_shift0,0,Park dominant,-0.0735083493028413
+18,10km_shift0,0,Neither actor dominant,0.160641886091508
+18,10km_shift0,0,Militia dominant,0.0534650375820612
+18,10km_shift0,0,Park dominant,0.118878213658929
+19,10km_shift0,0,Neither actor dominant,0.0954107318809233
+19,10km_shift0,0,Militia dominant,-0.0288149839403749
+19,10km_shift0,0,Park dominant,0.147049028366105
+20,10km_shift0,0,Neither actor dominant,0.357529939263825
+20,10km_shift0,0,Militia dominant,0.200536575120061
+20,10km_shift0,0,Park dominant,0.155375519977015
+21,10km_shift0,0,Neither actor dominant,0.19142454539415
+21,10km_shift0,0,Militia dominant,0.0941627671120576
+21,10km_shift0,0,Park dominant,0.147821683914989
+22,10km_shift0,0,Neither actor dominant,0.148537384325134
+22,10km_shift0,0,Militia dominant,-0.0751110052897416
+22,10km_shift0,0,Park dominant,0.0365836066139802
+23,10km_shift0,0,Neither actor dominant,0.219558166527018
+23,10km_shift0,0,Militia dominant,0.113916317167413
+23,10km_shift0,0,Park dominant,0.275619020718499
+24,10km_shift0,0,Neither actor dominant,0.128569611801193
+24,10km_shift0,0,Militia dominant,0.0305653244069357
+24,10km_shift0,0,Park dominant,0.0781055759535023
+25,10km_shift0,0,Neither actor dominant,0.0643274340565349
+25,10km_shift0,0,Militia dominant,-0.206470865457561
+25,10km_shift0,0,Park dominant,-0.124347484799572
+26,10km_shift0,0,Neither actor dominant,0.0489967217925544
+26,10km_shift0,0,Militia dominant,-0.115312489732143
+26,10km_shift0,0,Park dominant,-0.033586035317933
+27,10km_shift0,0,Neither actor dominant,0.195293329282981
+27,10km_shift0,0,Militia dominant,0.0519289139628968
+27,10km_shift0,0,Park dominant,0.0986869766616332
+28,10km_shift0,0,Neither actor dominant,-0.0113345869205078
+28,10km_shift0,0,Militia dominant,-0.13658916399398
+28,10km_shift0,0,Park dominant,0.100093899864964
+29,10km_shift0,0,Neither actor dominant,0.295868999761293
+29,10km_shift0,0,Militia dominant,0.154221118054636
+29,10km_shift0,0,Park dominant,0.199777056761568
+30,10km_shift0,0,Neither actor dominant,0.237072839172775
+30,10km_shift0,0,Militia dominant,0.115266619412815
+30,10km_shift0,0,Park dominant,0.122317745803523
+31,10km_shift0,0,Neither actor dominant,0.344537055690824
+31,10km_shift0,0,Militia dominant,0.115645923368981
+31,10km_shift0,0,Park dominant,0.116328269950173
+32,10km_shift0,0,Neither actor dominant,0.164499668195719
+32,10km_shift0,0,Militia dominant,0.0397065175589645
+32,10km_shift0,0,Park dominant,0.132089117141632
+33,10km_shift0,0,Neither actor dominant,0.16287347952394
+33,10km_shift0,0,Militia dominant,0.0561831283146683
+33,10km_shift0,0,Park dominant,0.135997533582488
+34,10km_shift0,0,Neither actor dominant,0.139136248305381
+34,10km_shift0,0,Militia dominant,-0.0521437288136032
+34,10km_shift0,0,Park dominant,-0.0846445762017989
+35,10km_shift0,0,Neither actor dominant,0.346426769399475
+35,10km_shift0,0,Militia dominant,0.247914330548988
+35,10km_shift0,0,Park dominant,0.230314895715429
+36,10km_shift0,0,Neither actor dominant,0.203746119376675
+36,10km_shift0,0,Militia dominant,0.0925155311253549
+36,10km_shift0,0,Park dominant,0.153792133246589
+37,10km_shift0,0,Neither actor dominant,0.253140047938479
+37,10km_shift0,0,Militia dominant,0.0829894847322672
+37,10km_shift0,0,Park dominant,0.180037223270898
+38,10km_shift0,0,Neither actor dominant,0.0286259344302866
+38,10km_shift0,0,Militia dominant,-0.119312484492549
+38,10km_shift0,0,Park dominant,-0.0295432245996425
+39,10km_shift0,0,Neither actor dominant,0.373949518981894
+39,10km_shift0,0,Militia dominant,0.172742732291291
+39,10km_shift0,0,Park dominant,0.239386549877727
+40,10km_shift0,0,Neither actor dominant,0.277152054478686
+40,10km_shift0,0,Militia dominant,0.168524641448445
+40,10km_shift0,0,Park dominant,0.167191401672804
+41,10km_shift0,0,Neither actor dominant,0.152829792732548
+41,10km_shift0,0,Militia dominant,-0.0283445799749365
+41,10km_shift0,0,Park dominant,-0.0246559628795328
+42,10km_shift0,0,Neither actor dominant,0.0487587380937594
+42,10km_shift0,0,Militia dominant,-0.214932231461873
+42,10km_shift0,0,Park dominant,-0.0696610174384473
+43,10km_shift0,0,Neither actor dominant,-0.0437756429393665
+43,10km_shift0,0,Militia dominant,-0.246819047693363
+43,10km_shift0,0,Park dominant,-0.204587805605319
+44,10km_shift0,0,Neither actor dominant,0.235545573382174
+44,10km_shift0,0,Militia dominant,0.109626261890827
+44,10km_shift0,0,Park dominant,0.140216525985433
+45,10km_shift0,0,Neither actor dominant,0.165493863868406
+45,10km_shift0,0,Militia dominant,0.00304070053973413
+45,10km_shift0,0,Park dominant,0.104632598106006
+46,10km_shift0,0,Neither actor dominant,0.291747632451682
+46,10km_shift0,0,Militia dominant,0.137181225423266
+46,10km_shift0,0,Park dominant,0.236041966095306
+47,10km_shift0,0,Neither actor dominant,0.187796735726453
+47,10km_shift0,0,Militia dominant,-0.0238429887565619
+47,10km_shift0,0,Park dominant,0.0148129240099081
+48,10km_shift0,0,Neither actor dominant,0.217806960108402
+48,10km_shift0,0,Militia dominant,0.0815777566881723
+48,10km_shift0,0,Park dominant,0.101900603420412
+49,10km_shift0,0,Neither actor dominant,0.208965592067709
+49,10km_shift0,0,Militia dominant,0.0963740951628099
+49,10km_shift0,0,Park dominant,0.0742687462897015
+50,10km_shift0,0,Neither actor dominant,0.109655767302453
+50,10km_shift0,0,Militia dominant,-0.0636065615947919
+50,10km_shift0,0,Park dominant,0.0609525097291029
+51,10km_shift0,0,Neither actor dominant,-0.0653172203927967
+51,10km_shift0,0,Militia dominant,-0.236431849930811
+51,10km_shift0,0,Park dominant,-0.160501395243839
+52,10km_shift0,0,Neither actor dominant,0.271612351084246
+52,10km_shift0,0,Militia dominant,0.0483028275236923
+52,10km_shift0,0,Park dominant,0.129008041369815
+53,10km_shift0,0,Neither actor dominant,0.205707723530022
+53,10km_shift0,0,Militia dominant,-0.0454029714765329
+53,10km_shift0,0,Park dominant,-0.0230010093213184
+54,10km_shift0,0,Neither actor dominant,0.218522291556988
+54,10km_shift0,0,Militia dominant,0.108711148404247
+54,10km_shift0,0,Park dominant,0.0668286861851729
+55,10km_shift0,0,Neither actor dominant,0.107962446036632
+55,10km_shift0,0,Militia dominant,-0.0845001746926751
+55,10km_shift0,0,Park dominant,-0.0381418765967671
+56,10km_shift0,0,Neither actor dominant,0.551738396458962
+56,10km_shift0,0,Militia dominant,0.373022525580871
+56,10km_shift0,0,Park dominant,0.347373409506282
+57,10km_shift0,0,Neither actor dominant,0.178992539744173
+57,10km_shift0,0,Militia dominant,-0.105521945909584
+57,10km_shift0,0,Park dominant,0.0163168303423349
+58,10km_shift0,0,Neither actor dominant,0.340284138067835
+58,10km_shift0,0,Militia dominant,0.144278844555634
+58,10km_shift0,0,Park dominant,0.155695385579485
+59,10km_shift0,0,Neither actor dominant,0.0816253604627259
+59,10km_shift0,0,Militia dominant,-0.0539582004697286
+59,10km_shift0,0,Park dominant,-0.0175848561394686
+60,10km_shift0,0,Neither actor dominant,0.109463527594094
+60,10km_shift0,0,Militia dominant,-0.101524441142138
+60,10km_shift0,0,Park dominant,-0.0191168363362412
+61,10km_shift0,0,Neither actor dominant,0.416173358524736
+61,10km_shift0,0,Militia dominant,0.240545023770145
+61,10km_shift0,0,Park dominant,0.205019603682864
+62,10km_shift0,0,Neither actor dominant,0.162934692325975
+62,10km_shift0,0,Militia dominant,0.0740883124626048
+62,10km_shift0,0,Park dominant,0.139121089021619
+63,10km_shift0,0,Neither actor dominant,0.274157062375791
+63,10km_shift0,0,Militia dominant,0.119132437464049
+63,10km_shift0,0,Park dominant,0.0916962533658235
+64,10km_shift0,0,Neither actor dominant,0.250360540785674
+64,10km_shift0,0,Militia dominant,0.128388838506426
+64,10km_shift0,0,Park dominant,0.162700606582248
+65,10km_shift0,0,Neither actor dominant,0.00623925818374519
+65,10km_shift0,0,Militia dominant,-0.231785662750337
+65,10km_shift0,0,Park dominant,-0.177741700439175
+66,10km_shift0,0,Neither actor dominant,0.10561742859273
+66,10km_shift0,0,Militia dominant,-0.0308147621932716
+66,10km_shift0,0,Park dominant,0.0874725369432042
+67,10km_shift0,0,Neither actor dominant,0.207541842923186
+67,10km_shift0,0,Militia dominant,0.0362646092145307
+67,10km_shift0,0,Park dominant,0.143072778128152
+68,10km_shift0,0,Neither actor dominant,0.207474900736707
+68,10km_shift0,0,Militia dominant,0.144456036238007
+68,10km_shift0,0,Park dominant,0.248297110882818
+69,10km_shift0,0,Neither actor dominant,0.246076562077925
+69,10km_shift0,0,Militia dominant,0.0657497749020355
+69,10km_shift0,0,Park dominant,0.125745315687257
+70,10km_shift0,0,Neither actor dominant,0.285684479420075
+70,10km_shift0,0,Militia dominant,0.16163893351884
+70,10km_shift0,0,Park dominant,0.18513869611883
+71,10km_shift0,0,Neither actor dominant,0.312144980086762
+71,10km_shift0,0,Militia dominant,0.236900625911247
+71,10km_shift0,0,Park dominant,0.230950486427097
+72,10km_shift0,0,Neither actor dominant,0.130725785649083
+72,10km_shift0,0,Militia dominant,-0.0373070069065099
+72,10km_shift0,0,Park dominant,-0.032303048282059
+73,10km_shift0,0,Neither actor dominant,0.0852900997498228
+73,10km_shift0,0,Militia dominant,-0.0627707926101479
+73,10km_shift0,0,Park dominant,-0.0499520380068574
+74,10km_shift0,0,Neither actor dominant,0.0620198771049571
+74,10km_shift0,0,Militia dominant,-0.0855891098888309
+74,10km_shift0,0,Park dominant,-0.0426793668577142
+75,10km_shift0,0,Neither actor dominant,0.295072499777006
+75,10km_shift0,0,Militia dominant,0.153639548386903
+75,10km_shift0,0,Park dominant,0.21423905812814
+76,10km_shift0,0,Neither actor dominant,0.0398004343104408
+76,10km_shift0,0,Militia dominant,-0.0935932231045317
+76,10km_shift0,0,Park dominant,0.0466783863995645
+77,10km_shift0,0,Neither actor dominant,-0.109160159838796
+77,10km_shift0,0,Militia dominant,-0.225285778664215
+77,10km_shift0,0,Park dominant,-0.197044307171103
+78,10km_shift0,0,Neither actor dominant,0.0959427425575987
+78,10km_shift0,0,Militia dominant,-0.0600484311047342
+78,10km_shift0,0,Park dominant,-0.0114699263147719
+79,10km_shift0,0,Neither actor dominant,-0.0293003475409511
+79,10km_shift0,0,Militia dominant,-0.158122613972908
+79,10km_shift0,0,Park dominant,-0.156145767987172
+80,10km_shift0,0,Neither actor dominant,0.0571753524416275
+80,10km_shift0,0,Militia dominant,0.0315465706958043
+80,10km_shift0,0,Park dominant,-0.0212864892916459
+81,10km_shift0,0,Neither actor dominant,0.310915044616918
+81,10km_shift0,0,Militia dominant,0.170998364975881
+81,10km_shift0,0,Park dominant,0.175322749616579
+82,10km_shift0,0,Neither actor dominant,0.290838456824717
+82,10km_shift0,0,Militia dominant,0.197223789773107
+82,10km_shift0,0,Park dominant,0.171095148341175
+83,10km_shift0,0,Neither actor dominant,0.208532035611858
+83,10km_shift0,0,Militia dominant,0.0680239491258971
+83,10km_shift0,0,Park dominant,0.0914113749469475
+84,10km_shift0,0,Neither actor dominant,0.220606307774565
+84,10km_shift0,0,Militia dominant,0.141141178116994
+84,10km_shift0,0,Park dominant,0.292600302827006
+85,10km_shift0,0,Neither actor dominant,0.240024251991926
+85,10km_shift0,0,Militia dominant,0.0572139573194781
+85,10km_shift0,0,Park dominant,0.193685192149908
+86,10km_shift0,0,Neither actor dominant,0.243301466485184
+86,10km_shift0,0,Militia dominant,0.147379907747557
+86,10km_shift0,0,Park dominant,0.174383289913128
+87,10km_shift0,0,Neither actor dominant,-0.0450634355162289
+87,10km_shift0,0,Militia dominant,-0.154824077415913
+87,10km_shift0,0,Park dominant,-0.0368121107254316
+88,10km_shift0,0,Neither actor dominant,0.0750689992473176
+88,10km_shift0,0,Militia dominant,-0.100602841380975
+88,10km_shift0,0,Park dominant,-0.0566764669257534
+89,10km_shift0,0,Neither actor dominant,0.054513492886847
+89,10km_shift0,0,Militia dominant,-0.137770466878467
+89,10km_shift0,0,Park dominant,-0.0200624129294412
+90,10km_shift0,0,Neither actor dominant,0.243422797083197
+90,10km_shift0,0,Militia dominant,0.0961169004517686
+90,10km_shift0,0,Park dominant,0.135978730903929
+91,10km_shift0,0,Neither actor dominant,0.332172373959983
+91,10km_shift0,0,Militia dominant,0.181140565327844
+91,10km_shift0,0,Park dominant,0.119228297155311
+92,10km_shift0,0,Neither actor dominant,0.0265823325853912
+92,10km_shift0,0,Militia dominant,-0.0551959373920739
+92,10km_shift0,0,Park dominant,0.0886895436399452
+93,10km_shift0,0,Neither actor dominant,0.221201389818045
+93,10km_shift0,0,Militia dominant,0.0315511068122874
+93,10km_shift0,0,Park dominant,0.202511020232631
+94,10km_shift0,0,Neither actor dominant,-0.13075179551986
+94,10km_shift0,0,Militia dominant,-0.208725882234523
+94,10km_shift0,0,Park dominant,-0.223271714524352
+95,10km_shift0,0,Neither actor dominant,0.118632958094697
+95,10km_shift0,0,Militia dominant,-0.0218061162240008
+95,10km_shift0,0,Park dominant,0.0500235584945017
+96,10km_shift0,0,Neither actor dominant,0.156287526519674
+96,10km_shift0,0,Militia dominant,-0.0728230672348396
+96,10km_shift0,0,Park dominant,-0.0742145869838794
+97,10km_shift0,0,Neither actor dominant,0.0149025964295457
+97,10km_shift0,0,Militia dominant,-0.11860513796681
+97,10km_shift0,0,Park dominant,-0.036159203711929
+98,10km_shift0,0,Neither actor dominant,0.118976026824265
+98,10km_shift0,0,Militia dominant,-0.00290272311121526
+98,10km_shift0,0,Park dominant,0.0209941274804674
+99,10km_shift0,0,Neither actor dominant,0.192621321724121
+99,10km_shift0,0,Militia dominant,0.0235857543483612
+99,10km_shift0,0,Park dominant,0.111040332256412
+100,10km_shift0,0,Neither actor dominant,0.217970322176035
+100,10km_shift0,0,Militia dominant,0.138530133321735
+100,10km_shift0,0,Park dominant,0.117662333896964
+101,10km_shift0,0,Neither actor dominant,0.181987228763174
+101,10km_shift0,0,Militia dominant,0.0925066207609327
+101,10km_shift0,0,Park dominant,0.143161079772982
+102,10km_shift0,0,Neither actor dominant,0.198239867075595
+102,10km_shift0,0,Militia dominant,0.0648917749024778
+102,10km_shift0,0,Park dominant,0.125108270950948
+103,10km_shift0,0,Neither actor dominant,0.0587025367780181
+103,10km_shift0,0,Militia dominant,-0.164486470869983
+103,10km_shift0,0,Park dominant,-0.135376808559067
+104,10km_shift0,0,Neither actor dominant,0.0354857573252594
+104,10km_shift0,0,Militia dominant,-0.0601423459096882
+104,10km_shift0,0,Park dominant,0.0289307428320611
+105,10km_shift0,0,Neither actor dominant,0.117234694047346
+105,10km_shift0,0,Militia dominant,-0.0339560281694851
+105,10km_shift0,0,Park dominant,0.0830918806091743
+106,10km_shift0,0,Neither actor dominant,0.0731468067178497
+106,10km_shift0,0,Militia dominant,-0.182929735798984
+106,10km_shift0,0,Park dominant,0.00186699167726292
+107,10km_shift0,0,Neither actor dominant,0.0243506479970983
+107,10km_shift0,0,Militia dominant,-0.125870978394099
+107,10km_shift0,0,Park dominant,-0.0754417268411444
+108,10km_shift0,0,Neither actor dominant,0.218203450869256
+108,10km_shift0,0,Militia dominant,0.0116968035403598
+108,10km_shift0,0,Park dominant,0.0468138585380285
+109,10km_shift0,0,Neither actor dominant,0.0658079910552017
+109,10km_shift0,0,Militia dominant,-0.167970547560939
+109,10km_shift0,0,Park dominant,-0.0845517887799827
+110,10km_shift0,0,Neither actor dominant,0.16623975511889
+110,10km_shift0,0,Militia dominant,0.0171352180139418
+110,10km_shift0,0,Park dominant,0.0428216904896807
+111,10km_shift0,0,Neither actor dominant,0.0950952340402503
+111,10km_shift0,0,Militia dominant,-0.0308193981532082
+111,10km_shift0,0,Park dominant,-0.0722825663776743
+112,10km_shift0,0,Neither actor dominant,0.0653506285720371
+112,10km_shift0,0,Militia dominant,-0.143436067482142
+112,10km_shift0,0,Park dominant,-0.0305863725761862
+113,10km_shift0,0,Neither actor dominant,0.30475897845724
+113,10km_shift0,0,Militia dominant,0.156946190494038
+113,10km_shift0,0,Park dominant,0.194800098031333
+114,10km_shift0,0,Neither actor dominant,0.34284885638869
+114,10km_shift0,0,Militia dominant,0.198510934469178
+114,10km_shift0,0,Park dominant,0.288740241265025
+115,10km_shift0,0,Neither actor dominant,0.175030965276763
+115,10km_shift0,0,Militia dominant,0.0126176375112756
+115,10km_shift0,0,Park dominant,0.0748115008489921
+116,10km_shift0,0,Neither actor dominant,0.127429208528537
+116,10km_shift0,0,Militia dominant,-0.000514255026972776
+116,10km_shift0,0,Park dominant,0.00447622851614923
+117,10km_shift0,0,Neither actor dominant,0.26634909506224
+117,10km_shift0,0,Militia dominant,0.0673996111000587
+117,10km_shift0,0,Park dominant,0.206261392353145
+118,10km_shift0,0,Neither actor dominant,0.190892782325072
+118,10km_shift0,0,Militia dominant,0.0731094797788093
+118,10km_shift0,0,Park dominant,0.165636065635685
+119,10km_shift0,0,Neither actor dominant,0.185320729614745
+119,10km_shift0,0,Militia dominant,-0.0150233335555864
+119,10km_shift0,0,Park dominant,0.0735716695403479
+120,10km_shift0,0,Neither actor dominant,0.131946359001348
+120,10km_shift0,0,Militia dominant,-0.103398554551988
+120,10km_shift0,0,Park dominant,-0.0014339836301871
+121,10km_shift0,0,Neither actor dominant,0.158195247156859
+121,10km_shift0,0,Militia dominant,-0.00935393806578311
+121,10km_shift0,0,Park dominant,0.0977908957749919
+122,10km_shift0,0,Neither actor dominant,0.231729942580925
+122,10km_shift0,0,Militia dominant,0.120979141368365
+122,10km_shift0,0,Park dominant,0.123811444722058
+123,10km_shift0,0,Neither actor dominant,0.0793435769992643
+123,10km_shift0,0,Militia dominant,-0.116315943196534
+123,10km_shift0,0,Park dominant,-0.0127529222505575
+124,10km_shift0,0,Neither actor dominant,0.0527624424823511
+124,10km_shift0,0,Militia dominant,-0.0265046895974868
+124,10km_shift0,0,Park dominant,0.0344022900778707
+125,10km_shift0,0,Neither actor dominant,0.160156244713563
+125,10km_shift0,0,Militia dominant,-0.0287127622661654
+125,10km_shift0,0,Park dominant,0.0528548477971859
+126,10km_shift0,0,Neither actor dominant,0.263640545236385
+126,10km_shift0,0,Militia dominant,0.0538941673161277
+126,10km_shift0,0,Park dominant,0.076657821830151
+127,10km_shift0,0,Neither actor dominant,0.207272037750865
+127,10km_shift0,0,Militia dominant,0.0340294948296441
+127,10km_shift0,0,Park dominant,0.12502715775756
+128,10km_shift0,0,Neither actor dominant,0.406056861717974
+128,10km_shift0,0,Militia dominant,0.215720549124699
+128,10km_shift0,0,Park dominant,0.220473971257471
+129,10km_shift0,0,Neither actor dominant,-0.110060320297184
+129,10km_shift0,0,Militia dominant,-0.266291874234944
+129,10km_shift0,0,Park dominant,-0.14963394147638
+130,10km_shift0,0,Neither actor dominant,0.27168396906072
+130,10km_shift0,0,Militia dominant,0.166239500117231
+130,10km_shift0,0,Park dominant,0.116151069542674
+131,10km_shift0,0,Neither actor dominant,0.191215687701472
+131,10km_shift0,0,Militia dominant,0.141397407353005
+131,10km_shift0,0,Park dominant,0.220251999722151
+132,10km_shift0,0,Neither actor dominant,0.258325380752596
+132,10km_shift0,0,Militia dominant,0.076248258825144
+132,10km_shift0,0,Park dominant,0.0786854946360751
+133,10km_shift0,0,Neither actor dominant,0.164197913044184
+133,10km_shift0,0,Militia dominant,0.0685671012032223
+133,10km_shift0,0,Park dominant,0.0126621667871962
+134,10km_shift0,0,Neither actor dominant,-0.0512487813438755
+134,10km_shift0,0,Militia dominant,-0.221878635364916
+134,10km_shift0,0,Park dominant,-0.0876617619157516
+135,10km_shift0,0,Neither actor dominant,0.210183978356799
+135,10km_shift0,0,Militia dominant,-0.0148283447205639
+135,10km_shift0,0,Park dominant,0.0513599473604899
+136,10km_shift0,0,Neither actor dominant,-0.0425152586749865
+136,10km_shift0,0,Militia dominant,-0.186930868515547
+136,10km_shift0,0,Park dominant,-0.0549933264178515
+137,10km_shift0,0,Neither actor dominant,0.123440379189971
+137,10km_shift0,0,Militia dominant,-0.0156331755402242
+137,10km_shift0,0,Park dominant,-0.0370765874037462
+138,10km_shift0,0,Neither actor dominant,0.101039666482425
+138,10km_shift0,0,Militia dominant,-0.0472537560394949
+138,10km_shift0,0,Park dominant,0.0787462088414824
+139,10km_shift0,0,Neither actor dominant,0.231600034140036
+139,10km_shift0,0,Militia dominant,0.0641979014288113
+139,10km_shift0,0,Park dominant,0.0798518280975695
+140,10km_shift0,0,Neither actor dominant,0.274754664742922
+140,10km_shift0,0,Militia dominant,0.122353946814074
+140,10km_shift0,0,Park dominant,0.119835956665737
+141,10km_shift0,0,Neither actor dominant,0.13010268292301
+141,10km_shift0,0,Militia dominant,-0.12969658241055
+141,10km_shift0,0,Park dominant,-0.0378961326247268
+142,10km_shift0,0,Neither actor dominant,-0.0171478246864761
+142,10km_shift0,0,Militia dominant,-0.14990415896354
+142,10km_shift0,0,Park dominant,-0.086200038980519
+143,10km_shift0,0,Neither actor dominant,0.269890837939897
+143,10km_shift0,0,Militia dominant,0.050859525675869
+143,10km_shift0,0,Park dominant,0.10579011857196
+144,10km_shift0,0,Neither actor dominant,0.19336696961996
+144,10km_shift0,0,Militia dominant,0.0207658563713651
+144,10km_shift0,0,Park dominant,0.0807391216772803
+145,10km_shift0,0,Neither actor dominant,0.0357370969522594
+145,10km_shift0,0,Militia dominant,-0.137906621715573
+145,10km_shift0,0,Park dominant,-0.0719981476407386
+146,10km_shift0,0,Neither actor dominant,0.136088707831053
+146,10km_shift0,0,Militia dominant,0.0552367882856853
+146,10km_shift0,0,Park dominant,0.0775989247566711
+147,10km_shift0,0,Neither actor dominant,0.111354074519916
+147,10km_shift0,0,Militia dominant,-0.12421120209791
+147,10km_shift0,0,Park dominant,-0.0377142321738942
+148,10km_shift0,0,Neither actor dominant,0.148253268349319
+148,10km_shift0,0,Militia dominant,-0.0169175208161232
+148,10km_shift0,0,Park dominant,-0.0212011315670759
+149,10km_shift0,0,Neither actor dominant,-0.0491656714586
+149,10km_shift0,0,Militia dominant,-0.172024989425596
+149,10km_shift0,0,Park dominant,-0.030659324097521
+150,10km_shift0,0,Neither actor dominant,0.258620942496306
+150,10km_shift0,0,Militia dominant,0.134455493943567
+150,10km_shift0,0,Park dominant,0.0815831589136059
+151,10km_shift0,0,Neither actor dominant,-0.0462615150104651
+151,10km_shift0,0,Militia dominant,-0.282010114344447
+151,10km_shift0,0,Park dominant,-0.105126830940637
+152,10km_shift0,0,Neither actor dominant,0.305808729687554
+152,10km_shift0,0,Militia dominant,0.157881103943759
+152,10km_shift0,0,Park dominant,0.197390959401297
+153,10km_shift0,0,Neither actor dominant,0.188448392719426
+153,10km_shift0,0,Militia dominant,-0.0850694338957662
+153,10km_shift0,0,Park dominant,-0.0695785101143696
+154,10km_shift0,0,Neither actor dominant,0.203938672245482
+154,10km_shift0,0,Militia dominant,0.0345893191277522
+154,10km_shift0,0,Park dominant,0.129840161187513
+155,10km_shift0,0,Neither actor dominant,0.382214877445918
+155,10km_shift0,0,Militia dominant,0.269293496083484
+155,10km_shift0,0,Park dominant,0.281395880897727
+156,10km_shift0,0,Neither actor dominant,0.0849814604611072
+156,10km_shift0,0,Militia dominant,0.0158355170601588
+156,10km_shift0,0,Park dominant,0.129864034429572
+157,10km_shift0,0,Neither actor dominant,0.0449300685328783
+157,10km_shift0,0,Militia dominant,-0.145468280064535
+157,10km_shift0,0,Park dominant,-0.056347261167931
+158,10km_shift0,0,Neither actor dominant,0.354053776066239
+158,10km_shift0,0,Militia dominant,0.266232152056908
+158,10km_shift0,0,Park dominant,0.315528171566899
+159,10km_shift0,0,Neither actor dominant,0.139159068140812
+159,10km_shift0,0,Militia dominant,-0.0715531214053
+159,10km_shift0,0,Park dominant,-0.0246858882590987
+160,10km_shift0,0,Neither actor dominant,0.162537265123252
+160,10km_shift0,0,Militia dominant,-0.0968554481845503
+160,10km_shift0,0,Park dominant,0.00188110488979643
+161,10km_shift0,0,Neither actor dominant,0.137856262101035
+161,10km_shift0,0,Militia dominant,-0.0408216622206445
+161,10km_shift0,0,Park dominant,-0.0334061136173726
+162,10km_shift0,0,Neither actor dominant,0.317382493673869
+162,10km_shift0,0,Militia dominant,0.200365289128362
+162,10km_shift0,0,Park dominant,0.0435152631504615
+163,10km_shift0,0,Neither actor dominant,0.31738441785394
+163,10km_shift0,0,Militia dominant,0.201459976246758
+163,10km_shift0,0,Park dominant,0.195264928714557
+164,10km_shift0,0,Neither actor dominant,0.165774489859553
+164,10km_shift0,0,Militia dominant,0.120288287170935
+164,10km_shift0,0,Park dominant,0.132788129857155
+165,10km_shift0,0,Neither actor dominant,-0.069969845562996
+165,10km_shift0,0,Militia dominant,-0.309978503566905
+165,10km_shift0,0,Park dominant,-0.0733922073738537
+166,10km_shift0,0,Neither actor dominant,0.306358335107963
+166,10km_shift0,0,Militia dominant,0.154311974663064
+166,10km_shift0,0,Park dominant,0.195819368347618
+167,10km_shift0,0,Neither actor dominant,0.00285451538128366
+167,10km_shift0,0,Militia dominant,-0.163813497325994
+167,10km_shift0,0,Park dominant,-0.106356068140288
+168,10km_shift0,0,Neither actor dominant,0.0763503204682256
+168,10km_shift0,0,Militia dominant,-0.0669810142806648
+168,10km_shift0,0,Park dominant,0.0150489514988316
+169,10km_shift0,0,Neither actor dominant,0.272558908551792
+169,10km_shift0,0,Militia dominant,0.106624315542169
+169,10km_shift0,0,Park dominant,0.0823228085902076
+170,10km_shift0,0,Neither actor dominant,0.266252689357517
+170,10km_shift0,0,Militia dominant,0.130657121289197
+170,10km_shift0,0,Park dominant,0.190807609193574
+171,10km_shift0,0,Neither actor dominant,0.191397746158493
+171,10km_shift0,0,Militia dominant,0.0902572129019965
+171,10km_shift0,0,Park dominant,0.201474834059159
+172,10km_shift0,0,Neither actor dominant,0.26436296734465
+172,10km_shift0,0,Militia dominant,0.142185291974206
+172,10km_shift0,0,Park dominant,0.126969821292693
+173,10km_shift0,0,Neither actor dominant,0.218158437336091
+173,10km_shift0,0,Militia dominant,0.0982138473780845
+173,10km_shift0,0,Park dominant,0.0414271850584065
+174,10km_shift0,0,Neither actor dominant,0.0409472385493393
+174,10km_shift0,0,Militia dominant,-0.0798583111904042
+174,10km_shift0,0,Park dominant,0.0796113522830739
+175,10km_shift0,0,Neither actor dominant,0.429528048152015
+175,10km_shift0,0,Militia dominant,0.198200242698627
+175,10km_shift0,0,Park dominant,0.2997833910102
+176,10km_shift0,0,Neither actor dominant,0.0764996781266942
+176,10km_shift0,0,Militia dominant,-0.10585646592111
+176,10km_shift0,0,Park dominant,-0.0050839530222942
+177,10km_shift0,0,Neither actor dominant,0.220881571368227
+177,10km_shift0,0,Militia dominant,0.149943974521654
+177,10km_shift0,0,Park dominant,0.218558495356119
+178,10km_shift0,0,Neither actor dominant,0.206975306163881
+178,10km_shift0,0,Militia dominant,0.052209316860428
+178,10km_shift0,0,Park dominant,0.10134054533899
+179,10km_shift0,0,Neither actor dominant,0.282695428062708
+179,10km_shift0,0,Militia dominant,0.121734996887337
+179,10km_shift0,0,Park dominant,0.193096253191612
+180,10km_shift0,0,Neither actor dominant,0.0419543520965305
+180,10km_shift0,0,Militia dominant,-0.191636388582424
+180,10km_shift0,0,Park dominant,-0.0953444726375227
+181,10km_shift0,0,Neither actor dominant,-0.0503682830688301
+181,10km_shift0,0,Militia dominant,-0.212963060811802
+181,10km_shift0,0,Park dominant,-0.129045595109369
+182,10km_shift0,0,Neither actor dominant,0.15613516705416
+182,10km_shift0,0,Militia dominant,0.00890136935229982
+182,10km_shift0,0,Park dominant,-0.0295006482102076
+183,10km_shift0,0,Neither actor dominant,0.341094416957702
+183,10km_shift0,0,Militia dominant,0.159241130621948
+183,10km_shift0,0,Park dominant,0.235644813967193
+184,10km_shift0,0,Neither actor dominant,0.0432314760200864
+184,10km_shift0,0,Militia dominant,-0.141496714710191
+184,10km_shift0,0,Park dominant,-0.0994999709398957
+185,10km_shift0,0,Neither actor dominant,0.204683274475325
+185,10km_shift0,0,Militia dominant,0.0121287529435432
+185,10km_shift0,0,Park dominant,0.0354417888648134
+186,10km_shift0,0,Neither actor dominant,0.184699756710575
+186,10km_shift0,0,Militia dominant,0.0614688418929661
+186,10km_shift0,0,Park dominant,-0.0497723800448635
+187,10km_shift0,0,Neither actor dominant,-0.0432542306785058
+187,10km_shift0,0,Militia dominant,-0.188196714537471
+187,10km_shift0,0,Park dominant,-0.0725162027020085
+188,10km_shift0,0,Neither actor dominant,0.296687711793416
+188,10km_shift0,0,Militia dominant,0.163858143183802
+188,10km_shift0,0,Park dominant,0.15391985358947
+189,10km_shift0,0,Neither actor dominant,0.0339860663589422
+189,10km_shift0,0,Militia dominant,-0.0983082792500736
+189,10km_shift0,0,Park dominant,-0.0152617681789113
+190,10km_shift0,0,Neither actor dominant,0.173119067260886
+190,10km_shift0,0,Militia dominant,0.0206796816167393
+190,10km_shift0,0,Park dominant,0.033658360193438
+191,10km_shift0,0,Neither actor dominant,0.0392313907410576
+191,10km_shift0,0,Militia dominant,-0.0921616971148732
+191,10km_shift0,0,Park dominant,-0.0229266267261438
+192,10km_shift0,0,Neither actor dominant,0.145801905418999
+192,10km_shift0,0,Militia dominant,0.0382037712459161
+192,10km_shift0,0,Park dominant,0.0778951788970965
+193,10km_shift0,0,Neither actor dominant,0.300002994661109
+193,10km_shift0,0,Militia dominant,0.160137182750218
+193,10km_shift0,0,Park dominant,0.140514872054497
+194,10km_shift0,0,Neither actor dominant,0.166452109033997
+194,10km_shift0,0,Militia dominant,0.0168774038024969
+194,10km_shift0,0,Park dominant,0.104900561013228
+195,10km_shift0,0,Neither actor dominant,0.0009744170565492
+195,10km_shift0,0,Militia dominant,-0.1914583410817
+195,10km_shift0,0,Park dominant,-0.0849312900425625
+196,10km_shift0,0,Neither actor dominant,0.263227197428766
+196,10km_shift0,0,Militia dominant,0.172916953234658
+196,10km_shift0,0,Park dominant,0.116328616290797
+197,10km_shift0,0,Neither actor dominant,0.236997237214765
+197,10km_shift0,0,Militia dominant,0.0612993549218683
+197,10km_shift0,0,Park dominant,0.129805205587491
+198,10km_shift0,0,Neither actor dominant,0.281833804555545
+198,10km_shift0,0,Militia dominant,0.184183759395863
+198,10km_shift0,0,Park dominant,0.298204593051942
+199,10km_shift0,0,Neither actor dominant,0.251392368610272
+199,10km_shift0,0,Militia dominant,0.0265539896316954
+199,10km_shift0,0,Park dominant,0.111240930795658
+200,10km_shift0,0,Neither actor dominant,0.0540504658506806
+200,10km_shift0,0,Militia dominant,-0.109078546954875
+200,10km_shift0,0,Park dominant,-0.0678004732120019
+201,10km_shift0,0,Neither actor dominant,0.219818053058961
+201,10km_shift0,0,Militia dominant,0.0847454942817211
+201,10km_shift0,0,Park dominant,0.205967936923438
+202,10km_shift0,0,Neither actor dominant,0.359090269889422
+202,10km_shift0,0,Militia dominant,0.233555080030437
+202,10km_shift0,0,Park dominant,0.229377220662243
+203,10km_shift0,0,Neither actor dominant,-0.0790461467963158
+203,10km_shift0,0,Militia dominant,-0.222196149840124
+203,10km_shift0,0,Park dominant,-0.123904353425733
+204,10km_shift0,0,Neither actor dominant,0.250278157408993
+204,10km_shift0,0,Militia dominant,0.11174315477679
+204,10km_shift0,0,Park dominant,0.167590551738382
+205,10km_shift0,0,Neither actor dominant,0.222876792913696
+205,10km_shift0,0,Militia dominant,0.0206318287134776
+205,10km_shift0,0,Park dominant,0.135243498919784
+206,10km_shift0,0,Neither actor dominant,0.104920960116643
+206,10km_shift0,0,Militia dominant,-0.0331064682546677
+206,10km_shift0,0,Park dominant,-0.0289155294628256
+207,10km_shift0,0,Neither actor dominant,0.186843421993857
+207,10km_shift0,0,Militia dominant,-0.017661610718793
+207,10km_shift0,0,Park dominant,-0.0149789333894181
+208,10km_shift0,0,Neither actor dominant,0.0377424909720909
+208,10km_shift0,0,Militia dominant,-0.114174729990917
+208,10km_shift0,0,Park dominant,-0.121096459681979
+209,10km_shift0,0,Neither actor dominant,0.232607314075897
+209,10km_shift0,0,Militia dominant,0.106722483555962
+209,10km_shift0,0,Park dominant,0.182940361760968
+210,10km_shift0,0,Neither actor dominant,0.212800525068734
+210,10km_shift0,0,Militia dominant,-0.00264649977848344
+210,10km_shift0,0,Park dominant,0.0297796089750975
+211,10km_shift0,0,Neither actor dominant,0.293049919234117
+211,10km_shift0,0,Militia dominant,0.0771925633316855
+211,10km_shift0,0,Park dominant,0.152266484087986
+212,10km_shift0,0,Neither actor dominant,0.088112028437155
+212,10km_shift0,0,Militia dominant,-0.10296819494434
+212,10km_shift0,0,Park dominant,0.101575517607593
+213,10km_shift0,0,Neither actor dominant,0.206182615180982
+213,10km_shift0,0,Militia dominant,0.0885759315424162
+213,10km_shift0,0,Park dominant,0.114819624363885
+214,10km_shift0,0,Neither actor dominant,0.222589067349065
+214,10km_shift0,0,Militia dominant,0.0833318372186665
+214,10km_shift0,0,Park dominant,0.173621298061553
+215,10km_shift0,0,Neither actor dominant,0.166233497988403
+215,10km_shift0,0,Militia dominant,0.0513797126034764
+215,10km_shift0,0,Park dominant,0.074522763784376
+216,10km_shift0,0,Neither actor dominant,0.0986932063987836
+216,10km_shift0,0,Militia dominant,-0.0285754873773626
+216,10km_shift0,0,Park dominant,0.0537880706016209
+217,10km_shift0,0,Neither actor dominant,0.0391521700699214
+217,10km_shift0,0,Militia dominant,-0.10591158670026
+217,10km_shift0,0,Park dominant,-0.0175239492972315
+218,10km_shift0,0,Neither actor dominant,0.180739252331215
+218,10km_shift0,0,Militia dominant,0.0677513161294035
+218,10km_shift0,0,Park dominant,0.150737851829269
+219,10km_shift0,0,Neither actor dominant,0.341128053712805
+219,10km_shift0,0,Militia dominant,0.164648125895527
+219,10km_shift0,0,Park dominant,0.160573265332478
+220,10km_shift0,0,Neither actor dominant,0.0223928003551979
+220,10km_shift0,0,Militia dominant,-0.186213757727123
+220,10km_shift0,0,Park dominant,-0.145804488775476
+221,10km_shift0,0,Neither actor dominant,0.309051671987362
+221,10km_shift0,0,Militia dominant,0.288036301753892
+221,10km_shift0,0,Park dominant,0.284847279179361
+222,10km_shift0,0,Neither actor dominant,0.16909717988095
+222,10km_shift0,0,Militia dominant,0.11641760811619
+222,10km_shift0,0,Park dominant,0.164122458469687
+223,10km_shift0,0,Neither actor dominant,0.0151533448101348
+223,10km_shift0,0,Militia dominant,-0.194117002228078
+223,10km_shift0,0,Park dominant,-0.167868607810582
+224,10km_shift0,0,Neither actor dominant,0.287953443940246
+224,10km_shift0,0,Militia dominant,0.177967716522919
+224,10km_shift0,0,Park dominant,0.257228296602841
+225,10km_shift0,0,Neither actor dominant,0.237978130420083
+225,10km_shift0,0,Militia dominant,0.137886314216074
+225,10km_shift0,0,Park dominant,0.0942962300192505
+226,10km_shift0,0,Neither actor dominant,0.26283996137446
+226,10km_shift0,0,Militia dominant,0.151305026269834
+226,10km_shift0,0,Park dominant,0.122713957666101
+227,10km_shift0,0,Neither actor dominant,0.0145924472785918
+227,10km_shift0,0,Militia dominant,-0.123106343439146
+227,10km_shift0,0,Park dominant,-0.0601249892119496
+228,10km_shift0,0,Neither actor dominant,0.26665215042545
+228,10km_shift0,0,Militia dominant,0.0367530727377761
+228,10km_shift0,0,Park dominant,0.0358095945483558
+229,10km_shift0,0,Neither actor dominant,0.184684063317452
+229,10km_shift0,0,Militia dominant,-0.0587076790721526
+229,10km_shift0,0,Park dominant,0.112878293734298
+230,10km_shift0,0,Neither actor dominant,0.194896630127425
+230,10km_shift0,0,Militia dominant,0.026360046986021
+230,10km_shift0,0,Park dominant,0.111470523935677
+231,10km_shift0,0,Neither actor dominant,0.439454774515317
+231,10km_shift0,0,Militia dominant,0.331002502769636
+231,10km_shift0,0,Park dominant,0.319422871243526
+232,10km_shift0,0,Neither actor dominant,0.0775410643391388
+232,10km_shift0,0,Militia dominant,-0.00624766694249868
+232,10km_shift0,0,Park dominant,0.00115717063312468
+233,10km_shift0,0,Neither actor dominant,0.145776062113769
+233,10km_shift0,0,Militia dominant,0.0296148200601825
+233,10km_shift0,0,Park dominant,0.0210056686121713
+234,10km_shift0,0,Neither actor dominant,0.0334125018559126
+234,10km_shift0,0,Militia dominant,-0.0396571693246204
+234,10km_shift0,0,Park dominant,0.0798568206519673
+235,10km_shift0,0,Neither actor dominant,0.325591689471783
+235,10km_shift0,0,Militia dominant,0.182187307076956
+235,10km_shift0,0,Park dominant,0.202614319428337
+236,10km_shift0,0,Neither actor dominant,0.288879098976074
+236,10km_shift0,0,Militia dominant,0.18375554182797
+236,10km_shift0,0,Park dominant,0.237941570618261
+237,10km_shift0,0,Neither actor dominant,0.294681741623265
+237,10km_shift0,0,Militia dominant,0.0799474071028817
+237,10km_shift0,0,Park dominant,0.110091086970443
+238,10km_shift0,0,Neither actor dominant,0.284275064714201
+238,10km_shift0,0,Militia dominant,0.138830810650618
+238,10km_shift0,0,Park dominant,0.239269829347948
+239,10km_shift0,0,Neither actor dominant,0.176593970623366
+239,10km_shift0,0,Militia dominant,0.021355598066995
+239,10km_shift0,0,Park dominant,0.145063745368562
+240,10km_shift0,0,Neither actor dominant,0.131955432789143
+240,10km_shift0,0,Militia dominant,-0.0336868786797549
+240,10km_shift0,0,Park dominant,0.0161458317425326
+241,10km_shift0,0,Neither actor dominant,0.240282261563698
+241,10km_shift0,0,Militia dominant,0.0949282999308091
+241,10km_shift0,0,Park dominant,0.00482182786469915
+242,10km_shift0,0,Neither actor dominant,0.190424779983732
+242,10km_shift0,0,Militia dominant,0.0528378532508898
+242,10km_shift0,0,Park dominant,0.0858161944305442
+243,10km_shift0,0,Neither actor dominant,0.401356269501263
+243,10km_shift0,0,Militia dominant,0.219139533319447
+243,10km_shift0,0,Park dominant,0.234715381644267
+244,10km_shift0,0,Neither actor dominant,0.177879564131687
+244,10km_shift0,0,Militia dominant,-0.0211567171590342
+244,10km_shift0,0,Park dominant,0.0629774591771866
+245,10km_shift0,0,Neither actor dominant,0.213949412175716
+245,10km_shift0,0,Militia dominant,0.0871793496628957
+245,10km_shift0,0,Park dominant,0.21663109457052
+246,10km_shift0,0,Neither actor dominant,0.0556308844895259
+246,10km_shift0,0,Militia dominant,-0.0883469667862388
+246,10km_shift0,0,Park dominant,-0.028004254985364
+247,10km_shift0,0,Neither actor dominant,0.0569603584680044
+247,10km_shift0,0,Militia dominant,-0.115744310076888
+247,10km_shift0,0,Park dominant,-0.043666616180898
+248,10km_shift0,0,Neither actor dominant,0.251130135015204
+248,10km_shift0,0,Militia dominant,0.0737025680429376
+248,10km_shift0,0,Park dominant,0.155351408907558
+249,10km_shift0,0,Neither actor dominant,-0.0114488166920042
+249,10km_shift0,0,Militia dominant,-0.0754918262533794
+249,10km_shift0,0,Park dominant,-0.0209629434515201
+250,10km_shift0,0,Neither actor dominant,0.090428479338069
+250,10km_shift0,0,Militia dominant,-0.0118679648457592
+250,10km_shift0,0,Park dominant,0.108450632713541
+251,10km_shift0,0,Neither actor dominant,0.337717276086419
+251,10km_shift0,0,Militia dominant,0.21647165005095
+251,10km_shift0,0,Park dominant,0.222788119216823
+252,10km_shift0,0,Neither actor dominant,0.0398402937755368
+252,10km_shift0,0,Militia dominant,-0.130408328247952
+252,10km_shift0,0,Park dominant,-0.0628417075128478
+253,10km_shift0,0,Neither actor dominant,0.0469101814394844
+253,10km_shift0,0,Militia dominant,-0.146052025322392
+253,10km_shift0,0,Park dominant,-0.139988930568034
+254,10km_shift0,0,Neither actor dominant,0.307940065171874
+254,10km_shift0,0,Militia dominant,0.244242700362383
+254,10km_shift0,0,Park dominant,0.251982130310029
+255,10km_shift0,0,Neither actor dominant,0.101687354064755
+255,10km_shift0,0,Militia dominant,-0.0384665969882574
+255,10km_shift0,0,Park dominant,5.84758419759773e-05
+256,10km_shift0,0,Neither actor dominant,0.261757201696366
+256,10km_shift0,0,Militia dominant,0.0853437530084659
+256,10km_shift0,0,Park dominant,0.0509999532305127
+257,10km_shift0,0,Neither actor dominant,-0.157674474437982
+257,10km_shift0,0,Militia dominant,-0.356413304386193
+257,10km_shift0,0,Park dominant,-0.152369603819754
+258,10km_shift0,0,Neither actor dominant,0.0624603736609726
+258,10km_shift0,0,Militia dominant,-0.0987029047677455
+258,10km_shift0,0,Park dominant,-0.035647527648481
+259,10km_shift0,0,Neither actor dominant,0.313037198442297
+259,10km_shift0,0,Militia dominant,0.108322176327882
+259,10km_shift0,0,Park dominant,0.188905745660233
+260,10km_shift0,0,Neither actor dominant,0.274980815353391
+260,10km_shift0,0,Militia dominant,0.12296457355901
+260,10km_shift0,0,Park dominant,0.168886024775327
+261,10km_shift0,0,Neither actor dominant,0.222473415651459
+261,10km_shift0,0,Militia dominant,0.128360373860272
+261,10km_shift0,0,Park dominant,0.0848277146818603
+262,10km_shift0,0,Neither actor dominant,0.179416237530283
+262,10km_shift0,0,Militia dominant,-0.0203937237617269
+262,10km_shift0,0,Park dominant,-0.0309746162742225
+263,10km_shift0,0,Neither actor dominant,0.326737304574949
+263,10km_shift0,0,Militia dominant,0.162620104020088
+263,10km_shift0,0,Park dominant,0.171869714892026
+264,10km_shift0,0,Neither actor dominant,0.115986234052756
+264,10km_shift0,0,Militia dominant,-0.0128692640604111
+264,10km_shift0,0,Park dominant,0.0277856148750491
+265,10km_shift0,0,Neither actor dominant,0.161353914331662
+265,10km_shift0,0,Militia dominant,-0.0622566534680702
+265,10km_shift0,0,Park dominant,0.0281130424831757
+266,10km_shift0,0,Neither actor dominant,0.0165771890970787
+266,10km_shift0,0,Militia dominant,-0.171127390389962
+266,10km_shift0,0,Park dominant,-0.0891915533651388
+267,10km_shift0,0,Neither actor dominant,0.268432863440095
+267,10km_shift0,0,Militia dominant,0.0595550500824844
+267,10km_shift0,0,Park dominant,0.0947247434076226
+268,10km_shift0,0,Neither actor dominant,0.0859282494851668
+268,10km_shift0,0,Militia dominant,-0.10628370017604
+268,10km_shift0,0,Park dominant,-0.043122180266062
+269,10km_shift0,0,Neither actor dominant,0.142676061543405
+269,10km_shift0,0,Militia dominant,-0.0355151830094637
+269,10km_shift0,0,Park dominant,0.0373774996042773
+270,10km_shift0,0,Neither actor dominant,0.0392282408524149
+270,10km_shift0,0,Militia dominant,-0.131204671136533
+270,10km_shift0,0,Park dominant,-0.0908868690531706
+271,10km_shift0,0,Neither actor dominant,0.13471779946469
+271,10km_shift0,0,Militia dominant,-0.043954138619301
+271,10km_shift0,0,Park dominant,0.0880696754978544
+272,10km_shift0,0,Neither actor dominant,0.191375526151472
+272,10km_shift0,0,Militia dominant,0.104632264396006
+272,10km_shift0,0,Park dominant,0.229928969149013
+273,10km_shift0,0,Neither actor dominant,0.00251270352018707
+273,10km_shift0,0,Militia dominant,-0.205348406950216
+273,10km_shift0,0,Park dominant,-0.0595477638929363
+274,10km_shift0,0,Neither actor dominant,0.172225982182787
+274,10km_shift0,0,Militia dominant,0.094832147870308
+274,10km_shift0,0,Park dominant,0.0122425961852873
+275,10km_shift0,0,Neither actor dominant,0.226371663803861
+275,10km_shift0,0,Militia dominant,0.052781840923862
+275,10km_shift0,0,Park dominant,0.0762007321023416
+276,10km_shift0,0,Neither actor dominant,0.160361469200386
+276,10km_shift0,0,Militia dominant,0.0507133822351977
+276,10km_shift0,0,Park dominant,0.0353723654288515
+277,10km_shift0,0,Neither actor dominant,-0.0540919675376403
+277,10km_shift0,0,Militia dominant,-0.203391131947158
+277,10km_shift0,0,Park dominant,-0.205915669282064
+278,10km_shift0,0,Neither actor dominant,0.257427358547237
+278,10km_shift0,0,Militia dominant,0.15642116283138
+278,10km_shift0,0,Park dominant,0.250246572211612
+279,10km_shift0,0,Neither actor dominant,0.179620234686425
+279,10km_shift0,0,Militia dominant,-0.0758441199565176
+279,10km_shift0,0,Park dominant,0.0154282393904574
+280,10km_shift0,0,Neither actor dominant,0.183905383342133
+280,10km_shift0,0,Militia dominant,0.100517228735463
+280,10km_shift0,0,Park dominant,0.0898283984988575
+281,10km_shift0,0,Neither actor dominant,0.155300308774161
+281,10km_shift0,0,Militia dominant,-0.00213893985876046
+281,10km_shift0,0,Park dominant,0.116520080434744
+282,10km_shift0,0,Neither actor dominant,0.283266810960403
+282,10km_shift0,0,Militia dominant,0.131501180917317
+282,10km_shift0,0,Park dominant,0.23407763985764
+283,10km_shift0,0,Neither actor dominant,0.123165648827423
+283,10km_shift0,0,Militia dominant,-0.110346010475424
+283,10km_shift0,0,Park dominant,-0.0717649791593864
+284,10km_shift0,0,Neither actor dominant,0.332580363250836
+284,10km_shift0,0,Militia dominant,0.124718812902058
+284,10km_shift0,0,Park dominant,0.268828680481812
+285,10km_shift0,0,Neither actor dominant,0.190686168685801
+285,10km_shift0,0,Militia dominant,0.0900909317636351
+285,10km_shift0,0,Park dominant,0.124287028728628
+286,10km_shift0,0,Neither actor dominant,-0.0281681347102271
+286,10km_shift0,0,Militia dominant,-0.159011579641925
+286,10km_shift0,0,Park dominant,-0.0778214182501589
+287,10km_shift0,0,Neither actor dominant,0.128334901677881
+287,10km_shift0,0,Militia dominant,-0.0259372486048941
+287,10km_shift0,0,Park dominant,0.0192787575090919
+288,10km_shift0,0,Neither actor dominant,0.172297841968432
+288,10km_shift0,0,Militia dominant,0.0586207897888584
+288,10km_shift0,0,Park dominant,0.0858976393061116
+289,10km_shift0,0,Neither actor dominant,-0.0255284983536724
+289,10km_shift0,0,Militia dominant,-0.124591001373571
+289,10km_shift0,0,Park dominant,-0.102385578768985
+290,10km_shift0,0,Neither actor dominant,0.338552063060959
+290,10km_shift0,0,Militia dominant,0.179203069452214
+290,10km_shift0,0,Park dominant,0.22639122484394
+291,10km_shift0,0,Neither actor dominant,-0.0314224193486219
+291,10km_shift0,0,Militia dominant,-0.210749812671971
+291,10km_shift0,0,Park dominant,-0.130379536869501
+292,10km_shift0,0,Neither actor dominant,-0.0455225877826946
+292,10km_shift0,0,Militia dominant,-0.21606152338334
+292,10km_shift0,0,Park dominant,-0.1433618465967
+293,10km_shift0,0,Neither actor dominant,0.263882570236639
+293,10km_shift0,0,Militia dominant,0.25438771965207
+293,10km_shift0,0,Park dominant,0.237796278267158
+294,10km_shift0,0,Neither actor dominant,0.26630328254581
+294,10km_shift0,0,Militia dominant,0.0271156432126108
+294,10km_shift0,0,Park dominant,-0.0344494505580658
+295,10km_shift0,0,Neither actor dominant,0.199370525664321
+295,10km_shift0,0,Militia dominant,0.0117708831130445
+295,10km_shift0,0,Park dominant,0.0388893376773299
+296,10km_shift0,0,Neither actor dominant,0.2336866158309
+296,10km_shift0,0,Militia dominant,0.0719049421414201
+296,10km_shift0,0,Park dominant,0.136275932656235
+297,10km_shift0,0,Neither actor dominant,0.171541187869679
+297,10km_shift0,0,Militia dominant,0.0908120833531866
+297,10km_shift0,0,Park dominant,0.078665752436725
+298,10km_shift0,0,Neither actor dominant,0.0575993256629229
+298,10km_shift0,0,Militia dominant,-0.123822033379468
+298,10km_shift0,0,Park dominant,-0.0737288759250822
+299,10km_shift0,0,Neither actor dominant,0.215632380209637
+299,10km_shift0,0,Militia dominant,0.0654052690836296
+299,10km_shift0,0,Park dominant,0.0592346160562707
+300,10km_shift0,0,Neither actor dominant,0.309968404205615
+300,10km_shift0,0,Militia dominant,0.172960987098875
+300,10km_shift0,0,Park dominant,0.244858950720254
+301,10km_shift0,0,Neither actor dominant,0.198885852392503
+301,10km_shift0,0,Militia dominant,0.0688794675598725
+301,10km_shift0,0,Park dominant,0.114982529494952
+302,10km_shift0,0,Neither actor dominant,0.267544702646291
+302,10km_shift0,0,Militia dominant,0.12062817770155
+302,10km_shift0,0,Park dominant,0.136789013585047
+303,10km_shift0,0,Neither actor dominant,0.160369905852904
+303,10km_shift0,0,Militia dominant,-0.0393022671984552
+303,10km_shift0,0,Park dominant,0.0411321082963385
+304,10km_shift0,0,Neither actor dominant,0.140612783889271
+304,10km_shift0,0,Militia dominant,0.0393532981908842
+304,10km_shift0,0,Park dominant,0.139770250012411
+305,10km_shift0,0,Neither actor dominant,0.141981260123626
+305,10km_shift0,0,Militia dominant,0.0360037951242782
+305,10km_shift0,0,Park dominant,0.133352796209502
+306,10km_shift0,0,Neither actor dominant,0.211069882568622
+306,10km_shift0,0,Militia dominant,0.0772372492804685
+306,10km_shift0,0,Park dominant,0.11837836929411
+307,10km_shift0,0,Neither actor dominant,0.229943065317959
+307,10km_shift0,0,Militia dominant,0.0998592779543053
+307,10km_shift0,0,Park dominant,0.232388368488083
+308,10km_shift0,0,Neither actor dominant,0.176356398762906
+308,10km_shift0,0,Militia dominant,0.0684534002573029
+308,10km_shift0,0,Park dominant,0.109965910139271
+309,10km_shift0,0,Neither actor dominant,0.174925165343272
+309,10km_shift0,0,Militia dominant,0.0885517294674045
+309,10km_shift0,0,Park dominant,0.101198472582689
+310,10km_shift0,0,Neither actor dominant,0.113951128816111
+310,10km_shift0,0,Militia dominant,-0.036799081384527
+310,10km_shift0,0,Park dominant,0.0720044500043683
+311,10km_shift0,0,Neither actor dominant,0.18581988585958
+311,10km_shift0,0,Militia dominant,0.0853591172074392
+311,10km_shift0,0,Park dominant,0.112613642877575
+312,10km_shift0,0,Neither actor dominant,0.298153468494511
+312,10km_shift0,0,Militia dominant,0.143542218251527
+312,10km_shift0,0,Park dominant,0.0997625051739021
+313,10km_shift0,0,Neither actor dominant,0.369027532843737
+313,10km_shift0,0,Militia dominant,0.204697512915964
+313,10km_shift0,0,Park dominant,0.280473958594959
+314,10km_shift0,0,Neither actor dominant,0.150354180950277
+314,10km_shift0,0,Militia dominant,0.0703445703918682
+314,10km_shift0,0,Park dominant,0.0759491034355165
+315,10km_shift0,0,Neither actor dominant,0.0713427289593481
+315,10km_shift0,0,Militia dominant,-0.109719274788019
+315,10km_shift0,0,Park dominant,0.0171975796435513
+316,10km_shift0,0,Neither actor dominant,0.0371035289696589
+316,10km_shift0,0,Militia dominant,-0.161337265890078
+316,10km_shift0,0,Park dominant,-0.1596844331238
+317,10km_shift0,0,Neither actor dominant,0.181304473868677
+317,10km_shift0,0,Militia dominant,0.0832838636908397
+317,10km_shift0,0,Park dominant,0.197005147430496
+318,10km_shift0,0,Neither actor dominant,-0.142999022820053
+318,10km_shift0,0,Militia dominant,-0.283962846452473
+318,10km_shift0,0,Park dominant,-0.232804772074336
+319,10km_shift0,0,Neither actor dominant,0.344266115174123
+319,10km_shift0,0,Militia dominant,0.194634167858534
+319,10km_shift0,0,Park dominant,0.260823719739297
+320,10km_shift0,0,Neither actor dominant,0.189759767349663
+320,10km_shift0,0,Militia dominant,0.0260745585159186
+320,10km_shift0,0,Park dominant,0.035369105695898
+321,10km_shift0,0,Neither actor dominant,0.189093945535872
+321,10km_shift0,0,Militia dominant,-0.00358873318957156
+321,10km_shift0,0,Park dominant,0.00427291653815037
+322,10km_shift0,0,Neither actor dominant,0.342131016347137
+322,10km_shift0,0,Militia dominant,0.225999158662614
+322,10km_shift0,0,Park dominant,0.14336983866214
+323,10km_shift0,0,Neither actor dominant,0.185141402174119
+323,10km_shift0,0,Militia dominant,0.010376861836069
+323,10km_shift0,0,Park dominant,0.0813154019861577
+324,10km_shift0,0,Neither actor dominant,0.205204223311819
+324,10km_shift0,0,Militia dominant,0.0883697355922985
+324,10km_shift0,0,Park dominant,0.146702680341181
+325,10km_shift0,0,Neither actor dominant,0.19303680325417
+325,10km_shift0,0,Militia dominant,0.141041930902346
+325,10km_shift0,0,Park dominant,0.173694602557287
+326,10km_shift0,0,Neither actor dominant,0.0131172328223067
+326,10km_shift0,0,Militia dominant,-0.0904085189419644
+326,10km_shift0,0,Park dominant,-0.0849768867331549
+327,10km_shift0,0,Neither actor dominant,0.146680158767018
+327,10km_shift0,0,Militia dominant,-0.0341832644812305
+327,10km_shift0,0,Park dominant,0.0671584159564462
+328,10km_shift0,0,Neither actor dominant,0.223017007217561
+328,10km_shift0,0,Militia dominant,0.148983742392546
+328,10km_shift0,0,Park dominant,0.131865164593693
+329,10km_shift0,0,Neither actor dominant,0.216974952583424
+329,10km_shift0,0,Militia dominant,0.0851465037499536
+329,10km_shift0,0,Park dominant,0.114628377767461
+330,10km_shift0,0,Neither actor dominant,0.158132677602265
+330,10km_shift0,0,Militia dominant,-0.103524068221918
+330,10km_shift0,0,Park dominant,-0.0173600744541257
+331,10km_shift0,0,Neither actor dominant,0.232871039029747
+331,10km_shift0,0,Militia dominant,-0.0346386776286874
+331,10km_shift0,0,Park dominant,0.0176995674457185
+332,10km_shift0,0,Neither actor dominant,-0.063015042368296
+332,10km_shift0,0,Militia dominant,-0.153551450078594
+332,10km_shift0,0,Park dominant,-0.104010683579468
+333,10km_shift0,0,Neither actor dominant,0.149920680103605
+333,10km_shift0,0,Militia dominant,-0.00337242306770488
+333,10km_shift0,0,Park dominant,0.0406604422906772
+334,10km_shift0,0,Neither actor dominant,0.331888835317187
+334,10km_shift0,0,Militia dominant,0.0995125076062668
+334,10km_shift0,0,Park dominant,0.156586926285836
+335,10km_shift0,0,Neither actor dominant,0.105446394748041
+335,10km_shift0,0,Militia dominant,-0.0623933414991401
+335,10km_shift0,0,Park dominant,0.00598314283565174
+336,10km_shift0,0,Neither actor dominant,0.0203009837109363
+336,10km_shift0,0,Militia dominant,-0.151420915611764
+336,10km_shift0,0,Park dominant,-0.169299260907966
+337,10km_shift0,0,Neither actor dominant,0.43184800670627
+337,10km_shift0,0,Militia dominant,0.180495724898928
+337,10km_shift0,0,Park dominant,0.201080128318218
+338,10km_shift0,0,Neither actor dominant,0.039389335076255
+338,10km_shift0,0,Militia dominant,-0.128466237614195
+338,10km_shift0,0,Park dominant,-0.165742348864562
+339,10km_shift0,0,Neither actor dominant,0.0589851479915962
+339,10km_shift0,0,Militia dominant,-0.127773113613407
+339,10km_shift0,0,Park dominant,-0.0718783113499647
+340,10km_shift0,0,Neither actor dominant,0.345210643945256
+340,10km_shift0,0,Militia dominant,0.216694396622528
+340,10km_shift0,0,Park dominant,0.309713483488587
+341,10km_shift0,0,Neither actor dominant,0.292694047847491
+341,10km_shift0,0,Militia dominant,0.132310472473729
+341,10km_shift0,0,Park dominant,0.134268765608905
+342,10km_shift0,0,Neither actor dominant,-0.0605575337856897
+342,10km_shift0,0,Militia dominant,-0.334019269385621
+342,10km_shift0,0,Park dominant,-0.214953292066293
+343,10km_shift0,0,Neither actor dominant,0.0511128536565941
+343,10km_shift0,0,Militia dominant,-0.090739666898301
+343,10km_shift0,0,Park dominant,-0.00118121826334459
+344,10km_shift0,0,Neither actor dominant,0.112506512167949
+344,10km_shift0,0,Militia dominant,-0.0214343147082877
+344,10km_shift0,0,Park dominant,-0.0320186101530354
+345,10km_shift0,0,Neither actor dominant,0.147582393856055
+345,10km_shift0,0,Militia dominant,-0.0277780655445694
+345,10km_shift0,0,Park dominant,-0.0112208902457462
+346,10km_shift0,0,Neither actor dominant,0.296946777298278
+346,10km_shift0,0,Militia dominant,0.0956960302089112
+346,10km_shift0,0,Park dominant,0.0783429072022789
+347,10km_shift0,0,Neither actor dominant,-0.0659065130124948
+347,10km_shift0,0,Militia dominant,-0.203599001092667
+347,10km_shift0,0,Park dominant,-0.194074473777858
+348,10km_shift0,0,Neither actor dominant,0.145885419973158
+348,10km_shift0,0,Militia dominant,0.00281475756090538
+348,10km_shift0,0,Park dominant,0.0382139587974833
+349,10km_shift0,0,Neither actor dominant,0.226918196596324
+349,10km_shift0,0,Militia dominant,-0.00844006671610775
+349,10km_shift0,0,Park dominant,0.168547686508323
+350,10km_shift0,0,Neither actor dominant,0.117954182639928
+350,10km_shift0,0,Militia dominant,-0.00909334928357813
+350,10km_shift0,0,Park dominant,-0.00094794123500945
+351,10km_shift0,0,Neither actor dominant,0.291681943326755
+351,10km_shift0,0,Militia dominant,0.123038794666934
+351,10km_shift0,0,Park dominant,0.151115849341778
+352,10km_shift0,0,Neither actor dominant,0.18473488538654
+352,10km_shift0,0,Militia dominant,-0.00707507845258504
+352,10km_shift0,0,Park dominant,0.0754159913463846
+353,10km_shift0,0,Neither actor dominant,0.220353826105741
+353,10km_shift0,0,Militia dominant,0.104888136066708
+353,10km_shift0,0,Park dominant,0.00941277228929863
+354,10km_shift0,0,Neither actor dominant,0.225516763425999
+354,10km_shift0,0,Militia dominant,0.0821755286155584
+354,10km_shift0,0,Park dominant,0.194131181829005
+355,10km_shift0,0,Neither actor dominant,0.265174475150596
+355,10km_shift0,0,Militia dominant,0.105481971089501
+355,10km_shift0,0,Park dominant,0.114901119096308
+356,10km_shift0,0,Neither actor dominant,0.0172573754893909
+356,10km_shift0,0,Militia dominant,-0.187432684502934
+356,10km_shift0,0,Park dominant,-0.0340896276125191
+357,10km_shift0,0,Neither actor dominant,0.0787193636153438
+357,10km_shift0,0,Militia dominant,-0.155936019227641
+357,10km_shift0,0,Park dominant,0.0797607926819132
+358,10km_shift0,0,Neither actor dominant,0.077931405540588
+358,10km_shift0,0,Militia dominant,-0.0737608038603577
+358,10km_shift0,0,Park dominant,0.0754488412886067
+359,10km_shift0,0,Neither actor dominant,0.204870197903524
+359,10km_shift0,0,Militia dominant,0.115620594226613
+359,10km_shift0,0,Park dominant,0.157900016846256
+360,10km_shift0,0,Neither actor dominant,0.164106179967716
+360,10km_shift0,0,Militia dominant,0.0405842170284095
+360,10km_shift0,0,Park dominant,0.0692230073607556
+361,10km_shift0,0,Neither actor dominant,0.122769959066381
+361,10km_shift0,0,Militia dominant,0.0463606493047745
+361,10km_shift0,0,Park dominant,0.128748608485084
+362,10km_shift0,0,Neither actor dominant,0.044326451891634
+362,10km_shift0,0,Militia dominant,-0.165826961202053
+362,10km_shift0,0,Park dominant,0.00448029352779539
+363,10km_shift0,0,Neither actor dominant,0.0787802935119287
+363,10km_shift0,0,Militia dominant,-0.0293161618820301
+363,10km_shift0,0,Park dominant,0.0650808729025265
+364,10km_shift0,0,Neither actor dominant,0.132231945878598
+364,10km_shift0,0,Militia dominant,-0.016380654083419
+364,10km_shift0,0,Park dominant,0.0370565510930195
+365,10km_shift0,0,Neither actor dominant,-0.0686009024672715
+365,10km_shift0,0,Militia dominant,-0.318851849612773
+365,10km_shift0,0,Park dominant,-0.31825724762921
+366,10km_shift0,0,Neither actor dominant,0.116243083699555
+366,10km_shift0,0,Militia dominant,-0.0869278987610557
+366,10km_shift0,0,Park dominant,0.018558583906761
+367,10km_shift0,0,Neither actor dominant,0.143712343152275
+367,10km_shift0,0,Militia dominant,0.0558074023579279
+367,10km_shift0,0,Park dominant,0.101778069084697
+368,10km_shift0,0,Neither actor dominant,0.15206417921154
+368,10km_shift0,0,Militia dominant,-0.0147711516677004
+368,10km_shift0,0,Park dominant,0.114361279547844
+369,10km_shift0,0,Neither actor dominant,0.265337847738648
+369,10km_shift0,0,Militia dominant,0.177489855638814
+369,10km_shift0,0,Park dominant,0.165989740971154
+370,10km_shift0,0,Neither actor dominant,0.158628003924588
+370,10km_shift0,0,Militia dominant,-0.0373579409844155
+370,10km_shift0,0,Park dominant,-0.0199536273068192
+371,10km_shift0,0,Neither actor dominant,0.188584031891394
+371,10km_shift0,0,Militia dominant,0.0122575581918279
+371,10km_shift0,0,Park dominant,0.116901018152743
+372,10km_shift0,0,Neither actor dominant,0.354924014315206
+372,10km_shift0,0,Militia dominant,0.221334139847644
+372,10km_shift0,0,Park dominant,0.194474455876272
+373,10km_shift0,0,Neither actor dominant,0.303032460117189
+373,10km_shift0,0,Militia dominant,0.148256191328197
+373,10km_shift0,0,Park dominant,0.148659554667751
+374,10km_shift0,0,Neither actor dominant,0.210428446703869
+374,10km_shift0,0,Militia dominant,0.165800656734137
+374,10km_shift0,0,Park dominant,0.0879068076350074
+375,10km_shift0,0,Neither actor dominant,0.417622857276581
+375,10km_shift0,0,Militia dominant,0.248412409524544
+375,10km_shift0,0,Park dominant,0.224119987190839
+376,10km_shift0,0,Neither actor dominant,0.129379494657675
+376,10km_shift0,0,Militia dominant,-0.0133443140912335
+376,10km_shift0,0,Park dominant,0.128942676268025
+377,10km_shift0,0,Neither actor dominant,0.360939355792009
+377,10km_shift0,0,Militia dominant,0.0943289833834287
+377,10km_shift0,0,Park dominant,0.21957408521537
+378,10km_shift0,0,Neither actor dominant,0.272396560493099
+378,10km_shift0,0,Militia dominant,0.166861245874149
+378,10km_shift0,0,Park dominant,0.205027242680646
+379,10km_shift0,0,Neither actor dominant,0.098959392329346
+379,10km_shift0,0,Militia dominant,-0.00888004837190425
+379,10km_shift0,0,Park dominant,0.0705291840022167
+380,10km_shift0,0,Neither actor dominant,0.275106178019081
+380,10km_shift0,0,Militia dominant,0.0858147362605546
+380,10km_shift0,0,Park dominant,0.101435167189894
+381,10km_shift0,0,Neither actor dominant,0.098789317854896
+381,10km_shift0,0,Militia dominant,-0.0555831512162911
+381,10km_shift0,0,Park dominant,0.00832233960653578
+382,10km_shift0,0,Neither actor dominant,0.151317272455268
+382,10km_shift0,0,Militia dominant,0.00128374819760749
+382,10km_shift0,0,Park dominant,0.0304564097447701
+383,10km_shift0,0,Neither actor dominant,0.0959093690871166
+383,10km_shift0,0,Militia dominant,-0.0276352223107174
+383,10km_shift0,0,Park dominant,-0.00240238703495022
+384,10km_shift0,0,Neither actor dominant,0.112426930213095
+384,10km_shift0,0,Militia dominant,0.0408518618975232
+384,10km_shift0,0,Park dominant,0.106095881507863
+385,10km_shift0,0,Neither actor dominant,0.331552078827604
+385,10km_shift0,0,Militia dominant,0.178772625981451
+385,10km_shift0,0,Park dominant,0.220823027608524
+386,10km_shift0,0,Neither actor dominant,0.143606067942487
+386,10km_shift0,0,Militia dominant,0.0656926216635707
+386,10km_shift0,0,Park dominant,0.07060312384501
+387,10km_shift0,0,Neither actor dominant,0.247326200131509
+387,10km_shift0,0,Militia dominant,-0.0307186406077671
+387,10km_shift0,0,Park dominant,0.0299401644534357
+388,10km_shift0,0,Neither actor dominant,0.277552007947727
+388,10km_shift0,0,Militia dominant,0.0364578437539802
+388,10km_shift0,0,Park dominant,0.147560747465885
+389,10km_shift0,0,Neither actor dominant,0.315769409635462
+389,10km_shift0,0,Militia dominant,0.228700991083119
+389,10km_shift0,0,Park dominant,0.242219595910397
+390,10km_shift0,0,Neither actor dominant,0.10879365004284
+390,10km_shift0,0,Militia dominant,-0.0971503220408295
+390,10km_shift0,0,Park dominant,0.0201151057410338
+391,10km_shift0,0,Neither actor dominant,0.22078981752445
+391,10km_shift0,0,Militia dominant,0.0348040576317255
+391,10km_shift0,0,Park dominant,0.132889986263441
+392,10km_shift0,0,Neither actor dominant,0.0831500130735162
+392,10km_shift0,0,Militia dominant,-0.0042097807089827
+392,10km_shift0,0,Park dominant,0.0553786680413555
+393,10km_shift0,0,Neither actor dominant,0.109120480086456
+393,10km_shift0,0,Militia dominant,-0.0267036586064154
+393,10km_shift0,0,Park dominant,-0.0380370464804106
+394,10km_shift0,0,Neither actor dominant,-0.0328828020177311
+394,10km_shift0,0,Militia dominant,-0.147611728846938
+394,10km_shift0,0,Park dominant,-0.104639395614495
+395,10km_shift0,0,Neither actor dominant,0.155928964309051
+395,10km_shift0,0,Militia dominant,0.115228845483519
+395,10km_shift0,0,Park dominant,0.163462871567462
+396,10km_shift0,0,Neither actor dominant,0.252780914674534
+396,10km_shift0,0,Militia dominant,0.0617323451708978
+396,10km_shift0,0,Park dominant,0.169266173145937
+397,10km_shift0,0,Neither actor dominant,0.291311793256329
+397,10km_shift0,0,Militia dominant,0.0837838286271411
+397,10km_shift0,0,Park dominant,0.163609790817946
+398,10km_shift0,0,Neither actor dominant,0.225298286461029
+398,10km_shift0,0,Militia dominant,0.0282605203956042
+398,10km_shift0,0,Park dominant,0.136045382551878
+399,10km_shift0,0,Neither actor dominant,0.239104539391845
+399,10km_shift0,0,Militia dominant,0.0765450780456367
+399,10km_shift0,0,Park dominant,0.100387761438704
+400,10km_shift0,0,Neither actor dominant,0.090946983317909
+400,10km_shift0,0,Militia dominant,-0.149456220323953
+400,10km_shift0,0,Park dominant,0.0342898242694356
+401,10km_shift0,0,Neither actor dominant,0.44304963718479
+401,10km_shift0,0,Militia dominant,0.305750160800426
+401,10km_shift0,0,Park dominant,0.31167769397178
+402,10km_shift0,0,Neither actor dominant,0.167162754973059
+402,10km_shift0,0,Militia dominant,-0.0200982660871842
+402,10km_shift0,0,Park dominant,-0.0397441554413715
+403,10km_shift0,0,Neither actor dominant,0.221827716033699
+403,10km_shift0,0,Militia dominant,-0.0274975655329901
+403,10km_shift0,0,Park dominant,0.0498264673252003
+404,10km_shift0,0,Neither actor dominant,0.0887286866738041
+404,10km_shift0,0,Militia dominant,-0.0498662330633685
+404,10km_shift0,0,Park dominant,-0.0540937421351658
+405,10km_shift0,0,Neither actor dominant,0.177314556201981
+405,10km_shift0,0,Militia dominant,0.018154631588827
+405,10km_shift0,0,Park dominant,0.0161294633186852
+406,10km_shift0,0,Neither actor dominant,0.0654414922819919
+406,10km_shift0,0,Militia dominant,-0.143949937596364
+406,10km_shift0,0,Park dominant,0.0771307835365033
+407,10km_shift0,0,Neither actor dominant,0.0981900318182631
+407,10km_shift0,0,Militia dominant,-0.0621431392987661
+407,10km_shift0,0,Park dominant,0.0676954201912074
+408,10km_shift0,0,Neither actor dominant,0.236430183134848
+408,10km_shift0,0,Militia dominant,0.0977696544039333
+408,10km_shift0,0,Park dominant,0.129921059442482
+409,10km_shift0,0,Neither actor dominant,-0.0687017519188712
+409,10km_shift0,0,Militia dominant,-0.165456821959682
+409,10km_shift0,0,Park dominant,-0.12950912542311
+410,10km_shift0,0,Neither actor dominant,0.280190811850758
+410,10km_shift0,0,Militia dominant,0.10760560397864
+410,10km_shift0,0,Park dominant,0.146800986377374
+411,10km_shift0,0,Neither actor dominant,0.193773020951836
+411,10km_shift0,0,Militia dominant,0.0778499393666245
+411,10km_shift0,0,Park dominant,0.0703954932387369
+412,10km_shift0,0,Neither actor dominant,0.252468296056744
+412,10km_shift0,0,Militia dominant,0.1273083463884
+412,10km_shift0,0,Park dominant,0.204462248078269
+413,10km_shift0,0,Neither actor dominant,0.0333040058597255
+413,10km_shift0,0,Militia dominant,-0.182557188181577
+413,10km_shift0,0,Park dominant,-0.144348151932546
+414,10km_shift0,0,Neither actor dominant,-0.0508956829371029
+414,10km_shift0,0,Militia dominant,-0.13669078964484
+414,10km_shift0,0,Park dominant,-0.125508852971401
+415,10km_shift0,0,Neither actor dominant,0.192627944896623
+415,10km_shift0,0,Militia dominant,-0.0392682134723824
+415,10km_shift0,0,Park dominant,0.0250352961239794
+416,10km_shift0,0,Neither actor dominant,0.235672849850548
+416,10km_shift0,0,Militia dominant,0.12807946738072
+416,10km_shift0,0,Park dominant,0.07924503361167
+417,10km_shift0,0,Neither actor dominant,0.0198278438759114
+417,10km_shift0,0,Militia dominant,-0.142284265853064
+417,10km_shift0,0,Park dominant,-0.0466028816233575
+418,10km_shift0,0,Neither actor dominant,0.0917844140674
+418,10km_shift0,0,Militia dominant,-0.0144660830107684
+418,10km_shift0,0,Park dominant,-0.0409090587027454
+419,10km_shift0,0,Neither actor dominant,0.0868175626308267
+419,10km_shift0,0,Militia dominant,-0.104905931066249
+419,10km_shift0,0,Park dominant,-0.056093237659901
+420,10km_shift0,0,Neither actor dominant,0.170108604866873
+420,10km_shift0,0,Militia dominant,-0.0686759296606229
+420,10km_shift0,0,Park dominant,0.0767326840250097
+421,10km_shift0,0,Neither actor dominant,0.157279394613594
+421,10km_shift0,0,Militia dominant,-0.044573258664889
+421,10km_shift0,0,Park dominant,0.107282254014347
+422,10km_shift0,0,Neither actor dominant,0.268621288796347
+422,10km_shift0,0,Militia dominant,0.114074713210975
+422,10km_shift0,0,Park dominant,0.140753813802768
+423,10km_shift0,0,Neither actor dominant,0.298131794170377
+423,10km_shift0,0,Militia dominant,0.189045152641817
+423,10km_shift0,0,Park dominant,0.277743882149074
+424,10km_shift0,0,Neither actor dominant,0.183185477016661
+424,10km_shift0,0,Militia dominant,0.0403846033458038
+424,10km_shift0,0,Park dominant,0.046110924471616
+425,10km_shift0,0,Neither actor dominant,0.105071707605079
+425,10km_shift0,0,Militia dominant,-0.0594131462284878
+425,10km_shift0,0,Park dominant,-0.0317225126177823
+426,10km_shift0,0,Neither actor dominant,0.255241032575826
+426,10km_shift0,0,Militia dominant,0.0701522530056573
+426,10km_shift0,0,Park dominant,0.172974181906501
+427,10km_shift0,0,Neither actor dominant,0.214391594614082
+427,10km_shift0,0,Militia dominant,-0.0306065677710011
+427,10km_shift0,0,Park dominant,0.0420390160884226
+428,10km_shift0,0,Neither actor dominant,0.108932145833423
+428,10km_shift0,0,Militia dominant,-0.0490194717389524
+428,10km_shift0,0,Park dominant,0.0360810251282896
+429,10km_shift0,0,Neither actor dominant,0.147496785720256
+429,10km_shift0,0,Militia dominant,-0.102122032483272
+429,10km_shift0,0,Park dominant,0.0132118646902857
+430,10km_shift0,0,Neither actor dominant,-0.0407099589805237
+430,10km_shift0,0,Militia dominant,-0.144505951133647
+430,10km_shift0,0,Park dominant,-0.109029870022219
+431,10km_shift0,0,Neither actor dominant,0.09534889920064
+431,10km_shift0,0,Militia dominant,-0.0653221564945505
+431,10km_shift0,0,Park dominant,0.00117982247183648
+432,10km_shift0,0,Neither actor dominant,0.36739935130503
+432,10km_shift0,0,Militia dominant,0.237015560688541
+432,10km_shift0,0,Park dominant,0.26510990629623
+433,10km_shift0,0,Neither actor dominant,0.142377337865403
+433,10km_shift0,0,Militia dominant,0.0250037056246842
+433,10km_shift0,0,Park dominant,0.12243058404606
+434,10km_shift0,0,Neither actor dominant,0.116356320732219
+434,10km_shift0,0,Militia dominant,-0.00629434750736542
+434,10km_shift0,0,Park dominant,0.0825875764211052
+435,10km_shift0,0,Neither actor dominant,0.0648763330430072
+435,10km_shift0,0,Militia dominant,-0.0447797773052699
+435,10km_shift0,0,Park dominant,-0.00554841207240993
+436,10km_shift0,0,Neither actor dominant,0.141475992199493
+436,10km_shift0,0,Militia dominant,0.030773289959387
+436,10km_shift0,0,Park dominant,0.0606493863350844
+437,10km_shift0,0,Neither actor dominant,0.368723564656706
+437,10km_shift0,0,Militia dominant,0.175073183068544
+437,10km_shift0,0,Park dominant,0.165585276774909
+438,10km_shift0,0,Neither actor dominant,0.0332911822860154
+438,10km_shift0,0,Militia dominant,-0.15686107306605
+438,10km_shift0,0,Park dominant,-0.0363465418273077
+439,10km_shift0,0,Neither actor dominant,0.125509572050283
+439,10km_shift0,0,Militia dominant,-0.0520569373272709
+439,10km_shift0,0,Park dominant,0.0394382656985828
+440,10km_shift0,0,Neither actor dominant,0.288247976638427
+440,10km_shift0,0,Militia dominant,0.0551143103930095
+440,10km_shift0,0,Park dominant,0.0803056798485172
+441,10km_shift0,0,Neither actor dominant,0.179876215780709
+441,10km_shift0,0,Militia dominant,0.132863141708995
+441,10km_shift0,0,Park dominant,0.101365259737743
+442,10km_shift0,0,Neither actor dominant,0.115632562878328
+442,10km_shift0,0,Militia dominant,-0.0363930737649813
+442,10km_shift0,0,Park dominant,0.0179834776327818
+443,10km_shift0,0,Neither actor dominant,0.259829312510229
+443,10km_shift0,0,Militia dominant,0.0492914566258699
+443,10km_shift0,0,Park dominant,0.135525545075483
+444,10km_shift0,0,Neither actor dominant,0.212675162487955
+444,10km_shift0,0,Militia dominant,0.0862751941090621
+444,10km_shift0,0,Park dominant,0.176445786064198
+445,10km_shift0,0,Neither actor dominant,0.17254956580372
+445,10km_shift0,0,Militia dominant,0.085837124363845
+445,10km_shift0,0,Park dominant,0.169914953422396
+446,10km_shift0,0,Neither actor dominant,0.305312784078789
+446,10km_shift0,0,Militia dominant,0.0782469493409184
+446,10km_shift0,0,Park dominant,0.0802535940686071
+447,10km_shift0,0,Neither actor dominant,0.286058594221212
+447,10km_shift0,0,Militia dominant,0.0372139780634959
+447,10km_shift0,0,Park dominant,0.144771804572389
+448,10km_shift0,0,Neither actor dominant,0.0622931139199363
+448,10km_shift0,0,Militia dominant,-0.12565570980394
+448,10km_shift0,0,Park dominant,-0.0201515526507606
+449,10km_shift0,0,Neither actor dominant,0.336916111634063
+449,10km_shift0,0,Militia dominant,0.234793886670186
+449,10km_shift0,0,Park dominant,0.208259463232392
+450,10km_shift0,0,Neither actor dominant,0.244223774071389
+450,10km_shift0,0,Militia dominant,0.0638588607089145
+450,10km_shift0,0,Park dominant,0.164213658590698
+451,10km_shift0,0,Neither actor dominant,0.242664482757279
+451,10km_shift0,0,Militia dominant,0.0926045886604796
+451,10km_shift0,0,Park dominant,0.0103715202391698
+452,10km_shift0,0,Neither actor dominant,0.162621886594572
+452,10km_shift0,0,Militia dominant,0.0731654480596133
+452,10km_shift0,0,Park dominant,0.182384725572467
+453,10km_shift0,0,Neither actor dominant,0.503850043874684
+453,10km_shift0,0,Militia dominant,0.294829803354078
+453,10km_shift0,0,Park dominant,0.341994176006322
+454,10km_shift0,0,Neither actor dominant,0.102016530265855
+454,10km_shift0,0,Militia dominant,-0.0735973889475724
+454,10km_shift0,0,Park dominant,-0.000464136599830314
+455,10km_shift0,0,Neither actor dominant,0.254606896201845
+455,10km_shift0,0,Militia dominant,0.136615460127853
+455,10km_shift0,0,Park dominant,0.109395042431432
+456,10km_shift0,0,Neither actor dominant,0.398540582556619
+456,10km_shift0,0,Militia dominant,0.197111153450675
+456,10km_shift0,0,Park dominant,0.284963292819499
+457,10km_shift0,0,Neither actor dominant,0.167598681602957
+457,10km_shift0,0,Militia dominant,-0.0738648193938038
+457,10km_shift0,0,Park dominant,-0.0421405591033712
+458,10km_shift0,0,Neither actor dominant,0.317063086524608
+458,10km_shift0,0,Militia dominant,0.226677374314424
+458,10km_shift0,0,Park dominant,0.163387745678959
+459,10km_shift0,0,Neither actor dominant,0.0662899809340072
+459,10km_shift0,0,Militia dominant,-0.0630667884189339
+459,10km_shift0,0,Park dominant,-0.0370253190237032
+460,10km_shift0,0,Neither actor dominant,0.0664428638980162
+460,10km_shift0,0,Militia dominant,-0.152350051232862
+460,10km_shift0,0,Park dominant,-0.0772927619218111
+461,10km_shift0,0,Neither actor dominant,0.187161678746229
+461,10km_shift0,0,Militia dominant,-0.0418684704737662
+461,10km_shift0,0,Park dominant,-0.00578904372609873
+462,10km_shift0,0,Neither actor dominant,0.22873905083285
+462,10km_shift0,0,Militia dominant,-0.00686764724385841
+462,10km_shift0,0,Park dominant,0.0847920627928326
+463,10km_shift0,0,Neither actor dominant,0.0269453674196475
+463,10km_shift0,0,Militia dominant,-0.106355504167801
+463,10km_shift0,0,Park dominant,-0.0383933064342716
+464,10km_shift0,0,Neither actor dominant,0.31684006094325
+464,10km_shift0,0,Militia dominant,0.237427133044912
+464,10km_shift0,0,Park dominant,0.228096700028867
+465,10km_shift0,0,Neither actor dominant,0.318065957991504
+465,10km_shift0,0,Militia dominant,0.108377792443857
+465,10km_shift0,0,Park dominant,0.210278673608231
+466,10km_shift0,0,Neither actor dominant,0.278133825121616
+466,10km_shift0,0,Militia dominant,0.161003023383067
+466,10km_shift0,0,Park dominant,0.170844630159564
+467,10km_shift0,0,Neither actor dominant,0.199397129947743
+467,10km_shift0,0,Militia dominant,0.0935516362128772
+467,10km_shift0,0,Park dominant,0.0972204856780098
+468,10km_shift0,0,Neither actor dominant,0.170219892207897
+468,10km_shift0,0,Militia dominant,0.0598375296332971
+468,10km_shift0,0,Park dominant,0.204302528036315
+469,10km_shift0,0,Neither actor dominant,0.0594837765688374
+469,10km_shift0,0,Militia dominant,-0.0545705712797117
+469,10km_shift0,0,Park dominant,-0.0273337769892699
+470,10km_shift0,0,Neither actor dominant,0.0242595253448613
+470,10km_shift0,0,Militia dominant,-0.213910884701612
+470,10km_shift0,0,Park dominant,-0.173925588475158
+471,10km_shift0,0,Neither actor dominant,0.153150554202169
+471,10km_shift0,0,Militia dominant,-0.0645093184937007
+471,10km_shift0,0,Park dominant,0.0291237396024407
+472,10km_shift0,0,Neither actor dominant,0.0859748568786064
+472,10km_shift0,0,Militia dominant,-0.0220370036984727
+472,10km_shift0,0,Park dominant,0.0508387590220776
+473,10km_shift0,0,Neither actor dominant,0.243302786422259
+473,10km_shift0,0,Militia dominant,-0.00645828993729455
+473,10km_shift0,0,Park dominant,0.133935556064318
+474,10km_shift0,0,Neither actor dominant,0.375037336491249
+474,10km_shift0,0,Militia dominant,0.222861372939504
+474,10km_shift0,0,Park dominant,0.281159061784909
+475,10km_shift0,0,Neither actor dominant,0.193265402705796
+475,10km_shift0,0,Militia dominant,0.0556214271735968
+475,10km_shift0,0,Park dominant,0.0712182719210718
+476,10km_shift0,0,Neither actor dominant,0.230868117223901
+476,10km_shift0,0,Militia dominant,0.0205185402909614
+476,10km_shift0,0,Park dominant,0.0423847263360054
+477,10km_shift0,0,Neither actor dominant,0.147116425797151
+477,10km_shift0,0,Militia dominant,0.0187693184454178
+477,10km_shift0,0,Park dominant,0.0247994973217949
+478,10km_shift0,0,Neither actor dominant,-0.0320107482433174
+478,10km_shift0,0,Militia dominant,-0.141499859895727
+478,10km_shift0,0,Park dominant,-0.0913064858604685
+479,10km_shift0,0,Neither actor dominant,0.0619612605120895
+479,10km_shift0,0,Militia dominant,-0.157679992283436
+479,10km_shift0,0,Park dominant,-0.0693296693865897
+480,10km_shift0,0,Neither actor dominant,0.157317428208806
+480,10km_shift0,0,Militia dominant,-0.00524816724268978
+480,10km_shift0,0,Park dominant,0.088545260655934
+481,10km_shift0,0,Neither actor dominant,0.0580238908228085
+481,10km_shift0,0,Militia dominant,-0.1011868254047
+481,10km_shift0,0,Park dominant,-0.0689825852763275
+482,10km_shift0,0,Neither actor dominant,0.23520794872017
+482,10km_shift0,0,Militia dominant,0.0870027659446239
+482,10km_shift0,0,Park dominant,0.0639864456077573
+483,10km_shift0,0,Neither actor dominant,0.0541019371993119
+483,10km_shift0,0,Militia dominant,-0.15987094034405
+483,10km_shift0,0,Park dominant,-0.211681078872291
+484,10km_shift0,0,Neither actor dominant,0.135137559950189
+484,10km_shift0,0,Militia dominant,-0.0292189343236153
+484,10km_shift0,0,Park dominant,-0.0533905402796971
+485,10km_shift0,0,Neither actor dominant,0.321931662825471
+485,10km_shift0,0,Militia dominant,0.142884264894788
+485,10km_shift0,0,Park dominant,0.223660499081868
+486,10km_shift0,0,Neither actor dominant,0.107669426595896
+486,10km_shift0,0,Militia dominant,0.0202211649582592
+486,10km_shift0,0,Park dominant,0.102866642392223
+487,10km_shift0,0,Neither actor dominant,0.209949102144167
+487,10km_shift0,0,Militia dominant,0.0208038318961623
+487,10km_shift0,0,Park dominant,0.00817074703905066
+488,10km_shift0,0,Neither actor dominant,0.261987689769436
+488,10km_shift0,0,Militia dominant,0.0963633745099094
+488,10km_shift0,0,Park dominant,0.118615959725968
+489,10km_shift0,0,Neither actor dominant,0.388492460060202
+489,10km_shift0,0,Militia dominant,0.173071944176999
+489,10km_shift0,0,Park dominant,0.161396996114192
+490,10km_shift0,0,Neither actor dominant,0.0480616037534867
+490,10km_shift0,0,Militia dominant,-0.164304774169159
+490,10km_shift0,0,Park dominant,-0.140456237935081
+491,10km_shift0,0,Neither actor dominant,0.0617567047250692
+491,10km_shift0,0,Militia dominant,-0.155374509718538
+491,10km_shift0,0,Park dominant,-0.0948724358561229
+492,10km_shift0,0,Neither actor dominant,0.0876033769506263
+492,10km_shift0,0,Militia dominant,0.0546388259041905
+492,10km_shift0,0,Park dominant,0.07846706277569
+493,10km_shift0,0,Neither actor dominant,0.180538065314678
+493,10km_shift0,0,Militia dominant,0.0303768665029355
+493,10km_shift0,0,Park dominant,0.0767047388652961
+494,10km_shift0,0,Neither actor dominant,0.147678080290962
+494,10km_shift0,0,Militia dominant,-0.0341106654664165
+494,10km_shift0,0,Park dominant,0.123136283306219
+495,10km_shift0,0,Neither actor dominant,0.104201366267974
+495,10km_shift0,0,Militia dominant,-0.0476042298141104
+495,10km_shift0,0,Park dominant,-0.00511048461086228
+496,10km_shift0,0,Neither actor dominant,-0.0932953144490219
+496,10km_shift0,0,Militia dominant,-0.362872415360604
+496,10km_shift0,0,Park dominant,-0.140680929435804
+497,10km_shift0,0,Neither actor dominant,0.198081062579026
+497,10km_shift0,0,Militia dominant,0.110154185087525
+497,10km_shift0,0,Park dominant,0.187515501470484
+498,10km_shift0,0,Neither actor dominant,0.250409368384387
+498,10km_shift0,0,Militia dominant,0.0954086745095548
+498,10km_shift0,0,Park dominant,0.148037411913845
+499,10km_shift0,0,Neither actor dominant,0.154523753445434
+499,10km_shift0,0,Militia dominant,0.128395490444904
+499,10km_shift0,0,Park dominant,0.144131747489432
+500,10km_shift0,0,Neither actor dominant,0.0742273091876868
+500,10km_shift0,0,Militia dominant,-0.0232560214962465
+500,10km_shift0,0,Park dominant,-0.0433301281069377
+501,10km_shift0,0,Neither actor dominant,0.095637204583956
+501,10km_shift0,0,Militia dominant,-0.0568454337446396
+501,10km_shift0,0,Park dominant,-0.0596607616332084
+502,10km_shift0,0,Neither actor dominant,0.167789443780171
+502,10km_shift0,0,Militia dominant,0.0261011084703403
+502,10km_shift0,0,Park dominant,0.0109747913326735
+503,10km_shift0,0,Neither actor dominant,0.114082149061194
+503,10km_shift0,0,Militia dominant,-0.131858371021744
+503,10km_shift0,0,Park dominant,-0.0859900591679676
+504,10km_shift0,0,Neither actor dominant,0.137120279024676
+504,10km_shift0,0,Militia dominant,-0.0336758175968335
+504,10km_shift0,0,Park dominant,0.026309771797051
+505,10km_shift0,0,Neither actor dominant,0.376617293288884
+505,10km_shift0,0,Militia dominant,0.18925274073139
+505,10km_shift0,0,Park dominant,0.141345796682304
+506,10km_shift0,0,Neither actor dominant,-0.0554894692949216
+506,10km_shift0,0,Militia dominant,-0.17066858639403
+506,10km_shift0,0,Park dominant,0.0137166776826499
+507,10km_shift0,0,Neither actor dominant,0.295816225533216
+507,10km_shift0,0,Militia dominant,0.0959020288546746
+507,10km_shift0,0,Park dominant,0.103169659365519
+508,10km_shift0,0,Neither actor dominant,0.260745118441666
+508,10km_shift0,0,Militia dominant,0.133253588880069
+508,10km_shift0,0,Park dominant,0.122793286624949
+509,10km_shift0,0,Neither actor dominant,0.170115414618877
+509,10km_shift0,0,Militia dominant,-0.0301008883526553
+509,10km_shift0,0,Park dominant,0.0754087001888987
+510,10km_shift0,0,Neither actor dominant,0.302555173722895
+510,10km_shift0,0,Militia dominant,0.12813741603348
+510,10km_shift0,0,Park dominant,0.247485013920726
+511,10km_shift0,0,Neither actor dominant,0.194759767818752
+511,10km_shift0,0,Militia dominant,-0.0585460253236781
+511,10km_shift0,0,Park dominant,-0.0284086382731953
+512,10km_shift0,0,Neither actor dominant,-0.0113427080488995
+512,10km_shift0,0,Militia dominant,-0.205424829130299
+512,10km_shift0,0,Park dominant,-0.101263998838639
+513,10km_shift0,0,Neither actor dominant,0.246798073950216
+513,10km_shift0,0,Militia dominant,0.102047374761936
+513,10km_shift0,0,Park dominant,0.185851093028066
+514,10km_shift0,0,Neither actor dominant,0.159905259161209
+514,10km_shift0,0,Militia dominant,-0.0716460471678221
+514,10km_shift0,0,Park dominant,-0.0134647229041371
+515,10km_shift0,0,Neither actor dominant,0.170980534641471
+515,10km_shift0,0,Militia dominant,0.0305090491224593
+515,10km_shift0,0,Park dominant,0.0629710168076637
+516,10km_shift0,0,Neither actor dominant,0.168838988070503
+516,10km_shift0,0,Militia dominant,0.100211231632195
+516,10km_shift0,0,Park dominant,0.0800295089737564
+517,10km_shift0,0,Neither actor dominant,0.154565275898275
+517,10km_shift0,0,Militia dominant,0.0685948459289111
+517,10km_shift0,0,Park dominant,0.101498114722808
+518,10km_shift0,0,Neither actor dominant,0.157677875345676
+518,10km_shift0,0,Militia dominant,-0.0927583418828957
+518,10km_shift0,0,Park dominant,-0.0231304246129503
+519,10km_shift0,0,Neither actor dominant,0.26752700508058
+519,10km_shift0,0,Militia dominant,0.107089713345926
+519,10km_shift0,0,Park dominant,0.235303187361101
+520,10km_shift0,0,Neither actor dominant,0.26472388020981
+520,10km_shift0,0,Militia dominant,0.0442039863880316
+520,10km_shift0,0,Park dominant,0.0424165310200993
+521,10km_shift0,0,Neither actor dominant,0.252209490240231
+521,10km_shift0,0,Militia dominant,0.100380224915497
+521,10km_shift0,0,Park dominant,0.0779918906408743
+522,10km_shift0,0,Neither actor dominant,0.0918902530109133
+522,10km_shift0,0,Militia dominant,-0.142242317927895
+522,10km_shift0,0,Park dominant,-0.109446923006697
+523,10km_shift0,0,Neither actor dominant,0.345333889094438
+523,10km_shift0,0,Militia dominant,0.259724869266581
+523,10km_shift0,0,Park dominant,0.283298837492553
+524,10km_shift0,0,Neither actor dominant,0.000806102400002891
+524,10km_shift0,0,Militia dominant,-0.127539312683935
+524,10km_shift0,0,Park dominant,0.0441812610858378
+525,10km_shift0,0,Neither actor dominant,-0.0432053687042175
+525,10km_shift0,0,Militia dominant,-0.248727011806528
+525,10km_shift0,0,Park dominant,-0.115956092658049
+526,10km_shift0,0,Neither actor dominant,0.347164163856679
+526,10km_shift0,0,Militia dominant,0.238280053531983
+526,10km_shift0,0,Park dominant,0.238064579551428
+527,10km_shift0,0,Neither actor dominant,0.0618671400013402
+527,10km_shift0,0,Militia dominant,-0.117584688792863
+527,10km_shift0,0,Park dominant,-0.097741870576337
+528,10km_shift0,0,Neither actor dominant,0.0237613528432006
+528,10km_shift0,0,Militia dominant,-0.109217323261511
+528,10km_shift0,0,Park dominant,-0.0591293453873746
+529,10km_shift0,0,Neither actor dominant,-0.0719365487256993
+529,10km_shift0,0,Militia dominant,-0.249382190520457
+529,10km_shift0,0,Park dominant,-0.224540265075675
+530,10km_shift0,0,Neither actor dominant,0.110764627113277
+530,10km_shift0,0,Militia dominant,-0.088749608721932
+530,10km_shift0,0,Park dominant,-0.13104983544677
+531,10km_shift0,0,Neither actor dominant,0.123766175886178
+531,10km_shift0,0,Militia dominant,0.00580331126084874
+531,10km_shift0,0,Park dominant,0.0418924300743803
+532,10km_shift0,0,Neither actor dominant,0.408352643486803
+532,10km_shift0,0,Militia dominant,0.321706873806191
+532,10km_shift0,0,Park dominant,0.31560444825908
+533,10km_shift0,0,Neither actor dominant,0.0573054326768927
+533,10km_shift0,0,Militia dominant,-0.156256759654594
+533,10km_shift0,0,Park dominant,-0.090259980820108
+534,10km_shift0,0,Neither actor dominant,0.0783776519962818
+534,10km_shift0,0,Militia dominant,-0.087650118620247
+534,10km_shift0,0,Park dominant,-0.0359157330585896
+535,10km_shift0,0,Neither actor dominant,0.144483014154317
+535,10km_shift0,0,Militia dominant,0.00348607484985144
+535,10km_shift0,0,Park dominant,-0.0538991703645412
+536,10km_shift0,0,Neither actor dominant,-0.0308079311345642
+536,10km_shift0,0,Militia dominant,-0.16903195155904
+536,10km_shift0,0,Park dominant,-0.0436510763682126
+537,10km_shift0,0,Neither actor dominant,-0.0067306232586783
+537,10km_shift0,0,Militia dominant,-0.134602154886904
+537,10km_shift0,0,Park dominant,-0.039528486886788
+538,10km_shift0,0,Neither actor dominant,0.288222383910997
+538,10km_shift0,0,Militia dominant,0.108096574191249
+538,10km_shift0,0,Park dominant,0.144123556372093
+539,10km_shift0,0,Neither actor dominant,0.0986237781188039
+539,10km_shift0,0,Militia dominant,-0.0717625565633007
+539,10km_shift0,0,Park dominant,-0.0480313521873736
+540,10km_shift0,0,Neither actor dominant,0.209930811317833
+540,10km_shift0,0,Militia dominant,0.0116864686633407
+540,10km_shift0,0,Park dominant,0.0497593240672753
+541,10km_shift0,0,Neither actor dominant,0.161893039250151
+541,10km_shift0,0,Militia dominant,0.0398595560175367
+541,10km_shift0,0,Park dominant,0.132368291770172
+542,10km_shift0,0,Neither actor dominant,0.248923858181701
+542,10km_shift0,0,Militia dominant,0.0867079998282326
+542,10km_shift0,0,Park dominant,0.164606271336797
+543,10km_shift0,0,Neither actor dominant,0.260588105944494
+543,10km_shift0,0,Militia dominant,0.121968708935322
+543,10km_shift0,0,Park dominant,0.227089695119488
+544,10km_shift0,0,Neither actor dominant,0.398454608135256
+544,10km_shift0,0,Militia dominant,0.256714622742904
+544,10km_shift0,0,Park dominant,0.235026515085659
+545,10km_shift0,0,Neither actor dominant,0.155368079960257
+545,10km_shift0,0,Militia dominant,0.0857220223478142
+545,10km_shift0,0,Park dominant,0.146426497664843
+546,10km_shift0,0,Neither actor dominant,0.286944435820064
+546,10km_shift0,0,Militia dominant,0.0831785715824279
+546,10km_shift0,0,Park dominant,0.120279259618986
+547,10km_shift0,0,Neither actor dominant,0.242210387710382
+547,10km_shift0,0,Militia dominant,0.108699276202422
+547,10km_shift0,0,Park dominant,0.158711070458398
+548,10km_shift0,0,Neither actor dominant,0.133471233163248
+548,10km_shift0,0,Militia dominant,0.00484688194876595
+548,10km_shift0,0,Park dominant,0.0832449179748894
+549,10km_shift0,0,Neither actor dominant,0.0166561399245134
+549,10km_shift0,0,Militia dominant,-0.114214595019578
+549,10km_shift0,0,Park dominant,-0.00252939444214932
+550,10km_shift0,0,Neither actor dominant,0.0893367092189884
+550,10km_shift0,0,Militia dominant,-0.0637783926848258
+550,10km_shift0,0,Park dominant,0.0572473434930837
+551,10km_shift0,0,Neither actor dominant,0.190914730930758
+551,10km_shift0,0,Militia dominant,0.0427442978638092
+551,10km_shift0,0,Park dominant,0.139695014918852
+552,10km_shift0,0,Neither actor dominant,0.0692846170904772
+552,10km_shift0,0,Militia dominant,-0.125169510002226
+552,10km_shift0,0,Park dominant,-0.0936989237668127
+553,10km_shift0,0,Neither actor dominant,0.229974044232928
+553,10km_shift0,0,Militia dominant,0.0644080798435379
+553,10km_shift0,0,Park dominant,0.112902512423711
+554,10km_shift0,0,Neither actor dominant,0.229310051292361
+554,10km_shift0,0,Militia dominant,0.0397160998405204
+554,10km_shift0,0,Park dominant,0.101037643418458
+555,10km_shift0,0,Neither actor dominant,0.174742642719482
+555,10km_shift0,0,Militia dominant,-0.00751553298026228
+555,10km_shift0,0,Park dominant,0.111518274889965
+556,10km_shift0,0,Neither actor dominant,0.241236219453599
+556,10km_shift0,0,Militia dominant,0.0982694802918451
+556,10km_shift0,0,Park dominant,0.201689822274972
+557,10km_shift0,0,Neither actor dominant,0.130241610398286
+557,10km_shift0,0,Militia dominant,-0.00386568257969536
+557,10km_shift0,0,Park dominant,0.176540025782182
+558,10km_shift0,0,Neither actor dominant,0.0531918528383767
+558,10km_shift0,0,Militia dominant,-0.127094164687947
+558,10km_shift0,0,Park dominant,-0.0275580944335727
+559,10km_shift0,0,Neither actor dominant,0.12131849574873
+559,10km_shift0,0,Militia dominant,-0.0503717536068973
+559,10km_shift0,0,Park dominant,0.108820489825372
+560,10km_shift0,0,Neither actor dominant,0.262699799236114
+560,10km_shift0,0,Militia dominant,0.154270091962709
+560,10km_shift0,0,Park dominant,0.0787630102225961
+561,10km_shift0,0,Neither actor dominant,0.159852494100129
+561,10km_shift0,0,Militia dominant,0.0269563352802363
+561,10km_shift0,0,Park dominant,0.0835364920038837
+562,10km_shift0,0,Neither actor dominant,0.340384725216435
+562,10km_shift0,0,Militia dominant,0.148086388981701
+562,10km_shift0,0,Park dominant,0.198063190975289
+563,10km_shift0,0,Neither actor dominant,0.210339315432701
+563,10km_shift0,0,Militia dominant,0.0353713437953246
+563,10km_shift0,0,Park dominant,0.102791440528454
+564,10km_shift0,0,Neither actor dominant,0.153680168703662
+564,10km_shift0,0,Militia dominant,0.0300346958319781
+564,10km_shift0,0,Park dominant,0.0926855260020887
+565,10km_shift0,0,Neither actor dominant,0.376694297883377
+565,10km_shift0,0,Militia dominant,0.219221477783235
+565,10km_shift0,0,Park dominant,0.254565014624818
+566,10km_shift0,0,Neither actor dominant,-0.0766609137001255
+566,10km_shift0,0,Militia dominant,-0.202602533043641
+566,10km_shift0,0,Park dominant,-0.127397776038014
+567,10km_shift0,0,Neither actor dominant,0.234575274979186
+567,10km_shift0,0,Militia dominant,0.0339334111182046
+567,10km_shift0,0,Park dominant,0.0632965093513742
+568,10km_shift0,0,Neither actor dominant,0.0374807046573572
+568,10km_shift0,0,Militia dominant,-0.0928069307828056
+568,10km_shift0,0,Park dominant,0.00969025496310658
+569,10km_shift0,0,Neither actor dominant,0.237309284583876
+569,10km_shift0,0,Militia dominant,0.101272502429723
+569,10km_shift0,0,Park dominant,0.0846538683055705
+570,10km_shift0,0,Neither actor dominant,0.231803647543618
+570,10km_shift0,0,Militia dominant,0.0354974049731991
+570,10km_shift0,0,Park dominant,0.138265179829957
+571,10km_shift0,0,Neither actor dominant,0.0415187993202231
+571,10km_shift0,0,Militia dominant,-0.201809807927232
+571,10km_shift0,0,Park dominant,-0.0678866601851974
+572,10km_shift0,0,Neither actor dominant,0.17039669541092
+572,10km_shift0,0,Militia dominant,0.0826330534404051
+572,10km_shift0,0,Park dominant,0.154114845430792
+573,10km_shift0,0,Neither actor dominant,0.160178009330166
+573,10km_shift0,0,Militia dominant,0.0592165723040548
+573,10km_shift0,0,Park dominant,0.0840543966659972
+574,10km_shift0,0,Neither actor dominant,0.232890595031909
+574,10km_shift0,0,Militia dominant,0.0183039702285616
+574,10km_shift0,0,Park dominant,0.0603032138511081
+575,10km_shift0,0,Neither actor dominant,0.153113011970448
+575,10km_shift0,0,Militia dominant,-0.0335383956052829
+575,10km_shift0,0,Park dominant,-0.0332911008594498
+576,10km_shift0,0,Neither actor dominant,0.160427061023633
+576,10km_shift0,0,Militia dominant,-0.0320597881505748
+576,10km_shift0,0,Park dominant,0.128721544501778
+577,10km_shift0,0,Neither actor dominant,0.123261816452504
+577,10km_shift0,0,Militia dominant,0.0172891509183869
+577,10km_shift0,0,Park dominant,0.143048229077798
+578,10km_shift0,0,Neither actor dominant,0.364619248011807
+578,10km_shift0,0,Militia dominant,0.289893286036565
+578,10km_shift0,0,Park dominant,0.203764042973669
+579,10km_shift0,0,Neither actor dominant,-0.0420739677416897
+579,10km_shift0,0,Militia dominant,-0.217623175022617
+579,10km_shift0,0,Park dominant,-0.168522200672403
+580,10km_shift0,0,Neither actor dominant,0.371062047001309
+580,10km_shift0,0,Militia dominant,0.182105687293249
+580,10km_shift0,0,Park dominant,0.151819219456299
+581,10km_shift0,0,Neither actor dominant,0.302121000934365
+581,10km_shift0,0,Militia dominant,0.119076795430246
+581,10km_shift0,0,Park dominant,0.154463295469556
+582,10km_shift0,0,Neither actor dominant,0.0557149962626386
+582,10km_shift0,0,Militia dominant,-0.0861121103267711
+582,10km_shift0,0,Park dominant,-0.0202223986783002
+583,10km_shift0,0,Neither actor dominant,0.0582969910981432
+583,10km_shift0,0,Militia dominant,-0.188535970012274
+583,10km_shift0,0,Park dominant,-0.124743580724335
+584,10km_shift0,0,Neither actor dominant,-0.0254625297469616
+584,10km_shift0,0,Militia dominant,-0.232331520323676
+584,10km_shift0,0,Park dominant,-0.235695644514371
+585,10km_shift0,0,Neither actor dominant,0.247285055794868
+585,10km_shift0,0,Militia dominant,0.0400535180347941
+585,10km_shift0,0,Park dominant,0.143223983909214
+586,10km_shift0,0,Neither actor dominant,0.374239022642807
+586,10km_shift0,0,Militia dominant,0.188790765159748
+586,10km_shift0,0,Park dominant,0.23704484293026
+587,10km_shift0,0,Neither actor dominant,0.0700265275876835
+587,10km_shift0,0,Militia dominant,-0.0833026436017278
+587,10km_shift0,0,Park dominant,0.0140805728515147
+588,10km_shift0,0,Neither actor dominant,0.198516498947172
+588,10km_shift0,0,Militia dominant,-0.0175857082148315
+588,10km_shift0,0,Park dominant,0.146520258740064
+589,10km_shift0,0,Neither actor dominant,0.161355224674419
+589,10km_shift0,0,Militia dominant,-0.0653441325693378
+589,10km_shift0,0,Park dominant,0.0368961479383872
+590,10km_shift0,0,Neither actor dominant,0.313563311212016
+590,10km_shift0,0,Militia dominant,0.143536393770849
+590,10km_shift0,0,Park dominant,0.17928739930642
+591,10km_shift0,0,Neither actor dominant,0.107654881769756
+591,10km_shift0,0,Militia dominant,-0.0663778794939986
+591,10km_shift0,0,Park dominant,0.0864109378690904
+592,10km_shift0,0,Neither actor dominant,0.0376965372093878
+592,10km_shift0,0,Militia dominant,-0.0984668839703861
+592,10km_shift0,0,Park dominant,-0.0189003625013197
+593,10km_shift0,0,Neither actor dominant,0.187102524176646
+593,10km_shift0,0,Militia dominant,0.0592422716821274
+593,10km_shift0,0,Park dominant,0.116236810875854
+594,10km_shift0,0,Neither actor dominant,0.209071715913829
+594,10km_shift0,0,Militia dominant,0.0507571640670137
+594,10km_shift0,0,Park dominant,0.137654408005834
+595,10km_shift0,0,Neither actor dominant,0.212286224353294
+595,10km_shift0,0,Militia dominant,0.0211543326479817
+595,10km_shift0,0,Park dominant,0.101797319624673
+596,10km_shift0,0,Neither actor dominant,0.173347241232211
+596,10km_shift0,0,Militia dominant,-0.0781502853671333
+596,10km_shift0,0,Park dominant,-0.0104182957372983
+597,10km_shift0,0,Neither actor dominant,0.0408206596691502
+597,10km_shift0,0,Militia dominant,-0.131178258150995
+597,10km_shift0,0,Park dominant,-0.00173938412136736
+598,10km_shift0,0,Neither actor dominant,0.411016385830549
+598,10km_shift0,0,Militia dominant,0.19623188314628
+598,10km_shift0,0,Park dominant,0.140803951564105
+599,10km_shift0,0,Neither actor dominant,0.237843782343528
+599,10km_shift0,0,Militia dominant,-0.011654547752152
+599,10km_shift0,0,Park dominant,0.100336880093658
+600,10km_shift0,0,Neither actor dominant,0.301713217134271
+600,10km_shift0,0,Militia dominant,0.164749014766821
+600,10km_shift0,0,Park dominant,0.301165547010242
+601,10km_shift0,0,Neither actor dominant,0.146864833033199
+601,10km_shift0,0,Militia dominant,0.00497655223032631
+601,10km_shift0,0,Park dominant,0.129619428518942
+602,10km_shift0,0,Neither actor dominant,0.181099342102268
+602,10km_shift0,0,Militia dominant,0.0459388508343008
+602,10km_shift0,0,Park dominant,0.0708441148638601
+603,10km_shift0,0,Neither actor dominant,-0.0507267196990423
+603,10km_shift0,0,Militia dominant,-0.225943109847503
+603,10km_shift0,0,Park dominant,-0.138638046964865
+604,10km_shift0,0,Neither actor dominant,0.248774790898455
+604,10km_shift0,0,Militia dominant,0.120656386053339
+604,10km_shift0,0,Park dominant,0.0696703159408158
+605,10km_shift0,0,Neither actor dominant,0.162113876659564
+605,10km_shift0,0,Militia dominant,-0.026045485248996
+605,10km_shift0,0,Park dominant,0.0605614752523359
+606,10km_shift0,0,Neither actor dominant,0.146970902466379
+606,10km_shift0,0,Militia dominant,0.0627577972145263
+606,10km_shift0,0,Park dominant,0.167906168817127
+607,10km_shift0,0,Neither actor dominant,0.233279326364959
+607,10km_shift0,0,Militia dominant,0.13638091673525
+607,10km_shift0,0,Park dominant,0.0809302746258014
+608,10km_shift0,0,Neither actor dominant,0.387056756864032
+608,10km_shift0,0,Militia dominant,0.127824563979953
+608,10km_shift0,0,Park dominant,0.0438187639469566
+609,10km_shift0,0,Neither actor dominant,0.124658380658615
+609,10km_shift0,0,Militia dominant,0.0607397547184807
+609,10km_shift0,0,Park dominant,0.0754112606054528
+610,10km_shift0,0,Neither actor dominant,0.244416324429655
+610,10km_shift0,0,Militia dominant,0.0998774618828246
+610,10km_shift0,0,Park dominant,0.180086727720632
+611,10km_shift0,0,Neither actor dominant,0.0588941498257527
+611,10km_shift0,0,Militia dominant,-0.0400985432321663
+611,10km_shift0,0,Park dominant,0.0246052957427403
+612,10km_shift0,0,Neither actor dominant,0.00434336432160183
+612,10km_shift0,0,Militia dominant,-0.191043879763018
+612,10km_shift0,0,Park dominant,-0.196761185429938
+613,10km_shift0,0,Neither actor dominant,0.097314455850999
+613,10km_shift0,0,Militia dominant,-0.0892376573202822
+613,10km_shift0,0,Park dominant,-0.0184897979807714
+614,10km_shift0,0,Neither actor dominant,-0.0706948914547614
+614,10km_shift0,0,Militia dominant,-0.240819353856164
+614,10km_shift0,0,Park dominant,-0.094603442757226
+615,10km_shift0,0,Neither actor dominant,0.203237902481488
+615,10km_shift0,0,Militia dominant,0.0849753117566351
+615,10km_shift0,0,Park dominant,0.041516142497553
+616,10km_shift0,0,Neither actor dominant,0.336406691050766
+616,10km_shift0,0,Militia dominant,0.240562242043146
+616,10km_shift0,0,Park dominant,0.187564604338695
+617,10km_shift0,0,Neither actor dominant,0.175247012325319
+617,10km_shift0,0,Militia dominant,0.000454026051016687
+617,10km_shift0,0,Park dominant,0.096590595364487
+618,10km_shift0,0,Neither actor dominant,0.168739377929413
+618,10km_shift0,0,Militia dominant,-0.0774224207674845
+618,10km_shift0,0,Park dominant,0.0222987366081248
+619,10km_shift0,0,Neither actor dominant,0.136545735559213
+619,10km_shift0,0,Militia dominant,0.0114764094323036
+619,10km_shift0,0,Park dominant,0.100693751770468
+620,10km_shift0,0,Neither actor dominant,0.262246430005261
+620,10km_shift0,0,Militia dominant,0.186320032300567
+620,10km_shift0,0,Park dominant,0.246219285788606
+621,10km_shift0,0,Neither actor dominant,0.211826404117673
+621,10km_shift0,0,Militia dominant,0.169497270370376
+621,10km_shift0,0,Park dominant,0.190973031604237
+622,10km_shift0,0,Neither actor dominant,0.237032723537051
+622,10km_shift0,0,Militia dominant,0.00794622013372026
+622,10km_shift0,0,Park dominant,0.0352825016457357
+623,10km_shift0,0,Neither actor dominant,0.353390071437672
+623,10km_shift0,0,Militia dominant,0.0713112561001544
+623,10km_shift0,0,Park dominant,0.0952851696589012
+624,10km_shift0,0,Neither actor dominant,0.129418423539446
+624,10km_shift0,0,Militia dominant,0.0504095002656679
+624,10km_shift0,0,Park dominant,0.149686954821387
+625,10km_shift0,0,Neither actor dominant,0.400600849129056
+625,10km_shift0,0,Militia dominant,0.262084381275327
+625,10km_shift0,0,Park dominant,0.286089888526714
+626,10km_shift0,0,Neither actor dominant,0.266484724778872
+626,10km_shift0,0,Militia dominant,0.177368664162929
+626,10km_shift0,0,Park dominant,0.219404294522158
+627,10km_shift0,0,Neither actor dominant,0.172116253719324
+627,10km_shift0,0,Militia dominant,-0.0493024406399401
+627,10km_shift0,0,Park dominant,-0.0421516049237042
+628,10km_shift0,0,Neither actor dominant,-0.117694276000413
+628,10km_shift0,0,Militia dominant,-0.205330971327369
+628,10km_shift0,0,Park dominant,-0.0589939002587043
+629,10km_shift0,0,Neither actor dominant,0.169363334884128
+629,10km_shift0,0,Militia dominant,-0.0520981272123339
+629,10km_shift0,0,Park dominant,-0.068087793696765
+630,10km_shift0,0,Neither actor dominant,0.0719313437637463
+630,10km_shift0,0,Militia dominant,-0.0352177285152066
+630,10km_shift0,0,Park dominant,0.119529654922238
+631,10km_shift0,0,Neither actor dominant,0.131503260500831
+631,10km_shift0,0,Militia dominant,-0.0197755089513123
+631,10km_shift0,0,Park dominant,0.0618987700233089
+632,10km_shift0,0,Neither actor dominant,0.154923349297244
+632,10km_shift0,0,Militia dominant,-0.0431724484692553
+632,10km_shift0,0,Park dominant,0.0575380638014209
+633,10km_shift0,0,Neither actor dominant,0.263841101307887
+633,10km_shift0,0,Militia dominant,0.125916792518861
+633,10km_shift0,0,Park dominant,0.114096994353831
+634,10km_shift0,0,Neither actor dominant,0.024372272192762
+634,10km_shift0,0,Militia dominant,-0.101473886087278
+634,10km_shift0,0,Park dominant,-0.163094002845904
+635,10km_shift0,0,Neither actor dominant,0.164424500760717
+635,10km_shift0,0,Militia dominant,-0.0768302669301947
+635,10km_shift0,0,Park dominant,-0.0626754851734828
+636,10km_shift0,0,Neither actor dominant,0.269806507902223
+636,10km_shift0,0,Militia dominant,0.0592340007926956
+636,10km_shift0,0,Park dominant,0.110403516231457
+637,10km_shift0,0,Neither actor dominant,0.236357831398878
+637,10km_shift0,0,Militia dominant,0.11821536321406
+637,10km_shift0,0,Park dominant,0.118609022533492
+638,10km_shift0,0,Neither actor dominant,-0.106906807663421
+638,10km_shift0,0,Militia dominant,-0.269521380594627
+638,10km_shift0,0,Park dominant,-0.208703177580811
+639,10km_shift0,0,Neither actor dominant,0.311562647371016
+639,10km_shift0,0,Militia dominant,0.133743130872429
+639,10km_shift0,0,Park dominant,0.0298226930916243
+640,10km_shift0,0,Neither actor dominant,0.0480572800463985
+640,10km_shift0,0,Militia dominant,-0.0781545988027317
+640,10km_shift0,0,Park dominant,0.0875284634143928
+641,10km_shift0,0,Neither actor dominant,0.276794821553499
+641,10km_shift0,0,Militia dominant,0.0702276857039358
+641,10km_shift0,0,Park dominant,0.199518186631686
+642,10km_shift0,0,Neither actor dominant,0.159018619066291
+642,10km_shift0,0,Militia dominant,-0.0125715067498806
+642,10km_shift0,0,Park dominant,0.102805758675672
+643,10km_shift0,0,Neither actor dominant,0.182645066977594
+643,10km_shift0,0,Militia dominant,0.0846670210889952
+643,10km_shift0,0,Park dominant,0.102450946468229
+644,10km_shift0,0,Neither actor dominant,0.260011147795165
+644,10km_shift0,0,Militia dominant,0.0824776157971939
+644,10km_shift0,0,Park dominant,0.132724748992905
+645,10km_shift0,0,Neither actor dominant,0.132221910385975
+645,10km_shift0,0,Militia dominant,-0.0385078454829941
+645,10km_shift0,0,Park dominant,-0.0602413537233817
+646,10km_shift0,0,Neither actor dominant,0.325152242098202
+646,10km_shift0,0,Militia dominant,0.136096209330303
+646,10km_shift0,0,Park dominant,0.204244437779586
+647,10km_shift0,0,Neither actor dominant,0.157470304287026
+647,10km_shift0,0,Militia dominant,0.0568271688966512
+647,10km_shift0,0,Park dominant,0.0930793011626815
+648,10km_shift0,0,Neither actor dominant,-0.240812917384681
+648,10km_shift0,0,Militia dominant,-0.511885156595659
+648,10km_shift0,0,Park dominant,-0.340430929087782
+649,10km_shift0,0,Neither actor dominant,0.354615199760293
+649,10km_shift0,0,Militia dominant,0.100717346961491
+649,10km_shift0,0,Park dominant,0.178568133594374
+650,10km_shift0,0,Neither actor dominant,0.00415368382644569
+650,10km_shift0,0,Militia dominant,-0.0792105280400188
+650,10km_shift0,0,Park dominant,-0.0937048306401013
+651,10km_shift0,0,Neither actor dominant,0.172397438559224
+651,10km_shift0,0,Militia dominant,-0.0584609111455907
+651,10km_shift0,0,Park dominant,0.103179102873354
+652,10km_shift0,0,Neither actor dominant,0.246762026286058
+652,10km_shift0,0,Militia dominant,-0.00947103563537954
+652,10km_shift0,0,Park dominant,0.116959417158206
+653,10km_shift0,0,Neither actor dominant,0.0823251528765853
+653,10km_shift0,0,Militia dominant,-0.115460936161919
+653,10km_shift0,0,Park dominant,-0.158717231438353
+654,10km_shift0,0,Neither actor dominant,0.230674744902862
+654,10km_shift0,0,Militia dominant,-0.011010370385367
+654,10km_shift0,0,Park dominant,0.117968622211716
+655,10km_shift0,0,Neither actor dominant,0.187444844742635
+655,10km_shift0,0,Militia dominant,0.0244066006197302
+655,10km_shift0,0,Park dominant,0.0852666697913848
+656,10km_shift0,0,Neither actor dominant,0.0151334857901574
+656,10km_shift0,0,Militia dominant,-0.29457118264956
+656,10km_shift0,0,Park dominant,-0.19291521012908
+657,10km_shift0,0,Neither actor dominant,0.239453174104738
+657,10km_shift0,0,Militia dominant,0.126124679348296
+657,10km_shift0,0,Park dominant,0.18910700807195
+658,10km_shift0,0,Neither actor dominant,0.186115630178248
+658,10km_shift0,0,Militia dominant,-0.0594536495857276
+658,10km_shift0,0,Park dominant,-0.00171667668834533
+659,10km_shift0,0,Neither actor dominant,0.0430198245401328
+659,10km_shift0,0,Militia dominant,-0.0691408565868658
+659,10km_shift0,0,Park dominant,-0.0457898161481213
+660,10km_shift0,0,Neither actor dominant,0.432271073985852
+660,10km_shift0,0,Militia dominant,0.203485778726632
+660,10km_shift0,0,Park dominant,0.228243600681689
+661,10km_shift0,0,Neither actor dominant,0.0411544460573718
+661,10km_shift0,0,Militia dominant,-0.190869861389144
+661,10km_shift0,0,Park dominant,-0.103298395705619
+662,10km_shift0,0,Neither actor dominant,0.165160702285059
+662,10km_shift0,0,Militia dominant,-0.0649417566772086
+662,10km_shift0,0,Park dominant,0.0503559713903393
+663,10km_shift0,0,Neither actor dominant,0.099805669278759
+663,10km_shift0,0,Militia dominant,-0.189129488907683
+663,10km_shift0,0,Park dominant,-0.0195970972680396
+664,10km_shift0,0,Neither actor dominant,0.268156232922351
+664,10km_shift0,0,Militia dominant,-0.00119436625013614
+664,10km_shift0,0,Park dominant,0.134165330537665
+665,10km_shift0,0,Neither actor dominant,0.2689931786169
+665,10km_shift0,0,Militia dominant,0.0651212028243238
+665,10km_shift0,0,Park dominant,0.18036665687436
+666,10km_shift0,0,Neither actor dominant,0.432942392737977
+666,10km_shift0,0,Militia dominant,0.279829914653723
+666,10km_shift0,0,Park dominant,0.279700852025577
+667,10km_shift0,0,Neither actor dominant,0.0600927997957976
+667,10km_shift0,0,Militia dominant,-0.122182161263732
+667,10km_shift0,0,Park dominant,-0.0711037153007132
+668,10km_shift0,0,Neither actor dominant,0.115732856239486
+668,10km_shift0,0,Militia dominant,-0.100414920137155
+668,10km_shift0,0,Park dominant,0.0352262892866528
+669,10km_shift0,0,Neither actor dominant,0.354062987689068
+669,10km_shift0,0,Militia dominant,0.123478505622693
+669,10km_shift0,0,Park dominant,0.232171967769089
+670,10km_shift0,0,Neither actor dominant,0.0901029720896984
+670,10km_shift0,0,Militia dominant,-0.0478610844513973
+670,10km_shift0,0,Park dominant,0.0636201677795046
+671,10km_shift0,0,Neither actor dominant,0.220448320763419
+671,10km_shift0,0,Militia dominant,0.11713145276407
+671,10km_shift0,0,Park dominant,0.154971478797471
+672,10km_shift0,0,Neither actor dominant,0.137339458730622
+672,10km_shift0,0,Militia dominant,-0.0580760712401984
+672,10km_shift0,0,Park dominant,0.0389877461661329
+673,10km_shift0,0,Neither actor dominant,0.282413551301082
+673,10km_shift0,0,Militia dominant,0.122444409777457
+673,10km_shift0,0,Park dominant,0.225488307122861
+674,10km_shift0,0,Neither actor dominant,0.0317299944364285
+674,10km_shift0,0,Militia dominant,-0.171736015037414
+674,10km_shift0,0,Park dominant,-0.107486306198738
+675,10km_shift0,0,Neither actor dominant,-0.0607303844594734
+675,10km_shift0,0,Militia dominant,-0.259093114902286
+675,10km_shift0,0,Park dominant,-0.15060906088226
+676,10km_shift0,0,Neither actor dominant,0.149871698529035
+676,10km_shift0,0,Militia dominant,0.0412843343766077
+676,10km_shift0,0,Park dominant,0.0584553440534613
+677,10km_shift0,0,Neither actor dominant,0.0527622019098065
+677,10km_shift0,0,Militia dominant,-0.140980124706283
+677,10km_shift0,0,Park dominant,-0.059916389430444
+678,10km_shift0,0,Neither actor dominant,0.158306194067942
+678,10km_shift0,0,Militia dominant,-0.0576187565698881
+678,10km_shift0,0,Park dominant,0.0235915537803719
+679,10km_shift0,0,Neither actor dominant,0.152379049839542
+679,10km_shift0,0,Militia dominant,-0.089601214180332
+679,10km_shift0,0,Park dominant,0.0442843442364745
+680,10km_shift0,0,Neither actor dominant,0.0371207310847424
+680,10km_shift0,0,Militia dominant,-0.0800167458842024
+680,10km_shift0,0,Park dominant,-0.0625232280801558
+681,10km_shift0,0,Neither actor dominant,0.0363755069261552
+681,10km_shift0,0,Militia dominant,-0.191382504040584
+681,10km_shift0,0,Park dominant,-0.198524915207725
+682,10km_shift0,0,Neither actor dominant,-0.0442079497419707
+682,10km_shift0,0,Militia dominant,-0.313424581243247
+682,10km_shift0,0,Park dominant,-0.144088926186393
+683,10km_shift0,0,Neither actor dominant,0.215711259659412
+683,10km_shift0,0,Militia dominant,0.0759098875525126
+683,10km_shift0,0,Park dominant,-0.0302793677245673
+684,10km_shift0,0,Neither actor dominant,0.208549175071208
+684,10km_shift0,0,Militia dominant,0.0993534910771337
+684,10km_shift0,0,Park dominant,0.159320461294454
+685,10km_shift0,0,Neither actor dominant,0.204306688357844
+685,10km_shift0,0,Militia dominant,0.0707038720465923
+685,10km_shift0,0,Park dominant,0.00824561780669494
+686,10km_shift0,0,Neither actor dominant,0.429953367132227
+686,10km_shift0,0,Militia dominant,0.283279384389448
+686,10km_shift0,0,Park dominant,0.264435925493479
+687,10km_shift0,0,Neither actor dominant,0.00145818532453341
+687,10km_shift0,0,Militia dominant,-0.110046899803655
+687,10km_shift0,0,Park dominant,-0.0626637641096112
+688,10km_shift0,0,Neither actor dominant,0.257145649169904
+688,10km_shift0,0,Militia dominant,0.048804451056037
+688,10km_shift0,0,Park dominant,0.0479683887271361
+689,10km_shift0,0,Neither actor dominant,0.137516360702699
+689,10km_shift0,0,Militia dominant,-0.0358569341166355
+689,10km_shift0,0,Park dominant,0.0731136705741106
+690,10km_shift0,0,Neither actor dominant,0.0907384824770017
+690,10km_shift0,0,Militia dominant,-0.0224328952470995
+690,10km_shift0,0,Park dominant,0.126997071058858
+691,10km_shift0,0,Neither actor dominant,0.0911057067211636
+691,10km_shift0,0,Militia dominant,-0.0678754215953865
+691,10km_shift0,0,Park dominant,-0.0132506856125509
+692,10km_shift0,0,Neither actor dominant,-0.00030216166459496
+692,10km_shift0,0,Militia dominant,-0.115407286176711
+692,10km_shift0,0,Park dominant,-0.0203777368274834
+693,10km_shift0,0,Neither actor dominant,0.130114652061254
+693,10km_shift0,0,Militia dominant,-0.131950050442927
+693,10km_shift0,0,Park dominant,0.0383620090845852
+694,10km_shift0,0,Neither actor dominant,0.279222332949406
+694,10km_shift0,0,Militia dominant,0.0659210215154672
+694,10km_shift0,0,Park dominant,0.0393561489568826
+695,10km_shift0,0,Neither actor dominant,0.149884955970348
+695,10km_shift0,0,Militia dominant,-0.0486936844195591
+695,10km_shift0,0,Park dominant,-0.0314560469912088
+696,10km_shift0,0,Neither actor dominant,0.323170159421588
+696,10km_shift0,0,Militia dominant,0.161444138197854
+696,10km_shift0,0,Park dominant,0.166943452292087
+697,10km_shift0,0,Neither actor dominant,-0.0524332227979902
+697,10km_shift0,0,Militia dominant,-0.278871265153372
+697,10km_shift0,0,Park dominant,-0.122390898076878
+698,10km_shift0,0,Neither actor dominant,0.0587798885522678
+698,10km_shift0,0,Militia dominant,-0.210126108843872
+698,10km_shift0,0,Park dominant,-0.0197832772400879
+699,10km_shift0,0,Neither actor dominant,0.212294741159528
+699,10km_shift0,0,Militia dominant,0.0801660292311751
+699,10km_shift0,0,Park dominant,0.0537692859600121
+700,10km_shift0,0,Neither actor dominant,0.116093565999131
+700,10km_shift0,0,Militia dominant,0.0190441009576321
+700,10km_shift0,0,Park dominant,0.0350825884669308
+701,10km_shift0,0,Neither actor dominant,0.270919947749511
+701,10km_shift0,0,Militia dominant,0.219909063166731
+701,10km_shift0,0,Park dominant,0.132281419123368
+702,10km_shift0,0,Neither actor dominant,0.325891311479349
+702,10km_shift0,0,Militia dominant,0.262911615458376
+702,10km_shift0,0,Park dominant,0.317198782496695
+703,10km_shift0,0,Neither actor dominant,0.12174411252662
+703,10km_shift0,0,Militia dominant,0.0074418399987268
+703,10km_shift0,0,Park dominant,-0.00745333726572911
+704,10km_shift0,0,Neither actor dominant,0.173747404203963
+704,10km_shift0,0,Militia dominant,0.145623813847724
+704,10km_shift0,0,Park dominant,0.18448358037521
+705,10km_shift0,0,Neither actor dominant,0.205571041882401
+705,10km_shift0,0,Militia dominant,0.0414588010643178
+705,10km_shift0,0,Park dominant,0.0853823440921243
+706,10km_shift0,0,Neither actor dominant,0.247270943444746
+706,10km_shift0,0,Militia dominant,0.0542831639373263
+706,10km_shift0,0,Park dominant,0.0896399242684178
+707,10km_shift0,0,Neither actor dominant,0.092051327205207
+707,10km_shift0,0,Militia dominant,-0.0846579521820135
+707,10km_shift0,0,Park dominant,-0.041159154326555
+708,10km_shift0,0,Neither actor dominant,0.293085719056811
+708,10km_shift0,0,Militia dominant,0.186330473894224
+708,10km_shift0,0,Park dominant,0.165392381663592
+709,10km_shift0,0,Neither actor dominant,0.302511555760901
+709,10km_shift0,0,Militia dominant,0.184631494537957
+709,10km_shift0,0,Park dominant,0.195087226080709
+710,10km_shift0,0,Neither actor dominant,0.111775203041634
+710,10km_shift0,0,Militia dominant,0.00673213122866565
+710,10km_shift0,0,Park dominant,0.0694017270974533
+711,10km_shift0,0,Neither actor dominant,0.0627394139717193
+711,10km_shift0,0,Militia dominant,-0.162007974971812
+711,10km_shift0,0,Park dominant,-0.101831747451457
+712,10km_shift0,0,Neither actor dominant,0.202849618303086
+712,10km_shift0,0,Militia dominant,0.0118249426339547
+712,10km_shift0,0,Park dominant,0.179571915083193
+713,10km_shift0,0,Neither actor dominant,-0.020344583559142
+713,10km_shift0,0,Militia dominant,-0.167724605949395
+713,10km_shift0,0,Park dominant,-0.146606081908192
+714,10km_shift0,0,Neither actor dominant,0.214002667689878
+714,10km_shift0,0,Militia dominant,-0.0257453275582553
+714,10km_shift0,0,Park dominant,0.0760562784260583
+715,10km_shift0,0,Neither actor dominant,0.175823345925282
+715,10km_shift0,0,Militia dominant,-0.0282795345230434
+715,10km_shift0,0,Park dominant,0.0839922559939234
+716,10km_shift0,0,Neither actor dominant,0.251605908641675
+716,10km_shift0,0,Militia dominant,0.111078342107983
+716,10km_shift0,0,Park dominant,0.11309698266543
+717,10km_shift0,0,Neither actor dominant,0.250566209918446
+717,10km_shift0,0,Militia dominant,0.141613593013469
+717,10km_shift0,0,Park dominant,0.230464801132464
+718,10km_shift0,0,Neither actor dominant,0.323106446827974
+718,10km_shift0,0,Militia dominant,0.174007728437176
+718,10km_shift0,0,Park dominant,0.131874973907127
+719,10km_shift0,0,Neither actor dominant,0.0574736809563885
+719,10km_shift0,0,Militia dominant,-0.159957805053339
+719,10km_shift0,0,Park dominant,-0.043209717876795
+720,10km_shift0,0,Neither actor dominant,0.363537270699852
+720,10km_shift0,0,Militia dominant,0.245830899697515
+720,10km_shift0,0,Park dominant,0.298281070930984
+721,10km_shift0,0,Neither actor dominant,0.316606824433325
+721,10km_shift0,0,Militia dominant,0.139312806849738
+721,10km_shift0,0,Park dominant,0.28381471290116
+722,10km_shift0,0,Neither actor dominant,0.248227090745809
+722,10km_shift0,0,Militia dominant,0.172264240070687
+722,10km_shift0,0,Park dominant,0.182974360634425
+723,10km_shift0,0,Neither actor dominant,0.367528164419374
+723,10km_shift0,0,Militia dominant,0.255121950496689
+723,10km_shift0,0,Park dominant,0.208035530270286
+724,10km_shift0,0,Neither actor dominant,0.122324481982196
+724,10km_shift0,0,Militia dominant,-0.0792874756243056
+724,10km_shift0,0,Park dominant,0.0471233594725817
+725,10km_shift0,0,Neither actor dominant,0.0851577934535303
+725,10km_shift0,0,Militia dominant,-0.0583519101747799
+725,10km_shift0,0,Park dominant,0.0383841559408881
+726,10km_shift0,0,Neither actor dominant,0.175356870978328
+726,10km_shift0,0,Militia dominant,0.0627344409063781
+726,10km_shift0,0,Park dominant,0.0697841918356707
+727,10km_shift0,0,Neither actor dominant,0.357360889414736
+727,10km_shift0,0,Militia dominant,0.0940379760235557
+727,10km_shift0,0,Park dominant,0.218568210085006
+728,10km_shift0,0,Neither actor dominant,-0.0559200070716233
+728,10km_shift0,0,Militia dominant,-0.271345231632275
+728,10km_shift0,0,Park dominant,-0.178272331432361
+729,10km_shift0,0,Neither actor dominant,0.201429169843889
+729,10km_shift0,0,Militia dominant,-0.0576700274046921
+729,10km_shift0,0,Park dominant,0.0385016912227638
+730,10km_shift0,0,Neither actor dominant,0.150913054116519
+730,10km_shift0,0,Militia dominant,-0.00336388623836184
+730,10km_shift0,0,Park dominant,0.00320034823905713
+731,10km_shift0,0,Neither actor dominant,-0.118564365988436
+731,10km_shift0,0,Militia dominant,-0.358665609033121
+731,10km_shift0,0,Park dominant,-0.246285882169855
+732,10km_shift0,0,Neither actor dominant,0.240687373881529
+732,10km_shift0,0,Militia dominant,0.0655107360509467
+732,10km_shift0,0,Park dominant,0.170542376512386
+733,10km_shift0,0,Neither actor dominant,0.279547892422302
+733,10km_shift0,0,Militia dominant,0.0903932178276505
+733,10km_shift0,0,Park dominant,0.0955613921809284
+734,10km_shift0,0,Neither actor dominant,0.294349918124917
+734,10km_shift0,0,Militia dominant,0.0838489090318067
+734,10km_shift0,0,Park dominant,0.0560604380889639
+735,10km_shift0,0,Neither actor dominant,0.524766972823224
+735,10km_shift0,0,Militia dominant,0.348011509994653
+735,10km_shift0,0,Park dominant,0.401147434124349
+736,10km_shift0,0,Neither actor dominant,0.165729718812439
+736,10km_shift0,0,Militia dominant,0.0476116838703337
+736,10km_shift0,0,Park dominant,0.0160389365106553
+737,10km_shift0,0,Neither actor dominant,0.194423380075743
+737,10km_shift0,0,Militia dominant,-0.0237870539535907
+737,10km_shift0,0,Park dominant,0.0693263568520552
+738,10km_shift0,0,Neither actor dominant,0.0571086743128434
+738,10km_shift0,0,Militia dominant,-0.0870860311066003
+738,10km_shift0,0,Park dominant,0.11301046367691
+739,10km_shift0,0,Neither actor dominant,0.236387535051814
+739,10km_shift0,0,Militia dominant,0.0809556476553556
+739,10km_shift0,0,Park dominant,0.110430912717382
+740,10km_shift0,0,Neither actor dominant,-0.0295395794776247
+740,10km_shift0,0,Militia dominant,-0.198248120599262
+740,10km_shift0,0,Park dominant,-0.12564896078924
+741,10km_shift0,0,Neither actor dominant,0.124611513746065
+741,10km_shift0,0,Militia dominant,-0.0516200949004314
+741,10km_shift0,0,Park dominant,0.0190894043905135
+742,10km_shift0,0,Neither actor dominant,-0.0279043035078287
+742,10km_shift0,0,Militia dominant,-0.213789934444043
+742,10km_shift0,0,Park dominant,-0.179287836356959
+743,10km_shift0,0,Neither actor dominant,0.206956844331703
+743,10km_shift0,0,Militia dominant,0.0395200862999581
+743,10km_shift0,0,Park dominant,0.187577990868963
+744,10km_shift0,0,Neither actor dominant,0.384123886005702
+744,10km_shift0,0,Militia dominant,0.203284253735943
+744,10km_shift0,0,Park dominant,0.203502403220287
+745,10km_shift0,0,Neither actor dominant,0.0275593794608459
+745,10km_shift0,0,Militia dominant,-0.0689192407211958
+745,10km_shift0,0,Park dominant,0.0167509375613109
+746,10km_shift0,0,Neither actor dominant,0.397690527790807
+746,10km_shift0,0,Militia dominant,0.207221330245442
+746,10km_shift0,0,Park dominant,0.309560678166776
+747,10km_shift0,0,Neither actor dominant,0.192927588374435
+747,10km_shift0,0,Militia dominant,-0.0568881701969823
+747,10km_shift0,0,Park dominant,0.020374349325631
+748,10km_shift0,0,Neither actor dominant,0.302363626411262
+748,10km_shift0,0,Militia dominant,0.191477351931089
+748,10km_shift0,0,Park dominant,0.13276895914658
+749,10km_shift0,0,Neither actor dominant,0.260038477658819
+749,10km_shift0,0,Militia dominant,0.0336855818860982
+749,10km_shift0,0,Park dominant,0.111666560544208
+750,10km_shift0,0,Neither actor dominant,0.109252160934324
+750,10km_shift0,0,Militia dominant,-0.116805927585847
+750,10km_shift0,0,Park dominant,-0.135517607330356
+751,10km_shift0,0,Neither actor dominant,-0.00439034750358846
+751,10km_shift0,0,Militia dominant,-0.202829442445812
+751,10km_shift0,0,Park dominant,-0.0972909141294118
+752,10km_shift0,0,Neither actor dominant,0.384549720984179
+752,10km_shift0,0,Militia dominant,0.322361662921664
+752,10km_shift0,0,Park dominant,0.353907509621418
+753,10km_shift0,0,Neither actor dominant,0.194840914972923
+753,10km_shift0,0,Militia dominant,0.0329394051246537
+753,10km_shift0,0,Park dominant,0.100810387166296
+754,10km_shift0,0,Neither actor dominant,0.16971952743032
+754,10km_shift0,0,Militia dominant,0.0116073312869453
+754,10km_shift0,0,Park dominant,0.0383600482768703
+755,10km_shift0,0,Neither actor dominant,0.165097660372305
+755,10km_shift0,0,Militia dominant,0.0188988422099156
+755,10km_shift0,0,Park dominant,0.0951902005038577
+756,10km_shift0,0,Neither actor dominant,0.109975472231508
+756,10km_shift0,0,Militia dominant,-0.079850973183681
+756,10km_shift0,0,Park dominant,0.00945895665430735
+757,10km_shift0,0,Neither actor dominant,0.286397388686592
+757,10km_shift0,0,Militia dominant,0.149000778606254
+757,10km_shift0,0,Park dominant,0.180069410785752
+758,10km_shift0,0,Neither actor dominant,0.153528506341991
+758,10km_shift0,0,Militia dominant,0.0144626289619944
+758,10km_shift0,0,Park dominant,0.104365483119626
+759,10km_shift0,0,Neither actor dominant,0.0622044553237804
+759,10km_shift0,0,Militia dominant,-0.0346928956427006
+759,10km_shift0,0,Park dominant,0.0269964976646843
+760,10km_shift0,0,Neither actor dominant,0.0588635979794784
+760,10km_shift0,0,Militia dominant,-0.0921705065358506
+760,10km_shift0,0,Park dominant,-0.0491331816278712
+761,10km_shift0,0,Neither actor dominant,0.323322775340742
+761,10km_shift0,0,Militia dominant,0.120832003226799
+761,10km_shift0,0,Park dominant,0.152652994442594
+762,10km_shift0,0,Neither actor dominant,0.248762372765066
+762,10km_shift0,0,Militia dominant,0.0329528746797893
+762,10km_shift0,0,Park dominant,-0.0221312419084052
+763,10km_shift0,0,Neither actor dominant,0.247213517626639
+763,10km_shift0,0,Militia dominant,0.155477470375577
+763,10km_shift0,0,Park dominant,0.116358690085999
+764,10km_shift0,0,Neither actor dominant,0.156095302819168
+764,10km_shift0,0,Militia dominant,-0.0302156145505514
+764,10km_shift0,0,Park dominant,-0.0159147076226427
+765,10km_shift0,0,Neither actor dominant,0.265685887611351
+765,10km_shift0,0,Militia dominant,0.0575297128594784
+765,10km_shift0,0,Park dominant,0.125256098404995
+766,10km_shift0,0,Neither actor dominant,0.169626153041791
+766,10km_shift0,0,Militia dominant,0.00233677511572866
+766,10km_shift0,0,Park dominant,0.0188724960925503
+767,10km_shift0,0,Neither actor dominant,0.110189387384603
+767,10km_shift0,0,Militia dominant,0.0096137405906766
+767,10km_shift0,0,Park dominant,0.102043702228807
+768,10km_shift0,0,Neither actor dominant,0.229858698299998
+768,10km_shift0,0,Militia dominant,0.0632043257486147
+768,10km_shift0,0,Park dominant,0.0909305850201189
+769,10km_shift0,0,Neither actor dominant,-0.0220879073814216
+769,10km_shift0,0,Militia dominant,-0.17959048741272
+769,10km_shift0,0,Park dominant,-0.0656460677439496
+770,10km_shift0,0,Neither actor dominant,0.453265228927638
+770,10km_shift0,0,Militia dominant,0.392525123660226
+770,10km_shift0,0,Park dominant,0.330781508978264
+771,10km_shift0,0,Neither actor dominant,0.195399239761318
+771,10km_shift0,0,Militia dominant,0.074526296365819
+771,10km_shift0,0,Park dominant,0.179078500938588
+772,10km_shift0,0,Neither actor dominant,0.337356425980839
+772,10km_shift0,0,Militia dominant,0.216326604399553
+772,10km_shift0,0,Park dominant,0.316016002499809
+773,10km_shift0,0,Neither actor dominant,0.403723389976101
+773,10km_shift0,0,Militia dominant,0.381618786763139
+773,10km_shift0,0,Park dominant,0.313350173086924
+774,10km_shift0,0,Neither actor dominant,0.2038826280058
+774,10km_shift0,0,Militia dominant,-0.0206904780308705
+774,10km_shift0,0,Park dominant,0.0228085097933523
+775,10km_shift0,0,Neither actor dominant,0.236947021894481
+775,10km_shift0,0,Militia dominant,-0.0196610541990055
+775,10km_shift0,0,Park dominant,0.0531605045363908
+776,10km_shift0,0,Neither actor dominant,0.0308052865548043
+776,10km_shift0,0,Militia dominant,-0.183687077069514
+776,10km_shift0,0,Park dominant,0.00573467156384962
+777,10km_shift0,0,Neither actor dominant,0.3282363337662
+777,10km_shift0,0,Militia dominant,0.181814547909286
+777,10km_shift0,0,Park dominant,0.235685468854174
+778,10km_shift0,0,Neither actor dominant,0.377390976164828
+778,10km_shift0,0,Militia dominant,0.175114625538125
+778,10km_shift0,0,Park dominant,0.127024156944384
+779,10km_shift0,0,Neither actor dominant,0.113752554042027
+779,10km_shift0,0,Militia dominant,-0.0355817532925907
+779,10km_shift0,0,Park dominant,0.0639986971026893
+780,10km_shift0,0,Neither actor dominant,0.248608701272264
+780,10km_shift0,0,Militia dominant,0.0431036983640507
+780,10km_shift0,0,Park dominant,0.0851622057309995
+781,10km_shift0,0,Neither actor dominant,0.0720234912264107
+781,10km_shift0,0,Militia dominant,-0.0924551339424043
+781,10km_shift0,0,Park dominant,-0.0295655926403162
+782,10km_shift0,0,Neither actor dominant,0.112666531230327
+782,10km_shift0,0,Militia dominant,-0.0334827323609041
+782,10km_shift0,0,Park dominant,-0.00261402486639134
+783,10km_shift0,0,Neither actor dominant,0.324842819464868
+783,10km_shift0,0,Militia dominant,0.0786769453627426
+783,10km_shift0,0,Park dominant,0.106106575408148
+784,10km_shift0,0,Neither actor dominant,0.248826913927013
+784,10km_shift0,0,Militia dominant,0.0447456189757065
+784,10km_shift0,0,Park dominant,0.1618167408594
+785,10km_shift0,0,Neither actor dominant,0.163082320512498
+785,10km_shift0,0,Militia dominant,-0.0348099176368862
+785,10km_shift0,0,Park dominant,-0.0452532868665742
+786,10km_shift0,0,Neither actor dominant,0.289730960486037
+786,10km_shift0,0,Militia dominant,0.246180520948134
+786,10km_shift0,0,Park dominant,0.208328045743439
+787,10km_shift0,0,Neither actor dominant,0.285038340798905
+787,10km_shift0,0,Militia dominant,0.160480772540121
+787,10km_shift0,0,Park dominant,0.198489856373679
+788,10km_shift0,0,Neither actor dominant,0.249067307626072
+788,10km_shift0,0,Militia dominant,0.104607682895014
+788,10km_shift0,0,Park dominant,0.226069729658387
+789,10km_shift0,0,Neither actor dominant,0.123235874801086
+789,10km_shift0,0,Militia dominant,-0.0711312039928597
+789,10km_shift0,0,Park dominant,-0.0371957280854381
+790,10km_shift0,0,Neither actor dominant,0.125245913291559
+790,10km_shift0,0,Militia dominant,0.0224248928710066
+790,10km_shift0,0,Park dominant,0.12963388053589
+791,10km_shift0,0,Neither actor dominant,0.00672465467732343
+791,10km_shift0,0,Militia dominant,-0.150717080822193
+791,10km_shift0,0,Park dominant,-0.0754320822082167
+792,10km_shift0,0,Neither actor dominant,0.00438250649921926
+792,10km_shift0,0,Militia dominant,-0.117959780967525
+792,10km_shift0,0,Park dominant,0.0461373914245248
+793,10km_shift0,0,Neither actor dominant,0.252224122889895
+793,10km_shift0,0,Militia dominant,0.112255014000314
+793,10km_shift0,0,Park dominant,0.116889418965738
+794,10km_shift0,0,Neither actor dominant,0.391872357312543
+794,10km_shift0,0,Militia dominant,0.214311918854405
+794,10km_shift0,0,Park dominant,0.253648136162053
+795,10km_shift0,0,Neither actor dominant,0.175827154965661
+795,10km_shift0,0,Militia dominant,0.0628773269264735
+795,10km_shift0,0,Park dominant,0.111577811599853
+796,10km_shift0,0,Neither actor dominant,0.182246095992112
+796,10km_shift0,0,Militia dominant,0.0445553550073852
+796,10km_shift0,0,Park dominant,0.0818078200825727
+797,10km_shift0,0,Neither actor dominant,0.0310269963125846
+797,10km_shift0,0,Militia dominant,-0.105043761472417
+797,10km_shift0,0,Park dominant,-0.011795394766093
+798,10km_shift0,0,Neither actor dominant,0.0899357155342609
+798,10km_shift0,0,Militia dominant,-0.0309067467364459
+798,10km_shift0,0,Park dominant,0.0395487423977388
+799,10km_shift0,0,Neither actor dominant,0.0628556336329119
+799,10km_shift0,0,Militia dominant,-0.0915131690196934
+799,10km_shift0,0,Park dominant,0.0903062161875359
+800,10km_shift0,0,Neither actor dominant,0.245055641939612
+800,10km_shift0,0,Militia dominant,0.134866124821318
+800,10km_shift0,0,Park dominant,0.160876849852523
+801,10km_shift0,0,Neither actor dominant,0.20595024865569
+801,10km_shift0,0,Militia dominant,0.113278935013255
+801,10km_shift0,0,Park dominant,0.127432278789037
+802,10km_shift0,0,Neither actor dominant,-0.0520154707088682
+802,10km_shift0,0,Militia dominant,-0.195726697546066
+802,10km_shift0,0,Park dominant,-0.253095864896544
+803,10km_shift0,0,Neither actor dominant,0.193030187833158
+803,10km_shift0,0,Militia dominant,-0.0539743439405287
+803,10km_shift0,0,Park dominant,-0.0385877829161974
+804,10km_shift0,0,Neither actor dominant,-0.00327607928121883
+804,10km_shift0,0,Militia dominant,-0.220945782089401
+804,10km_shift0,0,Park dominant,-0.161815725855324
+805,10km_shift0,0,Neither actor dominant,0.388228331447387
+805,10km_shift0,0,Militia dominant,0.235527809142605
+805,10km_shift0,0,Park dominant,0.295643766923467
+806,10km_shift0,0,Neither actor dominant,0.154416571326179
+806,10km_shift0,0,Militia dominant,0.0238102861983394
+806,10km_shift0,0,Park dominant,0.0412723446489688
+807,10km_shift0,0,Neither actor dominant,0.0996974550234834
+807,10km_shift0,0,Militia dominant,0.00726472733076908
+807,10km_shift0,0,Park dominant,-0.0611208212626545
+808,10km_shift0,0,Neither actor dominant,0.257853502211331
+808,10km_shift0,0,Militia dominant,0.11118893474994
+808,10km_shift0,0,Park dominant,0.157639884184437
+809,10km_shift0,0,Neither actor dominant,-0.0818713898093011
+809,10km_shift0,0,Militia dominant,-0.232600828839153
+809,10km_shift0,0,Park dominant,-0.173025048624865
+810,10km_shift0,0,Neither actor dominant,0.292349133975018
+810,10km_shift0,0,Militia dominant,0.156354050092052
+810,10km_shift0,0,Park dominant,0.130291685827219
+811,10km_shift0,0,Neither actor dominant,0.313011018884452
+811,10km_shift0,0,Militia dominant,0.0708799109471404
+811,10km_shift0,0,Park dominant,0.146531327084738
+812,10km_shift0,0,Neither actor dominant,0.0536870948587881
+812,10km_shift0,0,Militia dominant,-0.0693036663181864
+812,10km_shift0,0,Park dominant,0.0152499966630031
+813,10km_shift0,0,Neither actor dominant,0.200891946864404
+813,10km_shift0,0,Militia dominant,0.0376343489482319
+813,10km_shift0,0,Park dominant,0.0261241402496417
+814,10km_shift0,0,Neither actor dominant,0.0614982686530401
+814,10km_shift0,0,Militia dominant,-0.0418456300905509
+814,10km_shift0,0,Park dominant,0.0153643982487226
+815,10km_shift0,0,Neither actor dominant,0.0481189405504675
+815,10km_shift0,0,Militia dominant,-0.100314031114148
+815,10km_shift0,0,Park dominant,-0.0663733144011863
+816,10km_shift0,0,Neither actor dominant,0.292692154704396
+816,10km_shift0,0,Militia dominant,0.118251154316513
+816,10km_shift0,0,Park dominant,0.153263145383903
+817,10km_shift0,0,Neither actor dominant,0.175224647396798
+817,10km_shift0,0,Militia dominant,0.0746054145562404
+817,10km_shift0,0,Park dominant,0.11086469603459
+818,10km_shift0,0,Neither actor dominant,0.303297058034253
+818,10km_shift0,0,Militia dominant,0.180547410637203
+818,10km_shift0,0,Park dominant,0.229177482721964
+819,10km_shift0,0,Neither actor dominant,0.148481046821186
+819,10km_shift0,0,Militia dominant,-0.0416153162606639
+819,10km_shift0,0,Park dominant,-0.0155877662442794
+820,10km_shift0,0,Neither actor dominant,0.407229391695331
+820,10km_shift0,0,Militia dominant,0.268638426830512
+820,10km_shift0,0,Park dominant,0.285300248233087
+821,10km_shift0,0,Neither actor dominant,0.314525092642054
+821,10km_shift0,0,Militia dominant,0.164008896571157
+821,10km_shift0,0,Park dominant,0.159078613638265
+822,10km_shift0,0,Neither actor dominant,0.175554709621087
+822,10km_shift0,0,Militia dominant,0.0333154095390709
+822,10km_shift0,0,Park dominant,0.0483622620891121
+823,10km_shift0,0,Neither actor dominant,0.133230555938189
+823,10km_shift0,0,Militia dominant,0.000675296117336605
+823,10km_shift0,0,Park dominant,-0.0800368401916312
+824,10km_shift0,0,Neither actor dominant,0.1204031892517
+824,10km_shift0,0,Militia dominant,0.0179149869582431
+824,10km_shift0,0,Park dominant,0.170608307475235
+825,10km_shift0,0,Neither actor dominant,-0.0114609487001877
+825,10km_shift0,0,Militia dominant,-0.174989100079659
+825,10km_shift0,0,Park dominant,-0.115867812039032
+826,10km_shift0,0,Neither actor dominant,0.305308705440929
+826,10km_shift0,0,Militia dominant,0.237015028011447
+826,10km_shift0,0,Park dominant,0.245315475382739
+827,10km_shift0,0,Neither actor dominant,0.369249549136929
+827,10km_shift0,0,Militia dominant,0.220996924570447
+827,10km_shift0,0,Park dominant,0.239982742300697
+828,10km_shift0,0,Neither actor dominant,0.0535670154385089
+828,10km_shift0,0,Militia dominant,-0.1421974467024
+828,10km_shift0,0,Park dominant,0.00675238916852219
+829,10km_shift0,0,Neither actor dominant,0.215279792760774
+829,10km_shift0,0,Militia dominant,0.0205936400616313
+829,10km_shift0,0,Park dominant,0.0965996943175231
+830,10km_shift0,0,Neither actor dominant,0.0768091447338448
+830,10km_shift0,0,Militia dominant,-0.171580623114905
+830,10km_shift0,0,Park dominant,-0.0893968361059915
+831,10km_shift0,0,Neither actor dominant,0.0704458922871371
+831,10km_shift0,0,Militia dominant,-0.105583960385857
+831,10km_shift0,0,Park dominant,-0.0829958844294431
+832,10km_shift0,0,Neither actor dominant,0.122653766740238
+832,10km_shift0,0,Militia dominant,-0.0501749705610112
+832,10km_shift0,0,Park dominant,0.0277480949595662
+833,10km_shift0,0,Neither actor dominant,0.0849485025999931
+833,10km_shift0,0,Militia dominant,-0.0674130856694842
+833,10km_shift0,0,Park dominant,-0.147189467899303
+834,10km_shift0,0,Neither actor dominant,0.146624786126019
+834,10km_shift0,0,Militia dominant,0.072405255807484
+834,10km_shift0,0,Park dominant,0.0761093111463516
+835,10km_shift0,0,Neither actor dominant,0.107729413783273
+835,10km_shift0,0,Militia dominant,-0.0667370423765039
+835,10km_shift0,0,Park dominant,-0.05311042764062
+836,10km_shift0,0,Neither actor dominant,0.184195790246522
+836,10km_shift0,0,Militia dominant,-0.0580573786366165
+836,10km_shift0,0,Park dominant,0.0276674138510488
+837,10km_shift0,0,Neither actor dominant,0.110108034193506
+837,10km_shift0,0,Militia dominant,-0.0336548510566731
+837,10km_shift0,0,Park dominant,-0.0156480955794649
+838,10km_shift0,0,Neither actor dominant,0.101983925985528
+838,10km_shift0,0,Militia dominant,-0.0614118311590565
+838,10km_shift0,0,Park dominant,-0.121453616361696
+839,10km_shift0,0,Neither actor dominant,0.105081781084729
+839,10km_shift0,0,Militia dominant,-0.0884506762216271
+839,10km_shift0,0,Park dominant,-0.0421626817288434
+840,10km_shift0,0,Neither actor dominant,0.0741784345204427
+840,10km_shift0,0,Militia dominant,-0.0272857153086482
+840,10km_shift0,0,Park dominant,0.0868175794275677
+841,10km_shift0,0,Neither actor dominant,0.262282083763647
+841,10km_shift0,0,Militia dominant,0.0782062445672497
+841,10km_shift0,0,Park dominant,0.0364939765358566
+842,10km_shift0,0,Neither actor dominant,0.252512159866127
+842,10km_shift0,0,Militia dominant,0.0720219877851415
+842,10km_shift0,0,Park dominant,0.0983732011356025
+843,10km_shift0,0,Neither actor dominant,0.107649838305456
+843,10km_shift0,0,Militia dominant,-0.0293382123116638
+843,10km_shift0,0,Park dominant,0.0641779490462598
+844,10km_shift0,0,Neither actor dominant,0.118835476904024
+844,10km_shift0,0,Militia dominant,-0.0583737791731175
+844,10km_shift0,0,Park dominant,0.0499524099006886
+845,10km_shift0,0,Neither actor dominant,0.267527840933231
+845,10km_shift0,0,Militia dominant,0.108532111673811
+845,10km_shift0,0,Park dominant,0.198299308132495
+846,10km_shift0,0,Neither actor dominant,0.131847074540084
+846,10km_shift0,0,Militia dominant,-0.0603766076338541
+846,10km_shift0,0,Park dominant,-0.0265089908697884
+847,10km_shift0,0,Neither actor dominant,0.122198198797313
+847,10km_shift0,0,Militia dominant,-0.0379872833095366
+847,10km_shift0,0,Park dominant,0.0960327835726768
+848,10km_shift0,0,Neither actor dominant,0.047289564171155
+848,10km_shift0,0,Militia dominant,-0.0967590805096077
+848,10km_shift0,0,Park dominant,-0.0183176504018477
+849,10km_shift0,0,Neither actor dominant,0.27431388478248
+849,10km_shift0,0,Militia dominant,0.057273466476222
+849,10km_shift0,0,Park dominant,0.155891429831774
+850,10km_shift0,0,Neither actor dominant,0.290005161431633
+850,10km_shift0,0,Militia dominant,0.164510004323672
+850,10km_shift0,0,Park dominant,0.153894645136055
+851,10km_shift0,0,Neither actor dominant,0.164843157510957
+851,10km_shift0,0,Militia dominant,-0.0666088847430981
+851,10km_shift0,0,Park dominant,0.0664716941101491
+852,10km_shift0,0,Neither actor dominant,-0.0534873803991258
+852,10km_shift0,0,Militia dominant,-0.278143390739566
+852,10km_shift0,0,Park dominant,-0.185891796545593
+853,10km_shift0,0,Neither actor dominant,0.273088099082298
+853,10km_shift0,0,Militia dominant,0.0881260780958849
+853,10km_shift0,0,Park dominant,0.110449913687799
+854,10km_shift0,0,Neither actor dominant,0.416604631172374
+854,10km_shift0,0,Militia dominant,0.239777189764211
+854,10km_shift0,0,Park dominant,0.246386581590139
+855,10km_shift0,0,Neither actor dominant,0.314835325997165
+855,10km_shift0,0,Militia dominant,0.0861598019771126
+855,10km_shift0,0,Park dominant,0.104653720503577
+856,10km_shift0,0,Neither actor dominant,0.129664074727687
+856,10km_shift0,0,Militia dominant,0.0747243133877632
+856,10km_shift0,0,Park dominant,0.0416396729456222
+857,10km_shift0,0,Neither actor dominant,0.285432812115086
+857,10km_shift0,0,Militia dominant,0.0993209372181526
+857,10km_shift0,0,Park dominant,0.217170197436436
+858,10km_shift0,0,Neither actor dominant,0.293670560191467
+858,10km_shift0,0,Militia dominant,0.165791784011842
+858,10km_shift0,0,Park dominant,0.142436324705113
+859,10km_shift0,0,Neither actor dominant,0.227195010600309
+859,10km_shift0,0,Militia dominant,0.037300289407446
+859,10km_shift0,0,Park dominant,0.249556765048504
+860,10km_shift0,0,Neither actor dominant,0.211399903454731
+860,10km_shift0,0,Militia dominant,0.0492495873684894
+860,10km_shift0,0,Park dominant,0.0829647775539917
+861,10km_shift0,0,Neither actor dominant,0.14230296328334
+861,10km_shift0,0,Militia dominant,-0.106964637296228
+861,10km_shift0,0,Park dominant,-0.0228184977097099
+862,10km_shift0,0,Neither actor dominant,0.00970462791596014
+862,10km_shift0,0,Militia dominant,-0.159138176029686
+862,10km_shift0,0,Park dominant,0.000162380756944329
+863,10km_shift0,0,Neither actor dominant,0.206802452579639
+863,10km_shift0,0,Militia dominant,0.0713842957717372
+863,10km_shift0,0,Park dominant,0.167926414039214
+864,10km_shift0,0,Neither actor dominant,0.185339435059668
+864,10km_shift0,0,Militia dominant,0.107445555509192
+864,10km_shift0,0,Park dominant,0.0781063776574284
+865,10km_shift0,0,Neither actor dominant,-0.0114102263375428
+865,10km_shift0,0,Militia dominant,-0.276369247919207
+865,10km_shift0,0,Park dominant,-0.158124091109346
+866,10km_shift0,0,Neither actor dominant,0.177243915201629
+866,10km_shift0,0,Militia dominant,0.00934753696523921
+866,10km_shift0,0,Park dominant,0.112853101696224
+867,10km_shift0,0,Neither actor dominant,0.288083266973758
+867,10km_shift0,0,Militia dominant,0.175300949888798
+867,10km_shift0,0,Park dominant,0.229304640069941
+868,10km_shift0,0,Neither actor dominant,0.253504601781295
+868,10km_shift0,0,Militia dominant,0.0883549579917153
+868,10km_shift0,0,Park dominant,0.269583537766757
+869,10km_shift0,0,Neither actor dominant,0.172989322327573
+869,10km_shift0,0,Militia dominant,0.0292583756445577
+869,10km_shift0,0,Park dominant,0.133651582336548
+870,10km_shift0,0,Neither actor dominant,0.136035131148484
+870,10km_shift0,0,Militia dominant,-0.0610701615211271
+870,10km_shift0,0,Park dominant,0.00754673865136657
+871,10km_shift0,0,Neither actor dominant,0.209586586077601
+871,10km_shift0,0,Militia dominant,0.11093870239002
+871,10km_shift0,0,Park dominant,0.148326677761988
+872,10km_shift0,0,Neither actor dominant,0.217981086386785
+872,10km_shift0,0,Militia dominant,0.10550775035312
+872,10km_shift0,0,Park dominant,0.120011722294435
+873,10km_shift0,0,Neither actor dominant,0.373906259359834
+873,10km_shift0,0,Militia dominant,0.171126938544879
+873,10km_shift0,0,Park dominant,0.206565428968299
+874,10km_shift0,0,Neither actor dominant,0.160671009599299
+874,10km_shift0,0,Militia dominant,0.0150844171396309
+874,10km_shift0,0,Park dominant,0.0179156139409204
+875,10km_shift0,0,Neither actor dominant,0.405483299248164
+875,10km_shift0,0,Militia dominant,0.357692381617576
+875,10km_shift0,0,Park dominant,0.352179641145345
+876,10km_shift0,0,Neither actor dominant,0.0466395939251418
+876,10km_shift0,0,Militia dominant,-0.109083104066991
+876,10km_shift0,0,Park dominant,-0.0443774835486053
+877,10km_shift0,0,Neither actor dominant,-0.0878887589968739
+877,10km_shift0,0,Militia dominant,-0.347830348991216
+877,10km_shift0,0,Park dominant,-0.178682075518596
+878,10km_shift0,0,Neither actor dominant,0.274912976769791
+878,10km_shift0,0,Militia dominant,0.0773585310316929
+878,10km_shift0,0,Park dominant,0.263161069250824
+879,10km_shift0,0,Neither actor dominant,0.428411112330026
+879,10km_shift0,0,Militia dominant,0.285137597390788
+879,10km_shift0,0,Park dominant,0.30268648277372
+880,10km_shift0,0,Neither actor dominant,-0.119308236991323
+880,10km_shift0,0,Militia dominant,-0.277158199923517
+880,10km_shift0,0,Park dominant,-0.116246277075013
+881,10km_shift0,0,Neither actor dominant,0.0276954126903861
+881,10km_shift0,0,Militia dominant,-0.128418469162263
+881,10km_shift0,0,Park dominant,-0.0539461448789793
+882,10km_shift0,0,Neither actor dominant,0.270145039906317
+882,10km_shift0,0,Militia dominant,0.0769251879732825
+882,10km_shift0,0,Park dominant,0.0351142300153907
+883,10km_shift0,0,Neither actor dominant,0.213845701061404
+883,10km_shift0,0,Militia dominant,0.00400952557664208
+883,10km_shift0,0,Park dominant,0.117447326477347
+884,10km_shift0,0,Neither actor dominant,-0.021150738637718
+884,10km_shift0,0,Militia dominant,-0.157968265891717
+884,10km_shift0,0,Park dominant,-0.047760076154989
+885,10km_shift0,0,Neither actor dominant,0.359854688792415
+885,10km_shift0,0,Militia dominant,0.175793423532214
+885,10km_shift0,0,Park dominant,0.187976146646309
+886,10km_shift0,0,Neither actor dominant,0.171456261484296
+886,10km_shift0,0,Militia dominant,0.132357862824499
+886,10km_shift0,0,Park dominant,0.130938275875019
+887,10km_shift0,0,Neither actor dominant,0.20091637906904
+887,10km_shift0,0,Militia dominant,0.11424450940396
+887,10km_shift0,0,Park dominant,0.0775480498544662
+888,10km_shift0,0,Neither actor dominant,0.2888322271972
+888,10km_shift0,0,Militia dominant,-0.012506042257757
+888,10km_shift0,0,Park dominant,0.0596025271438109
+889,10km_shift0,0,Neither actor dominant,0.242050001488629
+889,10km_shift0,0,Militia dominant,0.0640133827421267
+889,10km_shift0,0,Park dominant,0.0839115062533905
+890,10km_shift0,0,Neither actor dominant,0.160593269393774
+890,10km_shift0,0,Militia dominant,-0.144335477226666
+890,10km_shift0,0,Park dominant,-0.0818110463992625
+891,10km_shift0,0,Neither actor dominant,0.0900092383203486
+891,10km_shift0,0,Militia dominant,-0.0899962530940648
+891,10km_shift0,0,Park dominant,0.059750550288459
+892,10km_shift0,0,Neither actor dominant,0.00443867336465636
+892,10km_shift0,0,Militia dominant,-0.190362793014362
+892,10km_shift0,0,Park dominant,0.0653041715266159
+893,10km_shift0,0,Neither actor dominant,0.362295924417883
+893,10km_shift0,0,Militia dominant,0.148544113999825
+893,10km_shift0,0,Park dominant,0.130991802984865
+894,10km_shift0,0,Neither actor dominant,0.272625236314231
+894,10km_shift0,0,Militia dominant,0.101114275770245
+894,10km_shift0,0,Park dominant,0.13867596620293
+895,10km_shift0,0,Neither actor dominant,0.189334913640893
+895,10km_shift0,0,Militia dominant,0.0675490601663961
+895,10km_shift0,0,Park dominant,0.0259377850429912
+896,10km_shift0,0,Neither actor dominant,0.0571331393166945
+896,10km_shift0,0,Militia dominant,-0.12848954571328
+896,10km_shift0,0,Park dominant,-0.0106482301584442
+897,10km_shift0,0,Neither actor dominant,0.358957123777298
+897,10km_shift0,0,Militia dominant,0.242797585412569
+897,10km_shift0,0,Park dominant,0.237518993585494
+898,10km_shift0,0,Neither actor dominant,0.233767846025857
+898,10km_shift0,0,Militia dominant,0.073572777316114
+898,10km_shift0,0,Park dominant,0.167350658073407
+899,10km_shift0,0,Neither actor dominant,0.247974009712138
+899,10km_shift0,0,Militia dominant,0.0857768064326348
+899,10km_shift0,0,Park dominant,0.207221888727527
+900,10km_shift0,0,Neither actor dominant,0.192967086998421
+900,10km_shift0,0,Militia dominant,0.0152557457991498
+900,10km_shift0,0,Park dominant,0.0260869825101316
+901,10km_shift0,0,Neither actor dominant,0.286810483845472
+901,10km_shift0,0,Militia dominant,0.128475849943609
+901,10km_shift0,0,Park dominant,0.254678522236298
+902,10km_shift0,0,Neither actor dominant,0.176855280301768
+902,10km_shift0,0,Militia dominant,0.0341840265770007
+902,10km_shift0,0,Park dominant,0.135101127476842
+903,10km_shift0,0,Neither actor dominant,0.232315433592644
+903,10km_shift0,0,Militia dominant,0.0886192105780578
+903,10km_shift0,0,Park dominant,0.147394368501392
+904,10km_shift0,0,Neither actor dominant,0.197257541208798
+904,10km_shift0,0,Militia dominant,-0.048000911482779
+904,10km_shift0,0,Park dominant,-0.0106995773207014
+905,10km_shift0,0,Neither actor dominant,0.0268294474828352
+905,10km_shift0,0,Militia dominant,-0.204884308912667
+905,10km_shift0,0,Park dominant,-0.088658249989284
+906,10km_shift0,0,Neither actor dominant,0.109742078117609
+906,10km_shift0,0,Militia dominant,0.0360176580608361
+906,10km_shift0,0,Park dominant,0.078653022552024
+907,10km_shift0,0,Neither actor dominant,0.272572509426727
+907,10km_shift0,0,Militia dominant,0.14511490900848
+907,10km_shift0,0,Park dominant,0.191889806209828
+908,10km_shift0,0,Neither actor dominant,0.127564958482643
+908,10km_shift0,0,Militia dominant,-0.0926941210397964
+908,10km_shift0,0,Park dominant,-0.0217159321573268
+909,10km_shift0,0,Neither actor dominant,0.278246513044778
+909,10km_shift0,0,Militia dominant,0.105950993862846
+909,10km_shift0,0,Park dominant,0.171360697722308
+910,10km_shift0,0,Neither actor dominant,0.247391537031667
+910,10km_shift0,0,Militia dominant,-0.02042133403987
+910,10km_shift0,0,Park dominant,0.183003952458373
+911,10km_shift0,0,Neither actor dominant,0.0942327863940935
+911,10km_shift0,0,Militia dominant,-0.100566432171225
+911,10km_shift0,0,Park dominant,0.0121569532150634
+912,10km_shift0,0,Neither actor dominant,0.11412283471297
+912,10km_shift0,0,Militia dominant,-0.0850502207111496
+912,10km_shift0,0,Park dominant,0.0367652720094948
+913,10km_shift0,0,Neither actor dominant,0.102207489194032
+913,10km_shift0,0,Militia dominant,-0.0361275957206593
+913,10km_shift0,0,Park dominant,0.0701830084771432
+914,10km_shift0,0,Neither actor dominant,0.25015107176867
+914,10km_shift0,0,Militia dominant,0.139761335096321
+914,10km_shift0,0,Park dominant,0.182650492167633
+915,10km_shift0,0,Neither actor dominant,0.10882989625859
+915,10km_shift0,0,Militia dominant,-0.0602494220929988
+915,10km_shift0,0,Park dominant,0.0396419220115168
+916,10km_shift0,0,Neither actor dominant,0.149366945432871
+916,10km_shift0,0,Militia dominant,0.0398910764432755
+916,10km_shift0,0,Park dominant,0.0702889784857201
+917,10km_shift0,0,Neither actor dominant,0.153831126287882
+917,10km_shift0,0,Militia dominant,-0.00131420539010563
+917,10km_shift0,0,Park dominant,-0.0141652965718722
+918,10km_shift0,0,Neither actor dominant,-0.0518270723755231
+918,10km_shift0,0,Militia dominant,-0.298085952433538
+918,10km_shift0,0,Park dominant,-0.155789099961517
+919,10km_shift0,0,Neither actor dominant,0.313207415496415
+919,10km_shift0,0,Militia dominant,0.196046855790605
+919,10km_shift0,0,Park dominant,0.162135215900879
+920,10km_shift0,0,Neither actor dominant,0.260547272310264
+920,10km_shift0,0,Militia dominant,0.147599901518634
+920,10km_shift0,0,Park dominant,0.193536485374254
+921,10km_shift0,0,Neither actor dominant,0.341263332336523
+921,10km_shift0,0,Militia dominant,0.200886138985633
+921,10km_shift0,0,Park dominant,0.189478420503757
+922,10km_shift0,0,Neither actor dominant,-0.044910882225104
+922,10km_shift0,0,Militia dominant,-0.202088560209301
+922,10km_shift0,0,Park dominant,-0.123028590812549
+923,10km_shift0,0,Neither actor dominant,0.419116446906697
+923,10km_shift0,0,Militia dominant,0.236153925974152
+923,10km_shift0,0,Park dominant,0.270872441604979
+924,10km_shift0,0,Neither actor dominant,0.0777699816548194
+924,10km_shift0,0,Militia dominant,-0.106454873866161
+924,10km_shift0,0,Park dominant,-0.0207428489280186
+925,10km_shift0,0,Neither actor dominant,0.153989903064908
+925,10km_shift0,0,Militia dominant,-0.0372827490550157
+925,10km_shift0,0,Park dominant,0.0447882510746176
+926,10km_shift0,0,Neither actor dominant,0.0965602125381303
+926,10km_shift0,0,Militia dominant,-0.135165673574939
+926,10km_shift0,0,Park dominant,-0.0479932989870059
+927,10km_shift0,0,Neither actor dominant,0.156670061114983
+927,10km_shift0,0,Militia dominant,0.0271623359730706
+927,10km_shift0,0,Park dominant,0.0811447514373757
+928,10km_shift0,0,Neither actor dominant,0.129776098737947
+928,10km_shift0,0,Militia dominant,0.0324757815075623
+928,10km_shift0,0,Park dominant,0.0433361410337096
+929,10km_shift0,0,Neither actor dominant,0.112569758334786
+929,10km_shift0,0,Militia dominant,-0.0309874248218509
+929,10km_shift0,0,Park dominant,0.0318241547234023
+930,10km_shift0,0,Neither actor dominant,0.245054526071257
+930,10km_shift0,0,Militia dominant,0.08546002402596
+930,10km_shift0,0,Park dominant,0.0973204131104955
+931,10km_shift0,0,Neither actor dominant,0.119839927942822
+931,10km_shift0,0,Militia dominant,-0.0242839374593618
+931,10km_shift0,0,Park dominant,0.0388834219730396
+932,10km_shift0,0,Neither actor dominant,0.15376917499694
+932,10km_shift0,0,Militia dominant,0.0618789911054978
+932,10km_shift0,0,Park dominant,0.155774177019574
+933,10km_shift0,0,Neither actor dominant,0.246214307566373
+933,10km_shift0,0,Militia dominant,0.0753045229322099
+933,10km_shift0,0,Park dominant,0.114201342054873
+934,10km_shift0,0,Neither actor dominant,0.17353457468373
+934,10km_shift0,0,Militia dominant,0.100456364646792
+934,10km_shift0,0,Park dominant,0.166764290021514
+935,10km_shift0,0,Neither actor dominant,0.224027393745721
+935,10km_shift0,0,Militia dominant,0.0517170908847073
+935,10km_shift0,0,Park dominant,0.223340888216405
+936,10km_shift0,0,Neither actor dominant,0.0672995621340876
+936,10km_shift0,0,Militia dominant,-0.114272278225267
+936,10km_shift0,0,Park dominant,0.0108952834444262
+937,10km_shift0,0,Neither actor dominant,0.342029172319575
+937,10km_shift0,0,Militia dominant,0.0592872452425627
+937,10km_shift0,0,Park dominant,0.139691618570607
+938,10km_shift0,0,Neither actor dominant,0.241497917606547
+938,10km_shift0,0,Militia dominant,0.0597836098770202
+938,10km_shift0,0,Park dominant,0.129706245649363
+939,10km_shift0,0,Neither actor dominant,0.215410448709625
+939,10km_shift0,0,Militia dominant,0.0642149177870939
+939,10km_shift0,0,Park dominant,0.202473569609663
+940,10km_shift0,0,Neither actor dominant,0.425087880063483
+940,10km_shift0,0,Militia dominant,0.255012517336387
+940,10km_shift0,0,Park dominant,0.362993184365229
+941,10km_shift0,0,Neither actor dominant,0.142377903685826
+941,10km_shift0,0,Militia dominant,0.0168184954889351
+941,10km_shift0,0,Park dominant,0.0932988905577649
+942,10km_shift0,0,Neither actor dominant,0.364520950627563
+942,10km_shift0,0,Militia dominant,0.203883152519487
+942,10km_shift0,0,Park dominant,0.218455961040684
+943,10km_shift0,0,Neither actor dominant,0.365111933961064
+943,10km_shift0,0,Militia dominant,0.243791844804088
+943,10km_shift0,0,Park dominant,0.232519665577756
+944,10km_shift0,0,Neither actor dominant,0.0679472792493328
+944,10km_shift0,0,Militia dominant,-0.0935063100875539
+944,10km_shift0,0,Park dominant,-0.0190375892041261
+945,10km_shift0,0,Neither actor dominant,0.140579550063485
+945,10km_shift0,0,Militia dominant,0.0518721418624239
+945,10km_shift0,0,Park dominant,0.0527563948031393
+946,10km_shift0,0,Neither actor dominant,0.178656384083026
+946,10km_shift0,0,Militia dominant,0.0420563815717476
+946,10km_shift0,0,Park dominant,0.12622113283802
+947,10km_shift0,0,Neither actor dominant,0.311748032671175
+947,10km_shift0,0,Militia dominant,0.179007850817942
+947,10km_shift0,0,Park dominant,0.212558696080146
+948,10km_shift0,0,Neither actor dominant,0.139218124482638
+948,10km_shift0,0,Militia dominant,0.0320479372483873
+948,10km_shift0,0,Park dominant,0.0918375781971989
+949,10km_shift0,0,Neither actor dominant,0.0793070915916405
+949,10km_shift0,0,Militia dominant,-0.0655295847943801
+949,10km_shift0,0,Park dominant,0.0826770037436682
+950,10km_shift0,0,Neither actor dominant,0.258794805715722
+950,10km_shift0,0,Militia dominant,0.141194535374807
+950,10km_shift0,0,Park dominant,0.170725903878062
+951,10km_shift0,0,Neither actor dominant,0.203408515843237
+951,10km_shift0,0,Militia dominant,0.139072621701341
+951,10km_shift0,0,Park dominant,0.20586319151407
+952,10km_shift0,0,Neither actor dominant,-0.0341154304307259
+952,10km_shift0,0,Militia dominant,-0.191041199967823
+952,10km_shift0,0,Park dominant,-0.129841465472433
+953,10km_shift0,0,Neither actor dominant,0.183548190487729
+953,10km_shift0,0,Militia dominant,-0.0077329913391517
+953,10km_shift0,0,Park dominant,0.0280195610702963
+954,10km_shift0,0,Neither actor dominant,0.260340757447
+954,10km_shift0,0,Militia dominant,0.0763136721996418
+954,10km_shift0,0,Park dominant,0.144638769434781
+955,10km_shift0,0,Neither actor dominant,0.0847464110407094
+955,10km_shift0,0,Militia dominant,-0.079218487866901
+955,10km_shift0,0,Park dominant,-0.0212056229478864
+956,10km_shift0,0,Neither actor dominant,0.0827959762243727
+956,10km_shift0,0,Militia dominant,-0.0451729648467219
+956,10km_shift0,0,Park dominant,0.0188611554758146
+957,10km_shift0,0,Neither actor dominant,0.322560409251352
+957,10km_shift0,0,Militia dominant,0.119044305239714
+957,10km_shift0,0,Park dominant,0.206876009049954
+958,10km_shift0,0,Neither actor dominant,0.236382055402555
+958,10km_shift0,0,Militia dominant,0.180046953439044
+958,10km_shift0,0,Park dominant,0.135745848515321
+959,10km_shift0,0,Neither actor dominant,0.150229351570906
+959,10km_shift0,0,Militia dominant,0.0596496996119387
+959,10km_shift0,0,Park dominant,0.0366233575076802
+960,10km_shift0,0,Neither actor dominant,0.281041685690299
+960,10km_shift0,0,Militia dominant,0.107461853611322
+960,10km_shift0,0,Park dominant,0.155494742561475
+961,10km_shift0,0,Neither actor dominant,0.136771085728733
+961,10km_shift0,0,Militia dominant,-0.0313900582635156
+961,10km_shift0,0,Park dominant,0.00965128670016674
+962,10km_shift0,0,Neither actor dominant,0.11369925319043
+962,10km_shift0,0,Militia dominant,-0.0361988533482322
+962,10km_shift0,0,Park dominant,-0.0294608414252668
+963,10km_shift0,0,Neither actor dominant,0.0205039526804934
+963,10km_shift0,0,Militia dominant,-0.0981025808440238
+963,10km_shift0,0,Park dominant,-0.128982154796384
+964,10km_shift0,0,Neither actor dominant,0.0499143074193423
+964,10km_shift0,0,Militia dominant,-0.0762518536104402
+964,10km_shift0,0,Park dominant,-0.0477626798016651
+965,10km_shift0,0,Neither actor dominant,0.459147227300191
+965,10km_shift0,0,Militia dominant,0.295170370293035
+965,10km_shift0,0,Park dominant,0.297719313263904
+966,10km_shift0,0,Neither actor dominant,0.258208875243645
+966,10km_shift0,0,Militia dominant,0.126459789120408
+966,10km_shift0,0,Park dominant,0.166571720218464
+967,10km_shift0,0,Neither actor dominant,0.163030996659563
+967,10km_shift0,0,Militia dominant,0.0330735163454917
+967,10km_shift0,0,Park dominant,0.151757300608709
+968,10km_shift0,0,Neither actor dominant,0.306757863065068
+968,10km_shift0,0,Militia dominant,0.176209517156785
+968,10km_shift0,0,Park dominant,0.220906158418857
+969,10km_shift0,0,Neither actor dominant,0.182317893070681
+969,10km_shift0,0,Militia dominant,0.080034203053113
+969,10km_shift0,0,Park dominant,0.17704717966998
+970,10km_shift0,0,Neither actor dominant,0.0929859431632513
+970,10km_shift0,0,Militia dominant,-0.0692526525400577
+970,10km_shift0,0,Park dominant,-0.0488647742300645
+971,10km_shift0,0,Neither actor dominant,0.127331073702264
+971,10km_shift0,0,Militia dominant,-0.0372076610603209
+971,10km_shift0,0,Park dominant,-0.0170945285409939
+972,10km_shift0,0,Neither actor dominant,0.134097056852145
+972,10km_shift0,0,Militia dominant,-0.0555982717262416
+972,10km_shift0,0,Park dominant,0.0672162858424995
+973,10km_shift0,0,Neither actor dominant,0.0152101931714299
+973,10km_shift0,0,Militia dominant,-0.108413309875571
+973,10km_shift0,0,Park dominant,-0.031320107359518
+974,10km_shift0,0,Neither actor dominant,0.220377561943724
+974,10km_shift0,0,Militia dominant,0.130649452066181
+974,10km_shift0,0,Park dominant,0.0874429799544199
+975,10km_shift0,0,Neither actor dominant,0.405310142902498
+975,10km_shift0,0,Militia dominant,0.252096830888227
+975,10km_shift0,0,Park dominant,0.251858157552878
+976,10km_shift0,0,Neither actor dominant,0.207115830243902
+976,10km_shift0,0,Militia dominant,0.0528832834798084
+976,10km_shift0,0,Park dominant,0.166279753005879
+977,10km_shift0,0,Neither actor dominant,-0.132773056650947
+977,10km_shift0,0,Militia dominant,-0.269271353873714
+977,10km_shift0,0,Park dominant,-0.172363290984235
+978,10km_shift0,0,Neither actor dominant,-0.0768569716812902
+978,10km_shift0,0,Militia dominant,-0.277071164990584
+978,10km_shift0,0,Park dominant,-0.217049415182042
+979,10km_shift0,0,Neither actor dominant,0.122122438201987
+979,10km_shift0,0,Militia dominant,-0.093030184043915
+979,10km_shift0,0,Park dominant,-0.00750459968454546
+980,10km_shift0,0,Neither actor dominant,0.0792648451664865
+980,10km_shift0,0,Militia dominant,-0.0816008955552951
+980,10km_shift0,0,Park dominant,0.032480879934335
+981,10km_shift0,0,Neither actor dominant,-0.0403090849171706
+981,10km_shift0,0,Militia dominant,-0.150981946377422
+981,10km_shift0,0,Park dominant,-0.0775420887437899
+982,10km_shift0,0,Neither actor dominant,0.134101765246767
+982,10km_shift0,0,Militia dominant,-0.0201460313381964
+982,10km_shift0,0,Park dominant,-0.0293991318917377
+983,10km_shift0,0,Neither actor dominant,0.176586445549815
+983,10km_shift0,0,Militia dominant,0.0342737617942329
+983,10km_shift0,0,Park dominant,0.171917006840638
+984,10km_shift0,0,Neither actor dominant,0.214144211419024
+984,10km_shift0,0,Militia dominant,-0.0203099190026899
+984,10km_shift0,0,Park dominant,0.0987459969530027
+985,10km_shift0,0,Neither actor dominant,-0.0183555094488652
+985,10km_shift0,0,Militia dominant,-0.152042977422555
+985,10km_shift0,0,Park dominant,-0.0186515909060614
+986,10km_shift0,0,Neither actor dominant,0.141273046406127
+986,10km_shift0,0,Militia dominant,0.00854611208702083
+986,10km_shift0,0,Park dominant,0.0357199303670221
+987,10km_shift0,0,Neither actor dominant,0.0617494097129623
+987,10km_shift0,0,Militia dominant,-0.11460578297747
+987,10km_shift0,0,Park dominant,0.0847547152297871
+988,10km_shift0,0,Neither actor dominant,0.222140903482551
+988,10km_shift0,0,Militia dominant,0.0635660585591632
+988,10km_shift0,0,Park dominant,0.0713625709119885
+989,10km_shift0,0,Neither actor dominant,0.140791488779362
+989,10km_shift0,0,Militia dominant,-0.0934568467844151
+989,10km_shift0,0,Park dominant,-0.0185788699859824
+990,10km_shift0,0,Neither actor dominant,0.111836464649155
+990,10km_shift0,0,Militia dominant,-0.0219108263245616
+990,10km_shift0,0,Park dominant,-0.0219476492463978
+991,10km_shift0,0,Neither actor dominant,0.216923638547872
+991,10km_shift0,0,Militia dominant,0.0881316853197463
+991,10km_shift0,0,Park dominant,0.0531058829470921
+992,10km_shift0,0,Neither actor dominant,0.0383146455502096
+992,10km_shift0,0,Militia dominant,-0.103720933857478
+992,10km_shift0,0,Park dominant,-0.129563756870105
+993,10km_shift0,0,Neither actor dominant,0.4834294194309
+993,10km_shift0,0,Militia dominant,0.477675167247275
+993,10km_shift0,0,Park dominant,0.395937058122995
+994,10km_shift0,0,Neither actor dominant,0.196987761286097
+994,10km_shift0,0,Militia dominant,0.0669328543757657
+994,10km_shift0,0,Park dominant,0.123155792129219
+995,10km_shift0,0,Neither actor dominant,0.224902564251674
+995,10km_shift0,0,Militia dominant,0.0811382009771827
+995,10km_shift0,0,Park dominant,0.12607255968826
+996,10km_shift0,0,Neither actor dominant,0.0398616637728205
+996,10km_shift0,0,Militia dominant,-0.12517035317716
+996,10km_shift0,0,Park dominant,-0.0281345946495716
+997,10km_shift0,0,Neither actor dominant,0.108174294031385
+997,10km_shift0,0,Militia dominant,-0.035618847397474
+997,10km_shift0,0,Park dominant,-0.0496420594568271
+998,10km_shift0,0,Neither actor dominant,-0.0402329843822996
+998,10km_shift0,0,Militia dominant,-0.310763299728279
+998,10km_shift0,0,Park dominant,-0.185512133258916
+999,10km_shift0,0,Neither actor dominant,0.165514961846251
+999,10km_shift0,0,Militia dominant,-0.049081943688059
+999,10km_shift0,0,Park dominant,0.0397282554715035

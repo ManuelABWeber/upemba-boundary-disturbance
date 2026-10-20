@@ -1,0 +1,5 @@
+numpy==2.5.4
+scipy==1.18.1
+matplotlib>=3.8,<4
+# Optional, only for extract_raster_inputs.py:
+# rasterio==1.5.2

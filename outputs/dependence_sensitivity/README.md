@@ -1,0 +1,11 @@
+# Retained supplementary sensitivity results
+
+These files preserve the final numerical results and all accepted resampling draws from the additional spatial and temporal dependence assessment. Point estimates and the primary analysis remain in their existing locations. The forest-only denominator is a separate labelled sensitivity. No earlier pilot runs are included.
+
+combined_spatial_intervals.csv, tree_temporal_hac.csv, fire_temporal_intervals.csv and tree_small_sample_temporal.csv contain the main interval summaries. profile_pairwise_spatial_intervals.csv and fire_pairwise_temporal_intervals.csv contain paired profile differences. joint_boundary_intervals.csv contains pointwise and approximate simultaneous legal-minus-outer differences. The table/figure map is in ../../docs/dependence_sensitivity/methods_and_results.md.
+
+The tree_*_draws.npz archives retain every draw, boundary centre and profile in NumPy arrays. fire_*_draws.csv retains fire estimates by replicate, boundary and profile; the matching diagnostics files record the numerical acceptance checks. These permit independent recomputation of percentile intervals and paired comparisons without repeating every fitted model. All 27 final runs passed the numerical audit. Raw alternative-optimizer cross-checks are retained for transparency; they do not replace the accepted primary bootstrap estimates.
+
+count_validation.csv and surface_columns.csv connect prepared histories to the original retained surfaces. tree_forest_only_counts.csv identifies the alternative risk set. input_validation.json, final_validation.json, independent_*_validation.csv and *_sessionInfo.txt record the input and estimator checks and computational environment. bootstrap_endpoint_monte_carlo.csv reports simulation uncertainty around percentile endpoints; tree_bootstrap_stability.csv retains the split-draw diagnostic.
+
+The two PNG/PDF figure pairs are generated directly from these numerical results. dependence_intervals corresponds to Figure S5; tree_boundary_comparisons is a companion diagnostic. Run ../../analysis/dependence_sensitivity/verify_release.py to verify the numerical package, or follow that directory's README to rerun the analyses. New computation writes to an ignored validation directory by default and does not overwrite these retained files.
