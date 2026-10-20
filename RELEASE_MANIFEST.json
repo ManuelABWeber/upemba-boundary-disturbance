@@ -1,5 +1,5 @@
 {
-  "release": "code-2026-10-20.2",
+  "release": "code-2026-10-20.3",
   "scope": "Complete curated code and research-output release, excluding this manifest itself.",
   "files": [
     {
@@ -600,7 +600,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 1126,
-      "sha256": "be789d3ff76c6d52a17c666d06c66392625ad4d8095d4b7dd9406dc7f497376c"
+      "sha256": "76c334800a4714fa0b4a0a637a2525db83b8ab5c310c20e82cf4aa8edc2bbe8b"
     },
     {
       "path": "config/analysis_config.R",
@@ -876,6 +876,11 @@
       "path": "docs/validation/releases/code-2026-10-20.2.md",
       "bytes": 669,
       "sha256": "50898598f1ae9817e9edfc2af3e5b2ffeda32cc5bf96c68be27928becf349033"
+    },
+    {
+      "path": "docs/validation/releases/code-2026-10-20.3.md",
+      "bytes": 658,
+      "sha256": "2c9d547d909d083510579e888baf461573df35d1a4d2b9735e47093602ee8c58"
     },
     {
       "path": "docs/validation/releases/code-release-2026-09-23.md",
@@ -1725,7 +1730,7 @@
     {
       "path": "README.md",
       "bytes": 3973,
-      "sha256": "68c161fdc83b086c394847e5cfcb26a18d5bc58bf6513e127d57d4095d81201d"
+      "sha256": "5a568ad81a8fb51013084de50981af970dfb73e5148f3d7bffb8434b18efaf0e"
     },
     {
       "path": "renv/.gitignore",
@@ -1763,9 +1768,9 @@
       "sha256": "2dd3d59f2c7948aaac4ea847e4373fbf0b6d55a4a86c5d5663e234e216da76e0"
     },
     {
-      "path": "reports/fire_missingness_resolution/fire_missingness_bounds_500m.csv",
-      "bytes": 33959673,
-      "sha256": "773086502abb55d133a62c5fa32adaac3831eecc82dd8d4342f42b2cd3eb6dfd"
+      "path": "reports/fire_missingness_resolution/fire_missingness_bounds_500m.csv.gz",
+      "bytes": 3217395,
+      "sha256": "22a57cf82e7b45d87ab39e48f1c06ada1dab5681be7af2afab895c2bedb14e65"
     },
     {
       "path": "reports/fire_missingness_resolution/fire_missingness_bounds_validation.csv",
